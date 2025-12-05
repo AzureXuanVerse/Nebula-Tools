@@ -1,0 +1,8298 @@
+{
+  "potentials": [
+    {
+      "id": 510301,
+      "charId": 103,
+      "names": {
+        "en_US": "Dominant Firepower",
+        "ja_JP": "超火力",
+        "ko_KR": "압도적인 화력",
+        "zh_CN": "优势火力",
+        "zh_TW": "優勢火力"
+      }
+    },
+    {
+      "id": 510302,
+      "charId": 103,
+      "names": {
+        "en_US": "Bullet Storm",
+        "ja_JP": "降雨弾",
+        "ko_KR": "총알 세례",
+        "zh_CN": "枪林弹雨",
+        "zh_TW": "槍林彈雨"
+      }
+    },
+    {
+      "id": 510303,
+      "charId": 103,
+      "names": {
+        "en_US": "Precise Temperature Control",
+        "ja_JP": "緻密温度調整",
+        "ko_KR": "정밀 온도 제어",
+        "zh_CN": "精准控温",
+        "zh_TW": "精準控溫"
+      }
+    },
+    {
+      "id": 510304,
+      "charId": 103,
+      "names": {
+        "en_US": "Echo of Hospitality",
+        "ja_JP": "感情残響",
+        "ko_KR": "성대한 울림",
+        "zh_CN": "盛情回音",
+        "zh_TW": "盛情回音"
+      }
+    },
+    {
+      "id": 510305,
+      "charId": 103,
+      "names": {
+        "en_US": "Greed Gunfire",
+        "ja_JP": "貪欲銃火",
+        "ko_KR": "탐욕의 총화",
+        "zh_CN": "贪婪枪火",
+        "zh_TW": "貪婪槍火"
+      }
+    },
+    {
+      "id": 510306,
+      "charId": 103,
+      "names": {
+        "en_US": "Ardent Trigger",
+        "ja_JP": "情熱射撃",
+        "ko_KR": "뜨거운 방아쇠",
+        "zh_CN": "热情扳机",
+        "zh_TW": "熱情扳機"
+      }
+    },
+    {
+      "id": 510307,
+      "charId": 103,
+      "names": {
+        "en_US": "Confident Mode",
+        "ja_JP": "自信満々",
+        "ko_KR": "확신의 순간",
+        "zh_CN": "自信时刻",
+        "zh_TW": "自信時刻"
+      }
+    },
+    {
+      "id": 510308,
+      "charId": 103,
+      "names": {
+        "en_US": "Weakness Mark",
+        "ja_JP": "弱点見極め",
+        "ko_KR": "약점 조준",
+        "zh_CN": "弱点标定",
+        "zh_TW": "弱點校準"
+      }
+    },
+    {
+      "id": 510309,
+      "charId": 103,
+      "names": {
+        "en_US": "Grand Finale",
+        "ja_JP": "標的捕捉",
+        "ko_KR": "웅장한 피날레",
+        "zh_CN": "盛大尾奏",
+        "zh_TW": "盛大尾奏"
+      }
+    },
+    {
+      "id": 510310,
+      "charId": 103,
+      "names": {
+        "en_US": "Spectacular Finale",
+        "ja_JP": "標的撃破",
+        "ko_KR": "전율의 엔딩곡",
+        "zh_CN": "震撼终曲",
+        "zh_TW": "震撼終曲"
+      }
+    },
+    {
+      "id": 510311,
+      "charId": 103,
+      "names": {
+        "en_US": "Fiery Rhythm",
+        "ja_JP": "野良猫のリズム",
+        "ko_KR": "열정의 리듬",
+        "zh_CN": "燃情节拍",
+        "zh_TW": "燃情節拍"
+      }
+    },
+    {
+      "id": 510312,
+      "charId": 103,
+      "names": {
+        "en_US": "Blazing Waltz",
+        "ja_JP": "野良猫ステップ",
+        "ko_KR": "뜨거운 춤사위",
+        "zh_CN": "灼热舞步",
+        "zh_TW": "灼熱舞步"
+      }
+    },
+    {
+      "id": 510313,
+      "charId": 103,
+      "names": {
+        "en_US": "Keen Accent",
+        "ja_JP": "凄腕ガンナー",
+        "ko_KR": "섬세한 강음",
+        "zh_CN": "敏锐重音",
+        "zh_TW": "敏銳重音"
+      }
+    },
+    {
+      "id": 510321,
+      "charId": 103,
+      "names": {
+        "en_US": "Hunting Waltz",
+        "ja_JP": "追尾の舞",
+        "ko_KR": "추적의 춤",
+        "zh_CN": "追猎舞步",
+        "zh_TW": "追獵舞步"
+      }
+    },
+    {
+      "id": 510322,
+      "charId": 103,
+      "names": {
+        "en_US": "Scattering Waltz",
+        "ja_JP": "散火の舞",
+        "ko_KR": "산화의 춤",
+        "zh_CN": "散落舞步",
+        "zh_TW": "散落舞步"
+      }
+    },
+    {
+      "id": 510323,
+      "charId": 103,
+      "names": {
+        "en_US": "Echoing Waltz",
+        "ja_JP": "後進の舞",
+        "ko_KR": "퇴보의 춤",
+        "zh_CN": "回踏舞步",
+        "zh_TW": "回踏舞步"
+      }
+    },
+    {
+      "id": 510324,
+      "charId": 103,
+      "names": {
+        "en_US": "Flame Waltz",
+        "ja_JP": "幻炎の舞",
+        "ko_KR": "환염의 춤",
+        "zh_CN": "幻焰舞步",
+        "zh_TW": "幻焰舞步"
+      }
+    },
+    {
+      "id": 510325,
+      "charId": 103,
+      "names": {
+        "en_US": "Nimble Catwalk",
+        "ja_JP": "黒猫の気配",
+        "ko_KR": "민첩한 캣스텝",
+        "zh_CN": "灵动猫步",
+        "zh_TW": "靈動貓步"
+      }
+    },
+    {
+      "id": 510326,
+      "charId": 103,
+      "names": {
+        "en_US": "Crescendo Beat",
+        "ja_JP": "猛る炎渦",
+        "ko_KR": "강해지는 리듬",
+        "zh_CN": "渐强节拍",
+        "zh_TW": "漸強節拍"
+      }
+    },
+    {
+      "id": 510327,
+      "charId": 103,
+      "names": {
+        "en_US": "Bullet Echoes",
+        "ja_JP": "弾痕共鳴",
+        "ko_KR": "공명의 탄흔",
+        "zh_CN": "共鸣弹痕",
+        "zh_TW": "共鳴彈痕"
+      }
+    },
+    {
+      "id": 510328,
+      "charId": 103,
+      "names": {
+        "en_US": "Lingering Gunfire",
+        "ja_JP": "銃火の余韻",
+        "ko_KR": "총열의 잔열",
+        "zh_CN": "枪火余温",
+        "zh_TW": "槍火餘溫"
+      }
+    },
+    {
+      "id": 510329,
+      "charId": 103,
+      "names": {
+        "en_US": "Blazing Dance",
+        "ja_JP": "猛火の舞",
+        "ko_KR": "열화의 춤사위",
+        "zh_CN": "凌火热舞",
+        "zh_TW": "凌火熱舞"
+      }
+    },
+    {
+      "id": 510330,
+      "charId": 103,
+      "names": {
+        "en_US": "Sky Splitter",
+        "ja_JP": "裂空の炎",
+        "ko_KR": "열공의 불씨",
+        "zh_CN": "蓄火裂空",
+        "zh_TW": "蓄火裂空"
+      }
+    },
+    {
+      "id": 510331,
+      "charId": 103,
+      "names": {
+        "en_US": "Trajectory Enhancement",
+        "ja_JP": "射撃力上昇",
+        "ko_KR": "탄도 강화",
+        "zh_CN": "弹道强化",
+        "zh_TW": "彈道強化"
+      }
+    },
+    {
+      "id": 510332,
+      "charId": 103,
+      "names": {
+        "en_US": "Pressure Amp",
+        "ja_JP": "火炎弾装填",
+        "ko_KR": "압력 증폭",
+        "zh_CN": "膛压增幅",
+        "zh_TW": "膛壓增幅"
+      }
+    },
+    {
+      "id": 510333,
+      "charId": 103,
+      "names": {
+        "en_US": "Thermal Sync",
+        "ja_JP": "火付け役",
+        "ko_KR": "열기의 협력",
+        "zh_CN": "热浪协同",
+        "zh_TW": "熱浪協同"
+      }
+    },
+    {
+      "id": 510341,
+      "charId": 103,
+      "names": {
+        "en_US": "Bursting Spark",
+        "ja_JP": "烈火の華",
+        "ko_KR": "피어오르는 불꽃",
+        "zh_CN": "绽焰火花",
+        "zh_TW": "綻焰火花"
+      }
+    },
+    {
+      "id": 510342,
+      "charId": 103,
+      "names": {
+        "en_US": "Overloaded Spark",
+        "ja_JP": "連射の華",
+        "ko_KR": "과열된 불꽃",
+        "zh_CN": "超载火花",
+        "zh_TW": "超載火花"
+      }
+    },
+    {
+      "id": 510343,
+      "charId": 103,
+      "names": {
+        "en_US": "Soul-Hunting Spark",
+        "ja_JP": "追魂の華",
+        "ko_KR": "영혼 추적 불꽃",
+        "zh_CN": "追魂火花",
+        "zh_TW": "追魂火花"
+      }
+    },
+    {
+      "id": 510701,
+      "charId": 107,
+      "names": {
+        "en_US": "Shield Counter",
+        "ja_JP": "守護者の資質",
+        "ko_KR": "신성 방패의 반격",
+        "zh_CN": "神圣盾反",
+        "zh_TW": "神聖盾反"
+      }
+    },
+    {
+      "id": 510702,
+      "charId": 107,
+      "names": {
+        "en_US": "Perfect Triangle Formation",
+        "ja_JP": "絶対守護",
+        "ko_KR": "삼위일체",
+        "zh_CN": "绝对三角",
+        "zh_TW": "絕對三角"
+      }
+    },
+    {
+      "id": 510703,
+      "charId": 107,
+      "names": {
+        "en_US": "Unity of Offense and Defense",
+        "ja_JP": "攻防一体",
+        "ko_KR": "공수 일체",
+        "zh_CN": "攻防一体",
+        "zh_TW": "攻防一體"
+      }
+    },
+    {
+      "id": 510704,
+      "charId": 107,
+      "names": {
+        "en_US": "Holy Domain",
+        "ja_JP": "聖光領域",
+        "ko_KR": "성스러운 빛의 영역",
+        "zh_CN": "圣光领域",
+        "zh_TW": "聖光領域"
+      }
+    },
+    {
+      "id": 510705,
+      "charId": 107,
+      "names": {
+        "en_US": "Block Enhancement: Lux",
+        "ja_JP": "護りの力・祝",
+        "ko_KR": "가드 강화·빛",
+        "zh_CN": "格挡强化·光",
+        "zh_TW": "格擋強化·光"
+      }
+    },
+    {
+      "id": 510706,
+      "charId": 107,
+      "names": {
+        "en_US": "Block Enhancement: ATK",
+        "ja_JP": "護りの力・光",
+        "ko_KR": "가드 강화·공격",
+        "zh_CN": "格挡强化·攻击",
+        "zh_TW": "格擋強化·攻擊"
+      }
+    },
+    {
+      "id": 510707,
+      "charId": 107,
+      "names": {
+        "en_US": "Bright Counter",
+        "ja_JP": "閃光の加護",
+        "ko_KR": "빛의 낙하 반격",
+        "zh_CN": "光陨反击",
+        "zh_TW": "光隕反擊"
+      }
+    },
+    {
+      "id": 510708,
+      "charId": 107,
+      "names": {
+        "en_US": "Aegis Blessing",
+        "ja_JP": "聖盾の祝福",
+        "ko_KR": "신성 방패의 축복",
+        "zh_CN": "圣盾祝福",
+        "zh_TW": "聖盾祝福"
+      }
+    },
+    {
+      "id": 510709,
+      "charId": 107,
+      "names": {
+        "en_US": "Strike Back",
+        "ja_JP": "反撃開始",
+        "ko_KR": "반격 시기",
+        "zh_CN": "反击时刻",
+        "zh_TW": "反擊時刻"
+      }
+    },
+    {
+      "id": 510710,
+      "charId": 107,
+      "names": {
+        "en_US": "Unyielding Will",
+        "ja_JP": "不屈の意志",
+        "ko_KR": "불굴의 의지",
+        "zh_CN": "不屈意志",
+        "zh_TW": "不屈意志"
+      }
+    },
+    {
+      "id": 510711,
+      "charId": 107,
+      "names": {
+        "en_US": "Light Curtain",
+        "ja_JP": "栄光の証",
+        "ko_KR": "빛의 장막",
+        "zh_CN": "光幕",
+        "zh_TW": "光幕"
+      }
+    },
+    {
+      "id": 510712,
+      "charId": 107,
+      "names": {
+        "en_US": "Wild Spirit",
+        "ja_JP": "諦めない心",
+        "ko_KR": "자유분방",
+        "zh_CN": "不羁",
+        "zh_TW": "不羈"
+      }
+    },
+    {
+      "id": 510713,
+      "charId": 107,
+      "names": {
+        "en_US": "Revolt Call",
+        "ja_JP": "最後の抵抗",
+        "ko_KR": "반항",
+        "zh_CN": "反抗",
+        "zh_TW": "反抗"
+      }
+    },
+    {
+      "id": 510721,
+      "charId": 107,
+      "names": {
+        "en_US": "Holy Inscription",
+        "ja_JP": "聖なる銘文",
+        "ko_KR": "앙주 심상 결정",
+        "zh_CN": "圣洁的铭刻",
+        "zh_TW": "聖潔的銘刻"
+      }
+    },
+    {
+      "id": 510722,
+      "charId": 107,
+      "names": {
+        "en_US": "Renewed Spectrum",
+        "ja_JP": "光の系譜",
+        "ko_KR": "이어지는 스펙트럼",
+        "zh_CN": "再续的光谱",
+        "zh_TW": "再續的光譜"
+      }
+    },
+    {
+      "id": 510723,
+      "charId": 107,
+      "names": {
+        "en_US": "Perfect Spiral",
+        "ja_JP": "栄光の凱旋",
+        "ko_KR": "완벽한 회전",
+        "zh_CN": "完美的回旋",
+        "zh_TW": "完美的迴旋"
+      }
+    },
+    {
+      "id": 510724,
+      "charId": 107,
+      "names": {
+        "en_US": "Mystery of Gyration",
+        "ja_JP": "ナイトキック",
+        "ko_KR": "회전의 오의",
+        "zh_CN": "回转的奥义",
+        "zh_TW": "回轉的奧義"
+      }
+    },
+    {
+      "id": 510725,
+      "charId": 107,
+      "names": {
+        "en_US": "Enemy Counter",
+        "ja_JP": "ナイトパンチ",
+        "ko_KR": "강적 제압",
+        "zh_CN": "顽敌克制",
+        "zh_TW": "頑敵克制"
+      }
+    },
+    {
+      "id": 510726,
+      "charId": 107,
+      "names": {
+        "en_US": "Blinding Beam",
+        "ja_JP": "眩い正義",
+        "ko_KR": "강한 빛으로 인한 실명",
+        "zh_CN": "强光致盲",
+        "zh_TW": "強光致盲"
+      }
+    },
+    {
+      "id": 510727,
+      "charId": 107,
+      "names": {
+        "en_US": "Knight\u0027s Seal",
+        "ja_JP": "騎士の聖印",
+        "ko_KR": "기사의 신성한 표식",
+        "zh_CN": "骑士圣印",
+        "zh_TW": "騎士聖印"
+      }
+    },
+    {
+      "id": 510728,
+      "charId": 107,
+      "names": {
+        "en_US": "Brilliant Relay",
+        "ja_JP": "正義の仲間",
+        "ko_KR": "절묘한 릴레이",
+        "zh_CN": "绝妙接力",
+        "zh_TW": "絕妙接力"
+      }
+    },
+    {
+      "id": 510729,
+      "charId": 107,
+      "names": {
+        "en_US": "Trick Boost",
+        "ja_JP": "奇策実行",
+        "ko_KR": "특수 스킬 에너지 증폭",
+        "zh_CN": "奇招馈能",
+        "zh_TW": "奇招饋能"
+      }
+    },
+    {
+      "id": 510730,
+      "charId": 107,
+      "names": {
+        "en_US": "Revealed Flaw",
+        "ja_JP": "好機発見",
+        "ko_KR": "약점 노출",
+        "zh_CN": "破绽显露",
+        "zh_TW": "破綻顯露"
+      }
+    },
+    {
+      "id": 510731,
+      "charId": 107,
+      "names": {
+        "en_US": "Guardian\u0027s Resolve",
+        "ja_JP": "護りの決意",
+        "ko_KR": "호위의 결심",
+        "zh_CN": "护卫决心",
+        "zh_TW": "護衛決心"
+      }
+    },
+    {
+      "id": 510732,
+      "charId": 107,
+      "names": {
+        "en_US": "Creed of Fortification",
+        "ja_JP": "生存本能",
+        "ko_KR": "견고의 신조",
+        "zh_CN": "坚壁信条",
+        "zh_TW": "堅壁信條"
+      }
+    },
+    {
+      "id": 510733,
+      "charId": 107,
+      "names": {
+        "en_US": "Banner of Glory",
+        "ja_JP": "堅固な盾",
+        "ko_KR": "빛나는 깃발",
+        "zh_CN": "辉耀旌旗",
+        "zh_TW": "輝耀旌旗"
+      }
+    },
+    {
+      "id": 510741,
+      "charId": 107,
+      "names": {
+        "en_US": "Knight Oath: Skyfall",
+        "ja_JP": "聖誓・光明賛歌",
+        "ko_KR": "기사의 맹세·천공의 붕괴",
+        "zh_CN": "骑誓·天穹崩落",
+        "zh_TW": "騎誓·天穹崩落"
+      }
+    },
+    {
+      "id": 510742,
+      "charId": 107,
+      "names": {
+        "en_US": "Knight Oath: Chalk Armor",
+        "ja_JP": "聖誓・白亜聖鎧",
+        "ko_KR": "기사의 맹세·성스러운 백악 갑옷",
+        "zh_CN": "骑誓·白垩圣甲",
+        "zh_TW": "騎誓·白堊聖甲"
+      }
+    },
+    {
+      "id": 510743,
+      "charId": 107,
+      "names": {
+        "en_US": "Knight Oath: Courage",
+        "ja_JP": "聖誓・戦意鼓舞",
+        "ko_KR": "기사의 맹세·전의 고양",
+        "zh_CN": "骑誓·战意鼓动",
+        "zh_TW": "騎誓·戰意鼓動"
+      }
+    },
+    {
+      "id": 510801,
+      "charId": 108,
+      "names": {
+        "en_US": "Scatter Trigger",
+        "ja_JP": "散弾準備",
+        "ko_KR": "확산의 방아쇠",
+        "zh_CN": "散射扳机",
+        "zh_TW": "散射扳機"
+      }
+    },
+    {
+      "id": 510802,
+      "charId": 108,
+      "names": {
+        "en_US": "Incendiary Warhead",
+        "ja_JP": "火焔弾頭",
+        "ko_KR": "화염 탄두",
+        "zh_CN": "燃烧弹头",
+        "zh_TW": "燃燒彈頭"
+      }
+    },
+    {
+      "id": 510803,
+      "charId": 108,
+      "names": {
+        "en_US": "Charged Bolt Action",
+        "ja_JP": "ロングマガジン",
+        "ko_KR": "에너지 충전 레버",
+        "zh_CN": "充能拉栓",
+        "zh_TW": "蓄能拉栓"
+      }
+    },
+    {
+      "id": 510804,
+      "charId": 108,
+      "names": {
+        "en_US": "Lucky Magazine",
+        "ja_JP": "幸運の白猫・還",
+        "ko_KR": "럭키 탄창",
+        "zh_CN": "幸运弹匣",
+        "zh_TW": "幸運彈匣"
+      }
+    },
+    {
+      "id": 510805,
+      "charId": 108,
+      "names": {
+        "en_US": "Mercenary Instinct",
+        "ja_JP": "傭兵の直感",
+        "ko_KR": "용병의 직감",
+        "zh_CN": "佣兵直觉",
+        "zh_TW": "傭兵直覺"
+      }
+    },
+    {
+      "id": 510806,
+      "charId": 108,
+      "names": {
+        "en_US": "Incendiary Ember",
+        "ja_JP": "烈弾の余熱",
+        "ko_KR": "타오르는 탄환의 잔열",
+        "zh_CN": "烈弹余热",
+        "zh_TW": "烈彈餘熱"
+      }
+    },
+    {
+      "id": 510807,
+      "charId": 108,
+      "names": {
+        "en_US": "Ammo Overload",
+        "ja_JP": "傭兵の戦術",
+        "ko_KR": "탄약 과장전",
+        "zh_CN": "弹药过载",
+        "zh_TW": "彈藥過載"
+      }
+    },
+    {
+      "id": 510808,
+      "charId": 108,
+      "names": {
+        "en_US": "Instant Combustion",
+        "ja_JP": "爆炎引火",
+        "ko_KR": "폭염 인화",
+        "zh_CN": "爆焰引燃",
+        "zh_TW": "爆焰引燃"
+      }
+    },
+    {
+      "id": 510809,
+      "charId": 108,
+      "names": {
+        "en_US": "Battle Trumpet",
+        "ja_JP": "精度上昇",
+        "ko_KR": "진격의 나팔",
+        "zh_CN": "冲锋号角",
+        "zh_TW": "衝鋒號角"
+      }
+    },
+    {
+      "id": 510810,
+      "charId": 108,
+      "names": {
+        "en_US": "Opportunistic Ambush",
+        "ja_JP": "好機はいずれ",
+        "ko_KR": "사격의 타이밍",
+        "zh_CN": "伺机待发",
+        "zh_TW": "伺機待發"
+      }
+    },
+    {
+      "id": 510811,
+      "charId": 108,
+      "names": {
+        "en_US": "Prime Condition",
+        "ja_JP": "体力十分",
+        "ko_KR": "완벽한 전투 태세",
+        "zh_CN": "完美态势",
+        "zh_TW": "完美態勢"
+      }
+    },
+    {
+      "id": 510812,
+      "charId": 108,
+      "names": {
+        "en_US": "Gunfighting",
+        "ja_JP": "白猫格闘術",
+        "ko_KR": "사격 격투술",
+        "zh_CN": "枪斗术",
+        "zh_TW": "槍鬥術"
+      }
+    },
+    {
+      "id": 510813,
+      "charId": 108,
+      "names": {
+        "en_US": "Play with Fire",
+        "ja_JP": "隊長の腕前",
+        "ko_KR": "자초한 화염",
+        "zh_CN": "引火烧身",
+        "zh_TW": "引火燒身"
+      }
+    },
+    {
+      "id": 510821,
+      "charId": 108,
+      "names": {
+        "en_US": "Heated Battle",
+        "ja_JP": "戦場の焦燥",
+        "ko_KR": "치열한 전투",
+        "zh_CN": "战事焦灼",
+        "zh_TW": "戰事焦灼"
+      }
+    },
+    {
+      "id": 510822,
+      "charId": 108,
+      "names": {
+        "en_US": "Area Bombardment",
+        "ja_JP": "広域爆撃",
+        "ko_KR": "광역 폭격",
+        "zh_CN": "广域轰炸",
+        "zh_TW": "廣域轟炸"
+      }
+    },
+    {
+      "id": 510823,
+      "charId": 108,
+      "names": {
+        "en_US": "Preemptive Strike",
+        "ja_JP": "機転",
+        "ko_KR": "기선제압",
+        "zh_CN": "先发制人",
+        "zh_TW": "先發制人"
+      }
+    },
+    {
+      "id": 510824,
+      "charId": 108,
+      "names": {
+        "en_US": "Precision Guidance",
+        "ja_JP": "精密射撃",
+        "ko_KR": "정밀 폭격",
+        "zh_CN": "精准制导",
+        "zh_TW": "精準導引"
+      }
+    },
+    {
+      "id": 510825,
+      "charId": 108,
+      "names": {
+        "en_US": "Chain Reaction",
+        "ja_JP": "連鎖爆撃",
+        "ko_KR": "연쇄 반응",
+        "zh_CN": "链式反应",
+        "zh_TW": "連鎖反應"
+      }
+    },
+    {
+      "id": 510826,
+      "charId": 108,
+      "names": {
+        "en_US": "Shocking Bombardment",
+        "ja_JP": "震撼爆撃",
+        "ko_KR": "강력 폭격",
+        "zh_CN": "震撼轰炸",
+        "zh_TW": "震撼轟炸"
+      }
+    },
+    {
+      "id": 510827,
+      "charId": 108,
+      "names": {
+        "en_US": "Weakness Mark",
+        "ja_JP": "弱点共有",
+        "ko_KR": "약점 조준",
+        "zh_CN": "弱点标定",
+        "zh_TW": "弱點校準"
+      }
+    },
+    {
+      "id": 510828,
+      "charId": 108,
+      "names": {
+        "en_US": "Surprise Gift",
+        "ja_JP": "連射用意",
+        "ko_KR": "특별 선물",
+        "zh_CN": "额外大礼",
+        "zh_TW": "額外大禮"
+      }
+    },
+    {
+      "id": 510829,
+      "charId": 108,
+      "names": {
+        "en_US": "Lucky Blast",
+        "ja_JP": "幸運の白猫・爆",
+        "ko_KR": "럭키 포화",
+        "zh_CN": "幸运炮火",
+        "zh_TW": "幸運砲火"
+      }
+    },
+    {
+      "id": 510830,
+      "charId": 108,
+      "names": {
+        "en_US": "Insult to Injury",
+        "ja_JP": "とどめの一撃",
+        "ko_KR": "결정적 일격",
+        "zh_CN": "落井下石",
+        "zh_TW": "落井下石"
+      }
+    },
+    {
+      "id": 510831,
+      "charId": 108,
+      "names": {
+        "en_US": "Gradual Heat-Up",
+        "ja_JP": "特殊弾丸",
+        "ko_KR": "점진적 열기 강화",
+        "zh_CN": "逐级升温",
+        "zh_TW": "逐級升溫"
+      }
+    },
+    {
+      "id": 510832,
+      "charId": 108,
+      "names": {
+        "en_US": "Perfect Ambience",
+        "ja_JP": "本調子",
+        "ko_KR": "분위기 최고조",
+        "zh_CN": "气氛到位",
+        "zh_TW": "氣氛到位"
+      }
+    },
+    {
+      "id": 510833,
+      "charId": 108,
+      "names": {
+        "en_US": "Meltdown Threshold",
+        "ja_JP": "隊長の指示",
+        "ko_KR": "과열의 임계점",
+        "zh_CN": "过热临界",
+        "zh_TW": "過熱臨界"
+      }
+    },
+    {
+      "id": 510841,
+      "charId": 108,
+      "names": {
+        "en_US": "Army Breaker",
+        "ja_JP": "敵兵一掃",
+        "ko_KR": "파군의 일격",
+        "zh_CN": "破军之横扫",
+        "zh_TW": "破軍之橫掃"
+      }
+    },
+    {
+      "id": 510842,
+      "charId": 108,
+      "names": {
+        "en_US": "Finale Sweep",
+        "ja_JP": "終弾一掃",
+        "ko_KR": "최후의 일격",
+        "zh_CN": "终曲之横扫",
+        "zh_TW": "終曲之橫掃"
+      }
+    },
+    {
+      "id": 510843,
+      "charId": 108,
+      "names": {
+        "en_US": "Blazing Sweep",
+        "ja_JP": "火炎一掃",
+        "ko_KR": "화염의 일격",
+        "zh_CN": "灼焰之横扫",
+        "zh_TW": "灼焰之橫掃"
+      }
+    },
+    {
+      "id": 511101,
+      "charId": 111,
+      "names": {
+        "en_US": "Vector: Solidifying",
+        "ja_JP": "ベクトル・硬化",
+        "ko_KR": "벡터·고정",
+        "zh_CN": "矢量·固化",
+        "zh_TW": "向量·固化"
+      }
+    },
+    {
+      "id": 511102,
+      "charId": 111,
+      "names": {
+        "en_US": "Vector: Shatter",
+        "ja_JP": "ベクトル・粉砕",
+        "ko_KR": "벡터·파열",
+        "zh_CN": "矢量·破碎",
+        "zh_TW": "向量·破碎"
+      }
+    },
+    {
+      "id": 511103,
+      "charId": 111,
+      "names": {
+        "en_US": "Vector: Entice",
+        "ja_JP": "ベクトル・誘導",
+        "ko_KR": "벡터·유도",
+        "zh_CN": "矢量·诱导",
+        "zh_TW": "向量·誘導"
+      }
+    },
+    {
+      "id": 511104,
+      "charId": 111,
+      "names": {
+        "en_US": "Vector: Chainfall",
+        "ja_JP": "ベクトル・貫通",
+        "ko_KR": "벡터·추락",
+        "zh_CN": "矢量·连坠",
+        "zh_TW": "向量·連墜"
+      }
+    },
+    {
+      "id": 511105,
+      "charId": 111,
+      "names": {
+        "en_US": "Oops I Did It Again",
+        "ja_JP": "石橋をたたいて",
+        "ko_KR": "액땜",
+        "zh_CN": "碎碎平安",
+        "zh_TW": "碎碎平安"
+      }
+    },
+    {
+      "id": 511106,
+      "charId": 111,
+      "names": {
+        "en_US": "Windfall",
+        "ja_JP": "思わぬ利益",
+        "ko_KR": "뜻밖의 이득",
+        "zh_CN": "意外得利",
+        "zh_TW": "意外得利"
+      }
+    },
+    {
+      "id": 511107,
+      "charId": 111,
+      "names": {
+        "en_US": "Situational Judgment",
+        "ja_JP": "鋭い判断",
+        "ko_KR": "상황 분석",
+        "zh_CN": "审时度势",
+        "zh_TW": "審時度勢"
+      }
+    },
+    {
+      "id": 511108,
+      "charId": 111,
+      "names": {
+        "en_US": "Secondary Frostbite",
+        "ja_JP": "念には念を",
+        "ko_KR": "2차 동상",
+        "zh_CN": "二次冻伤",
+        "zh_TW": "二次凍傷"
+      }
+    },
+    {
+      "id": 511109,
+      "charId": 111,
+      "names": {
+        "en_US": "Precise Settlement",
+        "ja_JP": "正しき精算",
+        "ko_KR": "정확한 결산",
+        "zh_CN": "精准结算",
+        "zh_TW": "精準結算"
+      }
+    },
+    {
+      "id": 511110,
+      "charId": 111,
+      "names": {
+        "en_US": "Cold Snap",
+        "ja_JP": "寒さ対策",
+        "ko_KR": "한낮의 추위",
+        "zh_CN": "一日之寒",
+        "zh_TW": "一日之寒"
+      }
+    },
+    {
+      "id": 511111,
+      "charId": 111,
+      "names": {
+        "en_US": "Keep Strangers at Bay",
+        "ja_JP": "詐欺師警戒",
+        "ko_KR": "낯선 이 접근 금지",
+        "zh_CN": "生人勿近",
+        "zh_TW": "生人勿近"
+      }
+    },
+    {
+      "id": 511112,
+      "charId": 111,
+      "names": {
+        "en_US": "Lady Essence",
+        "ja_JP": "知識の重さ",
+        "ko_KR": "숙녀 본색",
+        "zh_CN": "淑女本色",
+        "zh_TW": "淑女本色"
+      }
+    },
+    {
+      "id": 511113,
+      "charId": 111,
+      "names": {
+        "en_US": "Turbulent Layers",
+        "ja_JP": "セール品ゲット",
+        "ko_KR": "난류의 축적",
+        "zh_CN": "乱流层积",
+        "zh_TW": "亂流層積"
+      }
+    },
+    {
+      "id": 511121,
+      "charId": 111,
+      "names": {
+        "en_US": "Blizzard: Spread",
+        "ja_JP": "定量・拡散",
+        "ko_KR": "상수·확산",
+        "zh_CN": "常量·扩散",
+        "zh_TW": "常量·擴散"
+      }
+    },
+    {
+      "id": 511122,
+      "charId": 111,
+      "names": {
+        "en_US": "Blizzard: Vortex",
+        "ja_JP": "定量・引力",
+        "ko_KR": "상수·인력",
+        "zh_CN": "常量·引力",
+        "zh_TW": "常量·引力"
+      }
+    },
+    {
+      "id": 511123,
+      "charId": 111,
+      "names": {
+        "en_US": "Blizzard: Stack",
+        "ja_JP": "定量・堆積",
+        "ko_KR": "상수·중첩",
+        "zh_CN": "常量·堆叠",
+        "zh_TW": "常量·堆疊"
+      }
+    },
+    {
+      "id": 511124,
+      "charId": 111,
+      "names": {
+        "en_US": "Blizzard: Impact",
+        "ja_JP": "定量・転移",
+        "ko_KR": "상수·충격",
+        "zh_CN": "常量·冲击",
+        "zh_TW": "常量·衝擊"
+      }
+    },
+    {
+      "id": 511125,
+      "charId": 111,
+      "names": {
+        "en_US": "Raging Blizzard",
+        "ja_JP": "暴風豪雪",
+        "ko_KR": "폭풍 눈보라",
+        "zh_CN": "暴风漫雪",
+        "zh_TW": "暴風漫雪"
+      }
+    },
+    {
+      "id": 511126,
+      "charId": 111,
+      "names": {
+        "en_US": "Prolonged Winter",
+        "ja_JP": "永遠の冬",
+        "ko_KR": "겨울의 연속",
+        "zh_CN": "冬之延续",
+        "zh_TW": "冬之延續"
+      }
+    },
+    {
+      "id": 511127,
+      "charId": 111,
+      "names": {
+        "en_US": "Forced Liquidation",
+        "ja_JP": "収入安定",
+        "ko_KR": "강제 청산",
+        "zh_CN": "强制平仓",
+        "zh_TW": "強制平倉"
+      }
+    },
+    {
+      "id": 511128,
+      "charId": 111,
+      "names": {
+        "en_US": "Bundle Sale",
+        "ja_JP": "お買い得商品",
+        "ko_KR": "일괄 판매",
+        "zh_CN": "打包出售",
+        "zh_TW": "打包出售"
+      }
+    },
+    {
+      "id": 511129,
+      "charId": 111,
+      "names": {
+        "en_US": "Distressed Asset",
+        "ja_JP": "初志貫徹",
+        "ko_KR": "부실 자산",
+        "zh_CN": "不良资产",
+        "zh_TW": "不良資產"
+      }
+    },
+    {
+      "id": 511130,
+      "charId": 111,
+      "names": {
+        "en_US": "Sneaky Fisher",
+        "ja_JP": "火事場泥棒",
+        "ko_KR": "혼란 속의 기회",
+        "zh_CN": "浑水摸鱼",
+        "zh_TW": "混水摸魚"
+      }
+    },
+    {
+      "id": 511131,
+      "charId": 111,
+      "names": {
+        "en_US": "Functional Amp",
+        "ja_JP": "初心にかえって",
+        "ko_KR": "함수 증폭",
+        "zh_CN": "泛函增幅",
+        "zh_TW": "泛函增幅"
+      }
+    },
+    {
+      "id": 511132,
+      "charId": 111,
+      "names": {
+        "en_US": "Torrential Irrigation",
+        "ja_JP": "備蓄は十分",
+        "ko_KR": "급격한 침수",
+        "zh_CN": "急涌漫灌",
+        "zh_TW": "急湧漫灌"
+      }
+    },
+    {
+      "id": 511133,
+      "charId": 111,
+      "names": {
+        "en_US": "Positive Signal",
+        "ja_JP": "積極シグナル",
+        "ko_KR": "긍정의 신호",
+        "zh_CN": "积极信号",
+        "zh_TW": "積極訊號"
+      }
+    },
+    {
+      "id": 511141,
+      "charId": 111,
+      "names": {
+        "en_US": "Icicle Rain",
+        "ja_JP": "氷華の槍",
+        "ko_KR": "빙화의 창",
+        "zh_CN": "梨雨锥冰",
+        "zh_TW": "梨雨錐冰"
+      }
+    },
+    {
+      "id": 511142,
+      "charId": 111,
+      "names": {
+        "en_US": "Gleaming Snow",
+        "ja_JP": "雪嵐の行進",
+        "ko_KR": "눈폭풍의 행진",
+        "zh_CN": "凛雪皑皑",
+        "zh_TW": "凜雪皚皚"
+      }
+    },
+    {
+      "id": 511143,
+      "charId": 111,
+      "names": {
+        "en_US": "Frozen Shield",
+        "ja_JP": "氷結の加護",
+        "ko_KR": "빙결의 가호",
+        "zh_CN": "凌冰加护",
+        "zh_TW": "凌冰加護"
+      }
+    },
+    {
+      "id": 511201,
+      "charId": 112,
+      "names": {
+        "en_US": "Slash: Dual Strike!",
+        "ja_JP": "旋・二重奏！",
+        "ko_KR": "섬·이중주",
+        "zh_CN": "闪·二重！",
+        "zh_TW": "閃·二重！"
+      }
+    },
+    {
+      "id": 511202,
+      "charId": 112,
+      "names": {
+        "en_US": "Slash: Chain Slash!",
+        "ja_JP": "旋・風舞！",
+        "ko_KR": "섬·그림자춤",
+        "zh_CN": "闪·烁影！",
+        "zh_TW": "閃·爍影！"
+      }
+    },
+    {
+      "id": 511203,
+      "charId": 112,
+      "names": {
+        "en_US": "Slash: Windfury!",
+        "ja_JP": "旋・疾風！",
+        "ko_KR": "섬·질풍",
+        "zh_CN": "闪·追风！",
+        "zh_TW": "閃·追風！"
+      }
+    },
+    {
+      "id": 511204,
+      "charId": 112,
+      "names": {
+        "en_US": "Slash: Blade Storm!",
+        "ja_JP": "旋・風切！",
+        "ko_KR": "섬·개운",
+        "zh_CN": "闪·开云！",
+        "zh_TW": "閃·開雲！"
+      }
+    },
+    {
+      "id": 511205,
+      "charId": 112,
+      "names": {
+        "en_US": "Wind Slash",
+        "ja_JP": "断風斬",
+        "ko_KR": "회오리 베기",
+        "zh_CN": "断风斩",
+        "zh_TW": "斷風斬"
+      }
+    },
+    {
+      "id": 511206,
+      "charId": 112,
+      "names": {
+        "en_US": "Triple Blinks",
+        "ja_JP": "疾風三連",
+        "ko_KR": "질섬·삼연",
+        "zh_CN": "疾闪三连",
+        "zh_TW": "疾閃三連"
+      }
+    },
+    {
+      "id": 511207,
+      "charId": 112,
+      "names": {
+        "en_US": "Cloud Swirl",
+        "ja_JP": "突風回転",
+        "ko_KR": "폭풍 회전",
+        "zh_CN": "突云回转",
+        "zh_TW": "突雲回轉"
+      }
+    },
+    {
+      "id": 511208,
+      "charId": 112,
+      "names": {
+        "en_US": "Flurry Stance",
+        "ja_JP": "廻風剣舞",
+        "ko_KR": "연무바람",
+        "zh_CN": "连舞姿态",
+        "zh_TW": "連舞姿態"
+      }
+    },
+    {
+      "id": 511209,
+      "charId": 112,
+      "names": {
+        "en_US": "Sandstorm Crush",
+        "ja_JP": "烈風渦",
+        "ko_KR": "모래의 붕괴",
+        "zh_CN": "聚沙裂塔",
+        "zh_TW": "聚沙裂塔"
+      }
+    },
+    {
+      "id": 511210,
+      "charId": 112,
+      "names": {
+        "en_US": "Pebble Storm",
+        "ja_JP": "業風",
+        "ko_KR": "모래 폭풍",
+        "zh_CN": "飞沙破石",
+        "zh_TW": "飛沙破石"
+      }
+    },
+    {
+      "id": 511211,
+      "charId": 112,
+      "names": {
+        "en_US": "Sunset Clouds",
+        "ja_JP": "雲裂風",
+        "ko_KR": "떨어지는 석양",
+        "zh_CN": "拨云落日",
+        "zh_TW": "撥雲落日"
+      }
+    },
+    {
+      "id": 511212,
+      "charId": 112,
+      "names": {
+        "en_US": "Hero\u0027s Instinct",
+        "ja_JP": "勇猛果敢",
+        "ko_KR": "용자의 본능",
+        "zh_CN": "勇者本能",
+        "zh_TW": "勇者本能"
+      }
+    },
+    {
+      "id": 511213,
+      "charId": 112,
+      "names": {
+        "en_US": "Blade Dominance",
+        "ja_JP": "剣勢威圧",
+        "ko_KR": "검기의 위협",
+        "zh_CN": "剑势威压",
+        "zh_TW": "劍勢威壓"
+      }
+    },
+    {
+      "id": 511221,
+      "charId": 112,
+      "names": {
+        "en_US": "Gallop: Flurry!",
+        "ja_JP": "馳・陣風！",
+        "ko_KR": "질주·돌풍",
+        "zh_CN": "驰·阵风！",
+        "zh_TW": "馳·陣風！"
+      }
+    },
+    {
+      "id": 511222,
+      "charId": 112,
+      "names": {
+        "en_US": "Gallop: Squall!",
+        "ja_JP": "馳・集風！",
+        "ko_KR": "질주·강풍",
+        "zh_CN": "驰·骤风！",
+        "zh_TW": "馳·驟風！"
+      }
+    },
+    {
+      "id": 511223,
+      "charId": 112,
+      "names": {
+        "en_US": "Gallop: Cyclone!",
+        "ja_JP": "馳・極風！",
+        "ko_KR": "질주·풍도",
+        "zh_CN": "驰·凌风！",
+        "zh_TW": "馳·凌風！"
+      }
+    },
+    {
+      "id": 511224,
+      "charId": 112,
+      "names": {
+        "en_US": "Gallop: Gale!",
+        "ja_JP": "馳・暴風！",
+        "ko_KR": "질주·폭풍",
+        "zh_CN": "驰·飙风！",
+        "zh_TW": "馳·飆風！"
+      }
+    },
+    {
+      "id": 511225,
+      "charId": 112,
+      "names": {
+        "en_US": "Corrosive Breeze",
+        "ja_JP": "狂風裁断",
+        "ko_KR": "폭풍의 분열",
+        "zh_CN": "蚀风骤裂",
+        "zh_TW": "蝕風驟裂"
+      }
+    },
+    {
+      "id": 511226,
+      "charId": 112,
+      "names": {
+        "en_US": "Wind Glaive",
+        "ja_JP": "環風集刃",
+        "ko_KR": "칼날의 회오리",
+        "zh_CN": "环风聚刃",
+        "zh_TW": "環風聚刃"
+      }
+    },
+    {
+      "id": 511227,
+      "charId": 112,
+      "names": {
+        "en_US": "Leaf Barrier",
+        "ja_JP": "逆風妨害",
+        "ko_KR": "역풍의 보호막",
+        "zh_CN": "逆风叶障",
+        "zh_TW": "逆風葉障"
+      }
+    },
+    {
+      "id": 511228,
+      "charId": 112,
+      "names": {
+        "en_US": "Gathering Storm",
+        "ja_JP": "群風集結",
+        "ko_KR": "바람의 집결",
+        "zh_CN": "群风荟聚",
+        "zh_TW": "群風薈萃"
+      }
+    },
+    {
+      "id": 511229,
+      "charId": 112,
+      "names": {
+        "en_US": "Dancing Airflow",
+        "ja_JP": "迅風連舞",
+        "ko_KR": "질풍연무",
+        "zh_CN": "迅风连舞",
+        "zh_TW": "迅風連舞"
+      }
+    },
+    {
+      "id": 511230,
+      "charId": 112,
+      "names": {
+        "en_US": "Fierce Essence",
+        "ja_JP": "暴風奪取",
+        "ko_KR": "폭풍의 강탈",
+        "zh_CN": "厉风夺萃",
+        "zh_TW": "厲風奪萃"
+      }
+    },
+    {
+      "id": 511231,
+      "charId": 112,
+      "names": {
+        "en_US": "Cyclone Blades",
+        "ja_JP": "風力上昇",
+        "ko_KR": "날 선 회오리",
+        "zh_CN": "环风利刃",
+        "zh_TW": "環風利刃"
+      }
+    },
+    {
+      "id": 511232,
+      "charId": 112,
+      "names": {
+        "en_US": "Rupture Circulation",
+        "ja_JP": "裂風環流",
+        "ko_KR": "무력화의 환류",
+        "zh_CN": "破韧环流",
+        "zh_TW": "破韌環流"
+      }
+    },
+    {
+      "id": 511233,
+      "charId": 112,
+      "names": {
+        "en_US": "Charged Circulation",
+        "ja_JP": "凱風環流",
+        "ko_KR": "에너지 환류",
+        "zh_CN": "充能环流",
+        "zh_TW": "蓄能環流"
+      }
+    },
+    {
+      "id": 511241,
+      "charId": 112,
+      "names": {
+        "en_US": "Mist Banisher",
+        "ja_JP": "裂空破霧斬",
+        "ko_KR": "열공파무참",
+        "zh_CN": "裂空破雾斩",
+        "zh_TW": "裂空破霧斬"
+      }
+    },
+    {
+      "id": 511242,
+      "charId": 112,
+      "names": {
+        "en_US": "Space Splitter",
+        "ja_JP": "裂空鋭刃斬",
+        "ko_KR": "열공신인참",
+        "zh_CN": "裂空迅刃斩",
+        "zh_TW": "裂空迅刃斬"
+      }
+    },
+    {
+      "id": 511243,
+      "charId": 112,
+      "names": {
+        "en_US": "Choreographed Assault",
+        "ja_JP": "裂空連舞斬",
+        "ko_KR": "열공연무참",
+        "zh_CN": "裂空连舞斩",
+        "zh_TW": "裂空連舞斬"
+      }
+    },
+    {
+      "id": 511301,
+      "charId": 113,
+      "names": {
+        "en_US": "Stream Embrace",
+        "ja_JP": "浄流循環",
+        "ko_KR": "청류 순환",
+        "zh_CN": "净流环绕",
+        "zh_TW": "淨流環繞"
+      }
+    },
+    {
+      "id": 511302,
+      "charId": 113,
+      "names": {
+        "en_US": "Wave Swirl",
+        "ja_JP": "青波旋回",
+        "ko_KR": "파도의 소용돌이",
+        "zh_CN": "碧浪回旋",
+        "zh_TW": "碧浪迴旋"
+      }
+    },
+    {
+      "id": 511303,
+      "charId": 113,
+      "names": {
+        "en_US": "Torrent Plunge",
+        "ja_JP": "急流直下",
+        "ko_KR": "급류 하강",
+        "zh_CN": "急流直下",
+        "zh_TW": "急流直下"
+      }
+    },
+    {
+      "id": 511304,
+      "charId": 113,
+      "names": {
+        "en_US": "Gurgling Streams",
+        "ja_JP": "せせらぎの唄",
+        "ko_KR": "시냇물의 속삭임",
+        "zh_CN": "潺潺溪吟",
+        "zh_TW": "潺潺溪吟"
+      }
+    },
+    {
+      "id": 511305,
+      "charId": 113,
+      "names": {
+        "en_US": "Stream Mirror",
+        "ja_JP": "清流の影",
+        "ko_KR": "청류의 그림자",
+        "zh_CN": "清流弄影",
+        "zh_TW": "清流弄影"
+      }
+    },
+    {
+      "id": 511306,
+      "charId": 113,
+      "names": {
+        "en_US": "Towering Waves",
+        "ja_JP": "波瀾万丈",
+        "ko_KR": "파란만장",
+        "zh_CN": "波澜万丈",
+        "zh_TW": "波瀾萬丈"
+      }
+    },
+    {
+      "id": 511307,
+      "charId": 113,
+      "names": {
+        "en_US": "Cascade Glow",
+        "ja_JP": "銀瀑の霞",
+        "ko_KR": "은빛 폭포",
+        "zh_CN": "银瀑流霞",
+        "zh_TW": "銀瀑流霞"
+      }
+    },
+    {
+      "id": 511308,
+      "charId": 113,
+      "names": {
+        "en_US": "Relenting Rain",
+        "ja_JP": "驟雨のさざめき",
+        "ko_KR": "소나기 직후",
+        "zh_CN": "骤雨初歇",
+        "zh_TW": "驟雨初歇"
+      }
+    },
+    {
+      "id": 511309,
+      "charId": 113,
+      "names": {
+        "en_US": "Raining Ripples",
+        "ja_JP": "雨の波紋",
+        "ko_KR": "빗물의 파장",
+        "zh_CN": "雨打涟漪",
+        "zh_TW": "雨打漣漪"
+      }
+    },
+    {
+      "id": 511310,
+      "charId": 113,
+      "names": {
+        "en_US": "Silent Rain",
+        "ja_JP": "音なき雨",
+        "ko_KR": "침묵의 비",
+        "zh_CN": "雨落无声",
+        "zh_TW": "雨落無聲"
+      }
+    },
+    {
+      "id": 511311,
+      "charId": 113,
+      "names": {
+        "en_US": "Cliffside Spring",
+        "ja_JP": "洗玉の泉",
+        "ko_KR": "하천의 울림",
+        "zh_CN": "飞泉漱玉",
+        "zh_TW": "飛泉漱玉"
+      }
+    },
+    {
+      "id": 511312,
+      "charId": 113,
+      "names": {
+        "en_US": "Roaring Ocean Wave",
+        "ja_JP": "天衝く波紋",
+        "ko_KR": "해일의 폭풍",
+        "zh_CN": "海浪滔天",
+        "zh_TW": "海浪滔天"
+      }
+    },
+    {
+      "id": 511313,
+      "charId": 113,
+      "names": {
+        "en_US": "Sky-Washing Shower",
+        "ja_JP": "呑雲の雨",
+        "ko_KR": "정화의 장대비",
+        "zh_CN": "吞云涤雨",
+        "zh_TW": "吞雲滌雨"
+      }
+    },
+    {
+      "id": 511321,
+      "charId": 113,
+      "names": {
+        "en_US": "Rain Whisper: Gentle",
+        "ja_JP": "宿雨・澄",
+        "ko_KR": "우기·비바람",
+        "zh_CN": "雨意·潇",
+        "zh_TW": "雨意·瀟"
+      }
+    },
+    {
+      "id": 511322,
+      "charId": 113,
+      "names": {
+        "en_US": "Rain Whisper: Steady",
+        "ja_JP": "宿雨・雫",
+        "ko_KR": "우기·가랑비",
+        "zh_CN": "雨意·沥",
+        "zh_TW": "雨意·瀝"
+      }
+    },
+    {
+      "id": 511323,
+      "charId": 113,
+      "names": {
+        "en_US": "Rain Whisper: Pouring",
+        "ja_JP": "宿雨・溜",
+        "ko_KR": "우기·장맛비",
+        "zh_CN": "雨意·涔",
+        "zh_TW": "雨意·涔"
+      }
+    },
+    {
+      "id": 511324,
+      "charId": 113,
+      "names": {
+        "en_US": "Rain Whisper: Light",
+        "ja_JP": "宿雨・降",
+        "ko_KR": "우기·부슬비",
+        "zh_CN": "雨意·霏",
+        "zh_TW": "雨意·霏"
+      }
+    },
+    {
+      "id": 511325,
+      "charId": 113,
+      "names": {
+        "en_US": "Hazard Elimination",
+        "ja_JP": "リスクチェック",
+        "ko_KR": "위험 제거",
+        "zh_CN": "排查隐患",
+        "zh_TW": "排除隱患"
+      }
+    },
+    {
+      "id": 511326,
+      "charId": 113,
+      "names": {
+        "en_US": "Full Preparation",
+        "ja_JP": "備品管理",
+        "ko_KR": "만반의 준비",
+        "zh_CN": "万全准备",
+        "zh_TW": "萬全準備"
+      }
+    },
+    {
+      "id": 511327,
+      "charId": 113,
+      "names": {
+        "en_US": "Fire Patrol",
+        "ja_JP": "消防点検",
+        "ko_KR": "소방 점검",
+        "zh_CN": "消防巡检",
+        "zh_TW": "消防巡檢"
+      }
+    },
+    {
+      "id": 511328,
+      "charId": 113,
+      "names": {
+        "en_US": "Missive Support",
+        "ja_JP": "事務補佐",
+        "ko_KR": "문서 지원",
+        "zh_CN": "文书支援",
+        "zh_TW": "文書支援"
+      }
+    },
+    {
+      "id": 511329,
+      "charId": 113,
+      "names": {
+        "en_US": "Secretary Duty",
+        "ja_JP": "秘書の役目",
+        "ko_KR": "비서의 업무",
+        "zh_CN": "秘书职责",
+        "zh_TW": "祕書職責"
+      }
+    },
+    {
+      "id": 511330,
+      "charId": 113,
+      "names": {
+        "en_US": "Field Review",
+        "ja_JP": "現場管理",
+        "ko_KR": "현장 분석",
+        "zh_CN": "现场复盘",
+        "zh_TW": "現場檢討"
+      }
+    },
+    {
+      "id": 511331,
+      "charId": 113,
+      "names": {
+        "en_US": "Efficiency Boost",
+        "ja_JP": "効率的業務遂行",
+        "ko_KR": "효율 증가",
+        "zh_CN": "提高效率",
+        "zh_TW": "提高效率"
+      }
+    },
+    {
+      "id": 511332,
+      "charId": 113,
+      "names": {
+        "en_US": "Effortless Fulfillment",
+        "ja_JP": "貯水管理",
+        "ko_KR": "순조로운 진행",
+        "zh_CN": "水到渠成",
+        "zh_TW": "水到渠成"
+      }
+    },
+    {
+      "id": 511333,
+      "charId": 113,
+      "names": {
+        "en_US": "Irrigation Mastery",
+        "ja_JP": "水利専門家",
+        "ko_KR": "수자원 전문가",
+        "zh_CN": "水利专精",
+        "zh_TW": "水利專精"
+      }
+    },
+    {
+      "id": 511341,
+      "charId": 113,
+      "names": {
+        "en_US": "Intonation",
+        "ja_JP": "吟詠",
+        "ko_KR": "낭독",
+        "zh_CN": "吟咏",
+        "zh_TW": "吟詠"
+      }
+    },
+    {
+      "id": 511342,
+      "charId": 113,
+      "names": {
+        "en_US": "Wave Rider",
+        "ja_JP": "大浪",
+        "ko_KR": "파도",
+        "zh_CN": "凌波",
+        "zh_TW": "凌波"
+      }
+    },
+    {
+      "id": 511343,
+      "charId": 113,
+      "names": {
+        "en_US": "Humming Wellspring",
+        "ja_JP": "泉響",
+        "ko_KR": "산골짜기의 물소리",
+        "zh_CN": "涧泉鸣",
+        "zh_TW": "澗泉鳴"
+      }
+    },
+    {
+      "id": 511601,
+      "charId": 116,
+      "names": {
+        "en_US": "Let Nature Thrive",
+        "ja_JP": "播種箱",
+        "ko_KR": "무성한 가지",
+        "zh_CN": "枝繁叶茂",
+        "zh_TW": "枝繁葉茂"
+      }
+    },
+    {
+      "id": 511602,
+      "charId": 116,
+      "names": {
+        "en_US": "Nature\u0027s Guard",
+        "ja_JP": "豆鉄砲草",
+        "ko_KR": "사방이 적군",
+        "zh_CN": "草木皆兵",
+        "zh_TW": "草木皆兵"
+      }
+    },
+    {
+      "id": 511603,
+      "charId": 116,
+      "names": {
+        "en_US": "A Fortunate Yield",
+        "ja_JP": "大きな種",
+        "ko_KR": "뿌린 대로 거두기",
+        "zh_CN": "种豆得瓜",
+        "zh_TW": "種豆得瓜"
+      }
+    },
+    {
+      "id": 511604,
+      "charId": 116,
+      "names": {
+        "en_US": "Tangled Mess",
+        "ja_JP": "不思議な種",
+        "ko_KR": "가지의 가지",
+        "zh_CN": "节外生枝",
+        "zh_TW": "節外生枝"
+      }
+    },
+    {
+      "id": 511605,
+      "charId": 116,
+      "names": {
+        "en_US": "Overgrowth",
+        "ja_JP": "促成栽培",
+        "ko_KR": "증식하는 가지",
+        "zh_CN": "增生枝条",
+        "zh_TW": "增生枝條"
+      }
+    },
+    {
+      "id": 511606,
+      "charId": 116,
+      "names": {
+        "en_US": "Vine Snare",
+        "ja_JP": "絡む根っこ",
+        "ko_KR": "얽혀 있는 뿌리",
+        "zh_CN": "缠绕根须",
+        "zh_TW": "纏繞根鬚"
+      }
+    },
+    {
+      "id": 511607,
+      "charId": 116,
+      "names": {
+        "en_US": "Twin Sprouts",
+        "ja_JP": "双子葉類",
+        "ko_KR": "쌍둥이 새싹",
+        "zh_CN": "双生出芽",
+        "zh_TW": "雙生出芽"
+      }
+    },
+    {
+      "id": 511608,
+      "charId": 116,
+      "names": {
+        "en_US": "Bursting Pod",
+        "ja_JP": "品種改良",
+        "ko_KR": "씨앗의 팽창",
+        "zh_CN": "膨胀种壳",
+        "zh_TW": "膨脹種殼"
+      }
+    },
+    {
+      "id": 511609,
+      "charId": 116,
+      "names": {
+        "en_US": "Hardened Cone",
+        "ja_JP": "硬い種",
+        "ko_KR": "단단한 열매",
+        "zh_CN": "硬化球果",
+        "zh_TW": "硬化毬果"
+      }
+    },
+    {
+      "id": 511610,
+      "charId": 116,
+      "names": {
+        "en_US": "Wild Growth",
+        "ja_JP": "いっぱい水やり",
+        "ko_KR": "야성적인 성장",
+        "zh_CN": "狂野生长",
+        "zh_TW": "狂野生長"
+      }
+    },
+    {
+      "id": 511611,
+      "charId": 116,
+      "names": {
+        "en_US": "Power Slide",
+        "ja_JP": "農業で鍛えた足腰",
+        "ko_KR": "슬라이딩 승급",
+        "zh_CN": "滑铲进阶",
+        "zh_TW": "滑鏟進階"
+      }
+    },
+    {
+      "id": 511612,
+      "charId": 116,
+      "names": {
+        "en_US": "Full Bloom",
+        "ja_JP": "気合い農法",
+        "ko_KR": "잘 익은 열매",
+        "zh_CN": "瓜熟蒂落",
+        "zh_TW": "瓜熟蒂落"
+      }
+    },
+    {
+      "id": 511613,
+      "charId": 116,
+      "names": {
+        "en_US": "Verdant Vigor",
+        "ja_JP": "収穫を守る決意",
+        "ko_KR": "넘치는 생기",
+        "zh_CN": "生机勃勃",
+        "zh_TW": "生機勃勃"
+      }
+    },
+    {
+      "id": 511621,
+      "charId": 116,
+      "names": {
+        "en_US": "Reblossom",
+        "ja_JP": "二期作",
+        "ko_KR": "두 번째 만개",
+        "zh_CN": "二度绽放",
+        "zh_TW": "二度綻放"
+      }
+    },
+    {
+      "id": 511622,
+      "charId": 116,
+      "names": {
+        "en_US": "Sense the Stir",
+        "ja_JP": "種よ風に乗れ",
+        "ko_KR": "바람에 흔들리는 풀잎",
+        "zh_CN": "草动风吹",
+        "zh_TW": "草動風吹"
+      }
+    },
+    {
+      "id": 511623,
+      "charId": 116,
+      "names": {
+        "en_US": "Hasty Growth",
+        "ja_JP": "肥料注入",
+        "ko_KR": "조급한 성장",
+        "zh_CN": "揠苗助长",
+        "zh_TW": "揠苗助長"
+      }
+    },
+    {
+      "id": 511624,
+      "charId": 116,
+      "names": {
+        "en_US": "Misplaced Bloom",
+        "ja_JP": "接ぎ木",
+        "ko_KR": "꽃가지 접목",
+        "zh_CN": "移花接木",
+        "zh_TW": "移花接木"
+      }
+    },
+    {
+      "id": 511625,
+      "charId": 116,
+      "names": {
+        "en_US": "Needle Seed",
+        "ja_JP": "尖った種",
+        "ko_KR": "가시 씨앗",
+        "zh_CN": "针刺之种",
+        "zh_TW": "針刺之種"
+      }
+    },
+    {
+      "id": 511626,
+      "charId": 116,
+      "names": {
+        "en_US": "Corrosive Vines",
+        "ja_JP": "蔓植物",
+        "ko_KR": "부식의 속박",
+        "zh_CN": "锈蚀缠绕",
+        "zh_TW": "鏽蝕纏繞"
+      }
+    },
+    {
+      "id": 511627,
+      "charId": 116,
+      "names": {
+        "en_US": "Bouquet Blast",
+        "ja_JP": "大規模農法",
+        "ko_KR": "꽃잎의 춤사위",
+        "zh_CN": "落英缤纷",
+        "zh_TW": "落英繽紛"
+      }
+    },
+    {
+      "id": 511628,
+      "charId": 116,
+      "names": {
+        "en_US": "Sturdy Foundation",
+        "ja_JP": "芽吹いた宿り木",
+        "ko_KR": "강인한 뿌리와 줄기",
+        "zh_CN": "苗壮根深",
+        "zh_TW": "苗壯根深"
+      }
+    },
+    {
+      "id": 511629,
+      "charId": 116,
+      "names": {
+        "en_US": "Root Grasp",
+        "ja_JP": "止まらない繁茂",
+        "ko_KR": "퍼져나가는 뿌리",
+        "zh_CN": "根须蔓延",
+        "zh_TW": "根鬚蔓延"
+      }
+    },
+    {
+      "id": 511630,
+      "charId": 116,
+      "names": {
+        "en_US": "Cone Bomb",
+        "ja_JP": "こぼれ種",
+        "ko_KR": "폭열 열매",
+        "zh_CN": "爆裂球果",
+        "zh_TW": "爆裂毬果"
+      }
+    },
+    {
+      "id": 511631,
+      "charId": 116,
+      "names": {
+        "en_US": "Ensnaring Ground",
+        "ja_JP": "食料死守モード",
+        "ko_KR": "의심의 씨앗",
+        "zh_CN": "瓜田李下",
+        "zh_TW": "瓜田李下"
+      }
+    },
+    {
+      "id": 511632,
+      "charId": 116,
+      "names": {
+        "en_US": "Turn the Tide",
+        "ja_JP": "必死の抵抗",
+        "ko_KR": "국면 전환",
+        "zh_CN": "力挽狂澜",
+        "zh_TW": "力挽狂瀾"
+      }
+    },
+    {
+      "id": 511633,
+      "charId": 116,
+      "names": {
+        "en_US": "Small Changes",
+        "ja_JP": "農業は人海戦術",
+        "ko_KR": "티끌 모아 태산",
+        "zh_CN": "积土成山",
+        "zh_TW": "積土成山"
+      }
+    },
+    {
+      "id": 511641,
+      "charId": 116,
+      "names": {
+        "en_US": "Seed to Harvest",
+        "ja_JP": "泥棒は許さない",
+        "ko_KR": "꽃과 열매",
+        "zh_CN": "开花结果",
+        "zh_TW": "開花結果"
+      }
+    },
+    {
+      "id": 511642,
+      "charId": 116,
+      "names": {
+        "en_US": "Spring\u0027s Embrace",
+        "ja_JP": "賑やかな収穫祭",
+        "ko_KR": "완연한 봄",
+        "zh_CN": "草长莺飞",
+        "zh_TW": "草長鶯飛"
+      }
+    },
+    {
+      "id": 511643,
+      "charId": 116,
+      "names": {
+        "en_US": "Sow and Reap",
+        "ja_JP": "食糧庫は堅守！",
+        "ko_KR": "봄과 가을",
+        "zh_CN": "春耕秋收",
+        "zh_TW": "春耕秋收"
+      }
+    },
+    {
+      "id": 511701,
+      "charId": 117,
+      "names": {
+        "en_US": "Energy Storage: Bind",
+        "ja_JP": "蓄雷・連",
+        "ko_KR": "에너지 축적·연속",
+        "zh_CN": "储能·连",
+        "zh_TW": "儲能·連"
+      }
+    },
+    {
+      "id": 511702,
+      "charId": 117,
+      "names": {
+        "en_US": "Energy Storage: Knot",
+        "ja_JP": "蓄雷・結",
+        "ko_KR": "에너지 축적·연결",
+        "zh_CN": "储能·结",
+        "zh_TW": "儲能·結"
+      }
+    },
+    {
+      "id": 511703,
+      "charId": 117,
+      "names": {
+        "en_US": "Energy Storage: Channel",
+        "ja_JP": "蓄雷・引",
+        "ko_KR": "에너지 축적·인력",
+        "zh_CN": "储能·引",
+        "zh_TW": "儲能·引"
+      }
+    },
+    {
+      "id": 511704,
+      "charId": 117,
+      "names": {
+        "en_US": "Energy Storage: Ascend",
+        "ja_JP": "蓄雷・浮",
+        "ko_KR": "에너지 축적·부력",
+        "zh_CN": "储能·浮",
+        "zh_TW": "儲能·浮"
+      }
+    },
+    {
+      "id": 511705,
+      "charId": 117,
+      "names": {
+        "en_US": "Charge Cycle",
+        "ja_JP": "天雷降臨",
+        "ko_KR": "충전 순환",
+        "zh_CN": "充电循环",
+        "zh_TW": "充電循環"
+      }
+    },
+    {
+      "id": 511706,
+      "charId": 117,
+      "names": {
+        "en_US": "Discharge Test",
+        "ja_JP": "雷鳴呼応",
+        "ko_KR": "방전 테스트",
+        "zh_CN": "放电测试",
+        "zh_TW": "放电测试"
+      }
+    },
+    {
+      "id": 511707,
+      "charId": 117,
+      "names": {
+        "en_US": "Integrated Energy Storage",
+        "ja_JP": "蓄雷統合",
+        "ko_KR": "에너지 축적 및 결합",
+        "zh_CN": "储能集成",
+        "zh_TW": "儲能整合"
+      }
+    },
+    {
+      "id": 511708,
+      "charId": 117,
+      "names": {
+        "en_US": "Heat Management",
+        "ja_JP": "雷加減調整",
+        "ko_KR": "열 관리",
+        "zh_CN": "热管理",
+        "zh_TW": "熱管理"
+      }
+    },
+    {
+      "id": 511709,
+      "charId": 117,
+      "names": {
+        "en_US": "Recycle and Reuse",
+        "ja_JP": "エコクッキング",
+        "ko_KR": "회수 및 재활용",
+        "zh_CN": "回收再利用",
+        "zh_TW": "回收再利用"
+      }
+    },
+    {
+      "id": 511710,
+      "charId": 117,
+      "names": {
+        "en_US": "Power Distribution",
+        "ja_JP": "客さばき名人",
+        "ko_KR": "전력 관리",
+        "zh_CN": "配电管理",
+        "zh_TW": "配電管理"
+      }
+    },
+    {
+      "id": 511711,
+      "charId": 117,
+      "names": {
+        "en_US": "Leakage Protection",
+        "ja_JP": "千客万来",
+        "ko_KR": "누전 방호",
+        "zh_CN": "漏电防护",
+        "zh_TW": "漏電防護"
+      }
+    },
+    {
+      "id": 511712,
+      "charId": 117,
+      "names": {
+        "en_US": "Neutral Left, Live Right, Ground Below",
+        "ja_JP": "クレーマー対応",
+        "ko_KR": "균형의 회로",
+        "zh_CN": "左零右火上接地",
+        "zh_TW": "白中紅火綠接地"
+      }
+    },
+    {
+      "id": 511713,
+      "charId": 117,
+      "names": {
+        "en_US": "Conductor Conversion",
+        "ja_JP": "シフト管理",
+        "ko_KR": "전도체 전환",
+        "zh_CN": "导体转化",
+        "zh_TW": "導體轉換"
+      }
+    },
+    {
+      "id": 511721,
+      "charId": 117,
+      "names": {
+        "en_US": "Thunderbolt: Dragon",
+        "ja_JP": "雷導・元",
+        "ko_KR": "뇌동·삼원패",
+        "zh_CN": "雷动·元",
+        "zh_TW": "雷動·元"
+      }
+    },
+    {
+      "id": 511722,
+      "charId": 117,
+      "names": {
+        "en_US": "Thunderbolt: Bamboo",
+        "ja_JP": "雷導・増",
+        "ko_KR": "뇌동·삭수패",
+        "zh_CN": "雷动·竹",
+        "zh_TW": "雷動·竹"
+      }
+    },
+    {
+      "id": 511723,
+      "charId": 117,
+      "names": {
+        "en_US": "Thunderbolt: Character",
+        "ja_JP": "雷導・万",
+        "ko_KR": "뇌동·만수패",
+        "zh_CN": "雷动·万",
+        "zh_TW": "雷動·萬"
+      }
+    },
+    {
+      "id": 511724,
+      "charId": 117,
+      "names": {
+        "en_US": "Thunderbolt: Circle",
+        "ja_JP": "雷導・筒",
+        "ko_KR": "뇌동·통수패",
+        "zh_CN": "雷动·筒",
+        "zh_TW": "雷動·筒"
+      }
+    },
+    {
+      "id": 511725,
+      "charId": 117,
+      "names": {
+        "en_US": "Sequential Triplets",
+        "ja_JP": "三連刻",
+        "ko_KR": "삼연각",
+        "zh_CN": "一色三节高",
+        "zh_TW": "一色三連刻"
+      }
+    },
+    {
+      "id": 511726,
+      "charId": 117,
+      "names": {
+        "en_US": "Self-drawn Concealed Hand",
+        "ja_JP": "門前清自摸和",
+        "ko_KR": "멘젠쯔모",
+        "zh_CN": "门前清自摸",
+        "zh_TW": "門清自摸"
+      }
+    },
+    {
+      "id": 511727,
+      "charId": 117,
+      "names": {
+        "en_US": "Win upon a Kong",
+        "ja_JP": "嶺上開花",
+        "ko_KR": "영상개화",
+        "zh_CN": "杠上开花",
+        "zh_TW": "槓上開花"
+      }
+    },
+    {
+      "id": 511728,
+      "charId": 117,
+      "names": {
+        "en_US": "Complete Sequence",
+        "ja_JP": "一気通貫",
+        "ko_KR": "일기통관",
+        "zh_CN": "一条龙",
+        "zh_TW": "一條龍"
+      }
+    },
+    {
+      "id": 511729,
+      "charId": 117,
+      "names": {
+        "en_US": "Triple Chows",
+        "ja_JP": "三色同順",
+        "ko_KR": "삼색동순",
+        "zh_CN": "三相逢",
+        "zh_TW": "三相逢"
+      }
+    },
+    {
+      "id": 511730,
+      "charId": 117,
+      "names": {
+        "en_US": "No Ones No Nines",
+        "ja_JP": "断么九",
+        "ko_KR": "탕야오",
+        "zh_CN": "断幺九",
+        "zh_TW": "斷么九"
+      }
+    },
+    {
+      "id": 511731,
+      "charId": 117,
+      "names": {
+        "en_US": "Effortless Mastery",
+        "ja_JP": "余裕綽々",
+        "ko_KR": "식은 죽 먹기",
+        "zh_CN": "游刃有余",
+        "zh_TW": "游刃有餘"
+      }
+    },
+    {
+      "id": 511732,
+      "charId": 117,
+      "names": {
+        "en_US": "Little Manager",
+        "ja_JP": "小さな店長",
+        "ko_KR": "가게 점장",
+        "zh_CN": "小小店长",
+        "zh_TW": "小小店長"
+      }
+    },
+    {
+      "id": 511733,
+      "charId": 117,
+      "names": {
+        "en_US": "Social Butterfly",
+        "ja_JP": "おもてなし精神",
+        "ko_KR": "사교의 달인",
+        "zh_CN": "交际达人",
+        "zh_TW": "交際達人"
+      }
+    },
+    {
+      "id": 511741,
+      "charId": 117,
+      "names": {
+        "en_US": "Heavenly Kirin",
+        "ja_JP": "天上の獣",
+        "ko_KR": "천상의 기린",
+        "zh_CN": "天上麒麟",
+        "zh_TW": "天上麒麟"
+      }
+    },
+    {
+      "id": 511742,
+      "charId": 117,
+      "names": {
+        "en_US": "Lord of Beasts",
+        "ja_JP": "百獣の祖",
+        "ko_KR": "백수의 왕",
+        "zh_CN": "百兽之宗",
+        "zh_TW": "百獸之宗"
+      }
+    },
+    {
+      "id": 511743,
+      "charId": 117,
+      "names": {
+        "en_US": "Auspicious Spirit",
+        "ja_JP": "四霊の瑞",
+        "ko_KR": "사신수의 가호",
+        "zh_CN": "四灵之瑞",
+        "zh_TW": "四靈之瑞"
+      }
+    },
+    {
+      "id": 511801,
+      "charId": 118,
+      "names": {
+        "en_US": "Shadow Reaper\u0027s Dance",
+        "ja_JP": "闇鎌の円舞",
+        "ko_KR": "어둠 낫의 무희",
+        "zh_CN": "影幕镰舞",
+        "zh_TW": "影幕鐮舞"
+      }
+    },
+    {
+      "id": 511802,
+      "charId": 118,
+      "names": {
+        "en_US": "Soul Splitter",
+        "ja_JP": "骨影裂魂",
+        "ko_KR": "혼을 찢는 본 쉐도우",
+        "zh_CN": "骨影裂魂",
+        "zh_TW": "骨影裂魂"
+      }
+    },
+    {
+      "id": 511803,
+      "charId": 118,
+      "names": {
+        "en_US": "Shadow Invasion",
+        "ja_JP": "闇夜の斬撃",
+        "ko_KR": "그림자 잠입",
+        "zh_CN": "影潜侵袭",
+        "zh_TW": "影潛侵襲"
+      }
+    },
+    {
+      "id": 511804,
+      "charId": 118,
+      "names": {
+        "en_US": "Phantom Blade",
+        "ja_JP": "夜刃の幻影",
+        "ko_KR": "환영의 그림자 칼날",
+        "zh_CN": "影刃幻动",
+        "zh_TW": "影刃幻動"
+      }
+    },
+    {
+      "id": 511805,
+      "charId": 118,
+      "names": {
+        "en_US": "Night Cruise",
+        "ja_JP": "暗夜疾走",
+        "ko_KR": "어둠 속 질주",
+        "zh_CN": "隐夜疾行",
+        "zh_TW": "隱夜疾行"
+      }
+    },
+    {
+      "id": 511806,
+      "charId": 118,
+      "names": {
+        "en_US": "Soul Buckle",
+        "ja_JP": "生死の掟",
+        "ko_KR": "영혼의 구속",
+        "zh_CN": "灵魂扣锁",
+        "zh_TW": "靈魂扣鎖"
+      }
+    },
+    {
+      "id": 511807,
+      "charId": 118,
+      "names": {
+        "en_US": "Chained Shadow",
+        "ja_JP": "魂の束縛",
+        "ko_KR": "영혼 그림자 결박",
+        "zh_CN": "魂影困缚",
+        "zh_TW": "魂影困縛"
+      }
+    },
+    {
+      "id": 511808,
+      "charId": 118,
+      "names": {
+        "en_US": "Roaming Spectre",
+        "ja_JP": "夜霧の誘い",
+        "ko_KR": "유혼의 숨결",
+        "zh_CN": "游魂吐息",
+        "zh_TW": "遊魂吐息"
+      }
+    },
+    {
+      "id": 511809,
+      "charId": 118,
+      "names": {
+        "en_US": "Obscure Eruption",
+        "ja_JP": "疾病への探究心",
+        "ko_KR": "어둠의 폭발",
+        "zh_CN": "晦暗爆发",
+        "zh_TW": "晦暗爆發"
+      }
+    },
+    {
+      "id": 511810,
+      "charId": 118,
+      "names": {
+        "en_US": "Dark Veil",
+        "ja_JP": "患者発見",
+        "ko_KR": "암막의 잔상",
+        "zh_CN": "暗幕掠影",
+        "zh_TW": "暗幕掠影"
+      }
+    },
+    {
+      "id": 511811,
+      "charId": 118,
+      "names": {
+        "en_US": "Arcane Blade",
+        "ja_JP": "高難易度オペ",
+        "ko_KR": "비법의 칼날",
+        "zh_CN": "秘法之刃",
+        "zh_TW": "祕法之刃"
+      }
+    },
+    {
+      "id": 511812,
+      "charId": 118,
+      "names": {
+        "en_US": "Shadow Escape",
+        "ja_JP": "観察眼",
+        "ko_KR": "흔적 없는 그림자",
+        "zh_CN": "幽影遁形",
+        "zh_TW": "幽影遁形"
+      }
+    },
+    {
+      "id": 511813,
+      "charId": 118,
+      "names": {
+        "en_US": "Shadow Dash",
+        "ja_JP": "適切な処置",
+        "ko_KR": "어둠 속 은신",
+        "zh_CN": "黑暗迅隐",
+        "zh_TW": "黑暗迅隱"
+      }
+    },
+    {
+      "id": 511821,
+      "charId": 118,
+      "names": {
+        "en_US": "Skeleton Sculpture",
+        "ja_JP": "骸骨彫刻",
+        "ko_KR": "해골 조각",
+        "zh_CN": "骸骨雕刻",
+        "zh_TW": "骸骨雕刻"
+      }
+    },
+    {
+      "id": 511822,
+      "charId": 118,
+      "names": {
+        "en_US": "Skeleton Frenzy",
+        "ja_JP": "破骨乱舞",
+        "ko_KR": "파골난무",
+        "zh_CN": "破骨乱舞",
+        "zh_TW": "破骨亂舞"
+      }
+    },
+    {
+      "id": 511823,
+      "charId": 118,
+      "names": {
+        "en_US": "Hormone Elixir",
+        "ja_JP": "特製ホルモン剤",
+        "ko_KR": "신비의 활성제",
+        "zh_CN": "激素秘药",
+        "zh_TW": "激素祕藥"
+      }
+    },
+    {
+      "id": 511824,
+      "charId": 118,
+      "names": {
+        "en_US": "Toxin Infusion",
+        "ja_JP": "毒にも薬にも",
+        "ko_KR": "독소 침투",
+        "zh_CN": "毒素浸染",
+        "zh_TW": "毒素浸染"
+      }
+    },
+    {
+      "id": 511825,
+      "charId": 118,
+      "names": {
+        "en_US": "Spiritual Tome",
+        "ja_JP": "標本集め",
+        "ko_KR": "영혼 컬렉션",
+        "zh_CN": "灵魂典藏",
+        "zh_TW": "靈魂典藏"
+      }
+    },
+    {
+      "id": 511826,
+      "charId": 118,
+      "names": {
+        "en_US": "Bloodletting Therapy",
+        "ja_JP": "患者選定",
+        "ko_KR": "피의 치유",
+        "zh_CN": "放血治疗",
+        "zh_TW": "放血治療"
+      }
+    },
+    {
+      "id": 511827,
+      "charId": 118,
+      "names": {
+        "en_US": "Magic Transplant",
+        "ja_JP": "研究資料収集",
+        "ko_KR": "마법 이식",
+        "zh_CN": "魔法移植",
+        "zh_TW": "魔法移植"
+      }
+    },
+    {
+      "id": 511828,
+      "charId": 118,
+      "names": {
+        "en_US": "Arcane Collection",
+        "ja_JP": "連続オペ",
+        "ko_KR": "묘기 수집",
+        "zh_CN": "奇术收藏",
+        "zh_TW": "奇術收藏"
+      }
+    },
+    {
+      "id": 511829,
+      "charId": 118,
+      "names": {
+        "en_US": "Soul Restraint",
+        "ja_JP": "霊魂封じ",
+        "ko_KR": "영혼 봉인",
+        "zh_CN": "灵魂封禁",
+        "zh_TW": "靈魂封禁"
+      }
+    },
+    {
+      "id": 511830,
+      "charId": 118,
+      "names": {
+        "en_US": "Tag of Fate",
+        "ja_JP": "難病発見",
+        "ko_KR": "운명의 표식",
+        "zh_CN": "命运标记",
+        "zh_TW": "命運標記"
+      }
+    },
+    {
+      "id": 511831,
+      "charId": 118,
+      "names": {
+        "en_US": "Precision Surgery",
+        "ja_JP": "オペ技術向上",
+        "ko_KR": "정밀 수술",
+        "zh_CN": "精密手术",
+        "zh_TW": "精密手術"
+      }
+    },
+    {
+      "id": 511832,
+      "charId": 118,
+      "names": {
+        "en_US": "Medical Research",
+        "ja_JP": "最先端医学研究",
+        "ko_KR": "의학 연구",
+        "zh_CN": "医学研究",
+        "zh_TW": "醫學研究"
+      }
+    },
+    {
+      "id": 511833,
+      "charId": 118,
+      "names": {
+        "en_US": "Underground Healer",
+        "ja_JP": "闇医者",
+        "ko_KR": "불법 의사",
+        "zh_CN": "地下秘医",
+        "zh_TW": "地下密醫"
+      }
+    },
+    {
+      "id": 511841,
+      "charId": 118,
+      "names": {
+        "en_US": "Night Reaper",
+        "ja_JP": "暗夜の鎌",
+        "ko_KR": "어둠의 낫 그림자",
+        "zh_CN": "暗夜镰影",
+        "zh_TW": "暗夜鐮影"
+      }
+    },
+    {
+      "id": 511842,
+      "charId": 118,
+      "names": {
+        "en_US": "Formidable Glyph",
+        "ja_JP": "魂の刻印",
+        "ko_KR": "삼라의 각인",
+        "zh_CN": "森罗刻印",
+        "zh_TW": "森羅刻印"
+      }
+    },
+    {
+      "id": 511843,
+      "charId": 118,
+      "names": {
+        "en_US": "Terrifying Rampage",
+        "ja_JP": "断魂狂襲",
+        "ko_KR": "광란의 영혼 사냥",
+        "zh_CN": "断魂狂袭",
+        "zh_TW": "斷魂狂襲"
+      }
+    },
+    {
+      "id": 511901,
+      "charId": 119,
+      "names": {
+        "en_US": "Growth Tempest",
+        "ja_JP": "成長の喜び",
+        "ko_KR": "생명의 폭풍",
+        "zh_CN": "生长风暴",
+        "zh_TW": "生長風暴"
+      }
+    },
+    {
+      "id": 511902,
+      "charId": 119,
+      "names": {
+        "en_US": "Blossom Flurry",
+        "ja_JP": "扇の散花",
+        "ko_KR": "부채꼴 꽃잎",
+        "zh_CN": "散花如扇",
+        "zh_TW": "散花如扇"
+      }
+    },
+    {
+      "id": 511903,
+      "charId": 119,
+      "names": {
+        "en_US": "Whirling Blade",
+        "ja_JP": "飛旋の刃",
+        "ko_KR": "회전 칼날",
+        "zh_CN": "飞旋之刃",
+        "zh_TW": "飛旋之刃"
+      }
+    },
+    {
+      "id": 511904,
+      "charId": 119,
+      "names": {
+        "en_US": "Bloom Dance",
+        "ja_JP": "満開の舞",
+        "ko_KR": "풍요의 춤사위",
+        "zh_CN": "满盈之舞",
+        "zh_TW": "滿盈之舞"
+      }
+    },
+    {
+      "id": 511905,
+      "charId": 119,
+      "names": {
+        "en_US": "Gale Rage",
+        "ja_JP": "疾風怒濤",
+        "ko_KR": "질풍노도",
+        "zh_CN": "疾风怒涛",
+        "zh_TW": "疾風怒濤"
+      }
+    },
+    {
+      "id": 511906,
+      "charId": 119,
+      "names": {
+        "en_US": "Phantom Follower",
+        "ja_JP": "花影の従者",
+        "ko_KR": "환영의 동행",
+        "zh_CN": "幻影随行",
+        "zh_TW": "幻影隨行"
+      }
+    },
+    {
+      "id": 511907,
+      "charId": 119,
+      "names": {
+        "en_US": "Sun Chaser",
+        "ja_JP": "研鑽の日々",
+        "ko_KR": "빛을 향한 추격",
+        "zh_CN": "追日绝尘",
+        "zh_TW": "追日絕塵"
+      }
+    },
+    {
+      "id": 511908,
+      "charId": 119,
+      "names": {
+        "en_US": "Distant Prayer",
+        "ja_JP": "日輪草への祈り",
+        "ko_KR": "먼 곳에서의 기도",
+        "zh_CN": "遥远祈福",
+        "zh_TW": "遙遠祈福"
+      }
+    },
+    {
+      "id": 511909,
+      "charId": 119,
+      "names": {
+        "en_US": "Splendid Vortex",
+        "ja_JP": "花の導き",
+        "ko_KR": "화려한 소용돌이",
+        "zh_CN": "绚烂涡流",
+        "zh_TW": "絢爛渦流"
+      }
+    },
+    {
+      "id": 511910,
+      "charId": 119,
+      "names": {
+        "en_US": "Blossom Shower",
+        "ja_JP": "百花繚乱",
+        "ko_KR": "흩날리는 꽃잎 폭풍",
+        "zh_CN": "飞花乱坠",
+        "zh_TW": "飛花亂墜"
+      }
+    },
+    {
+      "id": 511911,
+      "charId": 119,
+      "names": {
+        "en_US": "Sky Piercer",
+        "ja_JP": "忍の心得",
+        "ko_KR": "천공 돌파",
+        "zh_CN": "凌空穿云",
+        "zh_TW": "凌空穿雲"
+      }
+    },
+    {
+      "id": 511912,
+      "charId": 119,
+      "names": {
+        "en_US": "Blooming Flowers",
+        "ja_JP": "韋駄天",
+        "ko_KR": "만개하는 화려한 꽃",
+        "zh_CN": "繁花绽放",
+        "zh_TW": "繁花綻放"
+      }
+    },
+    {
+      "id": 511913,
+      "charId": 119,
+      "names": {
+        "en_US": "Starlit Dash",
+        "ja_JP": "早足",
+        "ko_KR": "별빛의 질풍",
+        "zh_CN": "飒沓如星",
+        "zh_TW": "颯沓如星"
+      }
+    },
+    {
+      "id": 511921,
+      "charId": 119,
+      "names": {
+        "en_US": "Revitalizing Nourishment",
+        "ja_JP": "追撃用暗器",
+        "ko_KR": "재생의 양분",
+        "zh_CN": "滋养再生",
+        "zh_TW": "滋養再生"
+      }
+    },
+    {
+      "id": 511922,
+      "charId": 119,
+      "names": {
+        "en_US": "Gentle Thaw",
+        "ja_JP": "風の如く",
+        "ko_KR": "따스한 바람의 포옹",
+        "zh_CN": "煦风消融",
+        "zh_TW": "煦風消融"
+      }
+    },
+    {
+      "id": 511923,
+      "charId": 119,
+      "names": {
+        "en_US": "Floral Nexus",
+        "ja_JP": "草花の眼",
+        "ko_KR": "꽃무리의 시선",
+        "zh_CN": "丛花之眼",
+        "zh_TW": "叢花之眼"
+      }
+    },
+    {
+      "id": 511924,
+      "charId": 119,
+      "names": {
+        "en_US": "Unfulfilled Enthusiasm",
+        "ja_JP": "対象観察",
+        "ko_KR": "끝나지 않은 흥",
+        "zh_CN": "雅兴未尽",
+        "zh_TW": "雅興未盡"
+      }
+    },
+    {
+      "id": 511925,
+      "charId": 119,
+      "names": {
+        "en_US": "Tender Nurture",
+        "ja_JP": "急成長",
+        "ko_KR": "섬세한 재배",
+        "zh_CN": "小心栽培",
+        "zh_TW": "小心栽培"
+      }
+    },
+    {
+      "id": 511926,
+      "charId": 119,
+      "names": {
+        "en_US": "Troubleshooting",
+        "ja_JP": "失敗回避",
+        "ko_KR": "결점 보완",
+        "zh_CN": "查漏补缺",
+        "zh_TW": "查漏補缺"
+      }
+    },
+    {
+      "id": 511927,
+      "charId": 119,
+      "names": {
+        "en_US": "Shift Duty",
+        "ja_JP": "監視交代",
+        "ko_KR": "교대 수호",
+        "zh_CN": "轮班值守",
+        "zh_TW": "輪班值守"
+      }
+    },
+    {
+      "id": 511928,
+      "charId": 119,
+      "names": {
+        "en_US": "VIP Focus",
+        "ja_JP": "念には念を",
+        "ko_KR": "특별 보호",
+        "zh_CN": "重点关照",
+        "zh_TW": "重點關照"
+      }
+    },
+    {
+      "id": 511929,
+      "charId": 119,
+      "names": {
+        "en_US": "Regular Trim",
+        "ja_JP": "定期剪定",
+        "ko_KR": "정기 손질",
+        "zh_CN": "定期修剪",
+        "zh_TW": "定期修剪"
+      }
+    },
+    {
+      "id": 511930,
+      "charId": 119,
+      "names": {
+        "en_US": "Tender Care",
+        "ja_JP": "支援忍術",
+        "ko_KR": "마음을 다한 보살핌",
+        "zh_CN": "全心呵护",
+        "zh_TW": "全心呵護"
+      }
+    },
+    {
+      "id": 511931,
+      "charId": 119,
+      "names": {
+        "en_US": "Dance of Scattering Petals",
+        "ja_JP": "精神統一",
+        "ko_KR": "무용화산",
+        "zh_CN": "起舞散花",
+        "zh_TW": "起舞散花"
+      }
+    },
+    {
+      "id": 511932,
+      "charId": 119,
+      "names": {
+        "en_US": "Tender Trap",
+        "ja_JP": "花風共鳴",
+        "ko_KR": "부드러운 함정",
+        "zh_CN": "温柔陷阱",
+        "zh_TW": "溫柔陷阱"
+      }
+    },
+    {
+      "id": 511933,
+      "charId": 119,
+      "names": {
+        "en_US": "United in Times",
+        "ja_JP": "メイドサービス",
+        "ko_KR": "일심협력",
+        "zh_CN": "同舟共济",
+        "zh_TW": "同舟共濟"
+      }
+    },
+    {
+      "id": 511941,
+      "charId": 119,
+      "names": {
+        "en_US": "Blossom Rhyme",
+        "ja_JP": "花影の詩",
+        "ko_KR": "꽃 그림자의 시",
+        "zh_CN": "花影诗",
+        "zh_TW": "花影詩"
+      }
+    },
+    {
+      "id": 511942,
+      "charId": 119,
+      "names": {
+        "en_US": "Infinite Shade",
+        "ja_JP": "分身忍術",
+        "ko_KR": "끝없는 그림자",
+        "zh_CN": "影无涯",
+        "zh_TW": "影無涯"
+      }
+    },
+    {
+      "id": 511943,
+      "charId": 119,
+      "names": {
+        "en_US": "Wind Whispers",
+        "ja_JP": "忍の矜持",
+        "ko_KR": "그림자 바람의 노래",
+        "zh_CN": "影风歌",
+        "zh_TW": "影風歌"
+      }
+    },
+    {
+      "id": 512001,
+      "charId": 120,
+      "names": {
+        "en_US": "Most Admired",
+        "ja_JP": "生徒の支持",
+        "ko_KR": "별빛의 가호",
+        "zh_CN": "众星拥戴",
+        "zh_TW": "眾星擁戴"
+      }
+    },
+    {
+      "id": 512002,
+      "charId": 120,
+      "names": {
+        "en_US": "Ring Blitz",
+        "ja_JP": "環風迅速",
+        "ko_KR": "회전 질주",
+        "zh_CN": "环形疾速",
+        "zh_TW": "環形疾速"
+      }
+    },
+    {
+      "id": 512003,
+      "charId": 120,
+      "names": {
+        "en_US": "Erratic Weather",
+        "ja_JP": "風雲無常",
+        "ko_KR": "변화무쌍",
+        "zh_CN": "风云无常",
+        "zh_TW": "風雲無常"
+      }
+    },
+    {
+      "id": 512004,
+      "charId": 120,
+      "names": {
+        "en_US": "Positive Score",
+        "ja_JP": "順方向積分",
+        "ko_KR": "정방향 적분",
+        "zh_CN": "正向积分",
+        "zh_TW": "正向積分"
+      }
+    },
+    {
+      "id": 512005,
+      "charId": 120,
+      "names": {
+        "en_US": "Subject Boost",
+        "ja_JP": "一教科集中講義",
+        "ko_KR": "단일 과목 학습 강화",
+        "zh_CN": "单科学习强化",
+        "zh_TW": "單科學習強化"
+      }
+    },
+    {
+      "id": 512006,
+      "charId": 120,
+      "names": {
+        "en_US": "Strength Leverage",
+        "ja_JP": "得意分野の利用",
+        "ko_KR": "우세 영역 활용",
+        "zh_CN": "优势领域利用",
+        "zh_TW": "優勢領域利用"
+      }
+    },
+    {
+      "id": 512007,
+      "charId": 120,
+      "names": {
+        "en_US": "Comprehensive Praise",
+        "ja_JP": "補習授業",
+        "ko_KR": "전 과목 긍정적 평가",
+        "zh_CN": "全科正向反馈",
+        "zh_TW": "全科正向回饋"
+      }
+    },
+    {
+      "id": 512008,
+      "charId": 120,
+      "names": {
+        "en_US": "Friendly Mentor",
+        "ja_JP": "良師益友",
+        "ko_KR": "지혜로운 조언자",
+        "zh_CN": "良师益友",
+        "zh_TW": "良師益友"
+      }
+    },
+    {
+      "id": 512009,
+      "charId": 120,
+      "names": {
+        "en_US": "Unique Teaching",
+        "ja_JP": "特別講義",
+        "ko_KR": "고유의 가르침",
+        "zh_CN": "独门教义",
+        "zh_TW": "獨門教義"
+      }
+    },
+    {
+      "id": 512010,
+      "charId": 120,
+      "names": {
+        "en_US": "Counterstrike Tutorial",
+        "ja_JP": "反撃教育",
+        "ko_KR": "반격 교습",
+        "zh_CN": "反击教学",
+        "zh_TW": "反擊教學"
+      }
+    },
+    {
+      "id": 512011,
+      "charId": 120,
+      "names": {
+        "en_US": "Lone Star Twinkle",
+        "ja_JP": "学力の煌めき",
+        "ko_KR": "홀로 빛나는 별",
+        "zh_CN": "孤星闪烁",
+        "zh_TW": "孤星閃爍"
+      }
+    },
+    {
+      "id": 512012,
+      "charId": 120,
+      "names": {
+        "en_US": "Weakness Analysis",
+        "ja_JP": "弱点分析",
+        "ko_KR": "약점 분석",
+        "zh_CN": "弱点解析",
+        "zh_TW": "弱點分析"
+      }
+    },
+    {
+      "id": 512013,
+      "charId": 120,
+      "names": {
+        "en_US": "Shadow Stride",
+        "ja_JP": "模範的行動",
+        "ko_KR": "에메랄드 쉐도우 스텝",
+        "zh_CN": "翠影步",
+        "zh_TW": "翠影步"
+      }
+    },
+    {
+      "id": 512021,
+      "charId": 120,
+      "names": {
+        "en_US": "Grants Efficient Delving",
+        "ja_JP": "効率的な勉強法",
+        "ko_KR": "효율적 연구 전수",
+        "zh_CN": "授予高效的钻研",
+        "zh_TW": "授予高效的鑽研"
+      }
+    },
+    {
+      "id": 512022,
+      "charId": 120,
+      "names": {
+        "en_US": "Grants Transformative Insight",
+        "ja_JP": "質的変化の講義",
+        "ko_KR": "질적 변화 결론 전수",
+        "zh_CN": "授予质变的结论",
+        "zh_TW": "授予質變的結論"
+      }
+    },
+    {
+      "id": 512023,
+      "charId": 120,
+      "names": {
+        "en_US": "Grants Speedup Notion",
+        "ja_JP": "加速概念の講義",
+        "ko_KR": "가속 개념 전수",
+        "zh_CN": "授予加速的概念",
+        "zh_TW": "授予加速的概念"
+      }
+    },
+    {
+      "id": 512024,
+      "charId": 120,
+      "names": {
+        "en_US": "Grants Blooming Esthetics",
+        "ja_JP": "審美眼の講義",
+        "ko_KR": "피어남의 미학 전수",
+        "zh_CN": "授予绽放的美学",
+        "zh_TW": "授予綻放的美學"
+      }
+    },
+    {
+      "id": 512025,
+      "charId": 120,
+      "names": {
+        "en_US": "Structure Analysis",
+        "ja_JP": "構造解析",
+        "ko_KR": "구조 분석",
+        "zh_CN": "构造解析",
+        "zh_TW": "構造分析"
+      }
+    },
+    {
+      "id": 512026,
+      "charId": 120,
+      "names": {
+        "en_US": "Conundrum Solving",
+        "ja_JP": "難問解明",
+        "ko_KR": "난제 공략",
+        "zh_CN": "难题攻坚",
+        "zh_TW": "難題攻堅"
+      }
+    },
+    {
+      "id": 512027,
+      "charId": 120,
+      "names": {
+        "en_US": "Conclusion Analysis",
+        "ja_JP": "結論述懐",
+        "ko_KR": "결론 정밀 분석",
+        "zh_CN": "结论剖析",
+        "zh_TW": "結論剖析"
+      }
+    },
+    {
+      "id": 512028,
+      "charId": 120,
+      "names": {
+        "en_US": "High Pressure Reflux",
+        "ja_JP": "向上心",
+        "ko_KR": "고압 에너지 역류",
+        "zh_CN": "高压回流",
+        "zh_TW": "高壓回流"
+      }
+    },
+    {
+      "id": 512029,
+      "charId": 120,
+      "names": {
+        "en_US": "Cyclone Acceleration",
+        "ja_JP": "厳格講義",
+        "ko_KR": "선풍 가속",
+        "zh_CN": "气旋加速",
+        "zh_TW": "氣旋加速"
+      }
+    },
+    {
+      "id": 512030,
+      "charId": 120,
+      "names": {
+        "en_US": "Storm Eye Expansion",
+        "ja_JP": "個人授業",
+        "ko_KR": "바람의 눈 확장",
+        "zh_CN": "风眼扩张",
+        "zh_TW": "風眼擴張"
+      }
+    },
+    {
+      "id": 512031,
+      "charId": 120,
+      "names": {
+        "en_US": "My Thoughts",
+        "ja_JP": "補講準備",
+        "ko_KR": "내면의 생각",
+        "zh_CN": "我思",
+        "zh_TW": "我思"
+      }
+    },
+    {
+      "id": 512032,
+      "charId": 120,
+      "names": {
+        "en_US": "My Presence",
+        "ja_JP": "自己研鑽",
+        "ko_KR": "나의 존재",
+        "zh_CN": "我在",
+        "zh_TW": "我在"
+      }
+    },
+    {
+      "id": 512033,
+      "charId": 120,
+      "names": {
+        "en_US": "Finale Deduction",
+        "ja_JP": "演繹的推理終論",
+        "ko_KR": "추리의 결론",
+        "zh_CN": "演绎推理终论",
+        "zh_TW": "演繹推理終論"
+      }
+    },
+    {
+      "id": 512041,
+      "charId": 120,
+      "names": {
+        "en_US": "Storm Suppression",
+        "ja_JP": "暴風教育",
+        "ko_KR": "폭풍 제압",
+        "zh_CN": "风暴压制",
+        "zh_TW": "風暴壓制"
+      }
+    },
+    {
+      "id": 512042,
+      "charId": 120,
+      "names": {
+        "en_US": "Structure Shatter",
+        "ja_JP": "構造破壊",
+        "ko_KR": "구조 파괴",
+        "zh_CN": "构造破坏",
+        "zh_TW": "構造破壞"
+      }
+    },
+    {
+      "id": 512043,
+      "charId": 120,
+      "names": {
+        "en_US": "Downwind Area",
+        "ja_JP": "旋風領域",
+        "ko_KR": "순풍 영역",
+        "zh_CN": "顺风领域",
+        "zh_TW": "順風領域"
+      }
+    },
+    {
+      "id": 512301,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind\u0027s Breath",
+        "ja_JP": "風の吐息",
+        "ko_KR": "바람의 숨결",
+        "zh_CN": "风之吐息",
+        "zh_TW": "風之吐息"
+      }
+    },
+    {
+      "id": 512302,
+      "charId": 123,
+      "names": {
+        "en_US": "Stone Dust Tempest",
+        "ja_JP": "飛石舞塵",
+        "ko_KR": "흩날리는 돌먼지",
+        "zh_CN": "飞石尘起",
+        "zh_TW": "飛石塵起"
+      }
+    },
+    {
+      "id": 512303,
+      "charId": 123,
+      "names": {
+        "en_US": "Dazzling Vortex",
+        "ja_JP": "風塵渦流",
+        "ko_KR": "빛의 소용돌이",
+        "zh_CN": "炫光漩涡",
+        "zh_TW": "炫光漩渦"
+      }
+    },
+    {
+      "id": 512304,
+      "charId": 123,
+      "names": {
+        "en_US": "Grand Debut",
+        "ja_JP": "友達の力",
+        "ko_KR": "화려한 등장",
+        "zh_CN": "盛大登场",
+        "zh_TW": "盛大登場"
+      }
+    },
+    {
+      "id": 512305,
+      "charId": 123,
+      "names": {
+        "en_US": "Victorious Pursuit",
+        "ja_JP": "仲間の鼓舞",
+        "ko_KR": "승리의 맹공",
+        "zh_CN": "乘胜追击",
+        "zh_TW": "乘勝追擊"
+      }
+    },
+    {
+      "id": 512306,
+      "charId": 123,
+      "names": {
+        "en_US": "Permeating Courage",
+        "ja_JP": "立ち向かう勇気",
+        "ko_KR": "바람을 따르는 용기",
+        "zh_CN": "循风勇气",
+        "zh_TW": "循風勇氣"
+      }
+    },
+    {
+      "id": 512307,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind Chime",
+        "ja_JP": "風鈴の音",
+        "ko_KR": "흔들리는 풍경종",
+        "zh_CN": "轻摇风铃",
+        "zh_TW": "輕搖風鈴"
+      }
+    },
+    {
+      "id": 512308,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind Surge",
+        "ja_JP": "上昇気流",
+        "ko_KR": "바람을 거스르는 기세",
+        "zh_CN": "凌风势起",
+        "zh_TW": "凌風勢起"
+      }
+    },
+    {
+      "id": 512309,
+      "charId": 123,
+      "names": {
+        "en_US": "Breeze Caress",
+        "ja_JP": "そよ風の歌",
+        "ko_KR": "부드러운 바람",
+        "zh_CN": "和风拂面",
+        "zh_TW": "和風拂面"
+      }
+    },
+    {
+      "id": 512310,
+      "charId": 123,
+      "names": {
+        "en_US": "Smooth Rotation",
+        "ja_JP": "追い風の助け",
+        "ko_KR": "바람을 타는 소용돌이",
+        "zh_CN": "顺风轮转",
+        "zh_TW": "順風輪轉"
+      }
+    },
+    {
+      "id": 512311,
+      "charId": 123,
+      "names": {
+        "en_US": "Tall Tree Attracts Wind",
+        "ja_JP": "隠れた才能",
+        "ko_KR": "눈에 띄는 존재",
+        "zh_CN": "树大招风",
+        "zh_TW": "樹大招風"
+      }
+    },
+    {
+      "id": 512312,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind\u0027s Track",
+        "ja_JP": "風のしるべ",
+        "ko_KR": "바람의 길",
+        "zh_CN": "风之股道",
+        "zh_TW": "風之軌道"
+      }
+    },
+    {
+      "id": 512313,
+      "charId": 123,
+      "names": {
+        "en_US": "Zephyr Caress",
+        "ja_JP": "春風の踊り",
+        "ko_KR": "바람의 경쾌한 발길",
+        "zh_CN": "轻风踢踏",
+        "zh_TW": "輕風踢踏"
+      }
+    },
+    {
+      "id": 512321,
+      "charId": 123,
+      "names": {
+        "en_US": "Gale Bastion",
+        "ja_JP": "強風の壁",
+        "ko_KR": "견고한 바람 방벽",
+        "zh_CN": "坚风壁垒",
+        "zh_TW": "堅風壁壘"
+      }
+    },
+    {
+      "id": 512322,
+      "charId": 123,
+      "names": {
+        "en_US": "Warm Wind Guard",
+        "ja_JP": "暖風の加護",
+        "ko_KR": "따스한 바람의 가호",
+        "zh_CN": "暖风加护",
+        "zh_TW": "暖風加護"
+      }
+    },
+    {
+      "id": 512323,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind Banish",
+        "ja_JP": "逆風抵抗",
+        "ko_KR": "역풍의 억제",
+        "zh_CN": "禁行逆风",
+        "zh_TW": "禁行逆風"
+      }
+    },
+    {
+      "id": 512324,
+      "charId": 123,
+      "names": {
+        "en_US": "Downwind Journey",
+        "ja_JP": "順風満帆",
+        "ko_KR": "순풍의 항해",
+        "zh_CN": "顺风航路",
+        "zh_TW": "順風航路"
+      }
+    },
+    {
+      "id": 512325,
+      "charId": 123,
+      "names": {
+        "en_US": "Burdening Pressure",
+        "ja_JP": "風の束縛",
+        "ko_KR": "강풍의 결박",
+        "zh_CN": "风压重缚",
+        "zh_TW": "風壓重縛"
+      }
+    },
+    {
+      "id": 512326,
+      "charId": 123,
+      "names": {
+        "en_US": "Windgate Barrier",
+        "ja_JP": "風門の招き",
+        "ko_KR": "바람 장벽",
+        "zh_CN": "风门障壁",
+        "zh_TW": "風門障壁"
+      }
+    },
+    {
+      "id": 512327,
+      "charId": 123,
+      "names": {
+        "en_US": "Leveraged Boost",
+        "ja_JP": "風速上昇",
+        "ko_KR": "가속 강화",
+        "zh_CN": "借力强速",
+        "zh_TW": "借力強速"
+      }
+    },
+    {
+      "id": 512328,
+      "charId": 123,
+      "names": {
+        "en_US": "Turbulent Flow",
+        "ja_JP": "乱気流",
+        "ko_KR": "혼란스러운 흐름",
+        "zh_CN": "流速紊乱",
+        "zh_TW": "流速紊亂"
+      }
+    },
+    {
+      "id": 512329,
+      "charId": 123,
+      "names": {
+        "en_US": "Speed Surge",
+        "ja_JP": "風壁の賜物",
+        "ko_KR": "가속 돌파",
+        "zh_CN": "穿行提速",
+        "zh_TW": "穿行提速"
+      }
+    },
+    {
+      "id": 512330,
+      "charId": 123,
+      "names": {
+        "en_US": "Wind Erosion Havoc",
+        "ja_JP": "風の重み",
+        "ko_KR": "파멸의 질풍",
+        "zh_CN": "风蚀坏劫",
+        "zh_TW": "風蝕壞劫"
+      }
+    },
+    {
+      "id": 512331,
+      "charId": 123,
+      "names": {
+        "en_US": "Storm Repel",
+        "ja_JP": "爆風の陣",
+        "ko_KR": "폭풍 격퇴",
+        "zh_CN": "暴风斥退",
+        "zh_TW": "暴風斥退"
+      }
+    },
+    {
+      "id": 512332,
+      "charId": 123,
+      "names": {
+        "en_US": "Violent Current",
+        "ja_JP": "お助け隊出動",
+        "ko_KR": "조력의 급류",
+        "zh_CN": "助推激流",
+        "zh_TW": "助推激流"
+      }
+    },
+    {
+      "id": 512333,
+      "charId": 123,
+      "names": {
+        "en_US": "Forest Princess\u0027 Blessing",
+        "ja_JP": "森の祝福",
+        "ko_KR": "숲속 공주의 은총",
+        "zh_CN": "森林公主的赐福",
+        "zh_TW": "森林公主的賜福"
+      }
+    },
+    {
+      "id": 512341,
+      "charId": 123,
+      "names": {
+        "en_US": "Overlord\u0027s Warcry",
+        "ja_JP": "領主の遠吠え",
+        "ko_KR": "보스의 포효",
+        "zh_CN": "领主战吼",
+        "zh_TW": "領主戰吼"
+      }
+    },
+    {
+      "id": 512342,
+      "charId": 123,
+      "names": {
+        "en_US": "Mountain\u0027s Entice",
+        "ja_JP": "山脈寄せ",
+        "ko_KR": "산맥의 흡입",
+        "zh_CN": "山脉之吸",
+        "zh_TW": "山脈之吸"
+      }
+    },
+    {
+      "id": 512343,
+      "charId": 123,
+      "names": {
+        "en_US": "Impulsive Devourer",
+        "ja_JP": "自然の援助",
+        "ko_KR": "에너지 탐식",
+        "zh_CN": "噬能冲动",
+        "zh_TW": "噬能衝動"
+      }
+    },
+    {
+      "id": 512501,
+      "charId": 125,
+      "names": {
+        "en_US": "Ice Mist Barrier",
+        "ja_JP": "氷霧の守護",
+        "ko_KR": "얼음 안개의 장막",
+        "zh_CN": "冰雾屏障",
+        "zh_TW": "冰霧屏障"
+      }
+    },
+    {
+      "id": 512502,
+      "charId": 125,
+      "names": {
+        "en_US": "Rapid Verdict",
+        "ja_JP": "即断即決",
+        "ko_KR": "신속한 심판",
+        "zh_CN": "急速裁决",
+        "zh_TW": "急速裁決"
+      }
+    },
+    {
+      "id": 512503,
+      "charId": 125,
+      "names": {
+        "en_US": "Whirlwind Frenzy",
+        "ja_JP": "旋風狂雹",
+        "ko_KR": "회오리 폭풍",
+        "zh_CN": "旋风狂潮",
+        "zh_TW": "旋風狂潮"
+      }
+    },
+    {
+      "id": 512504,
+      "charId": 125,
+      "names": {
+        "en_US": "Unstoppable March",
+        "ja_JP": "風雪不動",
+        "ko_KR": "멈추지 않는 의지",
+        "zh_CN": "风雪无阻",
+        "zh_TW": "風雪無阻"
+      }
+    },
+    {
+      "id": 512505,
+      "charId": 125,
+      "names": {
+        "en_US": "Doomsday Blessing",
+        "ja_JP": "名残雪の祝福",
+        "ko_KR": "종말의 축복",
+        "zh_CN": "末日祝福",
+        "zh_TW": "末日祝福"
+      }
+    },
+    {
+      "id": 512506,
+      "charId": 125,
+      "names": {
+        "en_US": "Elemental Sublimation",
+        "ja_JP": "氷の昇華",
+        "ko_KR": "원소 승화",
+        "zh_CN": "元素升华",
+        "zh_TW": "元素昇華"
+      }
+    },
+    {
+      "id": 512507,
+      "charId": 125,
+      "names": {
+        "en_US": "Soul Extraction",
+        "ja_JP": "衝動強化",
+        "ko_KR": "영혼 추출",
+        "zh_CN": "灵魂萃取",
+        "zh_TW": "靈魂萃取"
+      }
+    },
+    {
+      "id": 512508,
+      "charId": 125,
+      "names": {
+        "en_US": "Frost Gift",
+        "ja_JP": "砕氷の配達人",
+        "ko_KR": "얼음의 선물",
+        "zh_CN": "寒冰礼物",
+        "zh_TW": "寒冰禮物"
+      }
+    },
+    {
+      "id": 512509,
+      "charId": 125,
+      "names": {
+        "en_US": "Limits of Oblivion",
+        "ja_JP": "雪の忘れ物",
+        "ko_KR": "극한 망각",
+        "zh_CN": "忘却极限",
+        "zh_TW": "忘卻極限"
+      }
+    },
+    {
+      "id": 512510,
+      "charId": 125,
+      "names": {
+        "en_US": "Frost Ward",
+        "ja_JP": "氷晶結界",
+        "ko_KR": "서리 결계",
+        "zh_CN": "晶霜结界",
+        "zh_TW": "晶霜結界"
+      }
+    },
+    {
+      "id": 512511,
+      "charId": 125,
+      "names": {
+        "en_US": "Victorious Pursuit",
+        "ja_JP": "理性爆発",
+        "ko_KR": "승리의 맹공",
+        "zh_CN": "乘胜追击",
+        "zh_TW": "乘勝追擊"
+      }
+    },
+    {
+      "id": 512512,
+      "charId": 125,
+      "names": {
+        "en_US": "Tit-for-Tat",
+        "ja_JP": "寒波襲来",
+        "ko_KR": "정면 승부",
+        "zh_CN": "针锋相对",
+        "zh_TW": "針鋒相對"
+      }
+    },
+    {
+      "id": 512513,
+      "charId": 125,
+      "names": {
+        "en_US": "Desperate Counterattack",
+        "ja_JP": "形勢逆転",
+        "ko_KR": "절체절명의 역전",
+        "zh_CN": "绝地逆转",
+        "zh_TW": "絕地逆轉"
+      }
+    },
+    {
+      "id": 512521,
+      "charId": 125,
+      "names": {
+        "en_US": "Realm of Frost",
+        "ja_JP": "氷床展開",
+        "ko_KR": "빙결 봉인",
+        "zh_CN": "全境冰封",
+        "zh_TW": "全境冰封"
+      }
+    },
+    {
+      "id": 512522,
+      "charId": 125,
+      "names": {
+        "en_US": "Chill Forecast",
+        "ja_JP": "極寒予報",
+        "ko_KR": "혹한의 예고",
+        "zh_CN": "严寒预报",
+        "zh_TW": "嚴寒預報"
+      }
+    },
+    {
+      "id": 512523,
+      "charId": 125,
+      "names": {
+        "en_US": "Localized Snowfall",
+        "ja_JP": "極地降雪",
+        "ko_KR": "부분 강설",
+        "zh_CN": "局部降雪",
+        "zh_TW": "局部降雪"
+      }
+    },
+    {
+      "id": 512524,
+      "charId": 125,
+      "names": {
+        "en_US": "Frost Warning",
+        "ja_JP": "霜害警告",
+        "ko_KR": "서리의 경고",
+        "zh_CN": "霜冻警告",
+        "zh_TW": "霜凍警告"
+      }
+    },
+    {
+      "id": 512525,
+      "charId": 125,
+      "names": {
+        "en_US": "Winter\u0027s Grip",
+        "ja_JP": "厳冬の牙",
+        "ko_KR": "혹한의 깨물기",
+        "zh_CN": "凛冬之咬",
+        "zh_TW": "凜冬之咬"
+      }
+    },
+    {
+      "id": 512526,
+      "charId": 125,
+      "names": {
+        "en_US": "Penetrating Chill",
+        "ja_JP": "絶対零度",
+        "ko_KR": "뼈 시리는 추위",
+        "zh_CN": "蚀骨之寒",
+        "zh_TW": "蝕骨之寒"
+      }
+    },
+    {
+      "id": 512527,
+      "charId": 125,
+      "names": {
+        "en_US": "Crackling Zero",
+        "ja_JP": "氷塊爆砕",
+        "ko_KR": "영도 폭발",
+        "zh_CN": "爆裂零度",
+        "zh_TW": "爆裂零度"
+      }
+    },
+    {
+      "id": 512528,
+      "charId": 125,
+      "names": {
+        "en_US": "Ocean of Law",
+        "ja_JP": "法律の氷原",
+        "ko_KR": "법의 바다",
+        "zh_CN": "法律之海",
+        "zh_TW": "法律之海"
+      }
+    },
+    {
+      "id": 512529,
+      "charId": 125,
+      "names": {
+        "en_US": "Power of Redemption",
+        "ja_JP": "自己弁護",
+        "ko_KR": "구원의 힘",
+        "zh_CN": "救赎之力",
+        "zh_TW": "救贖之力"
+      }
+    },
+    {
+      "id": 512530,
+      "charId": 125,
+      "names": {
+        "en_US": "Blessing of Faith",
+        "ja_JP": "家門の力",
+        "ko_KR": "신앙의 가호",
+        "zh_CN": "信仰庇佑",
+        "zh_TW": "信仰庇佑"
+      }
+    },
+    {
+      "id": 512531,
+      "charId": 125,
+      "names": {
+        "en_US": "Guardian\u0027s Heart",
+        "ja_JP": "弁護士の心",
+        "ko_KR": "수호의 의지",
+        "zh_CN": "守护之心",
+        "zh_TW": "守護之心"
+      }
+    },
+    {
+      "id": 512532,
+      "charId": 125,
+      "names": {
+        "en_US": "Silent Prayer",
+        "ja_JP": "密かな信念",
+        "ko_KR": "침묵 속의 기도",
+        "zh_CN": "静默祈愿",
+        "zh_TW": "靜默祈願"
+      }
+    },
+    {
+      "id": 512533,
+      "charId": 125,
+      "names": {
+        "en_US": "Temporal Revival",
+        "ja_JP": "前進的論証",
+        "ko_KR": "시간 역행",
+        "zh_CN": "溯时复苏",
+        "zh_TW": "溯時復甦"
+      }
+    },
+    {
+      "id": 512541,
+      "charId": 125,
+      "names": {
+        "en_US": "Ice Vortex",
+        "ja_JP": "氷渦",
+        "ko_KR": "얼음의 소용돌이",
+        "zh_CN": "冰蚀漩涡",
+        "zh_TW": "冰蝕漩渦"
+      }
+    },
+    {
+      "id": 512542,
+      "charId": 125,
+      "names": {
+        "en_US": "Wuthering Cold Snap",
+        "ja_JP": "唸る寒流",
+        "ko_KR": "휘몰아치는 한기",
+        "zh_CN": "呼啸寒流",
+        "zh_TW": "呼嘯寒流"
+      }
+    },
+    {
+      "id": 512543,
+      "charId": 125,
+      "names": {
+        "en_US": "Frost Slash",
+        "ja_JP": "反証論破",
+        "ko_KR": "서리의 참격",
+        "zh_CN": "凛霜立斩",
+        "zh_TW": "凜霜立斬"
+      }
+    },
+    {
+      "id": 512601,
+      "charId": 126,
+      "names": {
+        "en_US": "Spiral Dance",
+        "ja_JP": "螺旋の舞",
+        "ko_KR": "나선 스핀",
+        "zh_CN": "螺旋舞",
+        "zh_TW": "螺旋舞"
+      }
+    },
+    {
+      "id": 512602,
+      "charId": 126,
+      "names": {
+        "en_US": "Ending Song",
+        "ja_JP": "最終ステージ",
+        "ko_KR": "엔딩곡",
+        "zh_CN": "片尾曲",
+        "zh_TW": "片尾曲"
+      }
+    },
+    {
+      "id": 512603,
+      "charId": 126,
+      "names": {
+        "en_US": "Harmony Verse",
+        "ja_JP": "協演の炎",
+        "ko_KR": "기쁨의 시가",
+        "zh_CN": "协乐诗",
+        "zh_TW": "協樂詩"
+      }
+    },
+    {
+      "id": 512604,
+      "charId": 126,
+      "names": {
+        "en_US": "Other Self",
+        "ja_JP": "分身マジック",
+        "ko_KR": "또 다른 자아",
+        "zh_CN": "他人格",
+        "zh_TW": "多重人格"
+      }
+    },
+    {
+      "id": 512605,
+      "charId": 126,
+      "names": {
+        "en_US": "Movement Artistry",
+        "ja_JP": "ポジショニング",
+        "ko_KR": "위치 조정",
+        "zh_CN": "走位调度",
+        "zh_TW": "走位調度"
+      }
+    },
+    {
+      "id": 512606,
+      "charId": 126,
+      "names": {
+        "en_US": "Perception of Psyche",
+        "ja_JP": "反響観察",
+        "ko_KR": "심연 관찰",
+        "zh_CN": "观看心流",
+        "zh_TW": "觀看心流"
+      }
+    },
+    {
+      "id": 512607,
+      "charId": 126,
+      "names": {
+        "en_US": "Absurd Follies",
+        "ja_JP": "増殖マジック",
+        "ko_KR": "황당한 소동",
+        "zh_CN": "荒诞闹剧",
+        "zh_TW": "荒誕鬧劇"
+      }
+    },
+    {
+      "id": 512608,
+      "charId": 126,
+      "names": {
+        "en_US": "Emotional Catharsis",
+        "ja_JP": "読心マジック",
+        "ko_KR": "감정 분출",
+        "zh_CN": "情感宣泄",
+        "zh_TW": "情感宣洩"
+      }
+    },
+    {
+      "id": 512609,
+      "charId": 126,
+      "names": {
+        "en_US": "Hero\u0027s Halo",
+        "ja_JP": "メインキャスト",
+        "ko_KR": "주인공 버프",
+        "zh_CN": "主人公光环",
+        "zh_TW": "主角光環"
+      }
+    },
+    {
+      "id": 512610,
+      "charId": 126,
+      "names": {
+        "en_US": "Chekhov\u0027s Arm",
+        "ja_JP": "イリュージョン",
+        "ko_KR": "체호프의 총",
+        "zh_CN": "契科夫之枪",
+        "zh_TW": "契訶夫之槍"
+      }
+    },
+    {
+      "id": 512611,
+      "charId": 126,
+      "names": {
+        "en_US": "Rhythm Surge",
+        "ja_JP": "フラリッシュ",
+        "ko_KR": "리듬 가속",
+        "zh_CN": "节奏加速",
+        "zh_TW": "節奏加速"
+      }
+    },
+    {
+      "id": 512612,
+      "charId": 126,
+      "names": {
+        "en_US": "Impromptu Performance",
+        "ja_JP": "即興マジック",
+        "ko_KR": "즉흥 연기",
+        "zh_CN": "即兴演绎",
+        "zh_TW": "即興表演"
+      }
+    },
+    {
+      "id": 512613,
+      "charId": 126,
+      "names": {
+        "en_US": "Home Court Dominance",
+        "ja_JP": "観客掌握",
+        "ko_KR": "전장의 지배자",
+        "zh_CN": "主场压制",
+        "zh_TW": "主場壓制"
+      }
+    },
+    {
+      "id": 512621,
+      "charId": 126,
+      "names": {
+        "en_US": "Ember of Tomorrow",
+        "ja_JP": "篝火・未来",
+        "ko_KR": "미래·희망의 불씨",
+        "zh_CN": "明日·薪火",
+        "zh_TW": "明日·薪火"
+      }
+    },
+    {
+      "id": 512622,
+      "charId": 126,
+      "names": {
+        "en_US": "Ember Rekindled",
+        "ja_JP": "篝火・再燃",
+        "ko_KR": "불씨의 재점화",
+        "zh_CN": "薪火的再燃",
+        "zh_TW": "薪火的再燃"
+      }
+    },
+    {
+      "id": 512623,
+      "charId": 126,
+      "names": {
+        "en_US": "Ashes of the Past",
+        "ja_JP": "灰燼・過去",
+        "ko_KR": "과거·잿더미",
+        "zh_CN": "往日·余烬",
+        "zh_TW": "往日·餘燼"
+      }
+    },
+    {
+      "id": 512624,
+      "charId": 126,
+      "names": {
+        "en_US": "Spark of Ashes",
+        "ja_JP": "灰燼・残炎",
+        "ko_KR": "잿더미 속 불씨",
+        "zh_CN": "余烬的火星",
+        "zh_TW": "餘燼的火星"
+      }
+    },
+    {
+      "id": 512625,
+      "charId": 126,
+      "names": {
+        "en_US": "Foreshadowing Verification",
+        "ja_JP": "トリック検証",
+        "ko_KR": "복선 검증",
+        "zh_CN": "伏笔验证",
+        "zh_TW": "伏筆驗證"
+      }
+    },
+    {
+      "id": 512626,
+      "charId": 126,
+      "names": {
+        "en_US": "Crowd Effect",
+        "ja_JP": "エキストラ効果",
+        "ko_KR": "군중 효과",
+        "zh_CN": "群演效应",
+        "zh_TW": "臨演效應"
+      }
+    },
+    {
+      "id": 512627,
+      "charId": 126,
+      "names": {
+        "en_US": "Perfect Acting",
+        "ja_JP": "完璧なショー",
+        "ko_KR": "완벽한 연계",
+        "zh_CN": "完美接戏",
+        "zh_TW": "完美接戲"
+      }
+    },
+    {
+      "id": 512628,
+      "charId": 126,
+      "names": {
+        "en_US": "Visual Impact",
+        "ja_JP": "クロースアップ",
+        "ko_KR": "시각적 충격",
+        "zh_CN": "视觉冲击",
+        "zh_TW": "視覺衝擊"
+      }
+    },
+    {
+      "id": 512629,
+      "charId": 126,
+      "names": {
+        "en_US": "Reinforced Impression",
+        "ja_JP": "イメージ強化",
+        "ko_KR": "인상 강화",
+        "zh_CN": "印象强化",
+        "zh_TW": "印象強化"
+      }
+    },
+    {
+      "id": 512630,
+      "charId": 126,
+      "names": {
+        "en_US": "Post-credits Scene",
+        "ja_JP": "熱狂フィナーレ",
+        "ko_KR": "이스터 에그",
+        "zh_CN": "片尾彩蛋",
+        "zh_TW": "片尾彩蛋"
+      }
+    },
+    {
+      "id": 512631,
+      "charId": 126,
+      "names": {
+        "en_US": "Guest Performer",
+        "ja_JP": "客演ステージ",
+        "ko_KR": "특별 출연",
+        "zh_CN": "客串回",
+        "zh_TW": "客串回"
+      }
+    },
+    {
+      "id": 512632,
+      "charId": 126,
+      "names": {
+        "en_US": "Backstage Support",
+        "ja_JP": "回復マジック",
+        "ko_KR": "배후의 지원",
+        "zh_CN": "幕后的支援",
+        "zh_TW": "幕後的支援"
+      }
+    },
+    {
+      "id": 512633,
+      "charId": 126,
+      "names": {
+        "en_US": "Everlasting Show",
+        "ja_JP": "魅惑のショー",
+        "ko_KR": "끝없는 공연",
+        "zh_CN": "永不落幕的演出",
+        "zh_TW": "永不落幕的演出"
+      }
+    },
+    {
+      "id": 512641,
+      "charId": 126,
+      "names": {
+        "en_US": "Lethal Inferno",
+        "ja_JP": "煌焔トリック",
+        "ko_KR": "숨막히는 불꽃",
+        "zh_CN": "绝息热焰",
+        "zh_TW": "絕息熱焰"
+      }
+    },
+    {
+      "id": 512642,
+      "charId": 126,
+      "names": {
+        "en_US": "Weave of Annihilation",
+        "ja_JP": "煌焔バニッシュ",
+        "ko_KR": "해탈의 깨달음",
+        "zh_CN": "诸蕴灭尽",
+        "zh_TW": "諸蘊滅盡"
+      }
+    },
+    {
+      "id": 512643,
+      "charId": 126,
+      "names": {
+        "en_US": "Reincarnation of Fire",
+        "ja_JP": "煌焔フォース",
+        "ko_KR": "불길의 윤회",
+        "zh_CN": "渡火轮回",
+        "zh_TW": "渡火輪迴"
+      }
+    },
+    {
+      "id": 512701,
+      "charId": 127,
+      "names": {
+        "en_US": "Stream: Cascade Strike",
+        "ja_JP": "飛水・爆撃",
+        "ko_KR": "물결·폭포의 일격",
+        "zh_CN": "潺流·瀑击",
+        "zh_TW": "潺流·瀑擊"
+      }
+    },
+    {
+      "id": 512702,
+      "charId": 127,
+      "names": {
+        "en_US": "Stream: True Charged Strike",
+        "ja_JP": "飛水・溜力",
+        "ko_KR": "물결·진축의 참격",
+        "zh_CN": "潺流·真蓄斩击",
+        "zh_TW": "潺流·真蓄斬擊"
+      }
+    },
+    {
+      "id": 512703,
+      "charId": 127,
+      "names": {
+        "en_US": "Stream: Cloud Ring",
+        "ja_JP": "飛水・環雲",
+        "ko_KR": "물결·휘감는 구름",
+        "zh_CN": "潺流·环雲",
+        "zh_TW": "潺流·環雲"
+      }
+    },
+    {
+      "id": 512704,
+      "charId": 127,
+      "names": {
+        "en_US": "Stream: Drip\u0027s Overturn",
+        "ja_JP": "飛水・加護",
+        "ko_KR": "물결·덮치는 물방울",
+        "zh_CN": "潺流·滴水之覆",
+        "zh_TW": "潺流·滴水之覆"
+      }
+    },
+    {
+      "id": 512705,
+      "charId": 127,
+      "names": {
+        "en_US": "Magic Sword Smack",
+        "ja_JP": "魔剣重圧",
+        "ko_KR": "마검의 위압",
+        "zh_CN": "魔剑重压",
+        "zh_TW": "魔劍重壓"
+      }
+    },
+    {
+      "id": 512706,
+      "charId": 127,
+      "names": {
+        "en_US": "Muddy Engulf",
+        "ja_JP": "大剣の傷痕",
+        "ko_KR": "혼탁한 물결",
+        "zh_CN": "浊噬",
+        "zh_TW": "濁噬"
+      }
+    },
+    {
+      "id": 512707,
+      "charId": 127,
+      "names": {
+        "en_US": "Cordiality",
+        "ja_JP": "濁流の誘い",
+        "ko_KR": "불타는 열정",
+        "zh_CN": "热诚",
+        "zh_TW": "熱誠"
+      }
+    },
+    {
+      "id": 512708,
+      "charId": 127,
+      "names": {
+        "en_US": "Guardsman Blessing",
+        "ja_JP": "護り人の祝福",
+        "ko_KR": "수호의 은총",
+        "zh_CN": "守卫赐福",
+        "zh_TW": "守衛賜福"
+      }
+    },
+    {
+      "id": 512709,
+      "charId": 127,
+      "names": {
+        "en_US": "Magic Sword Siphoning",
+        "ja_JP": "吸魔大剣",
+        "ko_KR": "마검의 에너지 흡수",
+        "zh_CN": "魔剑汲能",
+        "zh_TW": "魔劍汲能"
+      }
+    },
+    {
+      "id": 512710,
+      "charId": 127,
+      "names": {
+        "en_US": "Restarting",
+        "ja_JP": "魔盾召喚",
+        "ko_KR": "재개하는 힘",
+        "zh_CN": "再启",
+        "zh_TW": "再啟"
+      }
+    },
+    {
+      "id": 512711,
+      "charId": 127,
+      "names": {
+        "en_US": "Magic Shield Enhancement",
+        "ja_JP": "魔盾強化",
+        "ko_KR": "마법 방패 강화",
+        "zh_CN": "魔盾强化",
+        "zh_TW": "魔盾強化"
+      }
+    },
+    {
+      "id": 512712,
+      "charId": 127,
+      "names": {
+        "en_US": "Power Strike",
+        "ja_JP": "溜めの一撃",
+        "ko_KR": "차징 일격",
+        "zh_CN": "蓄能打击",
+        "zh_TW": "蓄能打擊"
+      }
+    },
+    {
+      "id": 512713,
+      "charId": 127,
+      "names": {
+        "en_US": "Unbreakable Bond",
+        "ja_JP": "仲間との絆",
+        "ko_KR": "대체불가한 인연",
+        "zh_CN": "无可取代的牵绊",
+        "zh_TW": "無可取代的牽絆"
+      }
+    },
+    {
+      "id": 512721,
+      "charId": 127,
+      "names": {
+        "en_US": "Surge: Infinite",
+        "ja_JP": "絶流・無限",
+        "ko_KR": "끝없는 분출·무한",
+        "zh_CN": "绝涌·不竭",
+        "zh_TW": "絕湧·不竭"
+      }
+    },
+    {
+      "id": 512722,
+      "charId": 127,
+      "names": {
+        "en_US": "Surge: Ripple",
+        "ja_JP": "絶流・波紋",
+        "ko_KR": "끝없는 분출·물결",
+        "zh_CN": "绝涌·涟漪",
+        "zh_TW": "絕湧·漣漪"
+      }
+    },
+    {
+      "id": 512723,
+      "charId": 127,
+      "names": {
+        "en_US": "Surge: Immortality",
+        "ja_JP": "絶流・悠久",
+        "ko_KR": "끝없는 분출·불식",
+        "zh_CN": "绝涌·不息",
+        "zh_TW": "絕湧·不息"
+      }
+    },
+    {
+      "id": 512724,
+      "charId": 127,
+      "names": {
+        "en_US": "Surge: Thunderbolt",
+        "ja_JP": "絶流・重圧",
+        "ko_KR": "끝없는 분출·신속",
+        "zh_CN": "绝涌·快霆",
+        "zh_TW": "絕湧·快霆"
+      }
+    },
+    {
+      "id": 512725,
+      "charId": 127,
+      "names": {
+        "en_US": "Isn\u0027t It Awesome!",
+        "ja_JP": "どうにゃ！",
+        "ko_KR": "대단하지!",
+        "zh_CN": "很厉害吧！",
+        "zh_TW": "很厲害吧！"
+      }
+    },
+    {
+      "id": 512726,
+      "charId": 127,
+      "names": {
+        "en_US": "Hold On!",
+        "ja_JP": "まだまだにゃ！",
+        "ko_KR": "조금만 더 버텨!",
+        "zh_CN": "再坚持下！",
+        "zh_TW": "再堅持一下！"
+      }
+    },
+    {
+      "id": 512727,
+      "charId": 127,
+      "names": {
+        "en_US": "I\u0027ll Protect You!",
+        "ja_JP": "ウチが守るよ！",
+        "ko_KR": "내가 지켜줄게!",
+        "zh_CN": "我保护你！",
+        "zh_TW": "我保護你！"
+      }
+    },
+    {
+      "id": 512728,
+      "charId": 127,
+      "names": {
+        "en_US": "Stay Away!",
+        "ja_JP": "近づくにゃ！",
+        "ko_KR": "가까이 오지마!",
+        "zh_CN": "不准靠近！",
+        "zh_TW": "不准靠近！"
+      }
+    },
+    {
+      "id": 512729,
+      "charId": 127,
+      "names": {
+        "en_US": "Let Me Help!",
+        "ja_JP": "強化するにゃ！",
+        "ko_KR": "내가 강화해 줄게!",
+        "zh_CN": "我来强化！",
+        "zh_TW": "我來強化！"
+      }
+    },
+    {
+      "id": 512730,
+      "charId": 127,
+      "names": {
+        "en_US": "How About This!",
+        "ja_JP": "決めるにゃ！",
+        "ko_KR": "이건 어때!",
+        "zh_CN": "这样如何！",
+        "zh_TW": "這樣如何！"
+      }
+    },
+    {
+      "id": 512731,
+      "charId": 127,
+      "names": {
+        "en_US": "Band-aid Collector",
+        "ja_JP": "絆創膏集め",
+        "ko_KR": "반창고 수집가",
+        "zh_CN": "创可贴收藏家",
+        "zh_TW": "OK繃收藏家"
+      }
+    },
+    {
+      "id": 512732,
+      "charId": 127,
+      "names": {
+        "en_US": "Magic Sword Wielder",
+        "ja_JP": "縁の下の力持ち",
+        "ko_KR": "마검 지배자",
+        "zh_CN": "魔剑掌握者",
+        "zh_TW": "魔劍掌握者"
+      }
+    },
+    {
+      "id": 512733,
+      "charId": 127,
+      "names": {
+        "en_US": "Shortcut Seeker",
+        "ja_JP": "激流鼓舞",
+        "ko_KR": "지름길의 행인",
+        "zh_CN": "捷径寻路人",
+        "zh_TW": "捷徑尋路人"
+      }
+    },
+    {
+      "id": 512741,
+      "charId": 127,
+      "names": {
+        "en_US": "Wave Breaker",
+        "ja_JP": "絶水渦流",
+        "ko_KR": "끝없는 파도",
+        "zh_CN": "绝浪之流",
+        "zh_TW": "絕浪之流"
+      }
+    },
+    {
+      "id": 512742,
+      "charId": 127,
+      "names": {
+        "en_US": "Power Unbound",
+        "ja_JP": "限界超越",
+        "ko_KR": "속성 해방",
+        "zh_CN": "属性解放",
+        "zh_TW": "屬性解放"
+      }
+    },
+    {
+      "id": 512743,
+      "charId": 127,
+      "names": {
+        "en_US": "Demonic Devour",
+        "ja_JP": "潮流魔剣",
+        "ko_KR": "마성의 침식",
+        "zh_CN": "魔性之噬",
+        "zh_TW": "魔性之噬"
+      }
+    },
+    {
+      "id": 513201,
+      "charId": 132,
+      "names": {
+        "en_US": "Ultimatum",
+        "ja_JP": "最後通牒",
+        "ko_KR": "최후통첩",
+        "zh_CN": "最后通牒",
+        "zh_TW": "最後通牒"
+      }
+    },
+    {
+      "id": 513202,
+      "charId": 132,
+      "names": {
+        "en_US": "Clan Clash Artistry",
+        "ja_JP": "爆走準備",
+        "ko_KR": "스트리트 파이트",
+        "zh_CN": "街斗艺术",
+        "zh_TW": "街鬥藝術"
+      }
+    },
+    {
+      "id": 513203,
+      "charId": 132,
+      "names": {
+        "en_US": "Board Tricks",
+        "ja_JP": "フルスイング",
+        "ko_KR": "끄트머리 사용법",
+        "zh_CN": "板尖妙用",
+        "zh_TW": "板尖妙用"
+      }
+    },
+    {
+      "id": 513204,
+      "charId": 132,
+      "names": {
+        "en_US": "No Respite",
+        "ja_JP": "連続打撃",
+        "ko_KR": "연속 공격",
+        "zh_CN": "不予喘息",
+        "zh_TW": "不予喘息"
+      }
+    },
+    {
+      "id": 513205,
+      "charId": 132,
+      "names": {
+        "en_US": "Ashwind Rhythm",
+        "ja_JP": "灰色の街の光",
+        "ko_KR": "윈드 애시 리듬",
+        "zh_CN": "灰风节拍",
+        "zh_TW": "灰風節拍"
+      }
+    },
+    {
+      "id": 513206,
+      "charId": 132,
+      "names": {
+        "en_US": "Unyielding Strength",
+        "ja_JP": "闘魂躍進",
+        "ko_KR": "전투의 승화",
+        "zh_CN": "愈战愈强",
+        "zh_TW": "越戰越強"
+      }
+    },
+    {
+      "id": 513207,
+      "charId": 132,
+      "names": {
+        "en_US": "On a Roll",
+        "ja_JP": "気焔万丈",
+        "ko_KR": "짜릿한 손맛",
+        "zh_CN": "手感火热",
+        "zh_TW": "手感火熱"
+      }
+    },
+    {
+      "id": 513208,
+      "charId": 132,
+      "names": {
+        "en_US": "Radiant Glow",
+        "ja_JP": "光輝炸裂",
+        "ko_KR": "눈 부신 광휘",
+        "zh_CN": "耀目辉芒",
+        "zh_TW": "耀目輝芒"
+      }
+    },
+    {
+      "id": 513209,
+      "charId": 132,
+      "names": {
+        "en_US": "Light Burn",
+        "ja_JP": "光印の加護",
+        "ko_KR": "빛에 그을린 흔적",
+        "zh_CN": "光印灼痕",
+        "zh_TW": "光印灼痕"
+      }
+    },
+    {
+      "id": 513210,
+      "charId": 132,
+      "names": {
+        "en_US": "Nebulous Reverb",
+        "ja_JP": "星雲の誓い",
+        "ko_KR": "성운의 메아리",
+        "zh_CN": "星云残响",
+        "zh_TW": "星雲殘響"
+      }
+    },
+    {
+      "id": 513211,
+      "charId": 132,
+      "names": {
+        "en_US": "More Than Just Pretty",
+        "ja_JP": "真の実力者",
+        "ko_KR": "보이는 게 다가 아냐",
+        "zh_CN": "不止好看而已",
+        "zh_TW": "不只好看而已"
+      }
+    },
+    {
+      "id": 513212,
+      "charId": 132,
+      "names": {
+        "en_US": "Home Court Advantage",
+        "ja_JP": "ホームの強み",
+        "ko_KR": "홈 어드밴티지",
+        "zh_CN": "主场作战优势",
+        "zh_TW": "主場作戰優勢"
+      }
+    },
+    {
+      "id": 513213,
+      "charId": 132,
+      "names": {
+        "en_US": "Starlit Sky",
+        "ja_JP": "流星の打者",
+        "ko_KR": "별빛 하늘을 가르며",
+        "zh_CN": "划过夜空之星",
+        "zh_TW": "劃過夜空之星"
+      }
+    },
+    {
+      "id": 513221,
+      "charId": 132,
+      "names": {
+        "en_US": "Four-Star Wanted Level",
+        "ja_JP": "総長の名声",
+        "ko_KR": "4성 수배",
+        "zh_CN": "四星通缉",
+        "zh_TW": "四星通緝"
+      }
+    },
+    {
+      "id": 513222,
+      "charId": 132,
+      "names": {
+        "en_US": "Radiant Burst",
+        "ja_JP": "閃光爆裂",
+        "ko_KR": "섬광 폭발",
+        "zh_CN": "闪耀爆裂",
+        "zh_TW": "閃耀爆裂"
+      }
+    },
+    {
+      "id": 513223,
+      "charId": 132,
+      "names": {
+        "en_US": "Oath Satellite",
+        "ja_JP": "流星の守り",
+        "ko_KR": "수호의 별빛",
+        "zh_CN": "誓盟卫星",
+        "zh_TW": "誓盟衛星"
+      }
+    },
+    {
+      "id": 513224,
+      "charId": 132,
+      "names": {
+        "en_US": "Star Core Crumbled",
+        "ja_JP": "流星の欠片",
+        "ko_KR": "성핵 폭발",
+        "zh_CN": "星核碎裂",
+        "zh_TW": "星核碎裂"
+      }
+    },
+    {
+      "id": 513225,
+      "charId": 132,
+      "names": {
+        "en_US": "Optimal Hit Zone",
+        "ja_JP": "ミートエリア",
+        "ko_KR": "완벽한 타격 지점",
+        "zh_CN": "好球区域",
+        "zh_TW": "好球區域"
+      }
+    },
+    {
+      "id": 513226,
+      "charId": 132,
+      "names": {
+        "en_US": "Shutout Desire",
+        "ja_JP": "完封欲求",
+        "ko_KR": "욕망의 봉쇄",
+        "zh_CN": "完封欲望",
+        "zh_TW": "完封慾望"
+      }
+    },
+    {
+      "id": 513227,
+      "charId": 132,
+      "names": {
+        "en_US": "Final Score",
+        "ja_JP": "最終得点",
+        "ko_KR": "클러치 득점",
+        "zh_CN": "终局得分",
+        "zh_TW": "終局得分"
+      }
+    },
+    {
+      "id": 513228,
+      "charId": 132,
+      "names": {
+        "en_US": "Perfect Arc",
+        "ja_JP": "ジャストミート",
+        "ko_KR": "완벽한 포물선",
+        "zh_CN": "完美弧度",
+        "zh_TW": "完美弧度"
+      }
+    },
+    {
+      "id": 513229,
+      "charId": 132,
+      "names": {
+        "en_US": "Three Base Hit",
+        "ja_JP": "三塁打",
+        "ko_KR": "삼루타",
+        "zh_CN": "三垒打",
+        "zh_TW": "三壘安打"
+      }
+    },
+    {
+      "id": 513230,
+      "charId": 132,
+      "names": {
+        "en_US": "Fervent Applause",
+        "ja_JP": "大喝采",
+        "ko_KR": "엄청난 환호",
+        "zh_CN": "大喝彩",
+        "zh_TW": "大喝采"
+      }
+    },
+    {
+      "id": 513231,
+      "charId": 132,
+      "names": {
+        "en_US": "Ashwind\u0027s Wrath",
+        "ja_JP": "縄張り争い",
+        "ko_KR": "윈드 애시를 건드렸어",
+        "zh_CN": "你惹上灰风了",
+        "zh_TW": "你惹到灰風了"
+      }
+    },
+    {
+      "id": 513232,
+      "charId": 132,
+      "names": {
+        "en_US": "Home Run State",
+        "ja_JP": "ホームラン予告",
+        "ko_KR": "홈런 상태",
+        "zh_CN": "全垒打状态",
+        "zh_TW": "全壘打狀態"
+      }
+    },
+    {
+      "id": 513233,
+      "charId": 132,
+      "names": {
+        "en_US": "Radiant Synergy",
+        "ja_JP": "輝光の連携",
+        "ko_KR": "빛의 연계",
+        "zh_CN": "辉光连携",
+        "zh_TW": "輝光連攜"
+      }
+    },
+    {
+      "id": 513241,
+      "charId": 132,
+      "names": {
+        "en_US": "Urgent Reinforcement",
+        "ja_JP": "緊急増員",
+        "ko_KR": "긴급 증원",
+        "zh_CN": "紧急增员",
+        "zh_TW": "緊急增員"
+      }
+    },
+    {
+      "id": 513242,
+      "charId": 132,
+      "names": {
+        "en_US": "Flash of Starlight",
+        "ja_JP": "星光登場",
+        "ko_KR": "번쩍이는 별빛",
+        "zh_CN": "星光乍现",
+        "zh_TW": "星光乍現"
+      }
+    },
+    {
+      "id": 513243,
+      "charId": 132,
+      "names": {
+        "en_US": "Weakness Strike",
+        "ja_JP": "弱点直撃",
+        "ko_KR": "약점 직격타",
+        "zh_CN": "弱点直击",
+        "zh_TW": "弱點直擊"
+      }
+    },
+    {
+      "id": 513401,
+      "charId": 134,
+      "names": {
+        "en_US": "Reload",
+        "ja_JP": "連撃よーい！",
+        "ko_KR": "재장전",
+        "zh_CN": "再装填",
+        "zh_TW": "再裝填"
+      }
+    },
+    {
+      "id": 513402,
+      "charId": 134,
+      "names": {
+        "en_US": "Double Strike",
+        "ja_JP": "延焼パンチ",
+        "ko_KR": "2연타",
+        "zh_CN": "二连打",
+        "zh_TW": "二連擊"
+      }
+    },
+    {
+      "id": 513403,
+      "charId": 134,
+      "names": {
+        "en_US": "Kitty Punch",
+        "ja_JP": "ネコパンチ",
+        "ko_KR": "냥냥펀치",
+        "zh_CN": "猫猫拳",
+        "zh_TW": "貓貓拳"
+      }
+    },
+    {
+      "id": 513404,
+      "charId": 134,
+      "names": {
+        "en_US": "Multi-Shot",
+        "ja_JP": "焔の構え",
+        "ko_KR": "다중 사격",
+        "zh_CN": "多发弹",
+        "zh_TW": "多發彈"
+      }
+    },
+    {
+      "id": 513405,
+      "charId": 134,
+      "names": {
+        "en_US": "Pyro Mark",
+        "ja_JP": "ヒートサイン",
+        "ko_KR": "불꽃의 낙인",
+        "zh_CN": "炎能烙印",
+        "zh_TW": "炎能烙印"
+      }
+    },
+    {
+      "id": 513406,
+      "charId": 134,
+      "names": {
+        "en_US": "Thunder Punch",
+        "ja_JP": "ブレイズナックル",
+        "ko_KR": "강력 펀치의 울림",
+        "zh_CN": "重拳轰鸣",
+        "zh_TW": "重拳轟鳴"
+      }
+    },
+    {
+      "id": 513407,
+      "charId": 134,
+      "names": {
+        "en_US": "All-Out Effort",
+        "ja_JP": "烈火の覚悟",
+        "ko_KR": "전심전력",
+        "zh_CN": "全力以赴",
+        "zh_TW": "全力以赴"
+      }
+    },
+    {
+      "id": 513408,
+      "charId": 134,
+      "names": {
+        "en_US": "Combo Punch",
+        "ja_JP": "フレアラッシュ",
+        "ko_KR": "쾌속 연타",
+        "zh_CN": "快拳连打",
+        "zh_TW": "快拳連打"
+      }
+    },
+    {
+      "id": 513409,
+      "charId": 134,
+      "names": {
+        "en_US": "Blast Pursuit",
+        "ja_JP": "追撃ファイヤー",
+        "ko_KR": "폭열 추격",
+        "zh_CN": "爆裂追击",
+        "zh_TW": "爆裂追擊"
+      }
+    },
+    {
+      "id": 513410,
+      "charId": 134,
+      "names": {
+        "en_US": "Inertial Punch",
+        "ja_JP": "ラヴァチャージ",
+        "ko_KR": "철권 차징",
+        "zh_CN": "铁拳蓄势",
+        "zh_TW": "鐵拳蓄勢"
+      }
+    },
+    {
+      "id": 513411,
+      "charId": 134,
+      "names": {
+        "en_US": "Swirling Counterattack",
+        "ja_JP": "イグニッション",
+        "ko_KR": "회전 반격",
+        "zh_CN": "回旋反击",
+        "zh_TW": "迴旋反擊"
+      }
+    },
+    {
+      "id": 513412,
+      "charId": 134,
+      "names": {
+        "en_US": "Bold Challenge",
+        "ja_JP": "勇猛火敢",
+        "ko_KR": "용맹한 도전",
+        "zh_CN": "勇猛挑战",
+        "zh_TW": "勇猛挑戰"
+      }
+    },
+    {
+      "id": 513413,
+      "charId": 134,
+      "names": {
+        "en_US": "Finishing Blow",
+        "ja_JP": "紅蓮のトドメ",
+        "ko_KR": "마지막 일격",
+        "zh_CN": "终结打击",
+        "zh_TW": "終結打擊"
+      }
+    },
+    {
+      "id": 513421,
+      "charId": 134,
+      "names": {
+        "en_US": "Sky Crusher",
+        "ja_JP": "ヘビーアタック",
+        "ko_KR": "쇄공",
+        "zh_CN": "碎空",
+        "zh_TW": "碎空"
+      }
+    },
+    {
+      "id": 513422,
+      "charId": 134,
+      "names": {
+        "en_US": "Lightning Split",
+        "ja_JP": "爆裂火花",
+        "ko_KR": "열섬",
+        "zh_CN": "裂闪",
+        "zh_TW": "裂閃"
+      }
+    },
+    {
+      "id": 513423,
+      "charId": 134,
+      "names": {
+        "en_US": "Meteor Strike",
+        "ja_JP": "バーストフレア",
+        "ko_KR": "유성",
+        "zh_CN": "流星",
+        "zh_TW": "流星"
+      }
+    },
+    {
+      "id": 513424,
+      "charId": 134,
+      "names": {
+        "en_US": "Fearless",
+        "ja_JP": "閃火の心",
+        "ko_KR": "무외",
+        "zh_CN": "无畏",
+        "zh_TW": "無畏"
+      }
+    },
+    {
+      "id": 513425,
+      "charId": 134,
+      "names": {
+        "en_US": "Frenzied Support",
+        "ja_JP": "熱烈エール",
+        "ko_KR": "광열의 지원",
+        "zh_CN": "狂热支援",
+        "zh_TW": "狂熱支援"
+      }
+    },
+    {
+      "id": 513426,
+      "charId": 134,
+      "names": {
+        "en_US": "Shock Raid",
+        "ja_JP": "アサルトフレイム",
+        "ko_KR": "격렬한 돌격",
+        "zh_CN": "震撼突袭",
+        "zh_TW": "震撼突襲"
+      }
+    },
+    {
+      "id": 513427,
+      "charId": 134,
+      "names": {
+        "en_US": "Gaining Momentum",
+        "ja_JP": "スキルウォーマー",
+        "ko_KR": "힘의 폭발 준비",
+        "zh_CN": "蓄势待发",
+        "zh_TW": "蓄勢待發"
+      }
+    },
+    {
+      "id": 513428,
+      "charId": 134,
+      "names": {
+        "en_US": "Multi-Blow Impact",
+        "ja_JP": "サポートコンボ",
+        "ko_KR": "다중 충격",
+        "zh_CN": "多重冲击",
+        "zh_TW": "多重衝擊"
+      }
+    },
+    {
+      "id": 513429,
+      "charId": 134,
+      "names": {
+        "en_US": "Lethal Boost",
+        "ja_JP": "ヒートアップ",
+        "ko_KR": "치명적인 증폭",
+        "zh_CN": "致命增幅",
+        "zh_TW": "致命增幅"
+      }
+    },
+    {
+      "id": 513430,
+      "charId": 134,
+      "names": {
+        "en_US": "Lightning Raid",
+        "ja_JP": "ナックルラッシュ",
+        "ko_KR": "전광석화",
+        "zh_CN": "闪电突袭",
+        "zh_TW": "閃電突襲"
+      }
+    },
+    {
+      "id": 513431,
+      "charId": 134,
+      "names": {
+        "en_US": "Hero\u0027s Will",
+        "ja_JP": "勇者の闘志",
+        "ko_KR": "용자의 의지",
+        "zh_CN": "勇者的意志",
+        "zh_TW": "勇者的意志"
+      }
+    },
+    {
+      "id": 513432,
+      "charId": 134,
+      "names": {
+        "en_US": "Prove of Strength",
+        "ja_JP": "才焔の証",
+        "ko_KR": "강자의 증명",
+        "zh_CN": "强者的证明",
+        "zh_TW": "強者的證明"
+      }
+    },
+    {
+      "id": 513433,
+      "charId": 134,
+      "names": {
+        "en_US": "Companion\u0027s Power",
+        "ja_JP": "仲間の力",
+        "ko_KR": "동료의 힘",
+        "zh_CN": "伙伴的力量",
+        "zh_TW": "夥伴的力量"
+      }
+    },
+    {
+      "id": 513441,
+      "charId": 134,
+      "names": {
+        "en_US": "Blazing Heart",
+        "ja_JP": "灼熱ハート",
+        "ko_KR": "불타는 마음",
+        "zh_CN": "炽热之心",
+        "zh_TW": "熾熱之心"
+      }
+    },
+    {
+      "id": 513442,
+      "charId": 134,
+      "names": {
+        "en_US": "Ironfist Blow",
+        "ja_JP": "業火の鉄拳",
+        "ko_KR": "바람을 가르는 철권",
+        "zh_CN": "铁拳如风",
+        "zh_TW": "鐵拳如風"
+      }
+    },
+    {
+      "id": 513443,
+      "charId": 134,
+      "names": {
+        "en_US": "Peak Condition",
+        "ja_JP": "レイジングソウル",
+        "ko_KR": "최고의 상태",
+        "zh_CN": "巅峰状态",
+        "zh_TW": "巔峰狀態"
+      }
+    },
+    {
+      "id": 513501,
+      "charId": 135,
+      "names": {
+        "en_US": "Defiance Before Deletion",
+        "ja_JP": "連続撮影",
+        "ko_KR": "삭제 전의 저항",
+        "zh_CN": "删前顽抗",
+        "zh_TW": "刪前頑抗"
+      }
+    },
+    {
+      "id": 513502,
+      "charId": 135,
+      "names": {
+        "en_US": "Rapid Fire",
+        "ja_JP": "削除への抵抗",
+        "ko_KR": "연속 촬영",
+        "zh_CN": "瞬时连拍",
+        "zh_TW": "瞬時連拍"
+      }
+    },
+    {
+      "id": 513503,
+      "charId": 135,
+      "names": {
+        "en_US": "Super Long Exposure",
+        "ja_JP": "助手との連携",
+        "ko_KR": "장노출",
+        "zh_CN": "超长曝光",
+        "zh_TW": "超長曝光"
+      }
+    },
+    {
+      "id": 513504,
+      "charId": 135,
+      "names": {
+        "en_US": "Thread the Needle",
+        "ja_JP": "スクープ激写",
+        "ko_KR": "순간 포착",
+        "zh_CN": "见缝插针",
+        "zh_TW": "見縫插針"
+      }
+    },
+    {
+      "id": 513505,
+      "charId": 135,
+      "names": {
+        "en_US": "Cursed Screech",
+        "ja_JP": "削除への呪言",
+        "ko_KR": "저주의 울부짖음",
+        "zh_CN": "厄咒啸叫",
+        "zh_TW": "厄咒嘯叫"
+      }
+    },
+    {
+      "id": 513506,
+      "charId": 135,
+      "names": {
+        "en_US": "Lingering Grudge: Demon Barrier",
+        "ja_JP": "削除への対策",
+        "ko_KR": "원념·악마의 시험",
+        "zh_CN": "遗怨·魔障",
+        "zh_TW": "遺怨·魔障"
+      }
+    },
+    {
+      "id": 513507,
+      "charId": 135,
+      "names": {
+        "en_US": "Lingering Grudge: Onslaught",
+        "ja_JP": "削除からの復活",
+        "ko_KR": "원념·강력 공격",
+        "zh_CN": "遗怨·强攻",
+        "zh_TW": "遺怨·強攻"
+      }
+    },
+    {
+      "id": 513508,
+      "charId": 135,
+      "names": {
+        "en_US": "Abominable Fester",
+        "ja_JP": "真実への執念",
+        "ko_KR": "증오의 폭발",
+        "zh_CN": "憎恶痛溃",
+        "zh_TW": "憎惡痛潰"
+      }
+    },
+    {
+      "id": 513509,
+      "charId": 135,
+      "names": {
+        "en_US": "Spotlight Craving",
+        "ja_JP": "表現欲求",
+        "ko_KR": "드러내는 욕망",
+        "zh_CN": "表现欲望",
+        "zh_TW": "表現慾望"
+      }
+    },
+    {
+      "id": 513510,
+      "charId": 135,
+      "names": {
+        "en_US": "Night Dash",
+        "ja_JP": "夜間疾走",
+        "ko_KR": "어둠 속 질주",
+        "zh_CN": "夜幕疾走",
+        "zh_TW": "夜幕疾走"
+      }
+    },
+    {
+      "id": 513511,
+      "charId": 135,
+      "names": {
+        "en_US": "Shadow Brightening",
+        "ja_JP": "露出補正",
+        "ko_KR": "네거티브 노출 보정",
+        "zh_CN": "负曝光补偿",
+        "zh_TW": "負曝光補償"
+      }
+    },
+    {
+      "id": 513512,
+      "charId": 135,
+      "names": {
+        "en_US": "Decisive Moment",
+        "ja_JP": "ベストショット",
+        "ko_KR": "결정적 순간",
+        "zh_CN": "决定性瞬间",
+        "zh_TW": "決定性瞬間"
+      }
+    },
+    {
+      "id": 513513,
+      "charId": 135,
+      "names": {
+        "en_US": "Full Frame Focus",
+        "ja_JP": "自動焦点調整",
+        "ko_KR": "풀 프레임 자동 초점",
+        "zh_CN": "全画幅对焦",
+        "zh_TW": "全片幅對焦"
+      }
+    },
+    {
+      "id": 513521,
+      "charId": 135,
+      "names": {
+        "en_US": "Stay Happy",
+        "ja_JP": "魔女の微笑み",
+        "ko_KR": "기쁨의 미소",
+        "zh_CN": "笑口常开",
+        "zh_TW": "笑口常開"
+      }
+    },
+    {
+      "id": 513522,
+      "charId": 135,
+      "names": {
+        "en_US": "Reality Erosion",
+        "ja_JP": "真実の追求",
+        "ko_KR": "현실 침식",
+        "zh_CN": "现世侵蚀",
+        "zh_TW": "現世侵蝕"
+      }
+    },
+    {
+      "id": 513523,
+      "charId": 135,
+      "names": {
+        "en_US": "Slumber Invitation",
+        "ja_JP": "ネタ集め",
+        "ko_KR": "수면 유혹",
+        "zh_CN": "邀约入眠",
+        "zh_TW": "邀約入眠"
+      }
+    },
+    {
+      "id": 513524,
+      "charId": 135,
+      "names": {
+        "en_US": "Lucky Constitution",
+        "ja_JP": "幸運体質",
+        "ko_KR": "행운의 체질",
+        "zh_CN": "幸运体质",
+        "zh_TW": "幸運體質"
+      }
+    },
+    {
+      "id": 513525,
+      "charId": 135,
+      "names": {
+        "en_US": "The Conjuring",
+        "ja_JP": "助手の指名",
+        "ko_KR": "초혼",
+        "zh_CN": "招魂",
+        "zh_TW": "招魂"
+      }
+    },
+    {
+      "id": 513526,
+      "charId": 135,
+      "names": {
+        "en_US": "Wraith Haunting",
+        "ja_JP": "助手の成長",
+        "ko_KR": "흉령",
+        "zh_CN": "凶灵",
+        "zh_TW": "凶靈"
+      }
+    },
+    {
+      "id": 513527,
+      "charId": 135,
+      "names": {
+        "en_US": "Twin Born",
+        "ja_JP": "助手の増員",
+        "ko_KR": "쌍생",
+        "zh_CN": "双生",
+        "zh_TW": "雙生"
+      }
+    },
+    {
+      "id": 513528,
+      "charId": 135,
+      "names": {
+        "en_US": "Malice",
+        "ja_JP": "質問攻め",
+        "ko_KR": "악의",
+        "zh_CN": "恶意",
+        "zh_TW": "惡意"
+      }
+    },
+    {
+      "id": 513529,
+      "charId": 135,
+      "names": {
+        "en_US": "Shadow Shackle",
+        "ja_JP": "新ネタへの執着",
+        "ko_KR": "그림자의 구속",
+        "zh_CN": "缚影",
+        "zh_TW": "縛影"
+      }
+    },
+    {
+      "id": 513530,
+      "charId": 135,
+      "names": {
+        "en_US": "Solar Absorption",
+        "ja_JP": "ターゲティング",
+        "ko_KR": "긍정의 힘",
+        "zh_CN": "汲阳",
+        "zh_TW": "汲陽"
+      }
+    },
+    {
+      "id": 513531,
+      "charId": 135,
+      "names": {
+        "en_US": "Extra Perk",
+        "ja_JP": "追加取材",
+        "ko_KR": "추가 복지",
+        "zh_CN": "额外福利",
+        "zh_TW": "額外福利"
+      }
+    },
+    {
+      "id": 513532,
+      "charId": 135,
+      "names": {
+        "en_US": "Trending Lock",
+        "ja_JP": "魔女の詮索眼",
+        "ko_KR": "적외선 열화상",
+        "zh_CN": "热点锁定",
+        "zh_TW": "熱點鎖定"
+      }
+    },
+    {
+      "id": 513533,
+      "charId": 135,
+      "names": {
+        "en_US": "Behind the Scenes",
+        "ja_JP": "暗躍者",
+        "ko_KR": "배후 작업",
+        "zh_CN": "幕后工作",
+        "zh_TW": "幕後工作"
+      }
+    },
+    {
+      "id": 513541,
+      "charId": 135,
+      "names": {
+        "en_US": "Darkness Devourer",
+        "ja_JP": "全力取材",
+        "ko_KR": "강력한 어둠의 탐식",
+        "zh_CN": "强暗吞噬",
+        "zh_TW": "強暗吞噬"
+      }
+    },
+    {
+      "id": 513542,
+      "charId": 135,
+      "names": {
+        "en_US": "Quick Nightfall",
+        "ja_JP": "真実の断片",
+        "ko_KR": "어둠의 빠른 도래",
+        "zh_CN": "加速入夜",
+        "zh_TW": "加速入夜"
+      }
+    },
+    {
+      "id": 513543,
+      "charId": 135,
+      "names": {
+        "en_US": "Chaos Frenzy",
+        "ja_JP": "ゴシップ発見",
+        "ko_KR": "광란의 혼돈",
+        "zh_CN": "混沌狂潮",
+        "zh_TW": "混沌狂潮"
+      }
+    },
+    {
+      "id": 514101,
+      "charId": 141,
+      "names": {
+        "en_US": "Sleepless Flame",
+        "ja_JP": "道標の焔",
+        "ko_KR": "불꽃의 각성",
+        "zh_CN": "焰光不眠",
+        "zh_TW": "焰光不眠"
+      }
+    },
+    {
+      "id": 514102,
+      "charId": 141,
+      "names": {
+        "en_US": "Shooting Star",
+        "ja_JP": "星焔の流光",
+        "ko_KR": "별빛의 불꽃",
+        "zh_CN": "星焰流光",
+        "zh_TW": "星焰流光"
+      }
+    },
+    {
+      "id": 514103,
+      "charId": 141,
+      "names": {
+        "en_US": "Flame-Stained Ink",
+        "ja_JP": "墨染めの焔",
+        "ko_KR": "먹에 스며든 불꽃",
+        "zh_CN": "焰染墨痕",
+        "zh_TW": "焰染墨痕"
+      }
+    },
+    {
+      "id": 514104,
+      "charId": 141,
+      "names": {
+        "en_US": "Blazing Rainbow Array",
+        "ja_JP": "虹焔の陣",
+        "ko_KR": "무지개 화염진",
+        "zh_CN": "长虹焰阵",
+        "zh_TW": "長虹焰陣"
+      }
+    },
+    {
+      "id": 514105,
+      "charId": 141,
+      "names": {
+        "en_US": "Blistering Flame Corrosion",
+        "ja_JP": "封燃の刻印",
+        "ko_KR": "열독의 각인",
+        "zh_CN": "烈焰毒蚀",
+        "zh_TW": "烈焰毒蝕"
+      }
+    },
+    {
+      "id": 514106,
+      "charId": 141,
+      "names": {
+        "en_US": "Ashes of the Firepit",
+        "ja_JP": "怨火の遺灰",
+        "ko_KR": "불꽃 연못의 잔재",
+        "zh_CN": "火池遗烬",
+        "zh_TW": "火池遺燼"
+      }
+    },
+    {
+      "id": 514107,
+      "charId": 141,
+      "names": {
+        "en_US": "Flame Resonance",
+        "ja_JP": "共鳴の継ぎ火",
+        "ko_KR": "화염 공명",
+        "zh_CN": "火焰共鸣",
+        "zh_TW": "火焰共鳴"
+      }
+    },
+    {
+      "id": 514108,
+      "charId": 141,
+      "names": {
+        "en_US": "Scorching Ink",
+        "ja_JP": "焔印の墨痕",
+        "ko_KR": "거센 불길의 표식",
+        "zh_CN": "炽焰墨印",
+        "zh_TW": "熾焰墨印"
+      }
+    },
+    {
+      "id": 514109,
+      "charId": 141,
+      "names": {
+        "en_US": "Flame-Ink Matrix",
+        "ja_JP": "墨焔の憑刻",
+        "ko_KR": "불의 먹점",
+        "zh_CN": "火墨点矩",
+        "zh_TW": "火墨點矩"
+      }
+    },
+    {
+      "id": 514110,
+      "charId": 141,
+      "names": {
+        "en_US": "Infernal Ember",
+        "ja_JP": "焔煙の布陣",
+        "ko_KR": "화염 장막의 잔해",
+        "zh_CN": "火幕余灰",
+        "zh_TW": "火幕餘灰"
+      }
+    },
+    {
+      "id": 514111,
+      "charId": 141,
+      "names": {
+        "en_US": "Inkburn Stroke",
+        "ja_JP": "気焔万丈",
+        "ko_KR": "붓 끝의 연소",
+        "zh_CN": "挥毫焚墨",
+        "zh_TW": "揮毫焚墨"
+      }
+    },
+    {
+      "id": 514112,
+      "charId": 141,
+      "names": {
+        "en_US": "Finishing Touch",
+        "ja_JP": "画龍の極致",
+        "ko_KR": "화룡점정",
+        "zh_CN": "画龙点睛",
+        "zh_TW": "畫龍點睛"
+      }
+    },
+    {
+      "id": 514113,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Brilliance",
+        "ja_JP": "漆墨の調べ",
+        "ko_KR": "먹의 색채",
+        "zh_CN": "墨韵生辉",
+        "zh_TW": "墨韻生輝"
+      }
+    },
+    {
+      "id": 514121,
+      "charId": 141,
+      "names": {
+        "en_US": "Crimson Dragon: Convergence",
+        "ja_JP": "赤龍・遊昇",
+        "ko_KR": "붉은 용·유영",
+        "zh_CN": "赤龙·游聚",
+        "zh_TW": "赤龍·遊聚"
+      }
+    },
+    {
+      "id": 514122,
+      "charId": 141,
+      "names": {
+        "en_US": "Crimson Dragon: Chant",
+        "ja_JP": "赤龍・長吟",
+        "ko_KR": "붉은 용·장음",
+        "zh_CN": "赤龙·长吟",
+        "zh_TW": "赤龍·長吟"
+      }
+    },
+    {
+      "id": 514123,
+      "charId": 141,
+      "names": {
+        "en_US": "Sigil Unleashed: Tiger of the East",
+        "ja_JP": "護符・虎の巻",
+        "ko_KR": "부적·인호",
+        "zh_CN": "符启·寅虎",
+        "zh_TW": "符啟·寅虎"
+      }
+    },
+    {
+      "id": 514124,
+      "charId": 141,
+      "names": {
+        "en_US": "Tiger of the East: Blazing Scales",
+        "ja_JP": "豪虎・灼燐",
+        "ko_KR": "인호·화염 비늘",
+        "zh_CN": "寅虎·炽鳞",
+        "zh_TW": "寅虎·熾鱗"
+      }
+    },
+    {
+      "id": 514125,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Horn Call",
+        "ja_JP": "墨符・轟く角笛",
+        "ko_KR": "묵부·뿔피리",
+        "zh_CN": "墨符·角哨",
+        "zh_TW": "墨符·角哨"
+      }
+    },
+    {
+      "id": 514126,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Trail Seeker",
+        "ja_JP": "墨符・残火",
+        "ko_KR": "묵부·추적",
+        "zh_CN": "墨符·寻踪",
+        "zh_TW": "墨符·尋蹤"
+      }
+    },
+    {
+      "id": 514127,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Barrier Construct",
+        "ja_JP": "墨符・鼓舞の陣",
+        "ko_KR": "묵부·결계",
+        "zh_CN": "墨符·筑界",
+        "zh_TW": "墨符·築界"
+      }
+    },
+    {
+      "id": 514128,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Blood Fed",
+        "ja_JP": "墨符・赤の儀炎",
+        "ko_KR": "묵부·피의 제물",
+        "zh_CN": "墨符·血饲",
+        "zh_TW": "墨符·血飼"
+      }
+    },
+    {
+      "id": 514129,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Ambush",
+        "ja_JP": "墨符・延焼",
+        "ko_KR": "묵부·매복",
+        "zh_CN": "墨符·伏击",
+        "zh_TW": "墨符·伏擊"
+      }
+    },
+    {
+      "id": 514130,
+      "charId": 141,
+      "names": {
+        "en_US": "Ink Sigil: Raid",
+        "ja_JP": "墨符・仇襲",
+        "ko_KR": "묵부·기습",
+        "zh_CN": "墨符·奇袭",
+        "zh_TW": "墨符·奇襲"
+      }
+    },
+    {
+      "id": 514131,
+      "charId": 141,
+      "names": {
+        "en_US": "Majestic Stride",
+        "ja_JP": "龍飛虎這",
+        "ko_KR": "용호기상",
+        "zh_CN": "龙骧虎步",
+        "zh_TW": "龍驤虎步"
+      }
+    },
+    {
+      "id": 514132,
+      "charId": 141,
+      "names": {
+        "en_US": "Prayer of Raging Flame",
+        "ja_JP": "赫炎の誓い",
+        "ko_KR": "불꽃의 기원",
+        "zh_CN": "烈焰祝祷",
+        "zh_TW": "烈焰祝禱"
+      }
+    },
+    {
+      "id": 514133,
+      "charId": 141,
+      "names": {
+        "en_US": "Sigil Unleashed: Flame Glow",
+        "ja_JP": "符始・尭炎",
+        "ko_KR": "부적·불꽃",
+        "zh_CN": "符启·焰光",
+        "zh_TW": "符啟·焰光"
+      }
+    },
+    {
+      "id": 514141,
+      "charId": 141,
+      "names": {
+        "en_US": "Dragon Blaze",
+        "ja_JP": "炎龍天翔",
+        "ko_KR": "거센 불길의 용",
+        "zh_CN": "炽焰龙霄",
+        "zh_TW": "熾焰龍霄"
+      }
+    },
+    {
+      "id": 514142,
+      "charId": 141,
+      "names": {
+        "en_US": "Blazing Vortex",
+        "ja_JP": "猛り狂う焔龍",
+        "ko_KR": "불꽃 선풍",
+        "zh_CN": "烈焰龙卷",
+        "zh_TW": "烈焰龍捲"
+      }
+    },
+    {
+      "id": 514143,
+      "charId": 141,
+      "names": {
+        "en_US": "Dragon Breath",
+        "ja_JP": "炎龍の契",
+        "ko_KR": "화염용의 숨결",
+        "zh_CN": "炎龙吐息",
+        "zh_TW": "炎龍吐息"
+      }
+    },
+    {
+      "id": 514201,
+      "charId": 142,
+      "names": {
+        "en_US": "Nocturn Rip",
+        "ja_JP": "幽冥の裁断",
+        "ko_KR": "어둠의 찢기",
+        "zh_CN": "幽冥撕裂",
+        "zh_TW": "幽冥撕裂"
+      }
+    },
+    {
+      "id": 514202,
+      "charId": 142,
+      "names": {
+        "en_US": "Nightscar Trace",
+        "ja_JP": "闇影の爪痕",
+        "ko_KR": "어둠의 흔적",
+        "zh_CN": "夜痕刻影",
+        "zh_TW": "夜痕刻影"
+      }
+    },
+    {
+      "id": 514203,
+      "charId": 142,
+      "names": {
+        "en_US": "Netherworld Touch",
+        "ja_JP": "冥界への誘い",
+        "ko_KR": "저승의 손길",
+        "zh_CN": "冥界之触",
+        "zh_TW": "冥界之觸"
+      }
+    },
+    {
+      "id": 514204,
+      "charId": 142,
+      "names": {
+        "en_US": "Nocturn Mark",
+        "ja_JP": "幽闇の烙印",
+        "ko_KR": "어둠의 낙인",
+        "zh_CN": "幽冥烙印",
+        "zh_TW": "幽冥烙印"
+      }
+    },
+    {
+      "id": 514205,
+      "charId": 142,
+      "names": {
+        "en_US": "Darkclaw Haunt",
+        "ja_JP": "闇爪斬魂",
+        "ko_KR": "영혼의 어둠 발톱",
+        "zh_CN": "暗爪触魂",
+        "zh_TW": "暗爪觸魂"
+      }
+    },
+    {
+      "id": 514206,
+      "charId": 142,
+      "names": {
+        "en_US": "Darkclaw Mark",
+        "ja_JP": "闇爪鼓舞",
+        "ko_KR": "각인의 어둠 발톱",
+        "zh_CN": "暗爪符记",
+        "zh_TW": "暗爪符號"
+      }
+    },
+    {
+      "id": 514207,
+      "charId": 142,
+      "names": {
+        "en_US": "Darkclaw Etch",
+        "ja_JP": "闇爪刻影",
+        "ko_KR": "그림자의 어둠 발톱",
+        "zh_CN": "暗爪镌影",
+        "zh_TW": "暗爪鐫影"
+      }
+    },
+    {
+      "id": 514208,
+      "charId": 142,
+      "names": {
+        "en_US": "Twilight Wish",
+        "ja_JP": "夜闇の祝福",
+        "ko_KR": "어둠의 축복",
+        "zh_CN": "夜影祝福",
+        "zh_TW": "夜影祝福"
+      }
+    },
+    {
+      "id": 514209,
+      "charId": 142,
+      "names": {
+        "en_US": "Nightshadow Invasion",
+        "ja_JP": "夜闇の襲撃",
+        "ko_KR": "어둠의 침습",
+        "zh_CN": "夜影侵袭",
+        "zh_TW": "夜影侵襲"
+      }
+    },
+    {
+      "id": 514210,
+      "charId": 142,
+      "names": {
+        "en_US": "Nightshadow Veil",
+        "ja_JP": "夜闇の守護",
+        "ko_KR": "어둠의 그림자 폭풍",
+        "zh_CN": "夜影掠幕",
+        "zh_TW": "夜影掠幕"
+      }
+    },
+    {
+      "id": 514211,
+      "charId": 142,
+      "names": {
+        "en_US": "Shadowflash Enigma",
+        "ja_JP": "閃影・補",
+        "ko_KR": "그림자의 섬광",
+        "zh_CN": "影闪赋夜",
+        "zh_TW": "影閃賦夜"
+      }
+    },
+    {
+      "id": 514212,
+      "charId": 142,
+      "names": {
+        "en_US": "Shadowflash Companion",
+        "ja_JP": "閃影・攻",
+        "ko_KR": "그림자의 동행",
+        "zh_CN": "影闪随行",
+        "zh_TW": "影閃隨行"
+      }
+    },
+    {
+      "id": 514213,
+      "charId": 142,
+      "names": {
+        "en_US": "Starmark Nether",
+        "ja_JP": "烙印の導き",
+        "ko_KR": "저승 속의 성흔",
+        "zh_CN": "星痕幽冥",
+        "zh_TW": "星痕幽冥"
+      }
+    },
+    {
+      "id": 514221,
+      "charId": 142,
+      "names": {
+        "en_US": "Abyssal Mark",
+        "ja_JP": "深淵の一閃",
+        "ko_KR": "심연의 흔적",
+        "zh_CN": "深渊之痕",
+        "zh_TW": "深淵之痕"
+      }
+    },
+    {
+      "id": 514222,
+      "charId": 142,
+      "names": {
+        "en_US": "Eclipse Imprint",
+        "ja_JP": "深淵の証",
+        "ko_KR": "어둠의 낙인",
+        "zh_CN": "无光落印",
+        "zh_TW": "無光落印"
+      }
+    },
+    {
+      "id": 514223,
+      "charId": 142,
+      "names": {
+        "en_US": "Phantom Mark",
+        "ja_JP": "残影の印",
+        "ko_KR": "잔영 표식",
+        "zh_CN": "残影印记",
+        "zh_TW": "殘影印記"
+      }
+    },
+    {
+      "id": 514224,
+      "charId": 142,
+      "names": {
+        "en_US": "Phantom Inscription",
+        "ja_JP": "残影の傷痕",
+        "ko_KR": "잔영 각인",
+        "zh_CN": "残影刻痕",
+        "zh_TW": "殘影刻痕"
+      }
+    },
+    {
+      "id": 514225,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Demon Mark",
+        "ja_JP": "暗・魔痕",
+        "ko_KR": "어둠·마의 흔적",
+        "zh_CN": "暗·魔痕",
+        "zh_TW": "暗·魔痕"
+      }
+    },
+    {
+      "id": 514226,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Mirage",
+        "ja_JP": "暗・陰影",
+        "ko_KR": "어둠·신기루",
+        "zh_CN": "暗·蜃影",
+        "zh_TW": "暗·蜃影"
+      }
+    },
+    {
+      "id": 514227,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Vitality",
+        "ja_JP": "暗・増幅",
+        "ko_KR": "어둠·생명",
+        "zh_CN": "暗·生息",
+        "zh_TW": "暗·生息"
+      }
+    },
+    {
+      "id": 514228,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Hallucination",
+        "ja_JP": "暗・迷幻",
+        "ko_KR": "어둠·환상",
+        "zh_CN": "暗·迷幻",
+        "zh_TW": "暗·迷幻"
+      }
+    },
+    {
+      "id": 514229,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Form Breaker",
+        "ja_JP": "暗・破壊",
+        "ko_KR": "어둠·형상 파괴",
+        "zh_CN": "暗·破形",
+        "zh_TW": "暗·破形"
+      }
+    },
+    {
+      "id": 514230,
+      "charId": 142,
+      "names": {
+        "en_US": "Dark: Afterglow",
+        "ja_JP": "暗・残光",
+        "ko_KR": "어둠·여휘",
+        "zh_CN": "暗·余辉",
+        "zh_TW": "暗·餘暉"
+      }
+    },
+    {
+      "id": 514231,
+      "charId": 142,
+      "names": {
+        "en_US": "Void Blessing",
+        "ja_JP": "幽暗の祝福",
+        "ko_KR": "허공의 축복",
+        "zh_CN": "虚空祝福",
+        "zh_TW": "虛空祝福"
+      }
+    },
+    {
+      "id": 514232,
+      "charId": 142,
+      "names": {
+        "en_US": "Phantom Shelter",
+        "ja_JP": "迅影の加護",
+        "ko_KR": "그림자의 가호",
+        "zh_CN": "魅影庇护",
+        "zh_TW": "魅影庇護"
+      }
+    },
+    {
+      "id": 514233,
+      "charId": 142,
+      "names": {
+        "en_US": "Gift of Darkness",
+        "ja_JP": "冥府の賜物",
+        "ko_KR": "어둠의 은총",
+        "zh_CN": "黑暗之赐",
+        "zh_TW": "黑暗之賜"
+      }
+    },
+    {
+      "id": 514241,
+      "charId": 142,
+      "names": {
+        "en_US": "Spectral Ignition",
+        "ja_JP": "冥闇の延焼",
+        "ko_KR": "불타는 그림자",
+        "zh_CN": "魅影燃烧",
+        "zh_TW": "魅影燃燒"
+      }
+    },
+    {
+      "id": 514242,
+      "charId": 142,
+      "names": {
+        "en_US": "Nether Blaze",
+        "ja_JP": "冥闇の烈焔",
+        "ko_KR": "어둠의 화염",
+        "zh_CN": "幽冥烈焰",
+        "zh_TW": "幽冥烈焰"
+      }
+    },
+    {
+      "id": 514243,
+      "charId": 142,
+      "names": {
+        "en_US": "Tainted Scar",
+        "ja_JP": "冥闇の残火",
+        "ko_KR": "어두운 잔상",
+        "zh_CN": "黯淡残痕",
+        "zh_TW": "黯淡殘痕"
+      }
+    },
+    {
+      "id": 514401,
+      "charId": 144,
+      "names": {
+        "en_US": "Serpent\u0027s Glide",
+        "ja_JP": "蛟龍の型",
+        "ko_KR": "등사 파도",
+        "zh_CN": "腾蛇凌波",
+        "zh_TW": "騰蛇凌波"
+      }
+    },
+    {
+      "id": 514402,
+      "charId": 144,
+      "names": {
+        "en_US": "Mirror Blade",
+        "ja_JP": "水影の型",
+        "ko_KR": "그림자의 칼날",
+        "zh_CN": "镜影流锋",
+        "zh_TW": "鏡影流鋒"
+      }
+    },
+    {
+      "id": 514403,
+      "charId": 144,
+      "names": {
+        "en_US": "Cascade of Ruin",
+        "ja_JP": "滝斬の型",
+        "ko_KR": "하늘 베기",
+        "zh_CN": "断空泷斩",
+        "zh_TW": "斷空瀧斬"
+      }
+    },
+    {
+      "id": 514404,
+      "charId": 144,
+      "names": {
+        "en_US": "Against the Flow",
+        "ja_JP": "引波の型",
+        "ko_KR": "역류하는 여울빛",
+        "zh_CN": "溯流泷闪",
+        "zh_TW": "溯流瀧閃"
+      }
+    },
+    {
+      "id": 514405,
+      "charId": 144,
+      "names": {
+        "en_US": "Tremble and Fall",
+        "ja_JP": "影隠れの型",
+        "ko_KR": "그림자 낙하",
+        "zh_CN": "漱影落振",
+        "zh_TW": "漱影落振"
+      }
+    },
+    {
+      "id": 514406,
+      "charId": 144,
+      "names": {
+        "en_US": "Dance of Elegance",
+        "ja_JP": "蛟龍の剣舞",
+        "ko_KR": "가녀린 춤사위",
+        "zh_CN": "亭亭翩舞",
+        "zh_TW": "亭亭翩舞"
+      }
+    },
+    {
+      "id": 514407,
+      "charId": 144,
+      "names": {
+        "en_US": "Aqueous Phantasm",
+        "ja_JP": "蛟龍の尾",
+        "ko_KR": "환상 비늘",
+        "zh_CN": "逐浪幻鳞",
+        "zh_TW": "逐浪幻鱗"
+      }
+    },
+    {
+      "id": 514408,
+      "charId": 144,
+      "names": {
+        "en_US": "Serpent in Tide",
+        "ja_JP": "波間の剣舞",
+        "ko_KR": "파도 뱀",
+        "zh_CN": "潮影环蛇",
+        "zh_TW": "潮影環蛇"
+      }
+    },
+    {
+      "id": 514409,
+      "charId": 144,
+      "names": {
+        "en_US": "Returning Tide",
+        "ja_JP": "連龍の剣舞",
+        "ko_KR": "거울 같은 물",
+        "zh_CN": "镜水归潮",
+        "zh_TW": "鏡水歸潮"
+      }
+    },
+    {
+      "id": 514410,
+      "charId": 144,
+      "names": {
+        "en_US": "Flowing Circle",
+        "ja_JP": "漣撃の型",
+        "ko_KR": "끝없는 물살",
+        "zh_CN": "涟汐环行",
+        "zh_TW": "漣汐環行"
+      }
+    },
+    {
+      "id": 514411,
+      "charId": 144,
+      "names": {
+        "en_US": "Waltz of Ripples",
+        "ja_JP": "石穿の剣舞",
+        "ko_KR": "물결의 몸짓",
+        "zh_CN": "流波幻舞",
+        "zh_TW": "流波幻舞"
+      }
+    },
+    {
+      "id": 514412,
+      "charId": 144,
+      "names": {
+        "en_US": "Adamant Scales",
+        "ja_JP": "反攻の型",
+        "ko_KR": "굳센 보호막",
+        "zh_CN": "坚鳞护体",
+        "zh_TW": "堅鱗護體"
+      }
+    },
+    {
+      "id": 514413,
+      "charId": 144,
+      "names": {
+        "en_US": "Azure Embrace",
+        "ja_JP": "水龍の共鳴",
+        "ko_KR": "파도의 물살",
+        "zh_CN": "碧浪霖身",
+        "zh_TW": "碧浪霖身"
+      }
+    },
+    {
+      "id": 514421,
+      "charId": 144,
+      "names": {
+        "en_US": "Submerged Fang",
+        "ja_JP": "追滝の刃",
+        "ko_KR": "칼날의 잠행",
+        "zh_CN": "润刃潜波",
+        "zh_TW": "潤刃潛波"
+      }
+    },
+    {
+      "id": 514422,
+      "charId": 144,
+      "names": {
+        "en_US": "Whirl Blade",
+        "ja_JP": "呑流の渦刃",
+        "ko_KR": "물 검의 소용돌이",
+        "zh_CN": "液刃回旋",
+        "zh_TW": "液刃迴旋"
+      }
+    },
+    {
+      "id": 514423,
+      "charId": 144,
+      "names": {
+        "en_US": "Blade of the Deep",
+        "ja_JP": "滝壺の水影",
+        "ko_KR": "깊은 곳의 숨결",
+        "zh_CN": "渊息斩流",
+        "zh_TW": "淵息斬流"
+      }
+    },
+    {
+      "id": 514424,
+      "charId": 144,
+      "names": {
+        "en_US": "Where Shadows Drown",
+        "ja_JP": "砕滝の飛沫",
+        "ko_KR": "흩어지는 물결",
+        "zh_CN": "碎影沧浪",
+        "zh_TW": "碎影滄浪"
+      }
+    },
+    {
+      "id": 514425,
+      "charId": 144,
+      "names": {
+        "en_US": "Blink Combo Slash",
+        "ja_JP": "肺腑穿つ滴",
+        "ko_KR": "삭인연참",
+        "zh_CN": "烁刃连斩",
+        "zh_TW": "爍刃連斬"
+      }
+    },
+    {
+      "id": 514426,
+      "charId": 144,
+      "names": {
+        "en_US": "Sing with Steel",
+        "ja_JP": "末広がりの滝",
+        "ko_KR": "빗방울 검무",
+        "zh_CN": "雨织刀歌",
+        "zh_TW": "雨織刀歌"
+      }
+    },
+    {
+      "id": 514427,
+      "charId": 144,
+      "names": {
+        "en_US": "Luminous Blade Song",
+        "ja_JP": "激流に身を任せ",
+        "ko_KR": "검의 울음",
+        "zh_CN": "潋滟刀鸣",
+        "zh_TW": "瀲灩刀鳴"
+      }
+    },
+    {
+      "id": 514428,
+      "charId": 144,
+      "names": {
+        "en_US": "Shadow Cutter",
+        "ja_JP": "水映の影武者",
+        "ko_KR": "물속의 그림자 베기",
+        "zh_CN": "水心斩影",
+        "zh_TW": "水心斬影"
+      }
+    },
+    {
+      "id": 514429,
+      "charId": 144,
+      "names": {
+        "en_US": "Mirror Tide",
+        "ja_JP": "合わせ鏡の水影",
+        "ko_KR": "그림자 조류",
+        "zh_CN": "镜影织潮",
+        "zh_TW": "鏡影織潮"
+      }
+    },
+    {
+      "id": 514430,
+      "charId": 144,
+      "names": {
+        "en_US": "Shattered Breath",
+        "ja_JP": "影の追い込み漁",
+        "ko_KR": "부서진 그림자의 침묵",
+        "zh_CN": "碎影止息",
+        "zh_TW": "碎影止息"
+      }
+    },
+    {
+      "id": 514431,
+      "charId": 144,
+      "names": {
+        "en_US": "Water Edge",
+        "ja_JP": "滝際の波紋",
+        "ko_KR": "파문을 가르는 검",
+        "zh_CN": "水纹凌刃",
+        "zh_TW": "水紋凌刃"
+      }
+    },
+    {
+      "id": 514432,
+      "charId": 144,
+      "names": {
+        "en_US": "Waterflow Blade",
+        "ja_JP": "氷川の龍刃",
+        "ko_KR": "물살의 고리 검",
+        "zh_CN": "水流环刃",
+        "zh_TW": "水流環刃"
+      }
+    },
+    {
+      "id": 514433,
+      "charId": 144,
+      "names": {
+        "en_US": "Unseen Aquatic Blade",
+        "ja_JP": "水龍の加勢",
+        "ko_KR": "물 정령의 숨겨진 칼날",
+        "zh_CN": "水灵藏刃",
+        "zh_TW": "水靈藏刃"
+      }
+    },
+    {
+      "id": 514441,
+      "charId": 144,
+      "names": {
+        "en_US": "Serpent\u0027s Saliva",
+        "ja_JP": "暴れまわる蛟龍",
+        "ko_KR": "응고의 독액",
+        "zh_CN": "蛇涎流凝",
+        "zh_TW": "蛇涎流凝"
+      }
+    },
+    {
+      "id": 514442,
+      "charId": 144,
+      "names": {
+        "en_US": "Serpent Dance",
+        "ja_JP": "蛟龍の加護",
+        "ko_KR": "뱀 춤의 물결",
+        "zh_CN": "蛇舞涟漪",
+        "zh_TW": "蛇舞漣漪"
+      }
+    },
+    {
+      "id": 514443,
+      "charId": 144,
+      "names": {
+        "en_US": "Tide of Serpent Bones",
+        "ja_JP": "蛟龍の霊験",
+        "ko_KR": "얼어붙은 뱀의 뼈",
+        "zh_CN": "蛇骨寒涛",
+        "zh_TW": "蛇骨寒濤"
+      }
+    },
+    {
+      "id": 514701,
+      "charId": 147,
+      "names": {
+        "en_US": "Baseline Finale",
+        "ja_JP": "ソロパート終了",
+        "ko_KR": "강음의 종결",
+        "zh_CN": "重音终结",
+        "zh_TW": "重音終結"
+      }
+    },
+    {
+      "id": 514702,
+      "charId": 147,
+      "names": {
+        "en_US": "Cheer Sparkle",
+        "ja_JP": "鳴り止まぬ喝采",
+        "ko_KR": "환호의 섬광",
+        "zh_CN": "喝彩闪烁",
+        "zh_TW": "喝采閃爍"
+      }
+    },
+    {
+      "id": 514703,
+      "charId": 147,
+      "names": {
+        "en_US": "Rhythm Pulse",
+        "ja_JP": "リズム隊の矜持",
+        "ko_KR": "리듬 펄스",
+        "zh_CN": "节奏脉动",
+        "zh_TW": "節奏脈動"
+      }
+    },
+    {
+      "id": 514704,
+      "charId": 147,
+      "names": {
+        "en_US": "Sonic Boom",
+        "ja_JP": "ゴリゴリロック",
+        "ko_KR": "강음 확산",
+        "zh_CN": "强音扩散",
+        "zh_TW": "強音擴散"
+      }
+    },
+    {
+      "id": 514705,
+      "charId": 147,
+      "names": {
+        "en_US": "Tempo Shift",
+        "ja_JP": "変速タッピング",
+        "ko_KR": "변속 연주",
+        "zh_CN": "变速点弦",
+        "zh_TW": "變速點弦"
+      }
+    },
+    {
+      "id": 514706,
+      "charId": 147,
+      "names": {
+        "en_US": "Hype Trigger",
+        "ja_JP": "サポートアクト",
+        "ko_KR": "열기의 타이밍",
+        "zh_CN": "热场时机",
+        "zh_TW": "熱場時機"
+      }
+    },
+    {
+      "id": 514707,
+      "charId": 147,
+      "names": {
+        "en_US": "Rising Tone",
+        "ja_JP": "ボルテージMAX",
+        "ko_KR": "크레센도",
+        "zh_CN": "渐强音",
+        "zh_TW": "漸強音"
+      }
+    },
+    {
+      "id": 514708,
+      "charId": 147,
+      "names": {
+        "en_US": "Fallen Duet",
+        "ja_JP": "漆黒のデュオ",
+        "ko_KR": "타락 2중주",
+        "zh_CN": "堕天二重奏",
+        "zh_TW": "墮天二重奏"
+      }
+    },
+    {
+      "id": 514709,
+      "charId": 147,
+      "names": {
+        "en_US": "Echo Stack",
+        "ja_JP": "共鳴する音色",
+        "ko_KR": "볼륨 중첩",
+        "zh_CN": "重叠音量",
+        "zh_TW": "重疊音量"
+      }
+    },
+    {
+      "id": 514710,
+      "charId": 147,
+      "names": {
+        "en_US": "Earcatch Riff",
+        "ja_JP": "アップテンポ",
+        "ko_KR": "귓가에 맴도는 선율",
+        "zh_CN": "抓耳挠心",
+        "zh_TW": "抓耳撓心"
+      }
+    },
+    {
+      "id": 514711,
+      "charId": 147,
+      "names": {
+        "en_US": "Flicker Moves",
+        "ja_JP": "タブ譜を飛び出せ",
+        "ko_KR": "반짝임의 춤",
+        "zh_CN": "闪烁舞步",
+        "zh_TW": "閃爍舞步"
+      }
+    },
+    {
+      "id": 514712,
+      "charId": 147,
+      "names": {
+        "en_US": "Maximum Boost",
+        "ja_JP": "ハウリング",
+        "ko_KR": "전체 버프",
+        "zh_CN": "全量增益",
+        "zh_TW": "全量增益"
+      }
+    },
+    {
+      "id": 514713,
+      "charId": 147,
+      "names": {
+        "en_US": "Shadow Soundstrike",
+        "ja_JP": "薄冥の音撃",
+        "ko_KR": "암멸의 음격",
+        "zh_CN": "暗灭音击",
+        "zh_TW": "暗滅音擊"
+      }
+    },
+    {
+      "id": 514721,
+      "charId": 147,
+      "names": {
+        "en_US": "Melody Return",
+        "ja_JP": "回帰する旋律",
+        "ko_KR": "멜로디 회귀",
+        "zh_CN": "旋律回归",
+        "zh_TW": "旋律回歸"
+      }
+    },
+    {
+      "id": 514722,
+      "charId": 147,
+      "names": {
+        "en_US": "Heavenly Dropbeat",
+        "ja_JP": "空に響く音",
+        "ko_KR": "하늘의 진동",
+        "zh_CN": "天降震音",
+        "zh_TW": "天降震音"
+      }
+    },
+    {
+      "id": 514723,
+      "charId": 147,
+      "names": {
+        "en_US": "Heart Sync",
+        "ja_JP": "躍動するノーツ",
+        "ko_KR": "가슴 떨리는 전도",
+        "zh_CN": "心动传导",
+        "zh_TW": "心動傳導"
+      }
+    },
+    {
+      "id": 514724,
+      "charId": 147,
+      "names": {
+        "en_US": "Overflowing Passion",
+        "ja_JP": "情熱的な調べ",
+        "ko_KR": "넘치는 열정",
+        "zh_CN": "燃情满溢",
+        "zh_TW": "燃情滿溢"
+      }
+    },
+    {
+      "id": 514725,
+      "charId": 147,
+      "names": {
+        "en_US": "Bass Gravity",
+        "ja_JP": "低音の魅力",
+        "ko_KR": "저음의 이끌림",
+        "zh_CN": "低音引力",
+        "zh_TW": "低音引力"
+      }
+    },
+    {
+      "id": 514726,
+      "charId": 147,
+      "names": {
+        "en_US": "Rhythm Waves",
+        "ja_JP": "黒く染まった翼",
+        "ko_KR": "선율의 물결",
+        "zh_CN": "律音波纹",
+        "zh_TW": "律音波紋"
+      }
+    },
+    {
+      "id": 514727,
+      "charId": 147,
+      "names": {
+        "en_US": "Heart Piercer",
+        "ja_JP": "癒やしの音色",
+        "ko_KR": "뾰족한 예각",
+        "zh_CN": "扎心锐角",
+        "zh_TW": "扎心銳角"
+      }
+    },
+    {
+      "id": 514728,
+      "charId": 147,
+      "names": {
+        "en_US": "Sync Chime",
+        "ja_JP": "ファンの手拍子",
+        "ko_KR": "리듬의 울림",
+        "zh_CN": "合拍鸣动",
+        "zh_TW": "合拍鳴動"
+      }
+    },
+    {
+      "id": 514729,
+      "charId": 147,
+      "names": {
+        "en_US": "Soulstrike Sound",
+        "ja_JP": "魂を揺さぶる音",
+        "ko_KR": "영혼 직격타",
+        "zh_CN": "魂音直击",
+        "zh_TW": "魂音直擊"
+      }
+    },
+    {
+      "id": 514730,
+      "charId": 147,
+      "names": {
+        "en_US": "House Resonance",
+        "ja_JP": "レゾナンス",
+        "ko_KR": "하우스 공명",
+        "zh_CN": "浩室共鸣",
+        "zh_TW": "浩室共鳴"
+      }
+    },
+    {
+      "id": 514731,
+      "charId": 147,
+      "names": {
+        "en_US": "Surging Undercurrent",
+        "ja_JP": "堕転する音楽",
+        "ko_KR": "암류 분출",
+        "zh_CN": "暗流涌动",
+        "zh_TW": "暗流湧動"
+      }
+    },
+    {
+      "id": 514732,
+      "charId": 147,
+      "names": {
+        "en_US": "Blazing Remnant",
+        "ja_JP": "燻る黒炎",
+        "ko_KR": "악염의 잔해",
+        "zh_CN": "恶焰余灰",
+        "zh_TW": "惡焰餘灰"
+      }
+    },
+    {
+      "id": 514733,
+      "charId": 147,
+      "names": {
+        "en_US": "Ball of Darkness",
+        "ja_JP": "ようこそ闇の舞台へ",
+        "ko_KR": "어둠의 무도회",
+        "zh_CN": "黑暗舞会",
+        "zh_TW": "黑暗舞會"
+      }
+    },
+    {
+      "id": 514741,
+      "charId": 147,
+      "names": {
+        "en_US": "Fallen Veil",
+        "ja_JP": "黒き喝采",
+        "ko_KR": "타락의 장막",
+        "zh_CN": "堕天帷幕",
+        "zh_TW": "墮天帷幕"
+      }
+    },
+    {
+      "id": 514742,
+      "charId": 147,
+      "names": {
+        "en_US": "Demon\u0027s Runway",
+        "ja_JP": "悪魔のステージ",
+        "ko_KR": "악마의 쇼",
+        "zh_CN": "恶魔秀场",
+        "zh_TW": "惡魔秀場"
+      }
+    },
+    {
+      "id": 514743,
+      "charId": 147,
+      "names": {
+        "en_US": "Ascension Soundflare",
+        "ja_JP": "星ノ塔の音",
+        "ko_KR": "비상의 현음",
+        "zh_CN": "飞升炫音",
+        "zh_TW": "飛升炫音"
+      }
+    },
+    {
+      "id": 514901,
+      "charId": 149,
+      "names": {
+        "en_US": "Beyond All Control",
+        "ja_JP": "滾る血",
+        "ko_KR": "통제 불가 폭주",
+        "zh_CN": "狂乱失控",
+        "zh_TW": "狂亂失控"
+      }
+    },
+    {
+      "id": 514902,
+      "charId": 149,
+      "names": {
+        "en_US": "Avalanche of Stone",
+        "ja_JP": "地を砕く円匙",
+        "ko_KR": "산사태 폭풍",
+        "zh_CN": "岩崩风暴",
+        "zh_TW": "岩崩風暴"
+      }
+    },
+    {
+      "id": 514903,
+      "charId": 149,
+      "names": {
+        "en_US": "Agony Cascade",
+        "ja_JP": "苦悶の連環",
+        "ko_KR": "고통 증식",
+        "zh_CN": "痛苦增殖",
+        "zh_TW": "痛苦增殖"
+      }
+    },
+    {
+      "id": 514904,
+      "charId": 149,
+      "names": {
+        "en_US": "Endless Throes",
+        "ja_JP": "痛みの連鎖",
+        "ko_KR": "끝없는 고통",
+        "zh_CN": "持续阵痛",
+        "zh_TW": "持續陣痛"
+      }
+    },
+    {
+      "id": 514905,
+      "charId": 149,
+      "names": {
+        "en_US": "Delight in Ruin",
+        "ja_JP": "加虐の愉悦",
+        "ko_KR": "가학적 즐거움",
+        "zh_CN": "施虐快意",
+        "zh_TW": "施虐快意"
+      }
+    },
+    {
+      "id": 514906,
+      "charId": 149,
+      "names": {
+        "en_US": "No Safeword",
+        "ja_JP": "来たれ甘き死よ",
+        "ko_KR": "안전장치 없음",
+        "zh_CN": "无安全词",
+        "zh_TW": "無安全詞"
+      }
+    },
+    {
+      "id": 514907,
+      "charId": 149,
+      "names": {
+        "en_US": "Lingering Hunger",
+        "ja_JP": "満たされぬ強欲",
+        "ko_KR": "아쉬운 마음",
+        "zh_CN": "意犹未尽",
+        "zh_TW": "意猶未盡"
+      }
+    },
+    {
+      "id": 514908,
+      "charId": 149,
+      "names": {
+        "en_US": "Slanderous Strike",
+        "ja_JP": "重い鉄枷",
+        "ko_KR": "악의적 공격",
+        "zh_CN": "恶意中伤",
+        "zh_TW": "惡意中傷"
+      }
+    },
+    {
+      "id": 514909,
+      "charId": 149,
+      "names": {
+        "en_US": "Shadow Law",
+        "ja_JP": "乱れ交わる宴",
+        "ko_KR": "사적 제재",
+        "zh_CN": "私罚",
+        "zh_TW": "私罰"
+      }
+    },
+    {
+      "id": 514910,
+      "charId": 149,
+      "names": {
+        "en_US": "Piercing Sorrow",
+        "ja_JP": "肉を喰む鎖",
+        "ko_KR": "관통의 고통",
+        "zh_CN": "贯穿伤痛",
+        "zh_TW": "貫穿傷痛"
+      }
+    },
+    {
+      "id": 514911,
+      "charId": 149,
+      "names": {
+        "en_US": "Hunt is On",
+        "ja_JP": "嗜虐の狩人",
+        "ko_KR": "추격 사냥",
+        "zh_CN": "追猎",
+        "zh_TW": "追獵"
+      }
+    },
+    {
+      "id": 514912,
+      "charId": 149,
+      "names": {
+        "en_US": "Everyone\u0027s Invited",
+        "ja_JP": "緋色の私刑",
+        "ko_KR": "멀티 플레이",
+        "zh_CN": "多人游戏",
+        "zh_TW": "多人遊戲"
+      }
+    },
+    {
+      "id": 514913,
+      "charId": 149,
+      "names": {
+        "en_US": "Shared Sensation",
+        "ja_JP": "同好の士",
+        "ko_KR": "공감",
+        "zh_CN": "共感",
+        "zh_TW": "共感"
+      }
+    },
+    {
+      "id": 514921,
+      "charId": 149,
+      "names": {
+        "en_US": "Deeper into Sin",
+        "ja_JP": "重ね続けた罪",
+        "ko_KR": "가중처벌",
+        "zh_CN": "罪加一等",
+        "zh_TW": "罪加一等"
+      }
+    },
+    {
+      "id": 514922,
+      "charId": 149,
+      "names": {
+        "en_US": "Curtain Call",
+        "ja_JP": "終わらぬ余興",
+        "ko_KR": "훌륭한 마무리",
+        "zh_CN": "绝妙余兴",
+        "zh_TW": "絕妙餘興"
+      }
+    },
+    {
+      "id": 514923,
+      "charId": 149,
+      "names": {
+        "en_US": "Sin-Bound Echo",
+        "ja_JP": "魂の解放",
+        "ko_KR": "죄의 공진",
+        "zh_CN": "罪缚共振",
+        "zh_TW": "罪縛共振"
+      }
+    },
+    {
+      "id": 514924,
+      "charId": 149,
+      "names": {
+        "en_US": "Earthshaker",
+        "ja_JP": "鳴動する重罪",
+        "ko_KR": "진동하는 대지",
+        "zh_CN": "震颤地鸣",
+        "zh_TW": "震顫地鳴"
+      }
+    },
+    {
+      "id": 514925,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Grief\u0027s Toll",
+        "ja_JP": "六罪：殺意",
+        "ko_KR": "여섯 재앙·죽음의 한",
+        "zh_CN": "六灾·死殇",
+        "zh_TW": "六災·死殤"
+      }
+    },
+    {
+      "id": 514926,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Tyrant\u0027s March",
+        "ja_JP": "六罪：蹂躙",
+        "ko_KR": "여섯 재앙·정복",
+        "zh_CN": "六灾·征服",
+        "zh_TW": "六災·征服"
+      }
+    },
+    {
+      "id": 514927,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Hallowed Chains",
+        "ja_JP": "六罪：強制殉教",
+        "ko_KR": "여섯 재앙·순교",
+        "zh_CN": "六灾·殉道",
+        "zh_TW": "六災·殉道"
+      }
+    },
+    {
+      "id": 514928,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Erosion",
+        "ja_JP": "六罪：伝染",
+        "ko_KR": "여섯 재앙·침식",
+        "zh_CN": "六灾·侵蚀",
+        "zh_TW": "六災·侵蝕"
+      }
+    },
+    {
+      "id": 514929,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Death",
+        "ja_JP": "六罪：共振",
+        "ko_KR": "여섯 재앙·사망",
+        "zh_CN": "六灾·死亡",
+        "zh_TW": "六災·死亡"
+      }
+    },
+    {
+      "id": 514930,
+      "charId": 149,
+      "names": {
+        "en_US": "Hexacalamity: Famine",
+        "ja_JP": "六罪：苦痛渇望",
+        "ko_KR": "여섯 재앙·굶주림",
+        "zh_CN": "六灾·饥溃",
+        "zh_TW": "六災·飢潰"
+      }
+    },
+    {
+      "id": 514931,
+      "charId": 149,
+      "names": {
+        "en_US": "Twilight\u0027s Verdict",
+        "ja_JP": "黄昏の威震",
+        "ko_KR": "황혼의 단죄",
+        "zh_CN": "黄昏的断罪",
+        "zh_TW": "黃昏的斷罪"
+      }
+    },
+    {
+      "id": 514932,
+      "charId": 149,
+      "names": {
+        "en_US": "Twilight\u0027s Hunt",
+        "ja_JP": "緩まぬ追撃の手",
+        "ko_KR": "황혼의 사냥",
+        "zh_CN": "黄昏的同狩",
+        "zh_TW": "黃昏的同狩"
+      }
+    },
+    {
+      "id": 514933,
+      "charId": 149,
+      "names": {
+        "en_US": "Anima Resonance",
+        "ja_JP": "痛みの伝道者",
+        "ko_KR": "영혼 실의 공명",
+        "zh_CN": "魂糸之共鸣",
+        "zh_TW": "魂糸之共鳴"
+      }
+    },
+    {
+      "id": 514941,
+      "charId": 149,
+      "names": {
+        "en_US": "Emberwing\u0027s Proclamation",
+        "ja_JP": "恩恵：焔の終焉",
+        "ko_KR": "연익자의 종결 선언",
+        "zh_CN": "燃翼者宣告终结",
+        "zh_TW": "燃翼者宣告終結"
+      }
+    },
+    {
+      "id": 514942,
+      "charId": 149,
+      "names": {
+        "en_US": "Quadrifrons\u0027 Lore",
+        "ja_JP": "恩恵：共鳴の秘跡",
+        "ko_KR": "사면자의 비전 선언",
+        "zh_CN": "四面者宣告秘典",
+        "zh_TW": "四面者宣告祕典"
+      }
+    },
+    {
+      "id": 514943,
+      "charId": 149,
+      "names": {
+        "en_US": "Samsara\u0027s Judgment",
+        "ja_JP": "恩恵：隣人の畏れ",
+        "ko_KR": "윤회자의 심판 선언",
+        "zh_CN": "轮转者宣告审判",
+        "zh_TW": "輪轉者宣告審判"
+      }
+    },
+    {
+      "id": 515001,
+      "charId": 150,
+      "names": {
+        "en_US": "Aerial Suspension",
+        "ja_JP": "あたしの庭",
+        "ko_KR": "번개 영역 부유",
+        "zh_CN": "雷域滞空",
+        "zh_TW": "雷域滯空"
+      }
+    },
+    {
+      "id": 515002,
+      "charId": 150,
+      "names": {
+        "en_US": "Arc Chain Laser",
+        "ja_JP": "ライトエギング",
+        "ko_KR": "전격 사슬",
+        "zh_CN": "电链镭射",
+        "zh_TW": "電鏈雷射"
+      }
+    },
+    {
+      "id": 515003,
+      "charId": 150,
+      "names": {
+        "en_US": "Lance Sweep",
+        "ja_JP": "槍刃掃討",
+        "ko_KR": "장총 소탕",
+        "zh_CN": "长枪扫荡",
+        "zh_TW": "長槍掃蕩"
+      }
+    },
+    {
+      "id": 515004,
+      "charId": 150,
+      "names": {
+        "en_US": "Lightning Lance Dance",
+        "ja_JP": "電槍チャージ",
+        "ko_KR": "번개창무",
+        "zh_CN": "电光枪舞",
+        "zh_TW": "電光槍舞"
+      }
+    },
+    {
+      "id": 515005,
+      "charId": 150,
+      "names": {
+        "en_US": "Lance\u0027s Song",
+        "ja_JP": "神速の槍",
+        "ko_KR": "총소리",
+        "zh_CN": "枪鸣",
+        "zh_TW": "槍鳴"
+      }
+    },
+    {
+      "id": 515006,
+      "charId": 150,
+      "names": {
+        "en_US": "Sky Rend",
+        "ja_JP": "サビキ釣り",
+        "ko_KR": "열공",
+        "zh_CN": "裂空",
+        "zh_TW": "裂空"
+      }
+    },
+    {
+      "id": 515007,
+      "charId": 150,
+      "names": {
+        "en_US": "Piercing Sting",
+        "ja_JP": "返し突き",
+        "ko_KR": "송곳",
+        "zh_CN": "锋刺",
+        "zh_TW": "鋒刺"
+      }
+    },
+    {
+      "id": 515008,
+      "charId": 150,
+      "names": {
+        "en_US": "Lightbreaker",
+        "ja_JP": "ルミナスフラッド",
+        "ko_KR": "파광",
+        "zh_CN": "破光",
+        "zh_TW": "破光"
+      }
+    },
+    {
+      "id": 515009,
+      "charId": 150,
+      "names": {
+        "en_US": "Electric Chain",
+        "ja_JP": "ボルトチェーン",
+        "ko_KR": "전기 사슬",
+        "zh_CN": "电链",
+        "zh_TW": "電鏈"
+      }
+    },
+    {
+      "id": 515010,
+      "charId": 150,
+      "names": {
+        "en_US": "Cracking Thunderbolt",
+        "ja_JP": "光の道標",
+        "ko_KR": "현란한 번개",
+        "zh_CN": "炫雷",
+        "zh_TW": "炫雷"
+      }
+    },
+    {
+      "id": 515011,
+      "charId": 150,
+      "names": {
+        "en_US": "Swift Strike",
+        "ja_JP": "ボルトフラッシュ",
+        "ko_KR": "순간의 습격",
+        "zh_CN": "瞬袭",
+        "zh_TW": "瞬襲"
+      }
+    },
+    {
+      "id": 515012,
+      "charId": 150,
+      "names": {
+        "en_US": "Holy Sigil",
+        "ja_JP": "聖光の印",
+        "ko_KR": "성스러운 빛의 각인",
+        "zh_CN": "圣光铭",
+        "zh_TW": "聖光銘"
+      }
+    },
+    {
+      "id": 515013,
+      "charId": 150,
+      "names": {
+        "en_US": "Checkmate",
+        "ja_JP": "大物釣り",
+        "ko_KR": "포획",
+        "zh_CN": "擒王",
+        "zh_TW": "擒王"
+      }
+    },
+    {
+      "id": 515021,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Flame: Cycle Restart",
+        "ja_JP": "光雷・継起",
+        "ko_KR": "광염·연속",
+        "zh_CN": "光焰·续始",
+        "zh_TW": "光焰·續始"
+      }
+    },
+    {
+      "id": 515022,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Flame: Flash Point",
+        "ja_JP": "光雷・閃滅",
+        "ko_KR": "광염·번쩍임",
+        "zh_CN": "光焰·闪点",
+        "zh_TW": "光焰·閃點"
+      }
+    },
+    {
+      "id": 515023,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Flame: Convergence",
+        "ja_JP": "光雷・集束",
+        "ko_KR": "광염·응축",
+        "zh_CN": "光焰·汇聚",
+        "zh_TW": "光焰·匯聚"
+      }
+    },
+    {
+      "id": 515024,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Flame: Pursuit",
+        "ja_JP": "光雷・追撃",
+        "ko_KR": "광염·추격",
+        "zh_CN": "光焰·追袭",
+        "zh_TW": "光焰·追襲"
+      }
+    },
+    {
+      "id": 515025,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Downpour",
+        "ja_JP": "光雨の奔流",
+        "ko_KR": "빛의 빗방울",
+        "zh_CN": "光雨磅礴",
+        "zh_TW": "光雨磅礴"
+      }
+    },
+    {
+      "id": 515026,
+      "charId": 150,
+      "names": {
+        "en_US": "Light Unleashed",
+        "ja_JP": "降り注ぐ光",
+        "ko_KR": "찰나의 빛",
+        "zh_CN": "天光乍现",
+        "zh_TW": "天光乍現"
+      }
+    },
+    {
+      "id": 515027,
+      "charId": 150,
+      "names": {
+        "en_US": "Radiant Ascent",
+        "ja_JP": "影照らし",
+        "ko_KR": "그림자 비행",
+        "zh_CN": "照影凌空",
+        "zh_TW": "照影凌空"
+      }
+    },
+    {
+      "id": 515028,
+      "charId": 150,
+      "names": {
+        "en_US": "Skybreak Raid",
+        "ja_JP": "空裂く奇襲",
+        "ko_KR": "하늘을 찢는 기습",
+        "zh_CN": "破空奇袭",
+        "zh_TW": "破空奇襲"
+      }
+    },
+    {
+      "id": 515029,
+      "charId": 150,
+      "names": {
+        "en_US": "Dawn Break",
+        "ja_JP": "タイニーグロウ",
+        "ko_KR": "하늘을 비추는 여명",
+        "zh_CN": "天照破晓",
+        "zh_TW": "天照破曉"
+      }
+    },
+    {
+      "id": 515030,
+      "charId": 150,
+      "names": {
+        "en_US": "Light Tempest",
+        "ja_JP": "光の暴嵐",
+        "ko_KR": "빛의 장벽 폭풍",
+        "zh_CN": "光屏风暴",
+        "zh_TW": "光屏風暴"
+      }
+    },
+    {
+      "id": 515031,
+      "charId": 150,
+      "names": {
+        "en_US": "Divine Baptism",
+        "ja_JP": "聖光の洗礼",
+        "ko_KR": "성스러운 빛의 세례",
+        "zh_CN": "圣光洗礼",
+        "zh_TW": "聖光洗禮"
+      }
+    },
+    {
+      "id": 515032,
+      "charId": 150,
+      "names": {
+        "en_US": "Lance Judgement",
+        "ja_JP": "聖槍の審判",
+        "ko_KR": "성스러운 창의 심판",
+        "zh_CN": "圣枪审判",
+        "zh_TW": "聖槍審判"
+      }
+    },
+    {
+      "id": 515033,
+      "charId": 150,
+      "names": {
+        "en_US": "Holy Prayer",
+        "ja_JP": "聖言の祈り",
+        "ko_KR": "성스러운 말의 기도",
+        "zh_CN": "圣语祷告",
+        "zh_TW": "聖語禱告"
+      }
+    },
+    {
+      "id": 515041,
+      "charId": 150,
+      "names": {
+        "en_US": "Lancefall: Light Realm",
+        "ja_JP": "落槍・光の領域",
+        "ko_KR": "낙창·광역",
+        "zh_CN": "落枪·光域",
+        "zh_TW": "落槍·光域"
+      }
+    },
+    {
+      "id": 515042,
+      "charId": 150,
+      "names": {
+        "en_US": "Lancefall: Electro Bind",
+        "ja_JP": "落槍・光の渦",
+        "ko_KR": "낙창·전기 속박",
+        "zh_CN": "落枪·电缠",
+        "zh_TW": "落槍·電纏"
+      }
+    },
+    {
+      "id": 515043,
+      "charId": 150,
+      "names": {
+        "en_US": "Lancefall: Thunder Surge",
+        "ja_JP": "落槍・連鎖する光",
+        "ko_KR": "낙창·번개 파도",
+        "zh_CN": "落枪·雷涌",
+        "zh_TW": "落槍·雷湧"
+      }
+    },
+    {
+      "id": 515501,
+      "charId": 155,
+      "names": {
+        "en_US": "Phantom Step Rediance",
+        "ja_JP": "光の雪兎",
+        "ko_KR": "환상의 발걸음",
+        "zh_CN": "幻步临光",
+        "zh_TW": "幻步臨光"
+      }
+    },
+    {
+      "id": 515502,
+      "charId": 155,
+      "names": {
+        "en_US": "Rimecrystal Edge",
+        "ja_JP": "スノーフォール",
+        "ko_KR": "칼날 같은 눈",
+        "zh_CN": "霁雪化刃",
+        "zh_TW": "霽雪化刃"
+      }
+    },
+    {
+      "id": 515503,
+      "charId": 155,
+      "names": {
+        "en_US": "Moonlight Overflow",
+        "ja_JP": "月の夜兎",
+        "ko_KR": "달빛의 분출",
+        "zh_CN": "月华倾泻",
+        "zh_TW": "月華傾瀉"
+      }
+    },
+    {
+      "id": 515504,
+      "charId": 155,
+      "names": {
+        "en_US": "Astral Pirouette",
+        "ja_JP": "ナイトフォロー",
+        "ko_KR": "별빛의 도약",
+        "zh_CN": "星舞追跃",
+        "zh_TW": "星舞追躍"
+      }
+    },
+    {
+      "id": 515505,
+      "charId": 155,
+      "names": {
+        "en_US": "Glacial Dash",
+        "ja_JP": "シーブリザード",
+        "ko_KR": "설경 돌파",
+        "zh_CN": "穿雪破空",
+        "zh_TW": "穿雪破空"
+      }
+    },
+    {
+      "id": 515506,
+      "charId": 155,
+      "names": {
+        "en_US": "Subzero Dominion",
+        "ja_JP": "ホワイトウォール",
+        "ko_KR": "설원의 제압",
+        "zh_CN": "雪域压制",
+        "zh_TW": "雪域壓制"
+      }
+    },
+    {
+      "id": 515507,
+      "charId": 155,
+      "names": {
+        "en_US": "Rimeheart Pulse",
+        "ja_JP": "マリンスノー",
+        "ko_KR": "흰 눈의 폭발",
+        "zh_CN": "凝雪震心",
+        "zh_TW": "凝雪震心"
+      }
+    },
+    {
+      "id": 515508,
+      "charId": 155,
+      "names": {
+        "en_US": "Final Crescent",
+        "ja_JP": "ナイトパックス",
+        "ko_KR": "초승달 영혼 자르기",
+        "zh_CN": "月弧断魄",
+        "zh_TW": "月弧斷魄"
+      }
+    },
+    {
+      "id": 515509,
+      "charId": 155,
+      "names": {
+        "en_US": "Lunar Detonation",
+        "ja_JP": "集束ミサイル",
+        "ko_KR": "달빛 폭발",
+        "zh_CN": "月能爆裂",
+        "zh_TW": "月能爆裂"
+      }
+    },
+    {
+      "id": 515510,
+      "charId": 155,
+      "names": {
+        "en_US": "Lunar Combo",
+        "ja_JP": "ラピッドファイア",
+        "ko_KR": "달그림자 콤보",
+        "zh_CN": "月影连击",
+        "zh_TW": "月影連擊"
+      }
+    },
+    {
+      "id": 515511,
+      "charId": 155,
+      "names": {
+        "en_US": "Leporine Gale",
+        "ja_JP": "オンショア",
+        "ko_KR": "토끼의 그림자 질주",
+        "zh_CN": "兔影穿风",
+        "zh_TW": "兔影穿風"
+      }
+    },
+    {
+      "id": 515512,
+      "charId": 155,
+      "names": {
+        "en_US": "Hare\u0027s Pursuit",
+        "ja_JP": "フォローアップ",
+        "ko_KR": "토끼의 도약 추적",
+        "zh_CN": "兔跃追踪",
+        "zh_TW": "兔躍追蹤"
+      }
+    },
+    {
+      "id": 515513,
+      "charId": 155,
+      "names": {
+        "en_US": "Rabbit\u0027s Beam",
+        "ja_JP": "フィニッシャー",
+        "ko_KR": "토끼의 집중하는 빛",
+        "zh_CN": "兔光聚焦",
+        "zh_TW": "兔光聚焦"
+      }
+    },
+    {
+      "id": 515521,
+      "charId": 155,
+      "names": {
+        "en_US": "Kindred Bound",
+        "ja_JP": "雪兎の火力支援",
+        "ko_KR": "토끼의 동행",
+        "zh_CN": "兔跃同旅",
+        "zh_TW": "兔躍同旅"
+      }
+    },
+    {
+      "id": 515522,
+      "charId": 155,
+      "names": {
+        "en_US": "Twin Moons",
+        "ja_JP": "夜兎の支援攻撃",
+        "ko_KR": "쌍월의 회전",
+        "zh_CN": "双月回旋",
+        "zh_TW": "雙月迴旋"
+      }
+    },
+    {
+      "id": 515523,
+      "charId": 155,
+      "names": {
+        "en_US": "Bunny Torrent",
+        "ja_JP": "いい波きてる♪",
+        "ko_KR": "토끼 파도 분사",
+        "zh_CN": "兔浪喷射",
+        "zh_TW": "兔浪噴射"
+      }
+    },
+    {
+      "id": 515524,
+      "charId": 155,
+      "names": {
+        "en_US": "Rabbit Flip",
+        "ja_JP": "アブナイウェイヴ",
+        "ko_KR": "물결 자르기",
+        "zh_CN": "断浪兔翻",
+        "zh_TW": "斷浪兔翻"
+      }
+    },
+    {
+      "id": 515525,
+      "charId": 155,
+      "names": {
+        "en_US": "Dance of the Riptide",
+        "ja_JP": "ウサギパーティー",
+        "ko_KR": "파도의 춤사위",
+        "zh_CN": "浪潮共舞",
+        "zh_TW": "浪潮共舞"
+      }
+    },
+    {
+      "id": 515526,
+      "charId": 155,
+      "names": {
+        "en_US": "Snowfall\u0027s Heartbeat",
+        "ja_JP": "わたしと雪兎",
+        "ko_KR": "눈의 리듬",
+        "zh_CN": "舞雪脉冲",
+        "zh_TW": "舞雪脈衝"
+      }
+    },
+    {
+      "id": 515527,
+      "charId": 155,
+      "names": {
+        "en_US": "Eclipse Blast",
+        "ja_JP": "わたしと夜兎",
+        "ko_KR": "월식 폭발",
+        "zh_CN": "月蚀爆破",
+        "zh_TW": "月蝕爆破"
+      }
+    },
+    {
+      "id": 515528,
+      "charId": 155,
+      "names": {
+        "en_US": "Flow Reversal",
+        "ja_JP": "ヘヴィーウェイヴ",
+        "ko_KR": "파도의 표류",
+        "zh_CN": "翻浪漂移",
+        "zh_TW": "翻浪漂移"
+      }
+    },
+    {
+      "id": 515529,
+      "charId": 155,
+      "names": {
+        "en_US": "Kick the Wave",
+        "ja_JP": "リバースウェイヴ",
+        "ko_KR": "보드의 물결 가르기",
+        "zh_CN": "板尾掀浪",
+        "zh_TW": "板尾掀浪"
+      }
+    },
+    {
+      "id": 515530,
+      "charId": 155,
+      "names": {
+        "en_US": "Catch the Wave",
+        "ja_JP": "ロングライド",
+        "ko_KR": "파도 속 가속",
+        "zh_CN": "划浪起速",
+        "zh_TW": "划浪起速"
+      }
+    },
+    {
+      "id": 515531,
+      "charId": 155,
+      "names": {
+        "en_US": "Tidal Charge",
+        "ja_JP": "ビッグウェイヴ",
+        "ko_KR": "조석 에너지 충전",
+        "zh_CN": "潮汐充能",
+        "zh_TW": "潮汐蓄能"
+      }
+    },
+    {
+      "id": 515532,
+      "charId": 155,
+      "names": {
+        "en_US": "Counter Current",
+        "ja_JP": "ハイタイド",
+        "ko_KR": "파도 밟기",
+        "zh_CN": "踏浪反转",
+        "zh_TW": "踏浪反轉"
+      }
+    },
+    {
+      "id": 515533,
+      "charId": 155,
+      "names": {
+        "en_US": "Moonfall",
+        "ja_JP": "月の海の兎たち",
+        "ko_KR": "달의 장막 강림",
+        "zh_CN": "月幕降临",
+        "zh_TW": "月幕降臨"
+      }
+    },
+    {
+      "id": 515541,
+      "charId": 155,
+      "names": {
+        "en_US": "Howl to the Moon",
+        "ja_JP": "シャープムーン",
+        "ko_KR": "월광을 향한 외침",
+        "zh_CN": "啸月望舒",
+        "zh_TW": "嘯月望舒"
+      }
+    },
+    {
+      "id": 515542,
+      "charId": 155,
+      "names": {
+        "en_US": "Silent Tide",
+        "ja_JP": "静かの海に閃く光",
+        "ko_KR": "고요함 속 물결",
+        "zh_CN": "寂空汐起",
+        "zh_TW": "寂空汐起"
+      }
+    },
+    {
+      "id": 515543,
+      "charId": 155,
+      "names": {
+        "en_US": "Wave to Oblivion",
+        "ja_JP": "ハロー波浪注意報",
+        "ko_KR": "공허의 파도",
+        "zh_CN": "巨浪归虚",
+        "zh_TW": "巨浪歸虛"
+      }
+    },
+    {
+      "id": 515601,
+      "charId": 156,
+      "names": {
+        "en_US": "Small Force",
+        "ja_JP": "デカぬい軍団",
+        "ko_KR": "미약한 세력",
+        "zh_CN": "小小军势",
+        "zh_TW": "小小軍勢"
+      }
+    },
+    {
+      "id": 515602,
+      "charId": 156,
+      "names": {
+        "en_US": "Wobble Dance",
+        "ja_JP": "みんなで踊ろう",
+        "ko_KR": "살랑이는 스텝",
+        "zh_CN": "摇摇舞步",
+        "zh_TW": "搖搖舞步"
+      }
+    },
+    {
+      "id": 515603,
+      "charId": 156,
+      "names": {
+        "en_US": "Roll the Dice",
+        "ja_JP": "運試しの三矢",
+        "ko_KR": "행운 추첨",
+        "zh_CN": "幸运开奖",
+        "zh_TW": "幸運開獎"
+      }
+    },
+    {
+      "id": 515604,
+      "charId": 156,
+      "names": {
+        "en_US": "Graceful Turn",
+        "ja_JP": "くるっと回って",
+        "ko_KR": "화려한 턴",
+        "zh_CN": "华丽转身",
+        "zh_TW": "華麗轉身"
+      }
+    },
+    {
+      "id": 515605,
+      "charId": 156,
+      "names": {
+        "en_US": "Cuddle of Terror",
+        "ja_JP": "ハグしてドカン",
+        "ko_KR": "서프라이즈 포옹",
+        "zh_CN": "惊吓拥抱",
+        "zh_TW": "驚嚇擁抱"
+      }
+    },
+    {
+      "id": 515606,
+      "charId": 156,
+      "names": {
+        "en_US": "Cutie\u0027s Rally",
+        "ja_JP": "ぬいの激励",
+        "ko_KR": "사랑스러운 응원",
+        "zh_CN": "萌萌助威",
+        "zh_TW": "萌萌打氣"
+      }
+    },
+    {
+      "id": 515607,
+      "charId": 156,
+      "names": {
+        "en_US": "Beat Maestro",
+        "ja_JP": "音ゲー感覚",
+        "ko_KR": "리듬의 달인",
+        "zh_CN": "乐动达人",
+        "zh_TW": "樂動達人"
+      }
+    },
+    {
+      "id": 515608,
+      "charId": 156,
+      "names": {
+        "en_US": "Clean Sweep",
+        "ja_JP": "幸運のたまご",
+        "ko_KR": "원샷 올킬",
+        "zh_CN": "一击全倒",
+        "zh_TW": "一擊全倒"
+      }
+    },
+    {
+      "id": 515609,
+      "charId": 156,
+      "names": {
+        "en_US": "Fill the Gap",
+        "ja_JP": "きみのターン！",
+        "ko_KR": "빈틈 채우기",
+        "zh_CN": "空窗补齐",
+        "zh_TW": "空窗補齊"
+      }
+    },
+    {
+      "id": 515610,
+      "charId": 156,
+      "names": {
+        "en_US": "Focus Fire",
+        "ja_JP": "求む！支援火力",
+        "ko_KR": "협력 화력",
+        "zh_CN": "协同火力",
+        "zh_TW": "協同火力"
+      }
+    },
+    {
+      "id": 515611,
+      "charId": 156,
+      "names": {
+        "en_US": "Swiftstep",
+        "ja_JP": "音ゲーステップ",
+        "ko_KR": "스텝 기술",
+        "zh_CN": "垫步技巧",
+        "zh_TW": "墊步技巧"
+      }
+    },
+    {
+      "id": 515612,
+      "charId": 156,
+      "names": {
+        "en_US": "Touch of Nature",
+        "ja_JP": "みんな寝転んで",
+        "ko_KR": "자연의 손길",
+        "zh_CN": "自然之触",
+        "zh_TW": "自然之觸"
+      }
+    },
+    {
+      "id": 515613,
+      "charId": 156,
+      "names": {
+        "en_US": "Wily Wonder",
+        "ja_JP": "実は策士？",
+        "ko_KR": "기발한 장난",
+        "zh_CN": "古灵精怪",
+        "zh_TW": "古靈精怪"
+      }
+    },
+    {
+      "id": 515621,
+      "charId": 156,
+      "names": {
+        "en_US": "Bold Assertion",
+        "ja_JP": "ペンギンの加護",
+        "ko_KR": "정의로운 기세",
+        "zh_CN": "理直气壮",
+        "zh_TW": "理直氣壯"
+      }
+    },
+    {
+      "id": 515622,
+      "charId": 156,
+      "names": {
+        "en_US": "Feel the Beat",
+        "ja_JP": "ペンギン贔屓",
+        "ko_KR": "무한한 스윙",
+        "zh_CN": "尽情摇摆",
+        "zh_TW": "盡情搖擺"
+      }
+    },
+    {
+      "id": 515623,
+      "charId": 156,
+      "names": {
+        "en_US": "Arrow of Affection",
+        "ja_JP": "ハート大好き",
+        "ko_KR": "특별한 러브샷",
+        "zh_CN": "偏心爱箭",
+        "zh_TW": "偏心愛箭"
+      }
+    },
+    {
+      "id": 515624,
+      "charId": 156,
+      "names": {
+        "en_US": "Sweetheart Bloom",
+        "ja_JP": "ハート爆弾",
+        "ko_KR": "피어나는 달콤함",
+        "zh_CN": "甜心盛开",
+        "zh_TW": "甜心盛開"
+      }
+    },
+    {
+      "id": 515625,
+      "charId": 156,
+      "names": {
+        "en_US": "Feather Frenzy",
+        "ja_JP": "ペンギンショー",
+        "ko_KR": "깃털의 난무",
+        "zh_CN": "羽羽乱舞",
+        "zh_TW": "羽羽亂舞"
+      }
+    },
+    {
+      "id": 515626,
+      "charId": 156,
+      "names": {
+        "en_US": "Jubilant Spin",
+        "ja_JP": "ペンギンに歓喜",
+        "ko_KR": "기쁨의 스핀",
+        "zh_CN": "欢腾旋跃",
+        "zh_TW": "歡騰旋躍"
+      }
+    },
+    {
+      "id": 515627,
+      "charId": 156,
+      "names": {
+        "en_US": "Twinkle Toss",
+        "ja_JP": "あの星に敬礼！",
+        "ko_KR": "큐티 스타볼",
+        "zh_CN": "萌影掷星",
+        "zh_TW": "萌影擲星"
+      }
+    },
+    {
+      "id": 515628,
+      "charId": 156,
+      "names": {
+        "en_US": "Love\u0027s True Strike",
+        "ja_JP": "きみのハートに",
+        "ko_KR": "사랑의 관통",
+        "zh_CN": "爱意贯心",
+        "zh_TW": "愛意貫心"
+      }
+    },
+    {
+      "id": 515629,
+      "charId": 156,
+      "names": {
+        "en_US": "Rain of Passion",
+        "ja_JP": "ハートに夢中",
+        "ko_KR": "러브 애로우",
+        "zh_CN": "情弩落雨",
+        "zh_TW": "情弩落雨"
+      }
+    },
+    {
+      "id": 515630,
+      "charId": 156,
+      "names": {
+        "en_US": "Honeyed Arrow",
+        "ja_JP": "ハートどきどき",
+        "ko_KR": "허니 애로우",
+        "zh_CN": "倾情蜜箭",
+        "zh_TW": "傾情蜜箭"
+      }
+    },
+    {
+      "id": 515631,
+      "charId": 156,
+      "names": {
+        "en_US": "Lucky Drop",
+        "ja_JP": "わたしがついてる",
+        "ko_KR": "하늘에서 떨어진 행운",
+        "zh_CN": "天降幸运",
+        "zh_TW": "天降幸運"
+      }
+    },
+    {
+      "id": 515632,
+      "charId": 156,
+      "names": {
+        "en_US": "Progressive Jackpot",
+        "ja_JP": "ジャックポット",
+        "ko_KR": "보너스 풀",
+        "zh_CN": "累计奖池",
+        "zh_TW": "累計獎池"
+      }
+    },
+    {
+      "id": 515633,
+      "charId": 156,
+      "names": {
+        "en_US": "Double Delight",
+        "ja_JP": "ダブルチャンス",
+        "ko_KR": "연속 서프라이즈",
+        "zh_CN": "双连惊喜",
+        "zh_TW": "雙連驚喜"
+      }
+    },
+    {
+      "id": 515641,
+      "charId": 156,
+      "names": {
+        "en_US": "Operation: Pandemonium",
+        "ja_JP": "どんちき騒ぎ",
+        "ko_KR": "개구쟁이 총집합",
+        "zh_CN": "胡闹总动员",
+        "zh_TW": "胡鬧總動員"
+      }
+    },
+    {
+      "id": 515642,
+      "charId": 156,
+      "names": {
+        "en_US": "Balloonado",
+        "ja_JP": "ここは任せろ！",
+        "ko_KR": "풍선 토네이도",
+        "zh_CN": "气球龙卷风",
+        "zh_TW": "氣球龍捲風"
+      }
+    },
+    {
+      "id": 515643,
+      "charId": 156,
+      "names": {
+        "en_US": "Rocket Cart",
+        "ja_JP": "轢いたら離脱！",
+        "ko_KR": "터보 카트",
+        "zh_CN": "飚速手推车",
+        "zh_TW": "飆速手推車"
+      }
+    }
+  ]
+}

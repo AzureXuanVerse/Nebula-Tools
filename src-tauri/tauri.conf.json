@@ -1,22 +1,24 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "nebula-tools",
+  "productName": "星塔旅人指令生成器",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.nebula.tools",
   "build": {
     "frontendDist": "../dist",
-    "devUrl": "http://127.0.0.1:1145",
+    "devUrl": "http://127.0.0.1:4321",
+    "removeUnusedCommands": false,
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
   },
   "app": {
     "windows": [
       {
-        "title": "nebula-tools",
-        "width": 800,
-        "height": 600,
+        "title": "星塔旅人指令生成器",
+        "width": 1600,
+        "height": 900,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "center": true
       }
     ],
     "security": {

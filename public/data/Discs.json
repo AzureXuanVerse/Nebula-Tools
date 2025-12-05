@@ -1,0 +1,785 @@
+{
+  "discs": [
+    {
+      "id": 211001,
+      "element": "NONE",
+      "names": {
+        "en_US": "Crisp Morning",
+        "ja_JP": "朝靄",
+        "ko_KR": "아침 안개",
+        "zh_CN": "朝霭",
+        "zh_TW": "朝靄"
+      }
+    },
+    {
+      "id": 211002,
+      "element": "NONE",
+      "names": {
+        "en_US": "Sunny Breeze",
+        "ja_JP": "長閑",
+        "ko_KR": "평온",
+        "zh_CN": "和煦",
+        "zh_TW": "和煦"
+      }
+    },
+    {
+      "id": 211003,
+      "element": "NONE",
+      "names": {
+        "en_US": "Indigo Sunset",
+        "ja_JP": "薄暮",
+        "ko_KR": "황혼",
+        "zh_CN": "晚霞",
+        "zh_TW": "晚霞"
+      }
+    },
+    {
+      "id": 211004,
+      "element": "NONE",
+      "names": {
+        "en_US": "Pink Dream",
+        "ja_JP": "儚雲",
+        "ko_KR": "분홍빛 꿈",
+        "zh_CN": "粉梦",
+        "zh_TW": "粉夢"
+      }
+    },
+    {
+      "id": 211005,
+      "element": "NONE",
+      "names": {
+        "en_US": "Lonely Dunes",
+        "ja_JP": "寒煙",
+        "ko_KR": "고독한 연기",
+        "zh_CN": "孤烟",
+        "zh_TW": "孤煙"
+      }
+    },
+    {
+      "id": 211006,
+      "element": "NONE",
+      "names": {
+        "en_US": "Sweet Creek",
+        "ja_JP": "甘露",
+        "ko_KR": "감로",
+        "zh_CN": "甘露",
+        "zh_TW": "甘露"
+      }
+    },
+    {
+      "id": 211007,
+      "element": "NONE",
+      "names": {
+        "en_US": "Starlit Hope",
+        "ja_JP": "希望",
+        "ko_KR": "희망",
+        "zh_CN": "希冀",
+        "zh_TW": "希冀"
+      }
+    },
+    {
+      "id": 211008,
+      "element": "NONE",
+      "names": {
+        "en_US": "Homeward Path",
+        "ja_JP": "帰路",
+        "ko_KR": "귀로",
+        "zh_CN": "归途",
+        "zh_TW": "歸途"
+      }
+    },
+    {
+      "id": 212001,
+      "element": "NONE",
+      "names": {
+        "en_US": "Grand Feast",
+        "ja_JP": "いただきま〜す",
+        "ko_KR": "성찬",
+        "zh_CN": "盛宴",
+        "zh_TW": "盛宴"
+      }
+    },
+    {
+      "id": 212002,
+      "element": "NONE",
+      "names": {
+        "en_US": "Whoopla",
+        "ja_JP": "敵役たちの日常",
+        "ko_KR": "소란",
+        "zh_CN": "喧哗",
+        "zh_TW": "喧嘩"
+      }
+    },
+    {
+      "id": 212003,
+      "element": "NONE",
+      "names": {
+        "en_US": "Elysium",
+        "ja_JP": "死出の舞踏会",
+        "ko_KR": "극락",
+        "zh_CN": "极乐",
+        "zh_TW": "極樂"
+      }
+    },
+    {
+      "id": 212005,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Flare Frenzy",
+        "ja_JP": "情熱ステップ",
+        "ko_KR": "열정",
+        "zh_CN": "情热",
+        "zh_TW": "熱情"
+      }
+    },
+    {
+      "id": 212006,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Auspicious Glow",
+        "ja_JP": "幸運の光",
+        "ko_KR": "상서로운 빛",
+        "zh_CN": "吉光",
+        "zh_TW": "吉光"
+      }
+    },
+    {
+      "id": 212007,
+      "element": "WIND",
+      "names": {
+        "en_US": "Brave the Wind",
+        "ja_JP": "風に乗って",
+        "ko_KR": "바람을 타고",
+        "zh_CN": "乘风",
+        "zh_TW": "乘風"
+      }
+    },
+    {
+      "id": 212008,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Bubbles",
+        "ja_JP": "スローライフ",
+        "ko_KR": "물거품",
+        "zh_CN": "泡沫",
+        "zh_TW": "泡沫"
+      }
+    },
+    {
+      "id": 212009,
+      "element": "DARK",
+      "names": {
+        "en_US": "Eclipse",
+        "ja_JP": "闇に消える",
+        "ko_KR": "검은 소멸",
+        "zh_CN": "黯灭",
+        "zh_TW": "黯滅"
+      }
+    },
+    {
+      "id": 212010,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Fortitude",
+        "ja_JP": "強靭",
+        "ko_KR": "강인함",
+        "zh_CN": "坚韧",
+        "zh_TW": "堅韌"
+      }
+    },
+    {
+      "id": 213003,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Scorching Night\u0027s End",
+        "ja_JP": "覚めない熱帯夜",
+        "ko_KR": "열대야의 끝",
+        "zh_CN": "热夜的结束",
+        "zh_TW": "熱夜的結束"
+      }
+    },
+    {
+      "id": 213004,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Twin Moon Mischief",
+        "ja_JP": "アッシュ・アイ",
+        "ko_KR": "괴도 콤비",
+        "zh_CN": "双月怪盗",
+        "zh_TW": "雙月怪盜"
+      }
+    },
+    {
+      "id": 213005,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "★Bam Bam Girl★",
+        "ja_JP": "舞台裏の魔女★",
+        "ko_KR": "★~펑펑 소녀~★",
+        "zh_CN": "★~嘭嘭少女~★",
+        "zh_TW": "★~嘭嘭少女~★"
+      }
+    },
+    {
+      "id": 213006,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Good Night",
+        "ja_JP": "おやすみ",
+        "ko_KR": "굿나잇",
+        "zh_CN": "晚安",
+        "zh_TW": "晚安"
+      }
+    },
+    {
+      "id": 213007,
+      "element": "WIND",
+      "names": {
+        "en_US": "Emerald Dream",
+        "ja_JP": "翡翠の夢",
+        "ko_KR": "에메랄드 틈새 경계",
+        "zh_CN": "翡翠隙境",
+        "zh_TW": "翡翠之夢"
+      }
+    },
+    {
+      "id": 213008,
+      "element": "WIND",
+      "names": {
+        "en_US": "Tranquil Retreat",
+        "ja_JP": "憩いのひと時",
+        "ko_KR": "휴식의 순간",
+        "zh_CN": "小憩片刻",
+        "zh_TW": "小憩片刻"
+      }
+    },
+    {
+      "id": 213009,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Rainy Tune",
+        "ja_JP": "雨に唄おう",
+        "ko_KR": "‘빗속의’ 선율",
+        "zh_CN": "“雨中”曲",
+        "zh_TW": "「雨中」曲"
+      }
+    },
+    {
+      "id": 213010,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Steam Syndrome",
+        "ja_JP": "蒼梧城の休日",
+        "ko_KR": "수증기 증후군",
+        "zh_CN": "水蒸汽症候群",
+        "zh_TW": "水蒸氣症候群"
+      }
+    },
+    {
+      "id": 213011,
+      "element": "DARK",
+      "names": {
+        "en_US": "Meow Rhythm",
+        "ja_JP": "ニャーのリズム",
+        "ko_KR": "고양이 리듬",
+        "zh_CN": "喵律动",
+        "zh_TW": "喵律動"
+      }
+    },
+    {
+      "id": 213012,
+      "element": "DARK",
+      "names": {
+        "en_US": "Starry Night Ode",
+        "ja_JP": "星空に夜露死苦",
+        "ko_KR": "별하늘에 안부를",
+        "zh_CN": "问候星空",
+        "zh_TW": "問候星空"
+      }
+    },
+    {
+      "id": 213013,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Leaf Her to Me",
+        "ja_JP": "秋に包まれて",
+        "ko_KR": "가을날 속삭임",
+        "zh_CN": "秋日絮语",
+        "zh_TW": "秋日絮語"
+      }
+    },
+    {
+      "id": 213014,
+      "element": "EARTH",
+      "names": {
+        "en_US": "The Knight\u0027s Smith",
+        "ja_JP": "騎士様の鍛冶師",
+        "ko_KR": "기사의 대장장이",
+        "zh_CN": "骑士的铁匠",
+        "zh_TW": "騎士的鐵匠"
+      }
+    },
+    {
+      "id": 213015,
+      "element": "WIND",
+      "names": {
+        "en_US": "Unknown Fragrance",
+        "ja_JP": "知らない名前",
+        "ko_KR": "알려지지 않은 이름",
+        "zh_CN": "未闻芳名",
+        "zh_TW": "未聞芳名"
+      }
+    },
+    {
+      "id": 213016,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Cage of Roses",
+        "ja_JP": "鳥かごの薔薇",
+        "ko_KR": "새장의 장미",
+        "zh_CN": "樊笼蔷薇",
+        "zh_TW": "樊籠薔薇"
+      }
+    },
+    {
+      "id": 213017,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "★Rolling Life★",
+        "ja_JP": "MCをねらえ！",
+        "ko_KR": "★~돌고 도는 인생~★",
+        "zh_CN": "★~转转人生~★",
+        "zh_TW": "★~轉轉人生~★"
+      }
+    },
+    {
+      "id": 213018,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Soda Shopping",
+        "ja_JP": "新商品の飲み物",
+        "ko_KR": "음료수 사는 날",
+        "zh_CN": "饮料采购日",
+        "zh_TW": "飲料採購日"
+      }
+    },
+    {
+      "id": 213019,
+      "element": "DARK",
+      "names": {
+        "en_US": "Delusion",
+        "ja_JP": "虚ろの中の美",
+        "ko_KR": "망언",
+        "zh_CN": "妄语",
+        "zh_TW": "妄語"
+      }
+    },
+    {
+      "id": 213020,
+      "element": "EARTH",
+      "names": {
+        "en_US": "The Shining",
+        "ja_JP": "おコンバンハ！",
+        "ko_KR": "플래시 고스트",
+        "zh_CN": "闪灵",
+        "zh_TW": "閃靈"
+      }
+    },
+    {
+      "id": 213021,
+      "element": "WIND",
+      "names": {
+        "en_US": "Miraculous Anthem",
+        "ja_JP": "とろける言の葉",
+        "ko_KR": "영험한 찬가",
+        "zh_CN": "灵验颂歌",
+        "zh_TW": "靈驗頌歌"
+      }
+    },
+    {
+      "id": 213022,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Love River\u0027s Curse",
+        "ja_JP": "川より深い愛で",
+        "ko_KR": "저주받은 사랑의 강",
+        "zh_CN": "诅咒爱河",
+        "zh_TW": "詛咒愛河"
+      }
+    },
+    {
+      "id": 213023,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Pure White",
+        "ja_JP": "穢れなき純白",
+        "ko_KR": "순백",
+        "zh_CN": "纯白",
+        "zh_TW": "純白"
+      }
+    },
+    {
+      "id": 213024,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Holiday Bubble",
+        "ja_JP": "休日の泡",
+        "ko_KR": "홀리데이 버블",
+        "zh_CN": "假日泡影",
+        "zh_TW": "假日泡影"
+      }
+    },
+    {
+      "id": 213025,
+      "element": "DARK",
+      "names": {
+        "en_US": "Sweet Invitation",
+        "ja_JP": "甘い招待",
+        "ko_KR": "달콤한 초대",
+        "zh_CN": "甜蜜邀约",
+        "zh_TW": "甜蜜邀約"
+      }
+    },
+    {
+      "id": 213026,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Vent It Out ♥",
+        "ja_JP": "♥配信たいむ♥",
+        "ko_KR": "청소 타임DA♥YO",
+        "zh_CN": "清扫时间DA♥YO",
+        "zh_TW": "清掃時間到♥囉"
+      }
+    },
+    {
+      "id": 214001,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Meowing Cat God",
+        "ja_JP": "在し日の記憶",
+        "ko_KR": "고양이 신 레퀴엠",
+        "zh_CN": "猫神降歌",
+        "zh_TW": "貓神降歌"
+      }
+    },
+    {
+      "id": 214002,
+      "element": "WIND",
+      "names": {
+        "en_US": "Sky, Flowers, Poem",
+        "ja_JP": "空と花の詩",
+        "ko_KR": "하늘, 꽃 그리고 시",
+        "zh_CN": "空与花与诗",
+        "zh_TW": "空與花與詩"
+      }
+    },
+    {
+      "id": 214005,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Sunlit Blossom",
+        "ja_JP": "晴天の彩花",
+        "ko_KR": "맑은 하늘의 꽃",
+        "zh_CN": "晴之花",
+        "zh_TW": "晴之花"
+      }
+    },
+    {
+      "id": 214006,
+      "element": "DARK",
+      "names": {
+        "en_US": "Witch\u0027s Swing",
+        "ja_JP": "魔女の秘薬",
+        "ko_KR": "마녀의 그네",
+        "zh_CN": "魔女的秋千",
+        "zh_TW": "魔女的鞦韆"
+      }
+    },
+    {
+      "id": 214007,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Midnight Mayhem",
+        "ja_JP": "真夜中の堕天使",
+        "ko_KR": "자정의 타락 천사",
+        "zh_CN": "午夜，堕天使",
+        "zh_TW": "午夜，墮天使"
+      }
+    },
+    {
+      "id": 214009,
+      "element": "WIND",
+      "names": {
+        "en_US": "New Star Prelude",
+        "ja_JP": "『空白』の序章",
+        "ko_KR": "‘공백’의 프롤로그",
+        "zh_CN": "“空白”的序章",
+        "zh_TW": "「空白」的序章"
+      }
+    },
+    {
+      "id": 214010,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Prayer Beneath Light",
+        "ja_JP": "清浄なる祈り",
+        "ko_KR": "깨끗한 기도",
+        "zh_CN": "沐光祷告",
+        "zh_TW": "沐光禱告"
+      }
+    },
+    {
+      "id": 214011,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Summer Afternoon Rain",
+        "ja_JP": "昼下がりの雨",
+        "ko_KR": "여름날 오후의 비",
+        "zh_CN": "夏日午后的雨",
+        "zh_TW": "夏日午後的雨"
+      }
+    },
+    {
+      "id": 214012,
+      "element": "DARK",
+      "names": {
+        "en_US": "Those with Ambition",
+        "ja_JP": "見据える先に",
+        "ko_KR": "야심에 찬 시선",
+        "zh_CN": "狼贪虎视",
+        "zh_TW": "狼貪虎視"
+      }
+    },
+    {
+      "id": 214013,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Voyage Blueprint",
+        "ja_JP": "白紙の航海図",
+        "ko_KR": "항해의 청사진",
+        "zh_CN": "远航蓝图",
+        "zh_TW": "遠航藍圖"
+      }
+    },
+    {
+      "id": 214014,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Sweet Times",
+        "ja_JP": "甘く咲く時間",
+        "ko_KR": "달콤한 말의 열매",
+        "zh_CN": "甜言蜜果",
+        "zh_TW": "甜言蜜果"
+      }
+    },
+    {
+      "id": 214017,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Fireworks",
+        "ja_JP": "ハナビ",
+        "ko_KR": "불꽃",
+        "zh_CN": "花火",
+        "zh_TW": "花火"
+      }
+    },
+    {
+      "id": 214018,
+      "element": "WIND",
+      "names": {
+        "en_US": "Lemon \u0026 Black Tea",
+        "ja_JP": "レモネードと紅茶",
+        "ko_KR": "레모네이드와 홍차",
+        "zh_CN": "冰柠与红茶",
+        "zh_TW": "冰檸與紅茶"
+      }
+    },
+    {
+      "id": 214019,
+      "element": "FIRE",
+      "names": {
+        "en_US": "One Shot, One Down",
+        "ja_JP": "一撃必中",
+        "ko_KR": "원샷원킬",
+        "zh_CN": "一发破的",
+        "zh_TW": "一發破的"
+      }
+    },
+    {
+      "id": 214020,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Sparkling Moment",
+        "ja_JP": "かけがえのない時間",
+        "ko_KR": "반짝이는 순간",
+        "zh_CN": "闪光之时",
+        "zh_TW": "閃光之時"
+      }
+    },
+    {
+      "id": 214021,
+      "element": "AQUA",
+      "names": {
+        "en_US": "United by Fate",
+        "ja_JP": "一期一会",
+        "ko_KR": "인연의 만남",
+        "zh_CN": "因缘而聚",
+        "zh_TW": "因緣而聚"
+      }
+    },
+    {
+      "id": 214022,
+      "element": "DARK",
+      "names": {
+        "en_US": "The Meow",
+        "ja_JP": "真夜中の鈴",
+        "ko_KR": "한밤의 고양이 방울",
+        "zh_CN": "午夜喵铃",
+        "zh_TW": "午夜喵鈴"
+      }
+    },
+    {
+      "id": 214023,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Colors Pierce the Grey",
+        "ja_JP": "虹を描こう",
+        "ko_KR": "그래피티 무지개",
+        "zh_CN": "涂鸦彩虹",
+        "zh_TW": "塗鴉彩虹"
+      }
+    },
+    {
+      "id": 214026,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Sword Against Stream",
+        "ja_JP": "古池の水音",
+        "ko_KR": "반짝이는 옛 연못",
+        "zh_CN": "潋滟故池水",
+        "zh_TW": "瀲灩故池水"
+      }
+    },
+    {
+      "id": 214027,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Mystic Brushstrokes",
+        "ja_JP": "自由自在",
+        "ko_KR": "용과 봉황",
+        "zh_CN": "龙飞凤舞",
+        "zh_TW": "龍飛鳳舞"
+      }
+    },
+    {
+      "id": 214028,
+      "element": "WIND",
+      "names": {
+        "en_US": "Daylight Garden",
+        "ja_JP": "白日の花園",
+        "ko_KR": "대낮의 화원",
+        "zh_CN": "白日花园",
+        "zh_TW": "白日花園"
+      }
+    },
+    {
+      "id": 214030,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "A Moment in the Afternoon",
+        "ja_JP": "穴あきおサボり",
+        "ko_KR": "오후의 틈새",
+        "zh_CN": "午后间隙",
+        "zh_TW": "午後間隙"
+      }
+    },
+    {
+      "id": 214031,
+      "element": "AQUA",
+      "names": {
+        "en_US": "The Clash of Blade and Axe",
+        "ja_JP": "強者を求めて",
+        "ko_KR": "검과 도끼의 울음",
+        "zh_CN": "刀与斧的铮鸣",
+        "zh_TW": "刀與斧的錚鳴"
+      }
+    },
+    {
+      "id": 214032,
+      "element": "DARK",
+      "names": {
+        "en_US": "Dream Factory of ☆Truth",
+        "ja_JP": "真理の大釜",
+        "ko_KR": "진실☆꿈 공장",
+        "zh_CN": "真相☆梦工厂",
+        "zh_TW": "真相☆夢工廠"
+      }
+    },
+    {
+      "id": 214033,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Dancing with the Bones",
+        "ja_JP": "メメント×モリ",
+        "ko_KR": "해골과의 춤사위",
+        "zh_CN": "与骨共舞",
+        "zh_TW": "與骨共舞"
+      }
+    },
+    {
+      "id": 214036,
+      "element": "EARTH",
+      "names": {
+        "en_US": "The Lost Pilgrim",
+        "ja_JP": "痛みは救済",
+        "ko_KR": "길 잃은 순례자",
+        "zh_CN": "迷途的朝圣者",
+        "zh_TW": "迷途的朝聖者"
+      }
+    },
+    {
+      "id": 214037,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Claw the Claw",
+        "ja_JP": "伝説のアラシ",
+        "ko_KR": "전설을 잡아라",
+        "zh_CN": "抓住传说",
+        "zh_TW": "抓住傳說"
+      }
+    },
+    {
+      "id": 214038,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Ripples of Nostalgia",
+        "ja_JP": "波にゆられて",
+        "ko_KR": "파도빛 유랑",
+        "zh_CN": "波光漫游",
+        "zh_TW": "波光漫游"
+      }
+    },
+    {
+      "id": 214039,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Summer Sanctuary",
+        "ja_JP": "夕涼み",
+        "ko_KR": "여름 서식지",
+        "zh_CN": "夏日栖息地",
+        "zh_TW": "夏日棲息地"
+      }
+    },
+    {
+      "id": 214040,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Fist of Courage",
+        "ja_JP": "迷いを断つ拳",
+        "ko_KR": "용기의 주먹",
+        "zh_CN": "勇气之拳",
+        "zh_TW": "勇氣之拳"
+      }
+    }
+  ]
+}

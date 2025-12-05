@@ -1,0 +1,300 @@
+@import "tailwindcss";
+
+/* 自定义CSS变量 */
+:root {
+  /* 主色调 */
+  --primary: #00BCD4;
+  --primary-light: #26C6DA;
+  --primary-dark: #0097A7;
+  --primary-gradient: linear-gradient(135deg, #00BCD4 0%, #26C6DA 100%);
+  
+  /* 强调色 */
+  --accent: #1E3A5F;
+  --accent-light: #2C5282;
+  
+  /* 辅助色 */
+  --secondary: #E91E63;
+  --secondary-light: #F06292;
+  
+  /* 背景 */
+  --bg-primary: #F5F7FA;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #E8ECF1;
+  
+  /* 边框 */
+  --border-primary: rgba(0, 188, 212, 0.3);
+  --border-secondary: rgba(0, 188, 212, 0.15);
+  
+  /* 文字 */
+  --text-primary: #1E3A5F;
+  --text-secondary: #546E7A;
+  --text-tertiary: #90A4AE;
+  
+  /* 元素色 */
+  --element-fire: #FF6B6B;
+  --element-aqua: #4FC3F7;
+  --element-wind: #66BB6A;
+  --element-earth: #FFA726;
+  --element-light: #FFD54F;
+  --element-dark: #7E57C2;
+  
+  /* 状态色 */
+  --success: #66BB6A;
+  --warning: #FFA726;
+  --error: #EF5350;
+  
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  
+  /* 阴影 */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --glow-primary: 0 0 20px rgba(0, 188, 212, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Inter', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* 清新科技感背景 */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg, #E0F7FA 0%, #F5F7FA 50%, #E8ECF1 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: 
+    linear-gradient(90deg, rgba(0, 188, 212, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(0, 188, 212, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at 20% 30%, rgba(0, 188, 212, 0.08), transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(233, 30, 99, 0.06), transparent 50%);
+  background-size: 50px 50px, 50px 50px, 100% 100%, 100% 100%;
+  animation: grid-move 20s linear infinite;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes grid-move {
+  0% { background-position: 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 50px 50px, 50px 50px, 0 0, 0 0; }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toast-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.toast-animate {
+  animation: toast-slide-in 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 卡片样式 */
+.custom-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.custom-card:hover {
+  border-color: var(--border-primary);
+  box-shadow: var(--shadow-lg), 0 0 20px rgba(0, 188, 212, 0.15);
+}
+
+.custom-card-glow {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(0, 188, 212, 0.05) 100%);
+  border: 2px solid var(--border-primary);
+  box-shadow: var(--shadow-lg), var(--glow-primary);
+}
+
+/* 按钮样式 */
+.btn-custom-primary {
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-custom-primary:hover {
+  box-shadow: var(--shadow-lg), var(--glow-primary);
+}
+
+.btn-custom-accent {
+  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-light) 100%);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: var(--shadow-md), 0 0 20px rgba(233, 30, 99, 0.3);
+}
+
+.btn-custom-accent:hover {
+  box-shadow: var(--shadow-lg), 0 0 25px rgba(233, 30, 99, 0.4);
+}
+
+.btn-custom-secondary {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.btn-custom-secondary:hover {
+  background: var(--bg-secondary);
+  border-color: var(--border-primary);
+}
+
+/* 输入框样式 */
+.input-custom {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-size: 14px;
+  transition: all 0.25s;
+  width: 100%;
+  font-family: inherit;
+}
+
+.input-custom:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.1), var(--glow-primary);
+  background: var(--bg-tertiary);
+}
+
+/* 选择框样式 */
+.select-custom {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-secondary);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.25s;
+  width: 100%;
+  font-family: inherit;
+}
+
+.select-custom:hover {
+  border-color: var(--border-primary);
+  background-color: var(--bg-tertiary);
+}
+
+.select-custom:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(0, 188, 212, 0.1);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 188, 212, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 188, 212, 0.4);
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+/* 禁用按钮样式 */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

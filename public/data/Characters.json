@@ -1,0 +1,301 @@
+{
+  "characters": [
+    {
+      "id": 103,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Amber",
+        "ja_JP": "コハク",
+        "ko_KR": "코하쿠",
+        "zh_CN": "琥珀",
+        "zh_TW": "琥珀"
+      }
+    },
+    {
+      "id": 107,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Tilia",
+        "ja_JP": "ティリア",
+        "ko_KR": "틸리아",
+        "zh_CN": "缇莉娅",
+        "zh_TW": "緹莉婭"
+      }
+    },
+    {
+      "id": 108,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Kasimira",
+        "ja_JP": "カシミラ",
+        "ko_KR": "카시미라",
+        "zh_CN": "卡西米拉",
+        "zh_TW": "卡西米拉"
+      }
+    },
+    {
+      "id": 111,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Iris",
+        "ja_JP": "アヤメ",
+        "ko_KR": "아야메",
+        "zh_CN": "鸢尾",
+        "zh_TW": "鳶尾"
+      }
+    },
+    {
+      "id": 112,
+      "element": "WIND",
+      "names": {
+        "en_US": "Noya",
+        "ja_JP": "セイナ",
+        "ko_KR": "세이나",
+        "zh_CN": "尘沙",
+        "zh_TW": "塵沙"
+      }
+    },
+    {
+      "id": 113,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Shimiao",
+        "ja_JP": "シーミャオ",
+        "ko_KR": "시먀오",
+        "zh_CN": "师渺",
+        "zh_TW": "師渺"
+      }
+    },
+    {
+      "id": 116,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Ridge",
+        "ja_JP": "レイセン",
+        "ko_KR": "레이센",
+        "zh_CN": "岭川",
+        "zh_TW": "嶺川"
+      }
+    },
+    {
+      "id": 117,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Jinglin",
+        "ja_JP": "ジンリン",
+        "ko_KR": "징린",
+        "zh_CN": "璟麟",
+        "zh_TW": "璟麟"
+      }
+    },
+    {
+      "id": 118,
+      "element": "DARK",
+      "names": {
+        "en_US": "Coronis",
+        "ja_JP": "クルニス",
+        "ko_KR": "크루니스",
+        "zh_CN": "科洛妮丝",
+        "zh_TW": "柯洛妮絲"
+      }
+    },
+    {
+      "id": 119,
+      "element": "WIND",
+      "names": {
+        "en_US": "Nanoha",
+        "ja_JP": "ナノハ",
+        "ko_KR": "나노하",
+        "zh_CN": "花原",
+        "zh_TW": "花原"
+      }
+    },
+    {
+      "id": 120,
+      "element": "WIND",
+      "names": {
+        "en_US": "Canace",
+        "ja_JP": "カナーチェ",
+        "ko_KR": "카나체",
+        "zh_CN": "卡娜丝",
+        "zh_TW": "卡娜絲"
+      }
+    },
+    {
+      "id": 123,
+      "element": "WIND",
+      "names": {
+        "en_US": "Ann",
+        "ja_JP": "アンズ",
+        "ko_KR": "안즈",
+        "zh_CN": "杏子",
+        "zh_TW": "杏子"
+      }
+    },
+    {
+      "id": 125,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Freesia",
+        "ja_JP": "フリージア",
+        "ko_KR": "프리지아",
+        "zh_CN": "苍兰",
+        "zh_TW": "蒼蘭"
+      }
+    },
+    {
+      "id": 126,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Flora",
+        "ja_JP": "フローラ",
+        "ko_KR": "플로라",
+        "zh_CN": "紫槿",
+        "zh_TW": "紫槿"
+      }
+    },
+    {
+      "id": 127,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Teresa",
+        "ja_JP": "テレサ",
+        "ko_KR": "테레사",
+        "zh_CN": "特丽莎",
+        "zh_TW": "特麗莎"
+      }
+    },
+    {
+      "id": 132,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Minova",
+        "ja_JP": "ミネルバ",
+        "ko_KR": "미네르바",
+        "zh_CN": "密涅瓦",
+        "zh_TW": "密涅瓦"
+      }
+    },
+    {
+      "id": 133,
+      "element": "WIND",
+      "names": {
+        "en_US": "Nazuka",
+        "ja_JP": "ナツカ",
+        "ko_KR": "나츠카",
+        "zh_CN": "夏花",
+        "zh_TW": "夏花"
+      }
+    },
+    {
+      "id": 134,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Fuyuka",
+        "ja_JP": "フユカ",
+        "ko_KR": "후유카",
+        "zh_CN": "冬香",
+        "zh_TW": "冬香"
+      }
+    },
+    {
+      "id": 135,
+      "element": "DARK",
+      "names": {
+        "en_US": "Mistique",
+        "ja_JP": "ミスティ",
+        "ko_KR": "미스티",
+        "zh_CN": "雾语",
+        "zh_TW": "霧語"
+      }
+    },
+    {
+      "id": 141,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Chixia",
+        "ja_JP": "チーシア",
+        "ko_KR": "치시아",
+        "zh_CN": "赤霞",
+        "zh_TW": "赤霞"
+      }
+    },
+    {
+      "id": 142,
+      "element": "DARK",
+      "names": {
+        "en_US": "Cosette",
+        "ja_JP": "コゼット",
+        "ko_KR": "코제트",
+        "zh_CN": "珂赛特",
+        "zh_TW": "珂賽特"
+      }
+    },
+    {
+      "id": 144,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Chitose",
+        "ja_JP": "チトセ",
+        "ko_KR": "치토세",
+        "zh_CN": "千都世",
+        "zh_TW": "千都世"
+      }
+    },
+    {
+      "id": 147,
+      "element": "DARK",
+      "names": {
+        "en_US": "Caramel",
+        "ja_JP": "キャラメル",
+        "ko_KR": "캐러멜",
+        "zh_CN": "焦糖",
+        "zh_TW": "焦糖"
+      }
+    },
+    {
+      "id": 149,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Gerie",
+        "ja_JP": "グレイ",
+        "ko_KR": "그레이",
+        "zh_CN": "格芮",
+        "zh_TW": "格芮"
+      }
+    },
+    {
+      "id": 150,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Laru",
+        "ja_JP": "ラール",
+        "ko_KR": "라루",
+        "zh_CN": "菈露",
+        "zh_TW": "菈露"
+      }
+    },
+    {
+      "id": 155,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Shia",
+        "ja_JP": "シア",
+        "ko_KR": "시아",
+        "zh_CN": "希娅",
+        "zh_TW": "希婭"
+      }
+    },
+    {
+      "id": 156,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Nazuna",
+        "ja_JP": "ナズナ",
+        "ko_KR": "나즈나",
+        "zh_CN": "小禾",
+        "zh_TW": "小禾"
+      }
+    }
+  ]
+}
