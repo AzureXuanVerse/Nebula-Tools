@@ -20,6 +20,11 @@ export function CharacterPanel(props: CharacterPanelProps) {
   const [talent, setTalent] = createSignal<number>(5);
   const [favor, setFavor] = createSignal<number>(50);
 
+  try {
+    const ef = localStorage.getItem('character.elementFilter');
+    if (ef) setElementFilter(JSON.parse(ef));
+  } catch {}
+
   const elements: Array<{ value: Element | 'ALL'; label: string; icon: string; color: string }> = [
     { value: 'ALL', label: '全部', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
     { value: 'FIRE', label: '火', icon: '🔥', color: 'bg-red-100 text-red-600 border-red-300' },
@@ -84,7 +89,10 @@ export function CharacterPanel(props: CharacterPanelProps) {
                       : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
                   }`}
                   class={elementFilter() === elem.value ? '' : elem.color}
-                  onClick={() => setElementFilter(elem.value)}
+                  onClick={() => {
+                    setElementFilter(elem.value);
+                    try { localStorage.setItem('character.elementFilter', JSON.stringify(elem.value)); } catch {}
+                  }}
                 >
                   <span>{elem.icon}</span>
                   <span>{elem.label}</span>
@@ -99,6 +107,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
           options={characterOptions()}
           selected={selectedCharacters()}
           onChange={(selected) => setSelectedCharacters(selected as number[])}
+          persistKey="character.selected"
           placeholder="点击选择角色（可多选）"
         />
         <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
@@ -122,13 +131,15 @@ export function CharacterPanel(props: CharacterPanelProps) {
               max={90}
               value={level()}
               onInput={(e) => setLevel(Number(e.currentTarget.value))}
+              persistKey="character.level"
             />
             <NumberInput
-              label="升阶 (0-8)"
+              label="突破 (0-8)"
               min={0}
               max={8}
               value={ascension()}
               onInput={(e) => setAscension(Number(e.currentTarget.value))}
+              persistKey="character.ascension"
             />
             <NumberInput
               label="技能 (1-10)"
@@ -136,6 +147,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
               max={10}
               value={skill()}
               onInput={(e) => setSkill(Number(e.currentTarget.value))}
+              persistKey="character.skill"
             />
             <NumberInput
               label="天赋 (0-5)"
@@ -143,13 +155,15 @@ export function CharacterPanel(props: CharacterPanelProps) {
               max={5}
               value={talent()}
               onInput={(e) => setTalent(Number(e.currentTarget.value))}
+              persistKey="character.talent"
             />
             <NumberInput
-              label="好感度 (0-50)"
+              label="默契 (0-50)"
               min={0}
               max={50}
               value={favor()}
               onInput={(e) => setFavor(Number(e.currentTarget.value))}
+              persistKey="character.favor"
             />
           </div>
         </div>

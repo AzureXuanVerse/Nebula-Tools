@@ -30,6 +30,17 @@ export function MailPanel(props: MailPanelProps) {
       const response = await fetch('/data/Items.json');
       const data = await response.json();
       setItems(data.items || []);
+      try {
+        const s = localStorage.getItem('mail.subject');
+        if (s) setSubject(JSON.parse(s));
+        const b = localStorage.getItem('mail.body');
+        if (b) setBody(JSON.parse(b));
+        const att = localStorage.getItem('mail.attachments');
+        if (att) {
+          const arr = JSON.parse(att);
+          if (Array.isArray(arr)) setAttachments(arr);
+        }
+      } catch {}
     } catch (error) {
       console.error('Failed to load items for MailPanel:', error);
     }
@@ -48,16 +59,17 @@ export function MailPanel(props: MailPanelProps) {
     const id = newItemId().trim();
     if (!id) return;
 
-    setAttachments([
-      ...attachments(),
-      { itemId: id, quantity: newQuantity() },
-    ]);
+    const next = [...attachments(), { itemId: id, quantity: newQuantity() }];
+    setAttachments(next);
+    try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
     setNewItemId('');
     setNewQuantity(1);
   };
 
   const removeAttachment = (index: number) => {
-    setAttachments(attachments().filter((_, i) => i !== index));
+    const next = attachments().filter((_, i) => i !== index);
+    setAttachments(next);
+    try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
   };
 
   // 实时生成命令
@@ -86,7 +98,12 @@ export function MailPanel(props: MailPanelProps) {
             label="邮件主题"
             placeholder="输入邮件主题"
             value={subject()}
-            onInput={(e) => setSubject(e.currentTarget.value)}
+            onInput={(e) => {
+              const v = e.currentTarget.value;
+              setSubject(v);
+              try { localStorage.setItem('mail.subject', JSON.stringify(v)); } catch {}
+            }}
+            persistKey="mail.subject"
           />
           <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
             <label style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">
@@ -97,7 +114,11 @@ export function MailPanel(props: MailPanelProps) {
               rows={4}
               placeholder="输入邮件正文"
               value={body()}
-              onInput={(e) => setBody(e.currentTarget.value)}
+              onInput={(e) => {
+                const v = e.currentTarget.value;
+                setBody(v);
+                try { localStorage.setItem('mail.body', JSON.stringify(v)); } catch {}
+              }}
               style="resize: none;"
             />
           </div>

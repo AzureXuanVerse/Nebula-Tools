@@ -1,9 +1,10 @@
-import { createSignal, createEffect, Show } from 'solid-js';
+import { createSignal, For, Show } from 'solid-js';
 import { Card } from '../ui/Card';
 import { Input } from '../ui/Input';
 import { Button } from '../ui/Button';
 import { SearchableSelect } from '../ui/SearchableSelect';
 import type { Language, ConnectionStatus } from '../../types';
+import { executeCommand } from '../../utils/api';
 
 interface ConnectionPanelProps {
   language: Language;
@@ -20,10 +21,27 @@ interface ConnectionPanelProps {
 }
 
 export function ConnectionPanel(props: ConnectionPanelProps) {
-  const canTest = () => {
+  const canSave = () => {
     if (!props.serverUrl.trim() || !props.token.trim()) return false;
     if (props.connectionMode === 'admin' && !props.targetUid.trim()) return false;
     return true;
+  };
+  const [consoleInput, setConsoleInput] = createSignal('');
+  const [consoleLogs, setConsoleLogs] = createSignal<{ time: string; cmd: string; code: number; msg: string }[]>([]);
+  const canExecConsole = () => {
+    if (!props.serverUrl.trim() || !props.token.trim()) return false;
+    if (!consoleInput().trim()) return false;
+    if (props.connectionMode === 'admin' && !props.targetUid.trim()) return false;
+    return true;
+  };
+  const runConsole = async () => {
+    if (!canExecConsole()) return;
+    const base = consoleInput().trim();
+    const finalCmd = props.targetUid.trim() ? `${base} @${props.targetUid.trim()}` : base;
+    const response = await executeCommand({ serverUrl: props.serverUrl + '/api/command', token: props.token }, finalCmd);
+    const now = new Date();
+    const time = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+    setConsoleLogs([{ time, cmd: finalCmd, code: response.Code, msg: response.Msg || '' }, ...consoleLogs()]);
   };
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
@@ -47,6 +65,7 @@ export function ConnectionPanel(props: ConnectionPanelProps) {
             compact={false}
             hideArrow={true}
             hideCheckmark={true}
+            persistKey="conn.mode"
             onChange={(e) => props.onConnectionModeChange(e.currentTarget.value as 'admin' | 'player')}
           />
           
@@ -55,31 +74,73 @@ export function ConnectionPanel(props: ConnectionPanelProps) {
             placeholder={props.connectionMode === 'admin' ? '输入管理员密钥' : '输入玩家令牌（8位随机码）'}
             value={props.token}
             onInput={(e) => props.onTokenChange(e.currentTarget.value)}
+            persistKey="conn.token"
           />
           
           <Show when={props.connectionMode === 'admin'}>
             <Input
-              label="目标玩家 UID（必填）"
+              label="目标玩家 UID（必填）（由于服务端没验证UID，所以请输入正确）"
               placeholder="如: 10001"
               value={props.targetUid}
               onInput={(e) => props.onTargetUidChange(e.currentTarget.value)}
+              persistKey="conn.uid"
             />
           </Show>
           
           <div style="margin-top: var(--spacing-sm);">
             <Button
               variant="primary"
-              onClick={props.onTestConnection}
+              onClick={() => {
+                if (!canSave()) return;
+                try {
+                  localStorage.setItem('conn.config', JSON.stringify({
+                    serverUrl: props.serverUrl,
+                    token: props.token,
+                    targetUid: props.targetUid,
+                    connectionMode: props.connectionMode,
+                  }));
+                } catch {}
+                props.onTestConnection();
+              }}
               style="width: 100%;"
-              disabled={!canTest() || props.connectionStatus === 'connecting'}
+              disabled={!canSave()}
             >
-              {props.connectionStatus === 'connecting' ? '连接中...' : '测试连接'}
+              保存
             </Button>
-            {!canTest() && (
+            {!canSave() && (
               <div style="margin-top: 6px; font-size: 12px; color: var(--text-tertiary);">
                 {(!props.serverUrl.trim() || !props.token.trim()) ? '请填写服务器地址与Token' : '管理员模式需填写目标UID'}
               </div>
             )}
+          </div>
+        </div>
+      </Card>
+
+      <Card title="控制台">
+        <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+          <Input
+            label="输入命令"
+            placeholder="如：/help"
+            value={consoleInput()}
+            onInput={(e) => setConsoleInput(e.currentTarget.value)}
+            persistKey="conn.console.input"
+          />
+          <Button variant="primary" onClick={runConsole} disabled={!canExecConsole()}>
+            执行
+          </Button>
+          <div style="display: flex; flex-direction: column; gap: 8px;">
+            <For each={consoleLogs()}>
+              {(log) => (
+                <div style="display:flex; flex-direction:column; gap:8px; padding:12px; background: var(--bg-secondary); border: 1px solid var(--border-secondary); border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                  <div style="display:flex; align-items:center; justify-content:space-between; font-size:12px; color: var(--text-tertiary);">
+                    <span>{log.time}</span>
+                    <span>Code: {log.code}</span>
+                  </div>
+                  <div style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent);">{log.cmd}</div>
+                  <div style="font-size: 13px; color: var(--text-secondary); white-space: pre-wrap; line-height: 1.6;">{log.msg}</div>
+                </div>
+              )}
+            </For>
           </div>
         </div>
       </Card>
@@ -92,7 +153,7 @@ export function ConnectionPanel(props: ConnectionPanelProps) {
           </div>
           <div style="display: flex; align-items: start; gap: var(--spacing-sm);">
             <span style="color: var(--primary); font-weight: 600;">2.</span>
-            <span>在上方输入服务器地址（不含路径），通常为 <code style="padding: 2px 6px; background: var(--bg-tertiary); border-radius: 4px; font-family: monospace;">http://127.0.0.1:5210</code></span>
+            <span>在上方输入服务器地址，通常为 <code style="padding: 2px 6px; background: var(--bg-tertiary); border-radius: 4px; font-family: monospace;">http://127.0.0.1:5210</code></span>
           </div>
           <div style="display: flex; align-items: start; gap: var(--spacing-sm);">
             <span style="color: var(--primary); font-weight: 600;">3.</span>

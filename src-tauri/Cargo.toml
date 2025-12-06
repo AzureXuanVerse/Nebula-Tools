@@ -1,8 +1,8 @@
 [package]
-name = "app"
+name = "NB-Tools"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["AzureXuanVerse"]
 license = ""
 repository = ""
 edition = "2021"
@@ -21,19 +21,19 @@ tauri-build = { version = "2.5.3", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 log = "0.4"
-tauri = { version = "2.9.4", features = ["devtools"] }
-#tauri = { version = "2.8.5", features = [""] }
+#tauri = { version = "2.9.4", features = ["devtools"] }
+tauri = { version = "2.9.4", features = [] }
 tauri-plugin-log = "2"
 
 [profile.release]
 #0：没有优化
-#minify-dist-data.mjs：基本优化
+#1：基本优化
 #2：部分优化
 #3：全部优化
 #"s"：优化二进制大小
 #"z"：优化二进制大小，同时关闭循环矢量化。
-#codegen-units = minify-dist-data.mjs # 允许 LLVM 执行更好的优化。
-#lto = true # 启用链接时优化。
-#opt-level = 3 # 优先考虑小的二进制文件大小。如果您更喜欢速度，请使用 `3`。
-#panic = "abort" # 通过禁用 panic 处理程序来提高性能。
-#strip = true # 确保移除调试符号。
+codegen-units = 1 # 允许 LLVM 执行更好的优化。
+lto = true # 启用链接时优化。
+opt-level = 3 # 优先考虑小的二进制文件大小。如果您更喜欢速度，请使用 `3`。
+panic = "abort" # 通过禁用 panic 处理程序来提高性能。
+strip = true # 确保移除调试符号。

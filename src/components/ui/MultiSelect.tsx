@@ -15,19 +15,29 @@ interface MultiSelectProps {
   searchable?: boolean;
   compact?: boolean;
   hideArrow?: boolean;
+  persistKey?: string;
 }
 
 export function MultiSelect(props: MultiSelectProps) {
   const [isOpen, setIsOpen] = createSignal(false);
   const [searchText, setSearchText] = createSignal('');
   let inputEl: HTMLInputElement | undefined;
+  const persistKey = props.persistKey;
 
   const toggleOption = (value: string | number) => {
     const current = props.selected;
     if (current.includes(value)) {
-      props.onChange(current.filter((v) => v !== value));
+      const next = current.filter((v) => v !== value);
+      props.onChange(next);
+      if (persistKey) {
+        try { localStorage.setItem(persistKey, JSON.stringify(next)); } catch {}
+      }
     } else {
-      props.onChange([...current, value]);
+      const next = [...current, value];
+      props.onChange(next);
+      if (persistKey) {
+        try { localStorage.setItem(persistKey, JSON.stringify(next)); } catch {}
+      }
     }
   };
 
@@ -56,6 +66,18 @@ export function MultiSelect(props: MultiSelectProps) {
     setIsOpen(true);
     setSearchText('');
   };
+
+  if (persistKey) {
+    try {
+      const v = localStorage.getItem(persistKey);
+      if (v) {
+        const parsed = JSON.parse(v);
+        if (Array.isArray(parsed)) {
+          props.onChange(parsed);
+        }
+      }
+    } catch {}
+  }
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-sm); position: relative;">

@@ -4,10 +4,11 @@ interface NumberInputProps extends JSX.InputHTMLAttributes<HTMLInputElement> {
   label?: string;
   min?: number;
   max?: number;
+  persistKey?: string;
 }
 
 export function NumberInput(props: NumberInputProps) {
-  const [local, others] = splitProps(props, ['label', 'class', 'min', 'max', 'onInput', 'onChange', 'value']);
+  const [local, others] = splitProps(props, ['label', 'class', 'min', 'max', 'onInput', 'onChange', 'value', 'persistKey']);
 
   // 验证并限制输入值
   const handleInput = (e: InputEvent & { currentTarget: HTMLInputElement }) => {
@@ -42,13 +43,24 @@ export function NumberInput(props: NumberInputProps) {
         type="number"
         min={local.min}
         max={local.max}
-        value={local.value}
+        value={(() => {
+          if (!local.persistKey) return local.value as any;
+          try {
+            const v = localStorage.getItem(local.persistKey);
+            if (v) return JSON.parse(v);
+          } catch {}
+          return local.value as any;
+        })()}
         class={`input-custom ${local.class || ''}`}
-        onInput={handleInput}
+        onInput={(e) => {
+          handleInput(e as any);
+          if (local.persistKey) {
+            try { localStorage.setItem(local.persistKey, JSON.stringify((e as any).currentTarget.value)); } catch {}
+          }
+        }}
         onChange={local.onChange}
         {...others}
       />
     </div>
   );
 }
-

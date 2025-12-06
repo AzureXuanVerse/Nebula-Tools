@@ -12,12 +12,14 @@ interface SearchableSelectProps extends JSX.SelectHTMLAttributes<HTMLSelectEleme
   compact?: boolean;
   hideArrow?: boolean;
   hideCheckmark?: boolean;
+  persistKey?: string;
 }
 
 export function SearchableSelect(props: SearchableSelectProps) {
   const [isOpen, setIsOpen] = createSignal(false);
   const [searchText, setSearchText] = createSignal('');
   const [selectedValue, setSelectedValue] = createSignal(props.value || '');
+  const persistKey = props.persistKey;
   let inputEl: HTMLInputElement | undefined;
 
   // 过滤选项
@@ -48,6 +50,11 @@ export function SearchableSelect(props: SearchableSelectProps) {
       const synthetic = { target: { value: String(value) }, currentTarget: { value: String(value) } } as any;
       props.onChange(synthetic);
     }
+    if (persistKey) {
+      try {
+        localStorage.setItem(persistKey, JSON.stringify(String(value)));
+      } catch {}
+    }
   };
 
   // 打开时重置搜索
@@ -55,6 +62,20 @@ export function SearchableSelect(props: SearchableSelectProps) {
     setIsOpen(true);
     setSearchText('');
   };
+
+  if (persistKey) {
+    try {
+      const v = localStorage.getItem(persistKey);
+      if (v) {
+        const parsed = JSON.parse(v);
+        setSelectedValue(parsed);
+        if (props.onChange) {
+          const synthetic = { target: { value: String(parsed) }, currentTarget: { value: String(parsed) } } as any;
+          props.onChange(synthetic);
+        }
+      }
+    } catch {}
+  }
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-sm); position: relative;">

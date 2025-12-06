@@ -59,12 +59,40 @@ export function App() {
 
   // 加载数据
   onMount(async () => {
+    try {
+      const saved = localStorage.getItem('conn.config');
+      if (saved) {
+        const cfg = JSON.parse(saved) as { serverUrl?: string; token?: string; targetUid?: string; connectionMode?: 'admin' | 'player' };
+        if (cfg.serverUrl) setServerUrl(cfg.serverUrl);
+        if (cfg.token) setToken(cfg.token);
+        if (cfg.targetUid) setTargetUid(cfg.targetUid);
+        if (cfg.connectionMode) setConnectionMode(cfg.connectionMode);
+      }
+    } catch {}
+
     const [chars, discsData] = await Promise.all([
       loadCharacters(),
       loadDiscs(),
     ]);
     setCharacters(chars);
     setDiscs(discsData);
+    try {
+      const savedCmd = localStorage.getItem('ui.currentCommand');
+      if (savedCmd) {
+        const val = JSON.parse(savedCmd) as CommandType;
+        const allowed = ['character','disc','give','giveall','level','build','mail','clean','connection'] as CommandType[];
+        if (allowed.includes(val)) setCurrentCommand(val);
+      }
+    } catch {}
+
+    try {
+      const urlOk = serverUrl().trim().length > 0;
+      const tokenOk = token().trim().length > 0;
+      const uidOk = connectionMode() === 'player' || (connectionMode() === 'admin' && targetUid().trim().length > 0);
+      if (urlOk && tokenOk && uidOk) {
+        await handleTestConnection();
+      }
+    } catch {}
   });
 
   // 添加通知
@@ -79,6 +107,13 @@ export function App() {
       setToasts([]);
       toastTimer = undefined;
     }, 3000) as unknown as number;
+  };
+
+  const clearState = () => {
+    try {
+      localStorage.clear();
+    } catch {}
+    location.reload();
   };
 
   // 移除通知
@@ -111,7 +146,12 @@ export function App() {
     }
 
     if (!serverUrl().trim() || !token().trim()) {
-      addToast('warning', '请先配置服务器地址和Token，点击"连接"菜单进行配置');
+      setCurrentCommand('connection');
+      return;
+    }
+
+    if (connectionStatus() !== 'connected') {
+      setCurrentCommand('connection');
       return;
     }
 
@@ -133,7 +173,7 @@ export function App() {
 
     if (response.Code === 200) {
       setConnectionStatus('connected');
-      addToast('success', '命令执行成功');
+      addToast('success', response.Msg && response.Msg.trim() ? `命令执行成功: ${response.Msg}` : '命令执行成功');
     } else {
       setConnectionStatus('disconnected');
       addToast('error', `命令执行失败: ${response.Msg}`);
@@ -170,48 +210,50 @@ export function App() {
     <div style="min-height: 100vh; position: relative; z-index: 1;">
       <Navbar
         currentCommand={currentCommand()}
-        onCommandChange={setCurrentCommand}
+        onCommandChange={(cmd) => { setCurrentCommand(cmd); try { localStorage.setItem('ui.currentCommand', JSON.stringify(cmd)); } catch {} }}
         language={language()}
         onLanguageChange={setLanguage}
         connectionStatus={connectionStatus()}
         onConnectionClick={() => {}}
+        onClearState={clearState}
       />
 
       <div style="max-width: 1400px; margin: 0 auto; padding: var(--spacing-xl); position: relative; z-index: 1;">
 
-        {/* 命令预览框 */}
-        <div style="background: var(--bg-secondary); border: 2px solid var(--border-primary); border-radius: var(--radius-lg); padding: var(--spacing-lg); box-shadow: var(--shadow-lg), var(--glow-primary); margin-bottom: var(--spacing-lg);">
-          <h3 style="font-size: 20px; font-weight: 600; color: var(--text-primary); margin-bottom: var(--spacing-md); display: flex; align-items: center; gap: var(--spacing-sm);">
-            <div style="width: 4px; height: 20px; background: var(--primary-gradient); border-radius: var(--radius-full); box-shadow: 0 0 8px rgba(0, 188, 212, 0.4);" />
-            命令预览
-          </h3>
-          <div style="display: flex; align-items: stretch; gap: var(--spacing-md);">
-            <div 
-              onClick={copyCommand}
-              style="flex: 1; background: linear-gradient(135deg, rgba(0, 188, 212, 0.05) 0%, rgba(0, 188, 212, 0.1) 100%); border: 1px solid var(--border-primary); border-radius: var(--radius-md); padding: var(--spacing-md); font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--accent); word-break: break-all; line-height: 1.6; cursor: pointer; transition: all 0.2s; display: flex; align-items: center;"
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0, 188, 212, 0.1) 0%, rgba(0, 188, 212, 0.15) 100%)';
-                e.currentTarget.style.borderColor = 'var(--primary)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0, 188, 212, 0.05) 0%, rgba(0, 188, 212, 0.1) 100%)';
-                e.currentTarget.style.borderColor = 'var(--border-primary)';
-              }}
-              title="点击复制命令"
-            >
-              {(() => {
-                const base = generatedCommand().trim();
-                if (!base) return '点击复制';
-                const withSlash = base.startsWith('/') ? base : `/${base}`;
-                const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
-                return `${withSlash}${suffix}`;
-              })()}
+        <Show when={currentCommand() !== 'connection'}>
+          <div style="background: var(--bg-secondary); border: 2px solid var(--border-primary); border-radius: var(--radius-lg); padding: var(--spacing-lg); box-shadow: var(--shadow-lg), var(--glow-primary); margin-bottom: var(--spacing-lg);">
+            <h3 style="font-size: 20px; font-weight: 600; color: var(--text-primary); margin-bottom: var(--spacing-md); display: flex; align-items: center; gap: var(--spacing-sm);">
+              <div style="width: 4px; height: 20px; background: var(--primary-gradient); border-radius: var(--radius-full); box-shadow: 0 0 8px rgba(0, 188, 212, 0.4);" />
+              命令预览
+            </h3>
+            <div style="display: flex; align-items: stretch; gap: var(--spacing-md);">
+              <div 
+                onClick={copyCommand}
+              style="flex: 1; background: linear-gradient(135deg, rgba(0, 188, 212, 0.05) 0%, rgba(0, 188, 212, 0.1) 100%); border: 1px solid var(--border-primary); border-radius: var(--radius-md); padding: var(--spacing-md); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'JetBrains Mono', monospace; font-size: 14px; color: var(--accent); word-break: break-all; line-height: 1.6; cursor: pointer; transition: all 0.2s; display: flex; align-items: center;"
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0, 188, 212, 0.1) 0%, rgba(0, 188, 212, 0.15) 100%)';
+                  e.currentTarget.style.borderColor = 'var(--primary)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0, 188, 212, 0.05) 0%, rgba(0, 188, 212, 0.1) 100%)';
+                  e.currentTarget.style.borderColor = 'var(--border-primary)';
+                }}
+                title="点击复制命令"
+              >
+                {(() => {
+                  const base = generatedCommand().trim();
+                  if (!base) return '点击复制';
+                  const withSlash = base.startsWith('/') ? base : `/${base}`;
+                  const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
+                  return `${withSlash}${suffix}`;
+                })()}
+              </div>
+              <Button variant="accent" onClick={runCommand} style="flex-shrink: 0; align-self: stretch;">
+                执行命令
+              </Button>
             </div>
-            <Button variant="accent" onClick={runCommand} style="flex-shrink: 0; align-self: stretch;">
-              执行命令
-            </Button>
           </div>
-        </div>
+        </Show>
 
         {/* 主内容区 */}
         <Switch>

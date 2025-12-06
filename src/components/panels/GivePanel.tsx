@@ -32,6 +32,14 @@ export function GivePanel(props: GivePanelProps) {
       const data = await response.json();
       // 加载所有物品，支持搜索功能
       setItems(data.items || []);
+      try {
+        const tf = localStorage.getItem('give.typeFilter');
+        if (tf) setTypeFilter(JSON.parse(tf));
+        const savedId = localStorage.getItem('give.itemId');
+        if (savedId) setItemId(JSON.parse(savedId));
+        const qty = localStorage.getItem('give.quantity');
+        if (qty) setQuantity(Number(JSON.parse(qty)) || 1);
+      } catch {}
     } catch (error) {
       console.error('Failed to load items:', error);
     }
@@ -84,8 +92,11 @@ export function GivePanel(props: GivePanelProps) {
                       ? 'border-color: var(--primary); background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);'
                       : `border-color: transparent; ${type.color.replace('border-', 'border-transparent ')}`
                   }`}
-                  class={typeFilter() === type.value ? '' : type.color}
-                  onClick={() => setTypeFilter(type.value)}
+              class={typeFilter() === type.value ? '' : type.color}
+                  onClick={() => {
+                    setTypeFilter(type.value);
+                    try { localStorage.setItem('give.typeFilter', JSON.stringify(type.value)); } catch {}
+                  }}
                 >
                   <span>{type.icon}</span>
                   <span>{type.label}</span>
@@ -100,14 +111,23 @@ export function GivePanel(props: GivePanelProps) {
             label="物品列表"
             options={itemOptions()}
             value={itemId()}
-            onChange={(e) => setItemId(e.currentTarget.value)}
+            onChange={(e) => {
+              setItemId(e.currentTarget.value);
+              try { localStorage.setItem('give.itemId', JSON.stringify(e.currentTarget.value)); } catch {}
+            }}
+            persistKey="give.itemId"
           />
           <NumberInput
             label="数量"
             min={1}
             max={999}
             value={quantity()}
-            onInput={(e) => setQuantity(Number(e.currentTarget.value))}
+            onInput={(e) => {
+              const val = Number(e.currentTarget.value);
+              setQuantity(val);
+              try { localStorage.setItem('give.quantity', JSON.stringify(val)); } catch {}
+            }}
+            persistKey="give.quantity"
           />
         </div>
       </Card>

@@ -71,6 +71,29 @@ export function BuildPanel(props: BuildPanelProps) {
         (item: any) => item.stype === 19
       );
       setMelodies(melodyItems);
+
+      try {
+        const savedChars = localStorage.getItem('build.selected');
+        if (savedChars) {
+          const arr = JSON.parse(savedChars) as number[];
+          if (Array.isArray(arr)) {
+            setSelectedCharacters(arr);
+            setCharacterConfigs(arr.map(cid => ({ charId: cid, potentials: [], discIds: [], melodies: [] })));
+          }
+        }
+        const savedCfg = localStorage.getItem('build.configs');
+        if (savedCfg) {
+          const cfgs = JSON.parse(savedCfg) as Array<{ charId:number; potentials:{potentialId:number;level:number}[]; discIds:number[]; melodies:{melodyId:number;level:number}[] }>;
+          if (Array.isArray(cfgs)) {
+            setCharacterConfigs(cfgs.map(c => ({
+              charId: c.charId,
+              potentials: (c.potentials || []).map(p => ({ id: `${c.charId}-${p.potentialId}`, charId: c.charId, potentialId: p.potentialId, level: p.level })),
+              discIds: (c.discIds || []).map(Number),
+              melodies: (c.melodies || []).map(m => ({ melodyId: m.melodyId, level: m.level }))
+            })));
+          }
+        }
+      } catch {}
     } catch (error) {
       console.error('Failed to load data:', error);
     }
@@ -83,11 +106,15 @@ export function BuildPanel(props: BuildPanelProps) {
 
     if (current.includes(id)) {
       // 取消选择：移除角色和配置
-      setSelectedCharacters(current.filter((cid) => cid !== id));
+      const next = current.filter((cid) => cid !== id);
+      setSelectedCharacters(next);
+      try { localStorage.setItem('build.selected', JSON.stringify(next)); } catch {}
       setCharacterConfigs(configs.filter(c => c.charId !== id));
     } else if (current.length < 3) {
       // 选择：添加角色和初始配置
-      setSelectedCharacters([...current, id]);
+      const nextSel = [...current, id];
+      setSelectedCharacters(nextSel);
+      try { localStorage.setItem('build.selected', JSON.stringify(nextSel)); } catch {}
       setCharacterConfigs([...configs, {
         charId: id,
         potentials: [],
@@ -107,7 +134,7 @@ export function BuildPanel(props: BuildPanelProps) {
     const configs = characterConfigs();
     const allDiscIds = configs.flatMap(c => c.discIds);
 
-    setCharacterConfigs(configs.map(c => {
+  setCharacterConfigs(configs.map(c => {
       if (c.charId === charId) {
         if (c.discIds.includes(discId)) {
           return { ...c, discIds: c.discIds.filter(d => d !== discId) };
@@ -116,7 +143,8 @@ export function BuildPanel(props: BuildPanelProps) {
         }
       }
       return c;
-    }));
+  }));
+  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
   };
 
   // 获取角色的潜能列表
@@ -144,74 +172,80 @@ export function BuildPanel(props: BuildPanelProps) {
 
   // 删除角色潜能
   const removeCharacterPotential = (charId: number, potentialId: string) => {
-    setCharacterConfigs(
-      characterConfigs().map(c =>
-        c.charId === charId
-          ? { ...c, potentials: c.potentials.filter(p => p.id !== potentialId) }
-          : c
-      )
-    );
+  setCharacterConfigs(
+    characterConfigs().map(c =>
+      c.charId === charId
+        ? { ...c, potentials: c.potentials.filter(p => p.id !== potentialId) }
+        : c
+    )
+  );
+  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
   };
 
   // 更新角色潜能
   const updateCharacterPotential = (charId: number, potentialId: string, newPotentialId: number) => {
-    setCharacterConfigs(
-      characterConfigs().map(c =>
-        c.charId === charId
-          ? { ...c, potentials: c.potentials.map(p => p.id === potentialId ? { ...p, potentialId: newPotentialId } : p) }
-          : c
-      )
-    );
+  setCharacterConfigs(
+    characterConfigs().map(c =>
+      c.charId === charId
+        ? { ...c, potentials: c.potentials.map(p => p.id === potentialId ? { ...p, potentialId: newPotentialId } : p) }
+        : c
+    )
+  );
+  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
   };
 
   // 更新角色潜能等级
   const updateCharacterPotentialLevel = (charId: number, potentialId: string, level: number) => {
     setCharacterConfigs(prev => {
-      for (const c of prev) {
-        if (c.charId !== charId) continue;
-        const pot = c.potentials.find(p => p.id === potentialId);
+      const next = prev.slice();
+      const idx = next.findIndex(c => c.charId === charId);
+      if (idx >= 0) {
+        const pot = next[idx].potentials.find(p => p.id === potentialId);
         if (pot) pot.level = level;
-        break;
       }
-      return prev;
+      try { localStorage.setItem('build.configs', JSON.stringify(next.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))); } catch {}
+      return next;
     });
   };
 
   // 添加角色音符
   const addCharacterMelody = (charId: number) => {
-    setCharacterConfigs(
-      characterConfigs().map(c =>
-        c.charId === charId
-          ? { ...c, melodies: [...c.melodies, { melodyId: 0, level: 1 }] }
-          : c
-      )
-    );
+  setCharacterConfigs(
+    characterConfigs().map(c =>
+      c.charId === charId
+        ? { ...c, melodies: [...c.melodies, { melodyId: 0, level: 1 }] }
+        : c
+    )
+  );
+  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
   };
 
   // 删除角色音符
   const removeCharacterMelody = (charId: number, index: number) => {
-    setCharacterConfigs(
-      characterConfigs().map(c =>
-        c.charId === charId
-          ? { ...c, melodies: c.melodies.filter((_, i) => i !== index) }
-          : c
-      )
-    );
+  setCharacterConfigs(
+    characterConfigs().map(c =>
+      c.charId === charId
+        ? { ...c, melodies: c.melodies.filter((_, i) => i !== index) }
+        : c
+    )
+  );
+  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
   };
 
   // 更新角色音符
   const updateCharacterMelody = (charId: number, index: number, melodyId: number, level: number) => {
     setCharacterConfigs(prev => {
-      for (const c of prev) {
-        if (c.charId !== charId) continue;
-        const m = c.melodies[index];
+      const next = prev.slice();
+      const idx = next.findIndex(c => c.charId === charId);
+      if (idx >= 0) {
+        const m = next[idx].melodies[index];
         if (m) {
           m.melodyId = melodyId;
           m.level = level;
         }
-        break;
       }
-      return prev;
+      try { localStorage.setItem('build.configs', JSON.stringify(next.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))); } catch {}
+      return next;
     });
   };
 
@@ -285,6 +319,10 @@ export function BuildPanel(props: BuildPanelProps) {
     });
 
     props.onCommandChange(parts.join(' '));
+    try {
+      localStorage.setItem('build.selected', JSON.stringify(Array.from(new Set(characterConfigs().map(c=>c.charId)))));
+      localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))));
+    } catch {}
   });
 
   return (

@@ -9,6 +9,7 @@ interface NavbarProps {
   onLanguageChange: (language: Language) => void;
   connectionStatus: ConnectionStatus;
   onConnectionClick: () => void;
+  onClearState?: () => void;
 }
 
 export function Navbar(props: NavbarProps) {
@@ -126,6 +127,7 @@ export function Navbar(props: NavbarProps) {
                 searchable={false}
                 compact={true}
                 hideArrow={true}
+                persistKey="ui.language"
                 onChange={(e) => props.onLanguageChange(e.currentTarget.value as Language)}
               />
             </div>
@@ -142,6 +144,41 @@ export function Navbar(props: NavbarProps) {
                 {getStatusText()}
               </span>
             </div>
+
+            <button
+              type="button"
+              title="清除状态"
+              style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border-radius: 9999px; border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-tertiary); cursor: pointer;"
+              onClick={() => props.onClearState && props.onClearState()}
+              onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--bg-tertiary)'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.background = 'var(--bg-secondary)'; e.currentTarget.style.color = 'var(--text-tertiary)'; }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M3 6h18v2H3V6zm2 4h14l-2 8H7l-2-8zm5-6h4l1 2H9l1-2z"/>
+              </svg>
+            </button>
+
+            <button
+              type="button"
+              title="GitHub"
+              style="display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 12px; border-radius: var(--radius-md); border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-secondary); font-size: 13px; font-weight: 600; cursor: pointer;"
+              onClick={async () => {
+                const url = 'https://github.com/AzureXuanVerse/Nebula-Tools';
+                try {
+                  const core = await import('@tauri-apps/api/core');
+                  await (core as any).invoke('open_external', { url });
+                } catch {
+                  window.open(url, '_blank', 'noopener,noreferrer');
+                }
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--bg-tertiary)'; e.currentTarget.style.borderColor = 'var(--primary)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.background = 'var(--bg-secondary)'; e.currentTarget.style.borderColor = 'var(--border-secondary)'; }}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49 0-.24-.01-.88-.01-1.72-2.78.61-3.37-1.2-3.37-1.2-.46-1.18-1.12-1.49-1.12-1.49-.92-.64.07-.63.07-.63 1.02.07 1.56 1.06 1.56 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.32.1-2.76 0 0 .84-.27 2.76 1.05.8-.23 1.66-.35 2.52-.35.86 0 1.72.12 2.52.35 1.92-1.33 2.76-1.05 2.76-1.05.55 1.44.2 2.5.1 2.76.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.69.95.69 1.91 0 1.38-.01 2.49-.01 2.83 0 .27.18.59.69.49 3.97-1.36 6.84-5.2 6.84-9.73C22 6.58 17.52 2 12 2z"/>
+              </svg>
+              GitHub
+            </button>
           </div>
         </div>
       </div>

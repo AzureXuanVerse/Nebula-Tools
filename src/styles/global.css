@@ -70,7 +70,7 @@
 }
 
 html, body {
-  font-family: 'Inter', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', 'Microsoft YaHei', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

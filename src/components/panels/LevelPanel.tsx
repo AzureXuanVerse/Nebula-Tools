@@ -12,6 +12,14 @@ interface LevelPanelProps {
 export function LevelPanel(props: LevelPanelProps) {
   const [level, setLevel] = createSignal<number>(40);
 
+  try {
+    const v = localStorage.getItem('level.value');
+    if (v) {
+      const n = Number(JSON.parse(v));
+      if (!Number.isNaN(n)) setLevel(n);
+    }
+  } catch {}
+
   // 实时生成命令
   createEffect(() => {
     if (level() < 1 || level() > 40) {
@@ -19,6 +27,7 @@ export function LevelPanel(props: LevelPanelProps) {
       return;
     }
     props.onCommandChange(`level ${level()}`);
+    try { localStorage.setItem('level.value', JSON.stringify(level())); } catch {}
   });
 
   return (
@@ -31,7 +40,11 @@ export function LevelPanel(props: LevelPanelProps) {
             min={1}
             max={40}
             value={level()}
-            onInput={(e) => setLevel(Number(e.currentTarget.value))}
+            onInput={(e) => {
+              const n = Number(e.currentTarget.value);
+              setLevel(n);
+              try { localStorage.setItem('level.value', JSON.stringify(n)); } catch {}
+            }}
           />
           
           {/* 数字输入框 */}
@@ -40,11 +53,15 @@ export function LevelPanel(props: LevelPanelProps) {
             min={1}
             max={40}
             value={level()}
-            onInput={(e) => setLevel(Number(e.currentTarget.value))}
+            onInput={(e) => {
+              const n = Number(e.currentTarget.value);
+              setLevel(n);
+              try { localStorage.setItem('level.value', JSON.stringify(n)); } catch {}
+            }}
+            persistKey="level.value"
           />
         </div>
       </Card>
     </div>
   );
 }
-

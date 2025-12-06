@@ -9,16 +9,32 @@ interface SegmentedProps extends Omit<JSX.HTMLAttributes<HTMLDivElement>, 'onCha
   options: SegmentedOption[]
   value: string
   onChange?: (e: { currentTarget: { value: string }; target: { value: string } }) => void
+  persistKey?: string
 }
 
 export function Segmented(props: SegmentedProps) {
-  const [local, others] = splitProps(props, ['options', 'value', 'onChange', 'class'])
+  const [local, others] = splitProps(props, ['options', 'value', 'onChange', 'class', 'persistKey'])
 
   const selectedIndex = () => Math.max(0, local.options.findIndex(o => o.value === local.value))
 
   const handleSelect = (val: string) => {
     local.onChange && local.onChange({ currentTarget: { value: val }, target: { value: val } })
+    if (local.persistKey) {
+      try { localStorage.setItem(local.persistKey, JSON.stringify(val)) } catch {}
+    }
   }
+
+  try {
+    if (local.persistKey) {
+      const v = localStorage.getItem(local.persistKey)
+      if (v) {
+        const parsed = JSON.parse(v)
+        if (typeof parsed === 'string' && parsed !== local.value) {
+          local.onChange && local.onChange({ currentTarget: { value: parsed }, target: { value: parsed } })
+        }
+      }
+    }
+  } catch {}
 
   return (
     <div

@@ -65,7 +65,11 @@ export function CleanPanel(props: CleanPanelProps) {
                   description: it.type,
                 })))}
               selected={selectedIds()}
-              onChange={setSelectedIds}
+              onChange={(sel) => {
+                setSelectedIds(sel);
+                try { localStorage.setItem('clean.selected', JSON.stringify(sel)); } catch {}
+              }}
+              persistKey="clean.selected"
               placeholder="选择或搜索物品"
             />
           )}
@@ -77,7 +81,11 @@ export function CleanPanel(props: CleanPanelProps) {
             <Segmented
               options={typeOptions}
               value={type()}
-              onChange={(e) => setType(e.currentTarget.value)}
+              onChange={(e) => {
+                setType(e.currentTarget.value);
+                try { localStorage.setItem('clean.type', JSON.stringify(e.currentTarget.value)); } catch {}
+              }}
+              persistKey="clean.type"
             />
           </div>
         </div>
@@ -85,3 +93,12 @@ export function CleanPanel(props: CleanPanelProps) {
     </div>
   );
 }
+  try {
+    const t = localStorage.getItem('clean.type');
+    if (t) setType(JSON.parse(t));
+    const sel = localStorage.getItem('clean.selected');
+    if (sel) {
+      const arr = JSON.parse(sel);
+      if (Array.isArray(arr)) setSelectedIds(arr);
+    }
+  } catch {}

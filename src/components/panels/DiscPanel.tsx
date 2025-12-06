@@ -17,6 +17,11 @@ export function DiscPanel(props: DiscPanelProps) {
   const [ascension, setAscension] = createSignal<number>(8);
   const [crescendo, setCrescendo] = createSignal<number>(5);
 
+  try {
+    const ef = localStorage.getItem('disc.elementFilter');
+    if (ef) setElementFilter(JSON.parse(ef));
+  } catch {}
+
   const elements: Array<{ value: Element | 'ALL'; label: string; icon: string; color: string }> = [
     { value: 'ALL', label: '全部', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
     { value: 'FIRE', label: '火', icon: '🔥', color: 'bg-red-100 text-red-600 border-red-300' },
@@ -80,7 +85,10 @@ export function DiscPanel(props: DiscPanelProps) {
                       : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
                   }`}
                   class={elementFilter() === elem.value ? '' : elem.color}
-                  onClick={() => setElementFilter(elem.value)}
+                  onClick={() => {
+                    setElementFilter(elem.value);
+                    try { localStorage.setItem('disc.elementFilter', JSON.stringify(elem.value)); } catch {}
+                  }}
                 >
                   <span>{elem.icon}</span>
                   <span>{elem.label}</span>
@@ -95,6 +103,7 @@ export function DiscPanel(props: DiscPanelProps) {
           options={discOptions()}
           selected={selectedDiscs()}
           onChange={(selected) => setSelectedDiscs(selected as number[])}
+          persistKey="disc.selected"
           placeholder="点击选择秘纹（可多选）"
         />
         <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
@@ -118,20 +127,23 @@ export function DiscPanel(props: DiscPanelProps) {
               max={90}
               value={level()}
               onInput={(e) => setLevel(Number(e.currentTarget.value))}
+              persistKey="disc.level"
             />
             <NumberInput
-              label="升阶 (0-8)"
+              label="阶段 (0-8)"
               min={0}
               max={8}
               value={ascension()}
               onInput={(e) => setAscension(Number(e.currentTarget.value))}
+              persistKey="disc.ascension"
             />
             <NumberInput
-              label="Crescendo (0-5)"
+              label="星级 (0-5)"
               min={0}
               max={5}
               value={crescendo()}
               onInput={(e) => setCrescendo(Number(e.currentTarget.value))}
+              persistKey="disc.crescendo"
             />
           </div>
         </div>
