@@ -1,9 +1,11 @@
 import { Show, For } from 'solid-js';
-import type { ToastMessage } from '../../types';
+import type { ToastMessage, Language } from '../../types';
+import { t } from '../../i18n';
 
 interface ToastProps {
   messages: ToastMessage[];
   onClose: (id: string) => void;
+  language?: Language;
 }
 
 export function Toast(props: ToastProps) {
@@ -13,8 +15,18 @@ export function Toast(props: ToastProps) {
   };
 
   const getTitle = (type: string) => {
-    const titles: Record<string, string> = { success: '操作成功', error: '错误', warning: '警告', info: '提示信息' };
-    return titles[type] || '提示';
+    const lang = (props.language as Language) || 'zh_CN';
+    switch (type) {
+      case 'success':
+        return t(lang, 'toast.title.success');
+      case 'error':
+        return t(lang, 'toast.title.error');
+      case 'warning':
+        return t(lang, 'toast.title.warning');
+      case 'info':
+      default:
+        return t(lang, 'toast.title.info') || t(lang, 'toast.title.default');
+    }
   };
 
   const getColor = (type: string) => {
@@ -86,4 +98,3 @@ export function Toast(props: ToastProps) {
     </div>
   );
 }
-

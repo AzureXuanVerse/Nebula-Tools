@@ -28,6 +28,7 @@ import type {
   ToastMessage,
   ConnectionConfig,
 } from '../types';
+import { t } from '../i18n';
 
 export function App() {
   // 状态管理
@@ -133,16 +134,16 @@ export function App() {
       const withSlash = base ? (base.startsWith('/') ? base : `/${base}`) : '';
       const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
       await navigator.clipboard.writeText(`${withSlash}${suffix}`);
-      addToast('success', '命令已复制到剪贴板');
+      addToast('success', t(language(), 'app.toastCopied'));
     } catch (error) {
-      addToast('error', '复制失败');
+      addToast('error', t(language(), 'app.toastCopyFailed'));
     }
   };
 
   // 执行命令
   const runCommand = async () => {
     if (!generatedCommand().trim()) {
-      addToast('warning', '请先生成命令');
+      addToast('warning', t(language(), 'app.toastNeedCommand'));
       return;
     }
 
@@ -157,7 +158,7 @@ export function App() {
     }
 
     setConnectionStatus('connecting');
-    addToast('info', '正在执行命令...');
+    addToast('info', t(language(), 'app.toastExecuting'));
 
     // 如果指定了UID，在命令后添加 @UID
     let finalCommand = generatedCommand();
@@ -174,22 +175,22 @@ export function App() {
 
     if (response.Code === 200) {
       setConnectionStatus('connected');
-      addToast('success', response.Msg && response.Msg.trim() ? `命令执行成功: ${response.Msg}` : '命令执行成功');
+      addToast('success', response.Msg && response.Msg.trim() ? `${t(language(), 'app.execSuccess')}${response.Msg}` : t(language(), 'app.execSuccessNoMsg'));
     } else {
       setConnectionStatus('disconnected');
-      addToast('error', `命令执行失败: ${response.Msg}`);
+      addToast('error', `${t(language(), 'app.execFailedPrefix')}${response.Msg}`);
     }
   };
 
   // 测试连接
   const handleTestConnection = async () => {
     if (!serverUrl().trim() || !token().trim()) {
-      addToast('warning', '请填写服务器地址和Token');
+      addToast('warning', t(language(), 'app.connectionFill'));
       return;
     }
     
     setConnectionStatus('connecting');
-    addToast('info', '正在测试连接...');
+    addToast('info', t(language(), 'app.connectionTesting'));
     
     const config: ConnectionConfig = {
       serverUrl: serverUrl() + '/api/command',
@@ -200,10 +201,10 @@ export function App() {
 
     if (response.Code === 200) {
       setConnectionStatus('connected');
-      addToast('success', '连接成功');
+      addToast('success', t(language(), 'app.connectionSuccess'));
     } else {
       setConnectionStatus('disconnected');
-      addToast('error', `连接失败: ${response.Msg}`);
+      addToast('error', `${t(language(), 'app.connectionFailedPrefix')}${response.Msg}`);
     }
   };
 
@@ -225,7 +226,7 @@ export function App() {
           <div style="background: var(--bg-secondary); border: 2px solid var(--border-primary); border-radius: var(--radius-lg); padding: var(--spacing-lg); box-shadow: var(--shadow-lg), var(--glow-primary); margin-bottom: var(--spacing-lg);">
             <h3 style="font-size: 20px; font-weight: 600; color: var(--text-primary); margin-bottom: var(--spacing-md); display: flex; align-items: center; gap: var(--spacing-sm);">
               <div style="width: 4px; height: 20px; background: var(--primary-gradient); border-radius: var(--radius-full); box-shadow: 0 0 8px rgba(0, 188, 212, 0.4);" />
-              命令预览
+              {t(language(), 'app.previewTitle')}
             </h3>
             <div style="display: flex; align-items: stretch; gap: var(--spacing-md);">
               <div 
@@ -239,18 +240,18 @@ export function App() {
                   e.currentTarget.style.background = 'linear-gradient(135deg, rgba(0, 188, 212, 0.05) 0%, rgba(0, 188, 212, 0.1) 100%)';
                   e.currentTarget.style.borderColor = 'var(--border-primary)';
                 }}
-                title="点击复制命令"
+                title={t(language(), 'app.copyTitle')}
               >
                 {(() => {
                   const base = generatedCommand().trim();
-                  if (!base) return '点击复制';
+                  if (!base) return t(language(), 'app.copyPlaceholder');
                   const withSlash = base.startsWith('/') ? base : `/${base}`;
                   const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
                   return `${withSlash}${suffix}`;
                 })()}
               </div>
               <Button variant="accent" onClick={runCommand} style="flex-shrink: 0; align-self: stretch;">
-                执行命令
+                {t(language(), 'app.runButton')}
               </Button>
             </div>
           </div>
@@ -312,7 +313,7 @@ export function App() {
       </div>
 
       {/* 通知 */}
-      <Toast messages={toasts()} onClose={removeToast} />
+      <Toast messages={toasts()} onClose={removeToast} language={language()} />
     </div>
   );
 }

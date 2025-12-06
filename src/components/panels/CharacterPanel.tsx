@@ -3,6 +3,7 @@ import { Card } from '../ui/Card';
 import { NumberInput } from '../ui/NumberInput';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Character, Language, Element } from '../../types';
+import { t } from '../../i18n';
 import { getElementIcon } from '../../utils/dataLoader';
 
 interface CharacterPanelProps {
@@ -72,11 +73,11 @@ export function CharacterPanel(props: CharacterPanelProps) {
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title="选择角色">
+      <Card title={t(props.language, 'character.selectTitle')}>
         {/* 元素过滤 */}
         <div style="margin-bottom: var(--spacing-md);">
           <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-            元素筛选
+            {t(props.language, 'character.elementFilter')}
           </label>
           <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
             <For each={elements}>
@@ -95,7 +96,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
                   }}
                 >
                   <span>{elem.icon}</span>
-                  <span>{elem.label}</span>
+                  <span>{t(props.language, `character.elements.${String(elem.value)}`)}</span>
                 </button>
               )}
             </For>
@@ -103,19 +104,20 @@ export function CharacterPanel(props: CharacterPanelProps) {
         </div>
 
         <MultiSelect
-          label="角色列表"
+          language={props.language}
+          label={t(props.language, 'character.listLabel')}
           options={characterOptions()}
           selected={selectedCharacters()}
           onChange={(selected) => setSelectedCharacters(selected as number[])}
           persistKey="character.selected"
-          placeholder="点击选择角色（可多选）"
+          placeholder={t(props.language, 'character.placeholder')}
         />
         <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
-          已选择: <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span> 个角色
+          {t(props.language, 'character.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span> {t(props.language, 'character.selectedSuffix')}
         </div>
       </Card>
 
-      <Card title="属性设置">
+      <Card title={t(props.language, 'character.settingsTitle')}>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">
           <style>{`
             @media (min-width: 768px) {
@@ -126,7 +128,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
           `}</style>
           <div class="attr-grid" style="display: contents;">
             <NumberInput
-              label="等级 (1-90)"
+              label={t(props.language, 'character.attr.level')}
               min={1}
               max={90}
               value={level()}
@@ -134,7 +136,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
               persistKey="character.level"
             />
             <NumberInput
-              label="突破 (0-8)"
+              label={t(props.language, 'character.attr.ascension')}
               min={0}
               max={8}
               value={ascension()}
@@ -142,7 +144,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
               persistKey="character.ascension"
             />
             <NumberInput
-              label="技能 (1-10)"
+              label={t(props.language, 'character.attr.skill')}
               min={1}
               max={10}
               value={skill()}
@@ -150,7 +152,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
               persistKey="character.skill"
             />
             <NumberInput
-              label="天赋 (0-5)"
+              label={t(props.language, 'character.attr.talent')}
               min={0}
               max={5}
               value={talent()}
@@ -158,7 +160,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
               persistKey="character.talent"
             />
             <NumberInput
-              label="默契 (0-50)"
+              label={t(props.language, 'character.attr.favor')}
               min={0}
               max={50}
               value={favor()}

@@ -1,4 +1,6 @@
 import { createSignal, For, Show, type JSX } from 'solid-js';
+import type { Language } from '../../types';
+import { t } from '../../i18n';
 
 interface SelectOption {
   value: string | number;
@@ -13,6 +15,7 @@ interface SearchableSelectProps extends JSX.SelectHTMLAttributes<HTMLSelectEleme
   hideArrow?: boolean;
   hideCheckmark?: boolean;
   persistKey?: string;
+  language?: Language;
 }
 
 export function SearchableSelect(props: SearchableSelectProps) {
@@ -37,7 +40,7 @@ export function SearchableSelect(props: SearchableSelectProps) {
   // 获取选中项的标签
   const getSelectedLabel = () => {
     const option = props.options.find((opt) => opt.value === selectedValue());
-    return option ? option.label : (props.placeholder || '请选择...');
+    return option ? option.label : (props.placeholder || t(props.language as Language || 'zh_CN', 'selectable.placeholder'));
   };
 
   // 选择项
@@ -144,7 +147,7 @@ export function SearchableSelect(props: SearchableSelectProps) {
             <div style="max-height: 280px; overflow-y: auto;">
               <Show when={filteredOptions().length > 0} fallback={
                 <div style="padding: 20px; text-align: center; color: var(--text-tertiary); font-size: 14px;">
-                  😕 未找到匹配项
+                  😕 {t(props.language as Language || 'zh_CN', 'selectable.empty')}
                 </div>
               }>
                 <For each={filteredOptions()}>

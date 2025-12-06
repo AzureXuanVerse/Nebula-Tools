@@ -4,7 +4,9 @@ import { Input } from '../ui/Input';
 import { NumberInput } from '../ui/NumberInput';
 import { Button } from '../ui/Button';
 import { SearchableSelect } from '../ui/SearchableSelect';
+import { MultiSelect } from '../ui/MultiSelect';
 import type { Language, Item } from '../../types';
+import { t } from '../../i18n';
 
 interface MailPanelProps {
   language: Language;
@@ -22,7 +24,8 @@ export function MailPanel(props: MailPanelProps) {
   const [body, setBody] = createSignal<string>('');
   const [attachments, setAttachments] = createSignal<Attachment[]>([]);
   const [newItemId, setNewItemId] = createSignal<string>('');
-  const [newQuantity, setNewQuantity] = createSignal<number>(1);
+  const [newQuantity, setNewQuantity] = createSignal<string>('');
+  const [globalQuantityEnabled, setGlobalQuantityEnabled] = createSignal<boolean>(false);
 
   // 加载物品数据
   onMount(async () => {
@@ -40,6 +43,8 @@ export function MailPanel(props: MailPanelProps) {
           const arr = JSON.parse(att);
           if (Array.isArray(arr)) setAttachments(arr);
         }
+        const gqEnabled = localStorage.getItem('mail.globalQuantityEnabled');
+        if (gqEnabled) setGlobalQuantityEnabled(JSON.parse(gqEnabled) === true);
       } catch {}
     } catch (error) {
       console.error('Failed to load items for MailPanel:', error);
@@ -48,7 +53,7 @@ export function MailPanel(props: MailPanelProps) {
 
   // 选项列表
   const itemOptions = () => [
-    { value: '', label: '-- 请选择物品 --' },
+    { value: '', label: t(props.language, 'give.selectPlaceholder') },
     ...items().map((item) => ({
       value: String(item.id),
       label: `${item.names?.[props.language] || item.names?.en_US || 'Unknown'} - ID: ${item.id}`,
@@ -59,11 +64,13 @@ export function MailPanel(props: MailPanelProps) {
     const id = newItemId().trim();
     if (!id) return;
 
-    const next = [...attachments(), { itemId: id, quantity: newQuantity() }];
+    const qStr = newQuantity().trim();
+    const useGlobal = globalQuantityEnabled() && qStr !== '' && Number.isFinite(Number(qStr));
+    const next = [...attachments(), { itemId: id, quantity: useGlobal ? Number(qStr) : 1 }];
     setAttachments(next);
     try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
     setNewItemId('');
-    setNewQuantity(1);
+    setNewQuantity('1');
   };
 
   const removeAttachment = (index: number) => {
@@ -84,7 +91,10 @@ export function MailPanel(props: MailPanelProps) {
     parts.push(`"${body()}"`);
 
     if (attachments().length > 0) {
-      parts.push(...attachments().map((a) => `${a.itemId} x${a.quantity}`));
+      const gqStr = newQuantity().trim();
+      const useGlobal = globalQuantityEnabled() && gqStr !== '' && Number.isFinite(Number(gqStr));
+      const gq = useGlobal ? Number(gqStr) : undefined;
+      parts.push(...attachments().map((a) => `${a.itemId} x${useGlobal ? gq : a.quantity}`));
     }
 
     props.onCommandChange(parts.join(' '));
@@ -92,11 +102,11 @@ export function MailPanel(props: MailPanelProps) {
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title="邮件内容">
+      <Card title={t(props.language, 'mail.contentTitle')}>
         <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
           <Input
-            label="邮件主题"
-            placeholder="输入邮件主题"
+            label={t(props.language, 'mail.subjectLabel')}
+            placeholder={t(props.language, 'mail.subjectPlaceholder')}
             value={subject()}
             onInput={(e) => {
               const v = e.currentTarget.value;
@@ -107,12 +117,12 @@ export function MailPanel(props: MailPanelProps) {
           />
           <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
             <label style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">
-              邮件正文
+              {t(props.language, 'mail.bodyLabel')}
             </label>
             <textarea
               class="input-custom"
               rows={4}
-              placeholder="输入邮件正文"
+              placeholder={t(props.language, 'mail.bodyPlaceholder')}
               value={body()}
               onInput={(e) => {
                 const v = e.currentTarget.value;
@@ -125,60 +135,101 @@ export function MailPanel(props: MailPanelProps) {
         </div>
       </Card>
 
-      <Card title="附件">
+      <Card title={t(props.language, 'mail.attachmentsTitle')}>
         <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
           <div style="display: flex; flex-direction: column; gap: 12px;">
-            <SearchableSelect
-              label="物品 ID"
-              options={itemOptions()}
-              value={newItemId()}
-              onChange={(e) => {
-                const v = e.currentTarget.value;
-                setNewItemId(v);
-                if (v && v.trim()) {
-                  addAttachment();
-                }
+            <MultiSelect
+              label={t(props.language, 'mail.itemIdLabel')}
+              language={props.language}
+              options={items().map((item) => ({
+                value: String(item.id),
+                label: `${item.names?.[props.language] || item.names?.en_US || 'Unknown'} - ID: ${item.id}`,
+                description: item.type,
+              }))}
+              selected={attachments().map((a) => a.itemId)}
+              onChange={(sel) => {
+                const values = sel.map(String);
+                const prev = attachments();
+                const q = newQuantity().trim();
+                const useGlobal = globalQuantityEnabled() && q !== '' && Number.isFinite(Number(q));
+                const next = values.map((id) => {
+                  const exist = prev.find((a) => a.itemId === id);
+                  return exist ? exist : { itemId: id, quantity: useGlobal ? Number(q) : 1 };
+                });
+                setAttachments(next);
+                try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
               }}
+              persistKey="mail.attachments.selected"
+              placeholder={t(props.language, 'selectable.placeholder')}
             />
-            <NumberInput
-              label="数量"
-              min={1}
-              max={999}
-              value={newQuantity()}
-              onInput={(e) => setNewQuantity(Number(e.currentTarget.value))}
-              onKeyDown={(e) => {
-                if ((e as unknown as KeyboardEvent).key === 'Enter' && newItemId().trim()) {
-                  addAttachment();
-                }
-              }}
-            />
+            <div style="display: flex; align-items: end; gap: 12px;">
+              <div style="flex: 1;">
+                <NumberInput
+                  label={t(props.language, 'mail.quantityLabel')}
+                  min={1}
+                  max={999}
+                  value={newQuantity()}
+                  persistKey="mail.globalQuantity"
+                  onInput={(e) => setNewQuantity((e as any).currentTarget.value)}
+                />
+              </div>
+              <Button
+                variant={globalQuantityEnabled() ? 'accent' : 'secondary'}
+                onClick={() => {
+                  const next = !globalQuantityEnabled();
+                  setGlobalQuantityEnabled(next);
+                  try { localStorage.setItem('mail.globalQuantityEnabled', JSON.stringify(next)); } catch {}
+                }}
+              >
+                {globalQuantityEnabled() ? t(props.language, 'mail.globalQuantityToggleOff') : t(props.language, 'mail.globalQuantityToggleOn')}
+              </Button>
+            </div>
           </div>
-          <Button variant="secondary" onClick={addAttachment}>
-            添加附件
-          </Button>
-
           {attachments().length > 0 && (
             <div style="display: flex; flex-direction: column; gap: var(--spacing-sm); margin-top: var(--spacing-md);">
-              <div style="font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-                附件列表:
+              <div style="display: flex; align-items: center; justify-content: space-between; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
+                <span>{t(props.language, 'mail.listLabel')}</span>
+                <button
+                  type="button"
+                  style="color: var(--error); background: none; border: none; cursor: pointer; font-size: 12px;"
+                  onClick={() => { setAttachments([]); try { localStorage.setItem('mail.attachments', JSON.stringify([])); } catch {} }}
+                >
+                  {t(props.language, 'mail.deleteAllButton')}
+                </button>
               </div>
               <For each={attachments()}>
                 {(attachment, index) => (
-                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px; background: var(--bg-tertiary); border-radius: var(--radius-md);">
-                    <div style="font-size: 14px;">
-                      <span style="font-weight: 500;">ID: {attachment.itemId}</span>
-                      <span style="color: var(--text-tertiary); margin-left: 8px;">
-                        × {attachment.quantity}
-                      </span>
+                  <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;">
+                    <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                      <div style="padding: 12px; background: var(--bg-tertiary); border-radius: var(--radius-md); width: 100%; display: flex; align-items: center; justify-content: space-between;">
+                        <div style="font-size: 14px; font-weight: 500;">ID: {attachment.itemId}</div>
+                        <button
+                          type="button"
+                          style="color: var(--error); background: none; border: none; cursor: pointer; font-size: 12px;"
+                          onClick={() => removeAttachment(index())}
+                        >
+                          {t(props.language, 'mail.deleteButton')}
+                        </button>
+                      </div>
+                      <div style="width: 100%;">
+                        <NumberInput
+                          label=""
+                          min={1}
+                          max={999}
+                          value={attachment.quantity}
+                          onInput={(e) => {
+                            const val = Number(e.currentTarget.value) || 1;
+                            setAttachments(prev => {
+                              const next = prev.slice();
+                              next[index()].quantity = val;
+                              try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
+                              return next;
+                            });
+                          }}
+                        />
+                      </div>
                     </div>
-                    <button
-                      style="color: var(--error); background: none; border: none; cursor: pointer; font-size: 14px; transition: opacity 0.25s;"
-                      onMouseEnter={(e) => e.currentTarget.style.opacity = '0.7'}
-                      onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
-                      onClick={() => removeAttachment(index())}
-                    >
-                      删除
-                    </button>
+                    
                   </div>
                 )}
               </For>

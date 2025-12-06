@@ -3,6 +3,7 @@ import { Card } from '../ui/Card';
 import { NumberInput } from '../ui/NumberInput';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Disc, Language, Element } from '../../types';
+import { t } from '../../i18n';
 
 interface DiscPanelProps {
   discs: Disc[];
@@ -22,15 +23,15 @@ export function DiscPanel(props: DiscPanelProps) {
     if (ef) setElementFilter(JSON.parse(ef));
   } catch {}
 
-  const elements: Array<{ value: Element | 'ALL'; label: string; icon: string; color: string }> = [
-    { value: 'ALL', label: '全部', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
-    { value: 'FIRE', label: '火', icon: '🔥', color: 'bg-red-100 text-red-600 border-red-300' },
-    { value: 'AQUA', label: '水', icon: '💧', color: 'bg-blue-100 text-blue-600 border-blue-300' },
-    { value: 'WIND', label: '风', icon: '🌪️', color: 'bg-green-100 text-green-600 border-green-300' },
-    { value: 'EARTH', label: '地', icon: '🗿', color: 'bg-orange-100 text-orange-600 border-orange-300' },
-    { value: 'LIGHT', label: '光', icon: '✨', color: 'bg-yellow-100 text-yellow-600 border-yellow-300' },
-    { value: 'DARK', label: '暗', icon: '🌑', color: 'bg-purple-100 text-purple-600 border-purple-300' },
-    { value: 'NONE', label: '无', icon: '⚪', color: 'bg-gray-100 text-gray-600 border-gray-300' },
+  const elements: Array<{ value: Element | 'ALL'; icon: string; color: string }> = [
+    { value: 'ALL', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
+    { value: 'FIRE', icon: '🔥', color: 'bg-red-100 text-red-600 border-red-300' },
+    { value: 'AQUA', icon: '💧', color: 'bg-blue-100 text-blue-600 border-blue-300' },
+    { value: 'WIND', icon: '🌪️', color: 'bg-green-100 text-green-600 border-green-300' },
+    { value: 'EARTH', icon: '🗿', color: 'bg-orange-100 text-orange-600 border-orange-300' },
+    { value: 'LIGHT', icon: '✨', color: 'bg-yellow-100 text-yellow-600 border-yellow-300' },
+    { value: 'DARK', icon: '🌑', color: 'bg-purple-100 text-purple-600 border-purple-300' },
+    { value: 'NONE', icon: '⚪', color: 'bg-gray-100 text-gray-600 border-gray-300' },
   ];
 
   // 过滤秘纹
@@ -68,11 +69,11 @@ export function DiscPanel(props: DiscPanelProps) {
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title="选择秘纹">
+      <Card title={t(props.language, 'disc.selectTitle')}>
         {/* 元素过滤 */}
         <div style="margin-bottom: var(--spacing-md);">
           <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-            元素筛选
+            {t(props.language, 'disc.elementFilter')}
           </label>
           <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
             <For each={elements}>
@@ -91,7 +92,7 @@ export function DiscPanel(props: DiscPanelProps) {
                   }}
                 >
                   <span>{elem.icon}</span>
-                  <span>{elem.label}</span>
+                  <span>{t(props.language, `disc.elements.${String(elem.value)}`)}</span>
                 </button>
               )}
             </For>
@@ -99,19 +100,20 @@ export function DiscPanel(props: DiscPanelProps) {
         </div>
 
         <MultiSelect
-          label="秘纹列表"
+          language={props.language}
+          label={t(props.language, 'disc.listLabel')}
           options={discOptions()}
           selected={selectedDiscs()}
           onChange={(selected) => setSelectedDiscs(selected as number[])}
           persistKey="disc.selected"
-          placeholder="点击选择秘纹（可多选）"
+          placeholder={t(props.language, 'disc.placeholder')}
         />
         <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
-          已选择: <span style="font-weight: 600; color: var(--primary);">{selectedDiscs().length}</span> 个秘纹
+          {t(props.language, 'disc.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedDiscs().length}</span> {t(props.language, 'disc.selectedSuffix')}
         </div>
       </Card>
 
-      <Card title="属性设置">
+      <Card title={t(props.language, 'disc.settingsTitle')}>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">
           <style>{`
             @media (min-width: 768px) {
@@ -122,7 +124,7 @@ export function DiscPanel(props: DiscPanelProps) {
           `}</style>
           <div class="disc-attr-grid" style="display: contents;">
             <NumberInput
-              label="等级 (1-90)"
+              label={t(props.language, 'disc.attr.level')}
               min={1}
               max={90}
               value={level()}
@@ -130,7 +132,7 @@ export function DiscPanel(props: DiscPanelProps) {
               persistKey="disc.level"
             />
             <NumberInput
-              label="阶段 (0-8)"
+              label={t(props.language, 'disc.attr.ascension')}
               min={0}
               max={8}
               value={ascension()}
@@ -138,7 +140,7 @@ export function DiscPanel(props: DiscPanelProps) {
               persistKey="disc.ascension"
             />
             <NumberInput
-              label="星级 (0-5)"
+              label={t(props.language, 'disc.attr.crescendo')}
               min={0}
               max={5}
               value={crescendo()}

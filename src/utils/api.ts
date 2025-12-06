@@ -1,4 +1,5 @@
-import type {ApiResponse, ConnectionConfig} from '../types';
+import type {ApiResponse, ConnectionConfig, Language} from '../types';
+import { t } from '../i18n';
 
 /**
  * 执行远程命令（通过本地代理）
@@ -30,7 +31,7 @@ function isTauriRuntime(): boolean {
 }
 
 function parseApiResponse(raw: string): ApiResponse {
-  let s = typeof raw === 'string' ? raw : String(raw);
+  let s = raw;
   s = s.trim();
   try {
     const direct = JSON.parse(s);
@@ -89,7 +90,7 @@ export async function executeCommand(
     }
     const response = await fetch('/api/remote', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Lang': (() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })() },
       body: JSON.stringify({ serverUrl: config.serverUrl, token: config.token, command }),
     });
     return await response.json();
@@ -97,7 +98,7 @@ export async function executeCommand(
     console.error('Failed to execute command:', error);
     return {
       Code: 500,
-      Msg: '网络请求失败',
+      Msg: t((() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })(), 'remote.proxyFailedPrefix') + (error instanceof Error ? error.message : t((() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })(), 'remote.unknownError')),
     };
   }
 }
@@ -120,7 +121,7 @@ export async function testConnection(
     }
     const response = await fetch('/api/remote', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Lang': (() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })() },
       body: JSON.stringify({ serverUrl: config.serverUrl, token: config.token, command: 'help' }),
     });
     const data = await response.json();

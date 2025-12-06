@@ -3,6 +3,7 @@ import { Card } from '../ui/Card';
 import { NumberInput } from '../ui/NumberInput';
 import { Slider } from '../ui/Slider';
 import { Segmented } from '../ui/Segmented';
+import { t } from '../../i18n';
 import type { Language, BattlePassParams } from '../../types';
 import { generateBattlePassCommand } from '../../utils/commandGenerator';
 
@@ -32,18 +33,18 @@ export function BattlePassPanel(props: BattlePassPanelProps) {
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title="基金设置">
+      <Card title={t(props.language, 'battlepass.title')}>
         <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
           {/* 模式选择 */}
           <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
             <label style="font-size: 14px; font-weight: 500; color: var(--text-secondary);">
-              基金补贴
+              {t(props.language, 'battlepass.modeLabel')}
             </label>
             <Segmented
               options={[
-                { label: '无', value: '' },
-                { label: '基础', value: 'free' },
-                { label: '尊享', value: 'premium' },
+                { label: t(props.language, 'battlepass.mode.keep'), value: '' },
+                { label: t(props.language, 'battlepass.mode.free'), value: 'free' },
+                { label: t(props.language, 'battlepass.mode.premium'), value: 'premium' },
               ]}
               value={mode() || ''}
               onChange={(e) => {
@@ -58,7 +59,7 @@ export function BattlePassPanel(props: BattlePassPanelProps) {
           <div style="width: 100%;">
             <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
               <Slider
-                label={`等级: ${level()}`}
+                label={`${t(props.language, 'battlepass.levelPrefix')}${level()}`}
                 min={0}
                 max={50}
                 value={level()}

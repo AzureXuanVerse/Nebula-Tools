@@ -1,4 +1,16 @@
 import type { APIRoute } from 'astro';
+import { t } from '../../i18n';
+import type { Language } from '../../types';
+
+const resolveLang = (request: Request): Language => {
+  const h = request.headers.get('x-lang');
+  if (h === 'zh_CN' || h === 'zh_TW' || h === 'en_US' || h === 'ja_JP' || h === 'ko_KR') return h as Language;
+  const al = request.headers.get('accept-language') || '';
+  const lower = al.toLowerCase();
+  if (lower.includes('en')) return 'en_US';
+  if (lower.includes('zh')) return 'zh_CN';
+  return 'zh_CN';
+};
 
 export const POST: APIRoute = async ({ request }) => {
   try {
@@ -8,9 +20,10 @@ export const POST: APIRoute = async ({ request }) => {
     const { serverUrl, token, command } = body;
     
     if (!serverUrl || !token || !command) {
+      const lang: Language = resolveLang(request);
       return new Response(JSON.stringify({
         Code: 400,
-        Msg: '缺少必要参数'
+        Msg: t(lang, 'remote.missingParams')
       }), {
         status: 200,
         headers: {
@@ -62,7 +75,8 @@ export const POST: APIRoute = async ({ request }) => {
       if (codeMatch || msgMatch) {
         return { Code: codeMatch ? Number(codeMatch[1]) : (response.ok ? 200 : 500), Msg: msgMatch ? msgMatch[1] : '' };
       }
-      return { Code: response.ok ? 200 : response.status || 500, Msg: 'Upstream response is not valid JSON' };
+      const lang: Language = resolveLang(request);
+      return { Code: response.ok ? 200 : response.status || 500, Msg: t(lang, 'remote.upstreamInvalidJson') };
     };
 
     const data = parseApi(raw);
@@ -75,9 +89,10 @@ export const POST: APIRoute = async ({ request }) => {
     });
   } catch (error) {
     console.error('Proxy error:', error);
+    const lang: Language = resolveLang(request);
     return new Response(JSON.stringify({
       Code: 500,
-      Msg: '代理请求失败: ' + (error instanceof Error ? error.message : '未知错误')
+      Msg: t(lang, 'remote.proxyFailedPrefix') + (error instanceof Error ? error.message : t(lang, 'remote.unknownError'))
     }), {
       status: 200,
       headers: {
@@ -86,4 +101,3 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 };
-

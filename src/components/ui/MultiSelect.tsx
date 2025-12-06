@@ -1,4 +1,6 @@
 import { createSignal, For, Show } from 'solid-js';
+import type { Language } from '../../types';
+import { t } from '../../i18n';
 
 interface MultiSelectOption {
   value: string | number;
@@ -16,6 +18,7 @@ interface MultiSelectProps {
   compact?: boolean;
   hideArrow?: boolean;
   persistKey?: string;
+  language?: Language;
 }
 
 export function MultiSelect(props: MultiSelectProps) {
@@ -97,8 +100,8 @@ export function MultiSelect(props: MultiSelectProps) {
           >
             <span style={`flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; ${props.compact ? 'font-size: 12px;' : ''}`}>
               {props.selected.length > 0 
-                ? `已选择 ${props.selected.length} 项` 
-                : (props.placeholder || '请选择...')}
+                ? `${t(props.language as Language || 'zh_CN', 'multiselect.selectedPrefix')} ${props.selected.length} ${t(props.language as Language || 'zh_CN', 'multiselect.selectedSuffix')}`
+                : (props.placeholder || t(props.language as Language || 'zh_CN', 'multiselect.placeholder'))}
             </span>
             <Show when={!props.hideArrow}>
               <svg
@@ -129,7 +132,7 @@ export function MultiSelect(props: MultiSelectProps) {
               value={searchText()}
               onInput={(e) => { setSearchText(e.currentTarget.value); setIsOpen(true); }}
               onFocus={handleOpen}
-              placeholder={props.selected.length > 0 ? `已选择 ${props.selected.length} 项` : (props.placeholder || '请选择...')}
+              placeholder={props.selected.length > 0 ? `${t(props.language as Language || 'zh_CN', 'multiselect.selectedPrefix')} ${props.selected.length} ${t(props.language as Language || 'zh_CN', 'multiselect.selectedSuffix')}` : (props.placeholder || t(props.language as Language || 'zh_CN', 'multiselect.placeholder'))}
               class="input-custom"
               style={`border: none; box-shadow: none; padding: 0; height: auto; background: transparent; flex: 1; ${props.compact ? 'font-size: 12px;' : ''}`}
               ref={(el) => (inputEl = el)}
@@ -164,7 +167,7 @@ export function MultiSelect(props: MultiSelectProps) {
             <div style="max-height: 280px; overflow-y: auto;">
               <Show when={filteredOptions().length > 0} fallback={
                 <div style="padding: 20px; text-align: center; color: var(--text-tertiary); font-size: 14px;">
-                  😕 未找到匹配项
+                  😕 {t(props.language as Language || 'zh_CN', 'multiselect.empty')}
                 </div>
               }>
                 <For each={filteredOptions()}>

@@ -1,5 +1,6 @@
 import { For } from 'solid-js';
 import { SearchableSelect } from './ui/SearchableSelect';
+import { t } from '../i18n';
 import type { CommandType, Language, ConnectionStatus } from '../types';
 
 interface NavbarProps {
@@ -13,17 +14,17 @@ interface NavbarProps {
 }
 
 export function Navbar(props: NavbarProps) {
-  const commands = [
-    { type: 'character' as CommandType, icon: '', label: '角色' },
-    { type: 'disc' as CommandType, icon: '', label: '秘纹' },
-    { type: 'give' as CommandType, icon: '', label: '物品' },
-    { type: 'giveall' as CommandType, icon: '', label: '批量' },
-    { type: 'level' as CommandType, icon: '', label: '等级' },
-    { type: 'battlepass' as CommandType, icon: '', label: '基金' },
-    { type: 'build' as CommandType, icon: '', label: '记录' },
-    { type: 'mail' as CommandType, icon: '', label: '邮件' },
-    { type: 'clean' as CommandType, icon: '', label: '清除' },
-    { type: 'connection' as CommandType, icon: '', label: '连接' },
+  const commands: Array<{ type: CommandType; icon: string }> = [
+    { type: 'character' as CommandType, icon: '' },
+    { type: 'disc' as CommandType, icon: '' },
+    { type: 'give' as CommandType, icon: '' },
+    { type: 'giveall' as CommandType, icon: '' },
+    { type: 'level' as CommandType, icon: '' },
+    { type: 'battlepass' as CommandType, icon: '' },
+    { type: 'build' as CommandType, icon: '' },
+    { type: 'mail' as CommandType, icon: '' },
+    { type: 'clean' as CommandType, icon: '' },
+    { type: 'connection' as CommandType, icon: '' },
   ];
 
   const languages = [
@@ -48,11 +49,11 @@ export function Navbar(props: NavbarProps) {
   const getStatusText = () => {
     switch (props.connectionStatus) {
       case 'connected':
-        return '已连接';
+        return t(props.language, 'navbar.status.connected');
       case 'connecting':
-        return '连接中';
+        return t(props.language, 'navbar.status.connecting');
       case 'disconnected':
-        return '未连接';
+        return t(props.language, 'navbar.status.disconnected');
     }
   };
 
@@ -87,7 +88,7 @@ export function Navbar(props: NavbarProps) {
             <div style="width: 36px; height: 36px; background: var(--primary-gradient); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 700; color: white; box-shadow: var(--shadow-sm), var(--glow-primary);">
               N
             </div>
-            <div style="font-size: 16px; font-weight: 700; color: var(--text-primary);">Nebula Command</div>
+            <div style="font-size: 16px; font-weight: 700; color: var(--text-primary);">{t(props.language, 'navbar.title')}</div>
           </div>
 
           {/* 命令标签页 */}
@@ -95,9 +96,9 @@ export function Navbar(props: NavbarProps) {
             <For each={commands}>
               {(cmd) => (
                 <button
-                  style={`flex-shrink: 0; display: flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: var(--radius-md); transition: all 0.25s; ${
+                  style={`flex-shrink: 0; display: flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: var(--radius-md); transition: all 0.25s; font-weight: 600; ${
                     props.currentCommand === cmd.type
-                      ? 'background: rgba(0, 188, 212, 0.minify-dist-data.mjs); color: var(--primary); font-weight: 600;'
+                      ? 'background: rgba(0, 188, 212, 0.minify-dist-data.mjs); color: var(--primary);'
                       : 'color: var(--text-secondary); background: transparent;'
                   }`}
                   onMouseEnter={(e) => {
@@ -112,14 +113,14 @@ export function Navbar(props: NavbarProps) {
                   }}
                   onClick={() => props.onCommandChange(cmd.type)}
                 >
-                  <span style="font-size: 13px; white-space: nowrap;">{cmd.label}</span>
+                  <span style="font-size: 13px; white-space: nowrap;">{t(props.language, `navbar.command.${cmd.type}`)}</span>
                 </button>
               )}
             </For>
           </div>
 
           {/* 右侧工具栏 */}
-          <div style="display: flex; align-items: center; gap: var(--spacing-md);">
+            <div style="display: flex; align-items: center; gap: var(--spacing-md);">
             {/* 语言选择*/}
             <div style="min-width: 120px">
               <SearchableSelect
@@ -129,6 +130,7 @@ export function Navbar(props: NavbarProps) {
                 compact={true}
                 hideArrow={true}
                 persistKey="ui.language"
+                language={props.language}
                 onChange={(e) => props.onLanguageChange(e.currentTarget.value as Language)}
               />
             </div>
@@ -148,7 +150,7 @@ export function Navbar(props: NavbarProps) {
 
             <button
               type="button"
-              title="清除状态"
+              title={t(props.language, 'navbar.clear')}
               style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border-radius: 9999px; border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-tertiary); cursor: pointer;"
               onClick={() => props.onClearState && props.onClearState()}
               onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--bg-tertiary)'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
@@ -161,7 +163,7 @@ export function Navbar(props: NavbarProps) {
 
             <button
               type="button"
-              title="GitHub"
+              title={t(props.language, 'navbar.github')}
               style="display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 12px; border-radius: var(--radius-md); border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-secondary); font-size: 13px; font-weight: 600; cursor: pointer;"
               onClick={async () => {
                 const url = 'https://github.com/AzureXuanVerse/Nebula-Tools';
@@ -178,7 +180,7 @@ export function Navbar(props: NavbarProps) {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49 0-.24-.01-.88-.01-1.72-2.78.61-3.37-1.2-3.37-1.2-.46-1.18-1.12-1.49-1.12-1.49-.92-.64.07-.63.07-.63 1.02.07 1.56 1.06 1.56 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.32.1-2.76 0 0 .84-.27 2.76 1.05.8-.23 1.66-.35 2.52-.35.86 0 1.72.12 2.52.35 1.92-1.33 2.76-1.05 2.76-1.05.55 1.44.2 2.5.1 2.76.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.69.95.69 1.91 0 1.38-.01 2.49-.01 2.83 0 .27.18.59.69.49 3.97-1.36 6.84-5.2 6.84-9.73C22 6.58 17.52 2 12 2z"/>
               </svg>
-              GitHub
+              {t(props.language, 'navbar.github')}
             </button>
           </div>
         </div>

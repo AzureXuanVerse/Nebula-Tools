@@ -4,6 +4,7 @@ import { MultiSelect } from '../ui/MultiSelect';
 import { NumberInput } from '../ui/NumberInput';
 import type { Character, Disc, Language } from '../../types';
 import { getElementIcon, getElementColor } from '../../utils/dataLoader';
+import { t } from '../../i18n';
 
 interface Potential {
   id: number;
@@ -256,7 +257,7 @@ export function BuildPanel(props: BuildPanelProps) {
       .filter(id => id !== currentMelodyId);
 
     return [
-      { value: 0, label: '选择音符...' },
+      { value: 0, label: t(props.language, 'build.melodyOptionPlaceholder') },
       ...melodies()
         .filter(m => !allUsedMelodyIds.includes(m.id))
         .map(mel => ({
@@ -332,9 +333,9 @@ export function BuildPanel(props: BuildPanelProps) {
           <div style="display: flex; align-items: start; gap: 12px;">
             <span style="font-size: 24px;">ℹ️</span>
             <div>
-              <div style="font-weight: 600; color: #1976D2;">提示</div>
+              <div style="font-weight: 600; color: #1976D2;">{t(props.language, 'build.tipTitle')}</div>
               <div style="font-size: 14px; color: #1565C0; margin-top: 4px;">
-                选择3个角色，每个角色配置潜能、秘纹（总共3-6个）和音符（可选）
+                {t(props.language, 'build.tipText')}
               </div>
             </div>
           </div>
@@ -344,7 +345,7 @@ export function BuildPanel(props: BuildPanelProps) {
           {/* 角色选择与配置 */}
           <div>
             <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-              选择3个角色并配置
+              {t(props.language, 'build.selectLabel')}
             </label>
             <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: var(--spacing-md);">
               <style>{`
@@ -388,10 +389,11 @@ export function BuildPanel(props: BuildPanelProps) {
                             {/* 潜能配置（使用角色页面下拉样式：MultiSelect） */}
                             <div style="margin-top: 8px; margin-bottom: 6px; font-size: 11px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
                               <span>⚡</span>
-                              <span>潜能</span>
+                              <span>{t(props.language, 'build.potentialTitle')}</span>
                             </div>
                             <div style="display: flex; flex-direction: column; gap: 6px;">
                               <MultiSelect
+                                language={props.language}
                                 selected={(getCharConfig(character.id)?.potentials || []).map(p => p.potentialId)}
                                 onChange={(newSelected) => {
                                   const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0)
@@ -408,7 +410,7 @@ export function BuildPanel(props: BuildPanelProps) {
                                   )
                                 }}
                                 options={getCharacterPotentials(character.id).map(p => ({ value: p.id, label: `${p.names[props.language]} (${p.id})` }))}
-                                placeholder="选择潜能（可多选）"
+                                placeholder={t(props.language, 'character.placeholder')}
                               />
                               <For each={getCharConfig(character.id)?.potentials || []}>
                                 {(pconf) => (
@@ -421,7 +423,7 @@ export function BuildPanel(props: BuildPanelProps) {
                                         value={pconf.level}
                                         onInput={(e) => updateCharacterPotentialLevel(character.id, pconf.id, Number(e.currentTarget.value))}
                                         min={1}
-                                        placeholder="Lv"
+                                        placeholder={t(props.language, 'build.potentialLevelPlaceholder')}
                                       />
                                     </div>
                                   </div>
@@ -433,9 +435,10 @@ export function BuildPanel(props: BuildPanelProps) {
                             <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border-secondary);">
                               <div style="margin-bottom: 6px; font-size: 11px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
                                 <span>💿</span>
-                                <span>秘纹（总共需3-6个）</span>
+                                <span>{t(props.language, 'build.discTitle')}</span>
                               </div>
                               <MultiSelect
+                                language={props.language}
                                 selected={getCharConfig(character.id)?.discIds || []}
                                 onChange={(newIds) => {
                                   const charConfig = getCharConfig(character.id);
@@ -458,10 +461,10 @@ export function BuildPanel(props: BuildPanelProps) {
                                   }
                                 }}
                                 options={getAvailableDiscOptions(character.id)}
-                                placeholder="选择秘纹..."
+                                placeholder={t(props.language, 'build.discPlaceholder')}
                               />
                               <div style="margin-top: 4px; font-size: 10px; color: var(--text-tertiary);">
-                                已选: {getCharConfig(character.id)?.discIds.length || 0} 个，总计: {characterConfigs().flatMap(c => c.discIds).length} / 6
+                                {t(props.language, 'build.discSelectedPrefix')} {getCharConfig(character.id)?.discIds.length || 0} {t(props.language, 'build.discSelectedMiddle')} {characterConfigs().flatMap(c => c.discIds).length} {t(props.language, 'build.discSelectedSuffix')}
                               </div>
                             </div>
 
@@ -469,10 +472,11 @@ export function BuildPanel(props: BuildPanelProps) {
                             <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border-secondary);">
                               <div style="margin-bottom: 6px; font-size: 11px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
                                 <span>🎵</span>
-                                <span>音符</span>
+                                <span>{t(props.language, 'build.melodyTitle')}</span>
                               </div>
                               <div style="display: flex; flex-direction: column; gap: 6px;">
                                 <MultiSelect
+                                  language={props.language}
                                   selected={(getCharConfig(character.id)?.melodies || []).map(m => m.melodyId)}
                                   onChange={(newSelected) => {
                                     const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0)
@@ -492,7 +496,7 @@ export function BuildPanel(props: BuildPanelProps) {
                                     )
                                   }}
                                   options={getAvailableMelodyOptions(character.id).map(o => ({ value: o.value, label: o.label }))}
-                                  placeholder="选择音符（可多选）"
+                                  placeholder={t(props.language, 'build.melodyPlaceholder')}
                                 />
                                 <For each={getCharConfig(character.id)?.melodies || []}>
                                   {(melody, index) => (
@@ -506,7 +510,7 @@ export function BuildPanel(props: BuildPanelProps) {
                                           onInput={(e) => updateCharacterMelody(character.id, index(), melody.melodyId, Number(e.currentTarget.value))}
                                           min={1}
                                           max={99}
-                                          placeholder="Lv"
+                                          placeholder={t(props.language, 'build.melodyLevelPlaceholder')}
                                         />
                                       </div>
                                     </div>
@@ -523,8 +527,8 @@ export function BuildPanel(props: BuildPanelProps) {
               </div>
             </div>
             <div style="margin-top: var(--spacing-sm); font-size: 13px; color: var(--text-secondary);">
-              已选择: <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span> / 3，
-              秘纹总计: <span style="font-weight: 600; color: var(--primary);">{characterConfigs().flatMap(c => c.discIds).length}</span> / 6
+              {t(props.language, 'build.summarySelectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span>{t(props.language, 'build.summarySelectedSuffix')}
+              {t(props.language, 'build.summaryDiscTotalPrefix')} <span style="font-weight: 600; color: var(--primary);">{characterConfigs().flatMap(c => c.discIds).length}</span>{t(props.language, 'build.summaryDiscTotalSuffix')}
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { Segmented } from '../ui/Segmented';
 import { NumberInput } from '../ui/NumberInput';
 import { Button } from '../ui/Button';
 import type { Language } from '../../types';
+import { t } from '../../i18n';
 
 interface GiveAllPanelProps {
   language: Language;
@@ -34,9 +35,9 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
   } catch {}
 
   const typeOptions = [
-    { value: 'characters', label: '所有角色' },
-    { value: 'discs', label: '所有秘纹' },
-    { value: 'materials', label: '所有材料' },
+    { value: 'characters', label: t(props.language, 'giveall.typeOptions.characters') },
+    { value: 'discs', label: t(props.language, 'giveall.typeOptions.discs') },
+    { value: 'materials', label: t(props.language, 'giveall.typeOptions.materials') },
   ];
 
   // 实时生成命令
@@ -66,7 +67,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title="批量类型">
+      <Card title={t(props.language, 'giveall.typeTitle')}>
         <Segmented
           options={typeOptions}
           value={type()}
@@ -79,7 +80,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
       </Card>
 
       {type() === 'characters' && (
-        <Card title="角色属性">
+        <Card title={t(props.language, 'giveall.char.title')}>
           <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">
             <style>{`
               @media (min-width: 768px) {
@@ -90,7 +91,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
             `}</style>
             <div class="giveall-char-grid" style="display: contents;">
             <NumberInput
-              label="等级 (1-90)"
+              label={t(props.language, 'giveall.char.attr.level')}
               min={1}
               max={90}
               value={level()}
@@ -102,7 +103,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
               persistKey="giveall.level"
             />
             <NumberInput
-              label="技能 (1-10)"
+              label={t(props.language, 'giveall.char.attr.skill')}
               min={1}
               max={10}
               value={skill()}
@@ -114,7 +115,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
               persistKey="giveall.skill"
             />
             <NumberInput
-              label="天赋 (0-5)"
+              label={t(props.language, 'giveall.char.attr.talent')}
               min={0}
               max={5}
               value={talent()}
@@ -131,10 +132,10 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
       )}
 
       {type() === 'discs' && (
-        <Card title="秘纹属性">
+        <Card title={t(props.language, 'giveall.disc.title')}>
           <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">
             <NumberInput
-              label="等级 (1-90)"
+              label={t(props.language, 'giveall.disc.attr.level')}
               min={1}
               max={90}
               value={level()}
@@ -146,7 +147,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
               persistKey="giveall.level"
             />
             <NumberInput
-              label="阶段 (0-8)"
+              label={t(props.language, 'giveall.disc.attr.ascension')}
               min={0}
               max={8}
               value={discAscension()}
@@ -158,7 +159,7 @@ export function GiveAllPanel(props: GiveAllPanelProps) {
               persistKey="giveall.discAscension"
             />
             <NumberInput
-              label="星级 (0-5)"
+              label={t(props.language, 'giveall.disc.attr.crescendo')}
               min={0}
               max={5}
               value={crescendo()}
