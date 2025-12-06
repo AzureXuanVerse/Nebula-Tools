@@ -1,46 +1,33 @@
-# Astro Starter Kit: Basics
+# Nebula-Tools
 
+轻量、直观的指令生成与执行工具，支持 Web 与桌面端（Tauri）。
+
+## 功能
+- 角色/秘纹/物品/批量/等级/星塔/邮件/清除
+- 实时预览与一键复制（支持 `@UID`）
+- 连接测试与状态指示
+- 多语言：zh_CN / zh_TW / en_US / ja_JP / ko_KR
+
+## 快速开始
 ```sh
-npm create astro@latest -- --template basics
+npm install
+npm run dev        # Web 开发 (http://localhost:4321)
+npm run build      # 构建
+npm run preview    # 预览
+
+npm run tauri:dev  # 桌面开发
+npm run tauri:build# 桌面打包
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 使用
+- 在「连接」面板填写服务器地址与 Token 并测试
+- 在各面板选择参数生成命令，点击预览复制
+- 已连接后点击「执行命令」调用后端 `/api/command`
 
-## 🚀 Project Structure
+## HTTPS 说明
+- 桌面端本地代理仅支持 `http://`，暂不支持 `https://`。
+- Web 端代理支持 HTTPS（需有效证书）。
+- 若页面为 HTTPS，调用 HTTP 后端会触发浏览器混合内容拦截；建议使用桌面端。
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 技术栈
+- Astro 5 · SolidJS · Tailwind CSS 4 · Tauri 2
