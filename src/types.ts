@@ -43,6 +43,7 @@ export type CommandType =
   | 'build' 
   | 'mail' 
   | 'clean'
+  | 'battlepass'
   | 'connection';
 
 // 角色命令参数
@@ -103,6 +104,12 @@ export interface CleanParams {
   all: boolean;
   ids?: number[];
   type?: 'items' | 'resources';
+}
+
+// 战令命令参数
+export interface BattlePassParams {
+  mode?: 'free' | 'premium';
+  level?: number;
 }
 
 // 连接状态

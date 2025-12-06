@@ -505,6 +505,7 @@ export function BuildPanel(props: BuildPanelProps) {
                                           value={melody.level}
                                           onInput={(e) => updateCharacterMelody(character.id, index(), melody.melodyId, Number(e.currentTarget.value))}
                                           min={1}
+                                          max={99}
                                           placeholder="Lv"
                                         />
                                       </div>

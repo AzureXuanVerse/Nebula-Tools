@@ -1,7 +1,7 @@
 import { createSignal, createEffect } from 'solid-js';
 import { Card } from '../ui/Card';
-import { NumberInput } from '../ui/NumberInput';
 import { Slider } from '../ui/Slider';
+import { NumberInput } from '../ui/NumberInput';
 import type { Language } from '../../types';
 
 interface LevelPanelProps {
@@ -36,7 +36,7 @@ export function LevelPanel(props: LevelPanelProps) {
         <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
           {/* 滑动条 */}
           <Slider
-            label="等级滑块 (1-40)"
+            label={`等级: ${level()}`}
             min={1}
             max={40}
             value={level()}
@@ -46,10 +46,8 @@ export function LevelPanel(props: LevelPanelProps) {
               try { localStorage.setItem('level.value', JSON.stringify(n)); } catch {}
             }}
           />
-          
-          {/* 数字输入框 */}
           <NumberInput
-            label="精确输入"
+            label=""
             min={1}
             max={40}
             value={level()}
@@ -58,7 +56,6 @@ export function LevelPanel(props: LevelPanelProps) {
               setLevel(n);
               try { localStorage.setItem('level.value', JSON.stringify(n)); } catch {}
             }}
-            persistKey="level.value"
           />
         </div>
       </Card>

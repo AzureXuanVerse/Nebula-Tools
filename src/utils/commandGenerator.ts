@@ -7,6 +7,7 @@ import type {
   BuildParams,
   MailParams,
   CleanParams,
+  BattlePassParams,
 } from '../types';
 
 /**
@@ -25,6 +26,26 @@ export function generateCharacterCommand(params: CharacterParams): string {
   if (skill) parts.push(`s${skill}`);
   if (talent) parts.push(`t${talent}`);
   if (favor) parts.push(`f${favor}`);
+
+  return parts.join(' ');
+}
+
+/**
+ * 生成战令命令
+ */
+export function generateBattlePassCommand(params: BattlePassParams): string {
+  const { mode, level } = params;
+  const parts: string[] = ['battlepass'];
+
+  if (mode) {
+    parts.push(mode);
+  }
+  
+  if (level !== undefined && level >= 0 && level <= 50) {
+    parts.push(`lv${level}`);
+  }
+
+  if (parts.length === 1) return '';
 
   return parts.join(' ');
 }

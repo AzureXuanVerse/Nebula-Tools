@@ -9,6 +9,7 @@ import { DiscPanel } from './panels/DiscPanel';
 import { GivePanel } from './panels/GivePanel';
 import { GiveAllPanel } from './panels/GiveAllPanel';
 import { LevelPanel } from './panels/LevelPanel';
+import { BattlePassPanel } from './panels/BattlePassPanel';
 import { BuildPanel } from './panels/BuildPanel';
 import { MailPanel } from './panels/MailPanel';
 import { CleanPanel } from './panels/CleanPanel';
@@ -80,7 +81,7 @@ export function App() {
       const savedCmd = localStorage.getItem('ui.currentCommand');
       if (savedCmd) {
         const val = JSON.parse(savedCmd) as CommandType;
-        const allowed = ['character','disc','give','giveall','level','build','mail','clean','connection'] as CommandType[];
+        const allowed = ['character','disc','give','giveall','level','battlepass','build','mail','clean','connection'] as CommandType[];
         if (allowed.includes(val)) setCurrentCommand(val);
       }
     } catch {}
@@ -279,6 +280,9 @@ export function App() {
           </Match>
           <Match when={currentCommand() === 'level'}>
             <LevelPanel language={language()} onCommandChange={setGeneratedCommand} />
+          </Match>
+          <Match when={currentCommand() === 'battlepass'}>
+            <BattlePassPanel language={language()} onCommandChange={setGeneratedCommand} />
           </Match>
           <Match when={currentCommand() === 'build'}>
             <BuildPanel language={language()} onCommandChange={setGeneratedCommand} />
