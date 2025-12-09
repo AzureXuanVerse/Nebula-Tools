@@ -7,7 +7,6 @@ import { Toast } from './ui/Toast';
 import { CharacterPanel } from './panels/CharacterPanel';
 import { DiscPanel } from './panels/DiscPanel';
 import { GivePanel } from './panels/GivePanel';
-import { GiveAllPanel } from './panels/GiveAllPanel';
 import { LevelPanel } from './panels/LevelPanel';
 import { BattlePassPanel } from './panels/BattlePassPanel';
 import { BuildPanel } from './panels/BuildPanel';
@@ -82,17 +81,24 @@ export function App() {
       const savedCmd = localStorage.getItem('ui.currentCommand');
       if (savedCmd) {
         const val = JSON.parse(savedCmd) as CommandType;
-        const allowed = ['character','disc','give','giveall','level','battlepass','build','mail','clean','connection'] as CommandType[];
+        const allowed = ['character','disc','give','level','battlepass','build','mail','clean','connection'] as CommandType[];
         if (allowed.includes(val)) setCurrentCommand(val);
       }
     } catch {}
 
     try {
+      const navEntry = (performance.getEntriesByType('navigation')[0] as any) || undefined;
+      const navType = navEntry?.type as string | undefined;
+      const isNavigate = navType === 'navigate' || navType === undefined;
+      const done = (() => { try { return sessionStorage.getItem('autoTestDone') === 'true'; } catch { return false; } })();
+
       const urlOk = serverUrl().trim().length > 0;
       const tokenOk = token().trim().length > 0;
       const uidOk = connectionMode() === 'player' || (connectionMode() === 'admin' && targetUid().trim().length > 0);
-      if (urlOk && tokenOk && uidOk) {
+
+      if (isNavigate && !done && urlOk && tokenOk && uidOk) {
         await handleTestConnection();
+        try { sessionStorage.setItem('autoTestDone', 'true'); } catch {}
       }
     } catch {}
   });
@@ -114,8 +120,9 @@ export function App() {
   const clearState = () => {
     try {
       localStorage.clear();
+      sessionStorage.removeItem('autoTestDone');
     } catch {}
-    location.reload();
+    handleTestConnection();
   };
 
   // 移除通知
@@ -130,6 +137,10 @@ export function App() {
   // 复制命令
   const copyCommand = async () => {
     try {
+      if (!generatedCommand().trim()) {
+        addToast('warning', t(language(), 'app.toastNeedCommand'));
+        return;
+      }
       const base = generatedCommand().trim();
       const withSlash = base ? (base.startsWith('/') ? base : `/${base}`) : '';
       const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
@@ -275,9 +286,6 @@ export function App() {
           </Match>
           <Match when={currentCommand() === 'give'}>
             <GivePanel language={language()} onCommandChange={setGeneratedCommand} />
-          </Match>
-          <Match when={currentCommand() === 'giveall'}>
-            <GiveAllPanel language={language()} onCommandChange={setGeneratedCommand} />
           </Match>
           <Match when={currentCommand() === 'level'}>
             <LevelPanel language={language()} onCommandChange={setGeneratedCommand} />

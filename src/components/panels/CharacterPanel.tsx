@@ -1,5 +1,6 @@
-import { createSignal, createEffect, For } from 'solid-js';
+import { createSignal, createEffect, For, Show } from 'solid-js';
 import { Card } from '../ui/Card';
+import { Segmented } from '../ui/Segmented';
 import { NumberInput } from '../ui/NumberInput';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Character, Language, Element } from '../../types';
@@ -13,6 +14,7 @@ interface CharacterPanelProps {
 }
 
 export function CharacterPanel(props: CharacterPanelProps) {
+  const [mode, setMode] = createSignal<'select' | 'all'>('select');
   const [selectedCharacters, setSelectedCharacters] = createSignal<number[]>([]);
   const [elementFilter, setElementFilter] = createSignal<Element | 'ALL'>('ALL');
   const [level, setLevel] = createSignal<number>(90);
@@ -55,13 +57,17 @@ export function CharacterPanel(props: CharacterPanelProps) {
 
   // 实时生成命令
   createEffect(() => {
-    if (selectedCharacters().length === 0) {
-      props.onCommandChange('');
-      return;
+    const parts: string[] = ['character'];
+    if (mode() === 'all') {
+      parts.push('all');
+    } else {
+      if (selectedCharacters().length === 0) {
+        props.onCommandChange('');
+        return;
+      }
+      parts.push(selectedCharacters().join(' '));
     }
 
-    const parts: string[] = ['character'];
-    parts.push(selectedCharacters().join(' '));
     if (level()) parts.push(`lv${level()}`);
     if (ascension()) parts.push(`a${ascension()}`);
     if (skill()) parts.push(`s${skill()}`);
@@ -69,53 +75,66 @@ export function CharacterPanel(props: CharacterPanelProps) {
     if (favor()) parts.push(`f${favor()}`);
 
     props.onCommandChange(parts.join(' '));
+    try { localStorage.setItem('character.mode', JSON.stringify(mode())); } catch {}
   });
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title={t(props.language, 'character.selectTitle')}>
-        {/* 元素过滤 */}
-        <div style="margin-bottom: var(--spacing-md);">
-          <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-            {t(props.language, 'character.elementFilter')}
-          </label>
-          <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
-            <For each={elements}>
-              {(elem) => (
-                <button
-                  type="button"
-                  style={`display: inline-flex; align-items: center; gap: 4px; padding: 7px 14px; border-radius: 9999px; font-size: 13px; font-weight: 600; border: 2px solid; cursor: pointer; transition: all 0.25s; ${
-                    elementFilter() === elem.value
-                      ? 'border-color: var(--primary); background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);'
-                      : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
-                  }`}
-                  class={elementFilter() === elem.value ? '' : elem.color}
-                  onClick={() => {
-                    setElementFilter(elem.value);
-                    try { localStorage.setItem('character.elementFilter', JSON.stringify(elem.value)); } catch {}
-                  }}
-                >
-                  <span>{elem.icon}</span>
-                  <span>{t(props.language, `character.elements.${String(elem.value)}`)}</span>
-                </button>
-              )}
-            </For>
-          </div>
-        </div>
-
-        <MultiSelect
-          language={props.language}
-          label={t(props.language, 'character.listLabel')}
-          options={characterOptions()}
-          selected={selectedCharacters()}
-          onChange={(selected) => setSelectedCharacters(selected as number[])}
-          persistKey="character.selected"
-          placeholder={t(props.language, 'character.placeholder')}
+      <Card title={t(props.language, 'common.modeTitle')}>
+        <Segmented
+          options={[
+            { value: 'select', label: t(props.language, 'common.mode.select') },
+            { value: 'all', label: t(props.language, 'common.mode.all') },
+          ]}
+          value={mode()}
+          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all')}
+          persistKey="character.mode"
         />
-        <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
-          {t(props.language, 'character.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span> {t(props.language, 'character.selectedSuffix')}
-        </div>
       </Card>
+      <Show when={mode() === 'select'}>
+        <Card title={t(props.language, 'character.selectTitle')}>
+          <div style="margin-bottom: var(--spacing-md);">
+            <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
+              {t(props.language, 'character.elementFilter')}
+            </label>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
+              <For each={elements}>
+                {(elem) => (
+                  <button
+                    type="button"
+                    style={`display: inline-flex; align-items: center; gap: 4px; padding: 7px 14px; border-radius: 9999px; font-size: 13px; font-weight: 600; border: 2px solid; cursor: pointer; transition: all 0.25s; ${
+                      elementFilter() === elem.value
+                        ? 'border-color: var(--primary); background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);'
+                        : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
+                    }`}
+                    class={elementFilter() === elem.value ? '' : elem.color}
+                    onClick={() => {
+                      setElementFilter(elem.value);
+                      try { localStorage.setItem('character.elementFilter', JSON.stringify(elem.value)); } catch {}
+                    }}
+                  >
+                    <span>{elem.icon}</span>
+                    <span>{t(props.language, `character.elements.${String(elem.value)}`)}</span>
+                  </button>
+                )}
+              </For>
+            </div>
+          </div>
+
+          <MultiSelect
+            language={props.language}
+            label={t(props.language, 'character.listLabel')}
+            options={characterOptions()}
+            selected={selectedCharacters()}
+            onChange={(selected) => setSelectedCharacters(selected as number[])}
+            persistKey="character.selected"
+            placeholder={t(props.language, 'character.placeholder')}
+          />
+          <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
+            {t(props.language, 'character.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span> {t(props.language, 'character.selectedSuffix')}
+          </div>
+        </Card>
+      </Show>
 
       <Card title={t(props.language, 'character.settingsTitle')}>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">

@@ -84,15 +84,20 @@ export function generateGiveCommand(params: GiveParams): string {
  */
 export function generateGiveAllCommand(params: GiveAllParams): string {
   const { type, level, talent, skill, crescendo } = params;
-
-  const parts: string[] = ['giveall', type];
-
-  if (level) parts.push(`lv${level}`);
-  if (type === 'characters' && skill) parts.push(`s${skill}`);
-  if (type === 'characters' && talent) parts.push(`t${talent}`);
-  if (type === 'discs' && crescendo) parts.push(`c${crescendo}`);
-
-  return parts.join(' ');
+  if (type === 'characters') {
+    const parts: string[] = ['character', 'all'];
+    if (level) parts.push(`lv${level}`);
+    if (skill) parts.push(`s${skill}`);
+    if (talent) parts.push(`t${talent}`);
+    return parts.join(' ');
+  }
+  if (type === 'discs') {
+    const parts: string[] = ['disc', 'all'];
+    if (level) parts.push(`lv${level}`);
+    if (crescendo) parts.push(`c${crescendo}`);
+    return parts.join(' ');
+  }
+  return 'give materials';
 }
 
 /**

@@ -11,6 +11,7 @@ export function Card(props: CardProps) {
   return (
     <div
       class={`${local.glow ? 'custom-card-glow' : 'custom-card'} ${local.class || ''}`}
+      style="position: relative;"
       {...others}
     >
       {local.title && (
@@ -23,4 +24,3 @@ export function Card(props: CardProps) {
     </div>
   );
 }
-

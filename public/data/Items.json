@@ -457,6 +457,18 @@
       }
     },
     {
+      "id": 133,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Nazuka",
+        "ja_JP": "ナツカ",
+        "ko_KR": "나츠카",
+        "zh_CN": "夏花",
+        "zh_TW": "夏花"
+      }
+    },
+    {
       "id": 134,
       "type": "Char",
       "stype": 3,
@@ -898,6 +910,18 @@
         "ko_KR": "미네르바 심상 결정",
         "zh_CN": "密涅瓦的心钥",
         "zh_TW": "密涅瓦的心鑰"
+      }
+    },
+    {
+      "id": 1330,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Nazuka\u0027s Soul Key",
+        "ja_JP": "ナツカの心相の欠片",
+        "ko_KR": "나츠카 심상 결정",
+        "zh_CN": "夏花的心钥",
+        "zh_TW": "夏花的心鑰"
       }
     },
     {
@@ -1450,6 +1474,30 @@
         "ko_KR": "나른한 백일몽",
         "zh_CN": "微醺白日梦",
         "zh_TW": "微醺白日夢"
+      }
+    },
+    {
+      "id": 13301,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Nazuka: Default",
+        "ja_JP": "ナツカ・デフォルト",
+        "ko_KR": "나츠카-기본",
+        "zh_CN": "夏花-基础形象",
+        "zh_TW": "夏花-基礎形象"
+      }
+    },
+    {
+      "id": 13302,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Nazuka: Awakened",
+        "ja_JP": "ナツカ・覚醒",
+        "ko_KR": "나츠카-각성",
+        "zh_CN": "夏花-觉醒形象",
+        "zh_TW": "夏花-覺醒形象"
       }
     },
     {
@@ -6673,6 +6721,18 @@
       }
     },
     {
+      "id": 112133,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Kindred Spirits",
+        "ja_JP": "風車をあなたに",
+        "ko_KR": "바람개비의 비밀",
+        "zh_CN": "志同道合之人",
+        "zh_TW": "志同道合之人"
+      }
+    },
+    {
       "id": 112134,
       "type": "Honor",
       "stype": 43,
@@ -6913,6 +6973,18 @@
       }
     },
     {
+      "id": 116003,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Beyond the Dream",
+        "ja_JP": "夢の先へ",
+        "ko_KR": "꿈의 저편",
+        "zh_CN": "梦的彼岸",
+        "zh_TW": "夢的彼岸"
+      }
+    },
+    {
       "id": 117001,
       "type": "Honor",
       "stype": 43,
@@ -7086,7 +7158,7 @@
       "stype": 2,
       "names": {
         "en_US": "Unlock Now:\nElite Grant Privileges",
-        "ja_JP": "プレミアムコース補助物資受取資格",
+        "ja_JP": "プレミアムコース\n補助物資受取資格",
         "ko_KR": "프리미엄 지원금 수령 자격\n즉시 오픈",
         "zh_CN": "立刻解锁:\n尊享补贴领取资格",
         "zh_TW": "立即解鎖：\n尊享補貼領取資格"
@@ -7861,6 +7933,18 @@
       }
     },
     {
+      "id": 214015,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Deer\u0027s Song",
+        "ja_JP": "鹿の声",
+        "ko_KR": "사슴의 울음",
+        "zh_CN": "鹿鸣",
+        "zh_TW": "鹿鳴"
+      }
+    },
+    {
       "id": 214017,
       "type": "Disc",
       "stype": 8,
@@ -7942,6 +8026,18 @@
         "ko_KR": "그래피티 무지개",
         "zh_CN": "涂鸦彩虹",
         "zh_TW": "塗鴉彩虹"
+      }
+    },
+    {
+      "id": 214024,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "One, Two, Three, Jump!",
+        "ja_JP": "地底の彼方へ！",
+        "ko_KR": "하나, 둘, 셋, 점프!",
+        "zh_CN": "一二三，跳！",
+        "zh_TW": "一二三，跳！"
       }
     },
     {
@@ -8713,6 +8809,18 @@
       }
     },
     {
+      "id": 224015,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Deer\u0027s Song Melody",
+        "ja_JP": "鹿の声の調べ",
+        "ko_KR": "사슴의 울음 멜로디",
+        "zh_CN": "鹿鸣曲调",
+        "zh_TW": "鹿鳴曲調"
+      }
+    },
+    {
       "id": 224017,
       "type": "Item",
       "stype": 40,
@@ -8794,6 +8902,18 @@
         "ko_KR": "그래피티 무지개 멜로디",
         "zh_CN": "涂鸦彩虹曲调",
         "zh_TW": "塗鴉彩虹曲調"
+      }
+    },
+    {
+      "id": 224024,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "One, Two, Three, Jump! Melody",
+        "ja_JP": "地底の彼方へ！の調べ",
+        "ko_KR": "하나, 둘, 셋, 점프! 멜로디",
+        "zh_CN": "一二三，跳！曲调",
+        "zh_TW": "一二三，跳！曲調"
       }
     },
     {
@@ -14581,6 +14701,354 @@
       }
     },
     {
+      "id": 513301,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Blooming Gale",
+        "ja_JP": "天風の華",
+        "ko_KR": "꽃 그림자 회오리",
+        "zh_CN": "花影旋风",
+        "zh_TW": "花影旋風"
+      }
+    },
+    {
+      "id": 513302,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Everlasting Elegance",
+        "ja_JP": "久遠の風華",
+        "ko_KR": "불멸의 바람",
+        "zh_CN": "风华永续",
+        "zh_TW": "風華永續"
+      }
+    },
+    {
+      "id": 513303,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Fierce Arrow",
+        "ja_JP": "追い風の加護",
+        "ko_KR": "강풍의 화살",
+        "zh_CN": "劲风利矢",
+        "zh_TW": "勁風利矢"
+      }
+    },
+    {
+      "id": 513304,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Spiral Vortex",
+        "ja_JP": "旋風繚乱",
+        "ko_KR": "나선 회오리",
+        "zh_CN": "螺旋风涡",
+        "zh_TW": "螺旋風渦"
+      }
+    },
+    {
+      "id": 513305,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Wind Erosion Impact",
+        "ja_JP": "風蝕の加護",
+        "ko_KR": "풍식의 충격",
+        "zh_CN": "风蚀冲击",
+        "zh_TW": "風蝕衝擊"
+      }
+    },
+    {
+      "id": 513306,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Gale Shield",
+        "ja_JP": "風刃の加護",
+        "ko_KR": "강풍의 가호",
+        "zh_CN": "强风庇佑",
+        "zh_TW": "強風庇佑"
+      }
+    },
+    {
+      "id": 513307,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Unyielding Leaves",
+        "ja_JP": "残香の風",
+        "ko_KR": "질풍경초",
+        "zh_CN": "疾风劲草",
+        "zh_TW": "疾風勁草"
+      }
+    },
+    {
+      "id": 513308,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Gale\u0027s Might",
+        "ja_JP": "薫風乱舞",
+        "ko_KR": "바람의 지배자",
+        "zh_CN": "御风强化",
+        "zh_TW": "御風強化"
+      }
+    },
+    {
+      "id": 513309,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Storm Overturned",
+        "ja_JP": "風陣展開",
+        "ko_KR": "풍운전환",
+        "zh_CN": "覆风翻云",
+        "zh_TW": "覆風翻雲"
+      }
+    },
+    {
+      "id": 513310,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Whisper of Wind",
+        "ja_JP": "凪の誘い",
+        "ko_KR": "풍식의 주문",
+        "zh_CN": "风息咏唱",
+        "zh_TW": "風息詠唱"
+      }
+    },
+    {
+      "id": 513311,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Precision Control",
+        "ja_JP": "千華万風",
+        "ko_KR": "정밀 조작",
+        "zh_CN": "精密操作",
+        "zh_TW": "精密操作"
+      }
+    },
+    {
+      "id": 513312,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Gale Fading",
+        "ja_JP": "狂嵐の華",
+        "ko_KR": "광풍의 끝자락",
+        "zh_CN": "狂风凋零",
+        "zh_TW": "狂風凋零"
+      }
+    },
+    {
+      "id": 513313,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Willowy Grace",
+        "ja_JP": "烈風の加護",
+        "ko_KR": "가벼운 몸놀림",
+        "zh_CN": "身如柳絮",
+        "zh_TW": "身如柳絮"
+      }
+    },
+    {
+      "id": 513321,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Youth: Dazzling",
+        "ja_JP": "花びらの詩",
+        "ko_KR": "향기로운 꽃·혼란",
+        "zh_CN": "芳华·缭乱",
+        "zh_TW": "芳華·撩亂"
+      }
+    },
+    {
+      "id": 513322,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Youth: Hunting",
+        "ja_JP": "花びらの舞",
+        "ko_KR": "향기로운 꽃·추격",
+        "zh_CN": "芳华·追猎",
+        "zh_TW": "芳華·追獵"
+      }
+    },
+    {
+      "id": 513323,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Flower Formation: Waves",
+        "ja_JP": "花の海・凪",
+        "ko_KR": "꽃의 바다·파도의 물결",
+        "zh_CN": "花海·叠浪",
+        "zh_TW": "花海·疊浪"
+      }
+    },
+    {
+      "id": 513324,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Flower Formation: Turbulent",
+        "ja_JP": "花の海・逆波",
+        "ko_KR": "꽃의 바다·거센 파도",
+        "zh_CN": "花海·汹涌",
+        "zh_TW": "花海·洶湧"
+      }
+    },
+    {
+      "id": 513325,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Youth: Weakness",
+        "ja_JP": "散華の哀しみ",
+        "ko_KR": "향기로운 꽃·빈틈",
+        "zh_CN": "芳华·破绽",
+        "zh_TW": "芳華·破綻"
+      }
+    },
+    {
+      "id": 513326,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Youth: Annihilation",
+        "ja_JP": "散華の怒り",
+        "ko_KR": "향기로운 꽃·소멸",
+        "zh_CN": "芳华·灭尽",
+        "zh_TW": "芳華·滅盡"
+      }
+    },
+    {
+      "id": 513327,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Youth: Blooming",
+        "ja_JP": "散華の歓び",
+        "ko_KR": "향기로운 꽃·만개",
+        "zh_CN": "芳华·盛放",
+        "zh_TW": "芳華·盛放"
+      }
+    },
+    {
+      "id": 513328,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flower Formation: Convergence",
+        "ja_JP": "花の海・さざ波",
+        "ko_KR": "꽃의 바다·결속",
+        "zh_CN": "花海·荟聚",
+        "zh_TW": "花海·薈萃"
+      }
+    },
+    {
+      "id": 513329,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flower Formation: Erosion",
+        "ja_JP": "花の海・波紋",
+        "ko_KR": "꽃의 바다·침식",
+        "zh_CN": "花海·侵蚀",
+        "zh_TW": "花海·侵蝕"
+      }
+    },
+    {
+      "id": 513330,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flower Formation: Blast",
+        "ja_JP": "花の海・怒涛",
+        "ko_KR": "꽃의 바다·폭열",
+        "zh_CN": "花海·爆裂",
+        "zh_TW": "花海·爆裂"
+      }
+    },
+    {
+      "id": 513331,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Wind Demon Seed",
+        "ja_JP": "玉風の加護",
+        "ko_KR": "바람 악마의 씨앗",
+        "zh_CN": "风魔种子",
+        "zh_TW": "風魔種子"
+      }
+    },
+    {
+      "id": 513332,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Self-Improvement",
+        "ja_JP": "花嵐の加護",
+        "ko_KR": "자기 업그레이드",
+        "zh_CN": "自我提升",
+        "zh_TW": "自我提升"
+      }
+    },
+    {
+      "id": 513333,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Almighty Leader",
+        "ja_JP": "嵐の目",
+        "ko_KR": "전능한 지도자",
+        "zh_CN": "全能领导",
+        "zh_TW": "全能領導"
+      }
+    },
+    {
+      "id": 513341,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Multi-Hurricane",
+        "ja_JP": "かまいたちの舞",
+        "ko_KR": "다중 토네이도",
+        "zh_CN": "多重飓风",
+        "zh_TW": "多重颶風"
+      }
+    },
+    {
+      "id": 513342,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Aeolus\u0027s Blessing",
+        "ja_JP": "禊の風",
+        "ko_KR": "바람 신의 가호",
+        "zh_CN": "风神加护",
+        "zh_TW": "風神加護"
+      }
+    },
+    {
+      "id": 513343,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Maelstrom",
+        "ja_JP": "一陣の雄風",
+        "ko_KR": "토네이도 소용돌이",
+        "zh_CN": "龙卷涡流",
+        "zh_TW": "龍捲渦流"
+      }
+    },
+    {
       "id": 513401,
       "type": "RogueItem",
       "stype": 42,
@@ -14681,7 +15149,7 @@
       "type": "RogueItem",
       "stype": 41,
       "names": {
-        "en_US": "Blast Pursuit",
+        "en_US": "Blast Chase",
         "ja_JP": "追撃ファイヤー",
         "ko_KR": "폭열 추격",
         "zh_CN": "爆裂追击",
@@ -14813,7 +15281,7 @@
       "type": "RogueItem",
       "stype": 41,
       "names": {
-        "en_US": "Gaining Momentum",
+        "en_US": "Momentum Primed",
         "ja_JP": "スキルウォーマー",
         "ko_KR": "힘의 폭발 준비",
         "zh_CN": "蓄势待发",
@@ -14885,7 +15353,7 @@
       "type": "RogueItem",
       "stype": 41,
       "names": {
-        "en_US": "Companion\u0027s Power",
+        "en_US": "Companions\u0027 Power",
         "ja_JP": "仲間の力",
         "ko_KR": "동료의 힘",
         "zh_CN": "伙伴的力量",
@@ -14921,7 +15389,7 @@
       "type": "RogueItem",
       "stype": 41,
       "names": {
-        "en_US": "Peak Condition",
+        "en_US": "Peak Performance",
         "ja_JP": "レイジングソウル",
         "ko_KR": "최고의 상태",
         "zh_CN": "巅峰状态",
@@ -14945,7 +15413,7 @@
       "type": "RogueItem",
       "stype": 42,
       "names": {
-        "en_US": "Rapid Fire",
+        "en_US": "Burst Shooting",
         "ja_JP": "削除への抵抗",
         "ko_KR": "연속 촬영",
         "zh_CN": "瞬时连拍",
@@ -14957,7 +15425,7 @@
       "type": "RogueItem",
       "stype": 42,
       "names": {
-        "en_US": "Super Long Exposure",
+        "en_US": "Extended Exposure",
         "ja_JP": "助手との連携",
         "ko_KR": "장노출",
         "zh_CN": "超长曝光",
@@ -15089,7 +15557,7 @@
       "type": "RogueItem",
       "stype": 42,
       "names": {
-        "en_US": "Stay Happy",
+        "en_US": "Happy Face",
         "ja_JP": "魔女の微笑み",
         "ko_KR": "기쁨의 미소",
         "zh_CN": "笑口常开",

@@ -38,7 +38,6 @@ export type CommandType =
   | 'character' 
   | 'disc' 
   | 'give' 
-  | 'giveall' 
   | 'level' 
   | 'build' 
   | 'mail' 

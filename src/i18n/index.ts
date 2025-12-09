@@ -24,6 +24,13 @@ const dict: Record<Language, Record<string, any>> = {
         disconnected: '未连接'
       }
     },
+    common: {
+      modeTitle: '模式',
+      mode: {
+        select: '选择',
+        all: '全部'
+      }
+    },
     level: {
       title: '设置等级',
       labelPrefix: '等级: '
@@ -94,7 +101,7 @@ const dict: Record<Language, Record<string, any>> = {
       typeFilter: '类型筛选',
       listLabel: '物品列表',
       quantityLabel: '数量',
-      selectPlaceholder: '-- 请选择物品 --',
+      selectPlaceholder: '-- 选择物品 --',
       types: {
         ALL: '全部',
         Res: '资源',
@@ -104,6 +111,10 @@ const dict: Record<Language, Record<string, any>> = {
         CharacterSkin: '皮肤',
         MonthlyCard: '月卡'
       }
+      ,
+      batchMaterialsTitle: '批量材料',
+      batchMaterialsHint: '快速生成所有材料命令',
+      batchMaterialsButton: '生成全部材料命令'
     }
     ,
     giveall: {
@@ -288,6 +299,13 @@ const dict: Record<Language, Record<string, any>> = {
         disconnected: 'Disconnected'
       }
     },
+    common: {
+      modeTitle: 'Mode',
+      mode: {
+        select: 'Select',
+        all: 'All'
+      }
+    },
     level: {
       title: 'Set Level',
       labelPrefix: 'Level: '
@@ -368,6 +386,10 @@ const dict: Record<Language, Record<string, any>> = {
         CharacterSkin: 'Skins',
         MonthlyCard: 'Monthly Card'
       }
+      ,
+      batchMaterialsTitle: 'Batch Materials',
+      batchMaterialsHint: 'Quickly generate command for all materials',
+      batchMaterialsButton: 'Generate All Materials'
     }
     ,
     giveall: {

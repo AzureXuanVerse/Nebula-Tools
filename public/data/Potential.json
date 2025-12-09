@@ -5105,6 +5105,325 @@
       }
     },
     {
+      "id": 513301,
+      "charId": 133,
+      "names": {
+        "en_US": "Blooming Gale",
+        "ja_JP": "天風の華",
+        "ko_KR": "꽃 그림자 회오리",
+        "zh_CN": "花影旋风",
+        "zh_TW": "花影旋風"
+      }
+    },
+    {
+      "id": 513302,
+      "charId": 133,
+      "names": {
+        "en_US": "Everlasting Elegance",
+        "ja_JP": "久遠の風華",
+        "ko_KR": "불멸의 바람",
+        "zh_CN": "风华永续",
+        "zh_TW": "風華永續"
+      }
+    },
+    {
+      "id": 513303,
+      "charId": 133,
+      "names": {
+        "en_US": "Fierce Arrow",
+        "ja_JP": "追い風の加護",
+        "ko_KR": "강풍의 화살",
+        "zh_CN": "劲风利矢",
+        "zh_TW": "勁風利矢"
+      }
+    },
+    {
+      "id": 513304,
+      "charId": 133,
+      "names": {
+        "en_US": "Spiral Vortex",
+        "ja_JP": "旋風繚乱",
+        "ko_KR": "나선 회오리",
+        "zh_CN": "螺旋风涡",
+        "zh_TW": "螺旋風渦"
+      }
+    },
+    {
+      "id": 513305,
+      "charId": 133,
+      "names": {
+        "en_US": "Wind Erosion Impact",
+        "ja_JP": "風蝕の加護",
+        "ko_KR": "풍식의 충격",
+        "zh_CN": "风蚀冲击",
+        "zh_TW": "風蝕衝擊"
+      }
+    },
+    {
+      "id": 513306,
+      "charId": 133,
+      "names": {
+        "en_US": "Gale Shield",
+        "ja_JP": "風刃の加護",
+        "ko_KR": "강풍의 가호",
+        "zh_CN": "强风庇佑",
+        "zh_TW": "強風庇佑"
+      }
+    },
+    {
+      "id": 513307,
+      "charId": 133,
+      "names": {
+        "en_US": "Unyielding Leaves",
+        "ja_JP": "残香の風",
+        "ko_KR": "질풍경초",
+        "zh_CN": "疾风劲草",
+        "zh_TW": "疾風勁草"
+      }
+    },
+    {
+      "id": 513308,
+      "charId": 133,
+      "names": {
+        "en_US": "Gale\u0027s Might",
+        "ja_JP": "薫風乱舞",
+        "ko_KR": "바람의 지배자",
+        "zh_CN": "御风强化",
+        "zh_TW": "御風強化"
+      }
+    },
+    {
+      "id": 513309,
+      "charId": 133,
+      "names": {
+        "en_US": "Storm Overturned",
+        "ja_JP": "風陣展開",
+        "ko_KR": "풍운전환",
+        "zh_CN": "覆风翻云",
+        "zh_TW": "覆風翻雲"
+      }
+    },
+    {
+      "id": 513310,
+      "charId": 133,
+      "names": {
+        "en_US": "Whisper of Wind",
+        "ja_JP": "凪の誘い",
+        "ko_KR": "풍식의 주문",
+        "zh_CN": "风息咏唱",
+        "zh_TW": "風息詠唱"
+      }
+    },
+    {
+      "id": 513311,
+      "charId": 133,
+      "names": {
+        "en_US": "Precision Control",
+        "ja_JP": "千華万風",
+        "ko_KR": "정밀 조작",
+        "zh_CN": "精密操作",
+        "zh_TW": "精密操作"
+      }
+    },
+    {
+      "id": 513312,
+      "charId": 133,
+      "names": {
+        "en_US": "Gale Fading",
+        "ja_JP": "狂嵐の華",
+        "ko_KR": "광풍의 끝자락",
+        "zh_CN": "狂风凋零",
+        "zh_TW": "狂風凋零"
+      }
+    },
+    {
+      "id": 513313,
+      "charId": 133,
+      "names": {
+        "en_US": "Willowy Grace",
+        "ja_JP": "烈風の加護",
+        "ko_KR": "가벼운 몸놀림",
+        "zh_CN": "身如柳絮",
+        "zh_TW": "身如柳絮"
+      }
+    },
+    {
+      "id": 513321,
+      "charId": 133,
+      "names": {
+        "en_US": "Youth: Dazzling",
+        "ja_JP": "花びらの詩",
+        "ko_KR": "향기로운 꽃·혼란",
+        "zh_CN": "芳华·缭乱",
+        "zh_TW": "芳華·撩亂"
+      }
+    },
+    {
+      "id": 513322,
+      "charId": 133,
+      "names": {
+        "en_US": "Youth: Hunting",
+        "ja_JP": "花びらの舞",
+        "ko_KR": "향기로운 꽃·추격",
+        "zh_CN": "芳华·追猎",
+        "zh_TW": "芳華·追獵"
+      }
+    },
+    {
+      "id": 513323,
+      "charId": 133,
+      "names": {
+        "en_US": "Flower Formation: Waves",
+        "ja_JP": "花の海・凪",
+        "ko_KR": "꽃의 바다·파도의 물결",
+        "zh_CN": "花海·叠浪",
+        "zh_TW": "花海·疊浪"
+      }
+    },
+    {
+      "id": 513324,
+      "charId": 133,
+      "names": {
+        "en_US": "Flower Formation: Turbulent",
+        "ja_JP": "花の海・逆波",
+        "ko_KR": "꽃의 바다·거센 파도",
+        "zh_CN": "花海·汹涌",
+        "zh_TW": "花海·洶湧"
+      }
+    },
+    {
+      "id": 513325,
+      "charId": 133,
+      "names": {
+        "en_US": "Youth: Weakness",
+        "ja_JP": "散華の哀しみ",
+        "ko_KR": "향기로운 꽃·빈틈",
+        "zh_CN": "芳华·破绽",
+        "zh_TW": "芳華·破綻"
+      }
+    },
+    {
+      "id": 513326,
+      "charId": 133,
+      "names": {
+        "en_US": "Youth: Annihilation",
+        "ja_JP": "散華の怒り",
+        "ko_KR": "향기로운 꽃·소멸",
+        "zh_CN": "芳华·灭尽",
+        "zh_TW": "芳華·滅盡"
+      }
+    },
+    {
+      "id": 513327,
+      "charId": 133,
+      "names": {
+        "en_US": "Youth: Blooming",
+        "ja_JP": "散華の歓び",
+        "ko_KR": "향기로운 꽃·만개",
+        "zh_CN": "芳华·盛放",
+        "zh_TW": "芳華·盛放"
+      }
+    },
+    {
+      "id": 513328,
+      "charId": 133,
+      "names": {
+        "en_US": "Flower Formation: Convergence",
+        "ja_JP": "花の海・さざ波",
+        "ko_KR": "꽃의 바다·결속",
+        "zh_CN": "花海·荟聚",
+        "zh_TW": "花海·薈萃"
+      }
+    },
+    {
+      "id": 513329,
+      "charId": 133,
+      "names": {
+        "en_US": "Flower Formation: Erosion",
+        "ja_JP": "花の海・波紋",
+        "ko_KR": "꽃의 바다·침식",
+        "zh_CN": "花海·侵蚀",
+        "zh_TW": "花海·侵蝕"
+      }
+    },
+    {
+      "id": 513330,
+      "charId": 133,
+      "names": {
+        "en_US": "Flower Formation: Blast",
+        "ja_JP": "花の海・怒涛",
+        "ko_KR": "꽃의 바다·폭열",
+        "zh_CN": "花海·爆裂",
+        "zh_TW": "花海·爆裂"
+      }
+    },
+    {
+      "id": 513331,
+      "charId": 133,
+      "names": {
+        "en_US": "Wind Demon Seed",
+        "ja_JP": "玉風の加護",
+        "ko_KR": "바람 악마의 씨앗",
+        "zh_CN": "风魔种子",
+        "zh_TW": "風魔種子"
+      }
+    },
+    {
+      "id": 513332,
+      "charId": 133,
+      "names": {
+        "en_US": "Self-Improvement",
+        "ja_JP": "花嵐の加護",
+        "ko_KR": "자기 업그레이드",
+        "zh_CN": "自我提升",
+        "zh_TW": "自我提升"
+      }
+    },
+    {
+      "id": 513333,
+      "charId": 133,
+      "names": {
+        "en_US": "Almighty Leader",
+        "ja_JP": "嵐の目",
+        "ko_KR": "전능한 지도자",
+        "zh_CN": "全能领导",
+        "zh_TW": "全能領導"
+      }
+    },
+    {
+      "id": 513341,
+      "charId": 133,
+      "names": {
+        "en_US": "Multi-Hurricane",
+        "ja_JP": "かまいたちの舞",
+        "ko_KR": "다중 토네이도",
+        "zh_CN": "多重飓风",
+        "zh_TW": "多重颶風"
+      }
+    },
+    {
+      "id": 513342,
+      "charId": 133,
+      "names": {
+        "en_US": "Aeolus\u0027s Blessing",
+        "ja_JP": "禊の風",
+        "ko_KR": "바람 신의 가호",
+        "zh_CN": "风神加护",
+        "zh_TW": "風神加護"
+      }
+    },
+    {
+      "id": 513343,
+      "charId": 133,
+      "names": {
+        "en_US": "Maelstrom",
+        "ja_JP": "一陣の雄風",
+        "ko_KR": "토네이도 소용돌이",
+        "zh_CN": "龙卷涡流",
+        "zh_TW": "龍捲渦流"
+      }
+    },
+    {
       "id": 513401,
       "charId": 134,
       "names": {
@@ -5196,7 +5515,7 @@
       "id": 513409,
       "charId": 134,
       "names": {
-        "en_US": "Blast Pursuit",
+        "en_US": "Blast Chase",
         "ja_JP": "追撃ファイヤー",
         "ko_KR": "폭열 추격",
         "zh_CN": "爆裂追击",
@@ -5317,7 +5636,7 @@
       "id": 513427,
       "charId": 134,
       "names": {
-        "en_US": "Gaining Momentum",
+        "en_US": "Momentum Primed",
         "ja_JP": "スキルウォーマー",
         "ko_KR": "힘의 폭발 준비",
         "zh_CN": "蓄势待发",
@@ -5383,7 +5702,7 @@
       "id": 513433,
       "charId": 134,
       "names": {
-        "en_US": "Companion\u0027s Power",
+        "en_US": "Companions\u0027 Power",
         "ja_JP": "仲間の力",
         "ko_KR": "동료의 힘",
         "zh_CN": "伙伴的力量",
@@ -5416,7 +5735,7 @@
       "id": 513443,
       "charId": 134,
       "names": {
-        "en_US": "Peak Condition",
+        "en_US": "Peak Performance",
         "ja_JP": "レイジングソウル",
         "ko_KR": "최고의 상태",
         "zh_CN": "巅峰状态",
@@ -5438,7 +5757,7 @@
       "id": 513502,
       "charId": 135,
       "names": {
-        "en_US": "Rapid Fire",
+        "en_US": "Burst Shooting",
         "ja_JP": "削除への抵抗",
         "ko_KR": "연속 촬영",
         "zh_CN": "瞬时连拍",
@@ -5449,7 +5768,7 @@
       "id": 513503,
       "charId": 135,
       "names": {
-        "en_US": "Super Long Exposure",
+        "en_US": "Extended Exposure",
         "ja_JP": "助手との連携",
         "ko_KR": "장노출",
         "zh_CN": "超长曝光",
@@ -5570,7 +5889,7 @@
       "id": 513521,
       "charId": 135,
       "names": {
-        "en_US": "Stay Happy",
+        "en_US": "Happy Face",
         "ja_JP": "魔女の微笑み",
         "ko_KR": "기쁨의 미소",
         "zh_CN": "笑口常开",

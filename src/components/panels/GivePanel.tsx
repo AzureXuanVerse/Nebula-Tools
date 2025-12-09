@@ -2,6 +2,8 @@ import { createSignal, createEffect, onMount, For } from 'solid-js';
 import { Card } from '../ui/Card';
 import { SearchableSelect } from '../ui/SearchableSelect';
 import { NumberInput } from '../ui/NumberInput';
+import { Button } from '../ui/Button';
+import { Toggle } from '../ui/Toggle';
 import type { Item, Language } from '../../types';
 import { t } from '../../i18n';
 
@@ -15,6 +17,7 @@ export function GivePanel(props: GivePanelProps) {
   const [itemId, setItemId] = createSignal<string>('');
   const [quantity, setQuantity] = createSignal<number>(1);
   const [typeFilter, setTypeFilter] = createSignal<string>('ALL');
+  const [batchMaterials, setBatchMaterials] = createSignal<boolean>(false);
 
   const itemTypes = [
     { value: 'ALL', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
@@ -67,18 +70,34 @@ export function GivePanel(props: GivePanelProps) {
 
   // 实时生成命令
   createEffect(() => {
+    if (batchMaterials()) {
+      props.onCommandChange('give materials');
+      try { localStorage.setItem('give.batchMaterials', JSON.stringify(true)); } catch {}
+      return;
+    }
+
     const id = itemId().trim();
     if (!id || id === '') {
       props.onCommandChange('');
       return;
     }
     props.onCommandChange(`give ${id} x${quantity()}`);
+    try { localStorage.setItem('give.batchMaterials', JSON.stringify(false)); } catch {}
   });
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
       <Card title={t(props.language, 'give.selectTitle')}>
+        <div style="position: absolute; top: 12px; right: 12px; display: flex; align-items: center; gap: 6px;">
+          <span style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'give.batchMaterialsTitle')}</span>
+          <Toggle
+            checked={batchMaterials()}
+            onChange={(checked) => setBatchMaterials(checked)}
+            persistKey="give.batchMaterials"
+          />
+        </div>
         {/* 类型过滤 */}
+        {!batchMaterials() && (
         <div style="margin-bottom: var(--spacing-md);">
           <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
             {t(props.language, 'give.typeFilter')}
@@ -106,7 +125,9 @@ export function GivePanel(props: GivePanelProps) {
             </For>
           </div>
         </div>
+        )}
 
+        {!batchMaterials() && (
         <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
           <SearchableSelect
             label={t(props.language, 'give.listLabel')}
@@ -132,6 +153,7 @@ export function GivePanel(props: GivePanelProps) {
             persistKey="give.quantity"
           />
         </div>
+        )}
       </Card>
     </div>
   );

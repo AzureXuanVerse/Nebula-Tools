@@ -1,5 +1,6 @@
-import { createSignal, createEffect, For } from 'solid-js';
+import { createSignal, createEffect, For, Show } from 'solid-js';
 import { Card } from '../ui/Card';
+import { Segmented } from '../ui/Segmented';
 import { NumberInput } from '../ui/NumberInput';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Disc, Language, Element } from '../../types';
@@ -12,6 +13,7 @@ interface DiscPanelProps {
 }
 
 export function DiscPanel(props: DiscPanelProps) {
+  const [mode, setMode] = createSignal<'select' | 'all'>('select');
   const [selectedDiscs, setSelectedDiscs] = createSignal<number[]>([]);
   const [elementFilter, setElementFilter] = createSignal<Element | 'ALL'>('ALL');
   const [level, setLevel] = createSignal<number>(90);
@@ -53,65 +55,82 @@ export function DiscPanel(props: DiscPanelProps) {
 
   // 实时生成命令
   createEffect(() => {
-    if (selectedDiscs().length === 0) {
-      props.onCommandChange('');
-      return;
+    const parts: string[] = ['disc'];
+    if (mode() === 'all') {
+      parts.push('all');
+    } else {
+      if (selectedDiscs().length === 0) {
+        props.onCommandChange('');
+        return;
+      }
+      parts.push(selectedDiscs().join(' '));
     }
 
-    const parts: string[] = ['disc'];
-    parts.push(selectedDiscs().join(' '));
     if (level()) parts.push(`lv${level()}`);
     if (ascension()) parts.push(`a${ascension()}`);
     if (crescendo()) parts.push(`c${crescendo()}`);
 
     props.onCommandChange(parts.join(' '));
+    try { localStorage.setItem('disc.mode', JSON.stringify(mode())); } catch {}
   });
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
-      <Card title={t(props.language, 'disc.selectTitle')}>
-        {/* 元素过滤 */}
-        <div style="margin-bottom: var(--spacing-md);">
-          <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-            {t(props.language, 'disc.elementFilter')}
-          </label>
-          <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
-            <For each={elements}>
-              {(elem) => (
-                <button
-                  type="button"
-                  style={`display: inline-flex; align-items: center; gap: 4px; padding: 7px 14px; border-radius: 9999px; font-size: 13px; font-weight: 600; border: 2px solid; cursor: pointer; transition: all 0.25s; ${
-                    elementFilter() === elem.value
-                      ? 'border-color: var(--primary); background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);'
-                      : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
-                  }`}
-                  class={elementFilter() === elem.value ? '' : elem.color}
-                  onClick={() => {
-                    setElementFilter(elem.value);
-                    try { localStorage.setItem('disc.elementFilter', JSON.stringify(elem.value)); } catch {}
-                  }}
-                >
-                  <span>{elem.icon}</span>
-                  <span>{t(props.language, `disc.elements.${String(elem.value)}`)}</span>
-                </button>
-              )}
-            </For>
-          </div>
-        </div>
-
-        <MultiSelect
-          language={props.language}
-          label={t(props.language, 'disc.listLabel')}
-          options={discOptions()}
-          selected={selectedDiscs()}
-          onChange={(selected) => setSelectedDiscs(selected as number[])}
-          persistKey="disc.selected"
-          placeholder={t(props.language, 'disc.placeholder')}
+      <Card title={t(props.language, 'common.modeTitle')}>
+        <Segmented
+          options={[
+            { value: 'select', label: t(props.language, 'common.mode.select') },
+            { value: 'all', label: t(props.language, 'common.mode.all') },
+          ]}
+          value={mode()}
+          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all')}
+          persistKey="disc.mode"
         />
-        <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
-          {t(props.language, 'disc.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedDiscs().length}</span> {t(props.language, 'disc.selectedSuffix')}
-        </div>
       </Card>
+      <Show when={mode() === 'select'}>
+        <Card title={t(props.language, 'disc.selectTitle')}>
+          <div style="margin-bottom: var(--spacing-md);">
+            <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
+              {t(props.language, 'disc.elementFilter')}
+            </label>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
+              <For each={elements}>
+                {(elem) => (
+                  <button
+                    type="button"
+                    style={`display: inline-flex; align-items: center; gap: 4px; padding: 7px 14px; border-radius: 9999px; font-size: 13px; font-weight: 600; border: 2px solid; cursor: pointer; transition: all 0.25s; ${
+                      elementFilter() === elem.value
+                        ? 'border-color: var(--primary); background: linear-gradient(135deg, var(--primary-light), var(--primary)); color: white; box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);'
+                        : `border-color: transparent; ${elem.color.replace('border-', 'border-transparent ')}`
+                    }`}
+                    class={elementFilter() === elem.value ? '' : elem.color}
+                    onClick={() => {
+                      setElementFilter(elem.value);
+                      try { localStorage.setItem('disc.elementFilter', JSON.stringify(elem.value)); } catch {}
+                    }}
+                  >
+                    <span>{elem.icon}</span>
+                    <span>{t(props.language, `disc.elements.${String(elem.value)}`)}</span>
+                  </button>
+                )}
+              </For>
+            </div>
+          </div>
+
+          <MultiSelect
+            language={props.language}
+            label={t(props.language, 'disc.listLabel')}
+            options={discOptions()}
+            selected={selectedDiscs()}
+            onChange={(selected) => setSelectedDiscs(selected as number[])}
+            persistKey="disc.selected"
+            placeholder={t(props.language, 'disc.placeholder')}
+          />
+          <div style="margin-top: var(--spacing-sm); font-size: 14px; color: var(--text-secondary);">
+            {t(props.language, 'disc.selectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedDiscs().length}</span> {t(props.language, 'disc.selectedSuffix')}
+          </div>
+        </Card>
+      </Show>
 
       <Card title={t(props.language, 'disc.settingsTitle')}>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-md);">

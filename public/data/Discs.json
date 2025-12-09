@@ -573,6 +573,17 @@
       }
     },
     {
+      "id": 214015,
+      "element": "WIND",
+      "names": {
+        "en_US": "Deer\u0027s Song",
+        "ja_JP": "鹿の声",
+        "ko_KR": "사슴의 울음",
+        "zh_CN": "鹿鸣",
+        "zh_TW": "鹿鳴"
+      }
+    },
+    {
       "id": 214017,
       "element": "FIRE",
       "names": {
@@ -647,6 +658,17 @@
         "ko_KR": "그래피티 무지개",
         "zh_CN": "涂鸦彩虹",
         "zh_TW": "塗鴉彩虹"
+      }
+    },
+    {
+      "id": 214024,
+      "element": "WIND",
+      "names": {
+        "en_US": "One, Two, Three, Jump!",
+        "ja_JP": "地底の彼方へ！",
+        "ko_KR": "하나, 둘, 셋, 점프!",
+        "zh_CN": "一二三，跳！",
+        "zh_TW": "一二三，跳！"
       }
     },
     {
