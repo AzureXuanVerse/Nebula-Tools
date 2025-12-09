@@ -98,17 +98,22 @@ export function Navbar(props: NavbarProps) {
               <button
                 type="button"
                 aria-label="menu"
-                style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-md); border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-secondary);"
+                style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-md); background: transparent; overflow: hidden; animation: subtle-bounce 3.2s ease-in-out infinite;"
                 onClick={() => { setClosing(false); setEntered(false); setMenuOpen(true); requestAnimationFrame(() => setEntered(true)); }}
               >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
-                </svg>
+                <img src="/start.png" alt="menu" style="width: 100%; height: 100%; object-fit: cover;" />
               </button>
             </Show>
             <Show when={!isMobile()}>
-              <div style="width: 36px; height: 36px; background: var(--primary-gradient); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 700; color: white; box-shadow: var(--shadow-sm), var(--glow-primary);">
-                N
+              <div
+                style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; cursor: pointer; animation: subtle-bounce 3.2s ease-in-out infinite; background: transparent;"
+                onClick={() => props.onClearState && props.onClearState()}
+                onMouseEnter={(e) => { e.currentTarget.style.filter = 'brightness(1.05)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.filter = 'none'; }}
+                title={t(props.language, 'navbar.command.clean')}
+                aria-label={t(props.language, 'navbar.command.clean')}
+              >
+                <img src="/start.png" alt="start" style="width: 100%; height: 100%; object-fit: cover;" />
               </div>
             </Show>
             <Show when={!isMobile()}>
@@ -195,20 +200,6 @@ export function Navbar(props: NavbarProps) {
               </Show>
             </div>
 
-            <Show when={!isMobile()}>
-              <button
-                type="button"
-                title={t(props.language, 'navbar.clear')}
-                style="width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border-radius: 9999px; border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-tertiary); cursor: pointer;"
-                onClick={() => props.onClearState && props.onClearState()}
-                onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--bg-tertiary)'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.background = 'var(--bg-secondary)'; e.currentTarget.style.color = 'var(--text-tertiary)'; }}
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M3 6h18v2H3V6zm2 4h14l-2 8H7l-2-8zm5-6h4l1 2H9l1-2z"/>
-                </svg>
-              </button>
-            </Show>
 
             <button
               type="button"
@@ -258,12 +249,7 @@ export function Navbar(props: NavbarProps) {
                     </button>
                   )}
                 </For>
-                <button
-                  style="width: 100%; display: flex; align-items: center; justify-content: flex-start; padding: 10px 12px; border-radius: var(--radius-md); border: 1px solid var(--border-secondary); background: var(--bg-secondary); color: var(--text-secondary);"
-                  onClick={() => { setClosing(true); setEntered(false); setTimeout(() => { props.onClearState && props.onClearState(); setMenuOpen(false); }, 250); }}
-                >
-                  <span style="font-size: 13px;">{t(props.language, 'navbar.clear')}</span>
-                </button>
+
               </div>
             </div>
           </div>

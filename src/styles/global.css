@@ -298,3 +298,12 @@ button:disabled {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+@keyframes subtle-bounce {
+  0% { transform: translateY(0) scale(1); }
+  20% { transform: translateY(-2px) scale(1.02); }
+  40% { transform: translateY(0) scale(1); }
+  60% { transform: translateY(-1px) scale(1.01); }
+  80% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(0) scale(1); }
+}

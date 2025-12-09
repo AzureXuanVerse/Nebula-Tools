@@ -30,8 +30,18 @@ import type {
 import { t } from '../i18n';
 
 export function App() {
-  // 状态管理
-  const [currentCommand, setCurrentCommand] = createSignal<CommandType>('character');
+  const allowedCommands = ['character','disc','give','level','battlepass','build','mail','clean','connection'] as CommandType[];
+  const initialCmd = (() => {
+    try {
+      const savedCmd = localStorage.getItem('ui.currentCommand');
+      if (savedCmd) {
+        const val = JSON.parse(savedCmd) as CommandType;
+        if (allowedCommands.includes(val)) return val;
+      }
+    } catch {}
+    return 'character' as CommandType;
+  })();
+  const [currentCommand, setCurrentCommand] = createSignal<CommandType>(initialCmd);
   const [language, setLanguage] = createSignal<Language>('zh_CN');
   const [connectionStatus, setConnectionStatus] = createSignal<ConnectionStatus>('disconnected');
   const [generatedCommand, setGeneratedCommand] = createSignal<string>('');
@@ -77,14 +87,7 @@ export function App() {
     ]);
     setCharacters(chars);
     setDiscs(discsData);
-    try {
-      const savedCmd = localStorage.getItem('ui.currentCommand');
-      if (savedCmd) {
-        const val = JSON.parse(savedCmd) as CommandType;
-        const allowed = ['character','disc','give','level','battlepass','build','mail','clean','connection'] as CommandType[];
-        if (allowed.includes(val)) setCurrentCommand(val);
-      }
-    } catch {}
+    
 
     try {
       const navEntry = (performance.getEntriesByType('navigation')[0] as any) || undefined;

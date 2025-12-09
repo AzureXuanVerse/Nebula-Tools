@@ -3,8 +3,7 @@ import type { Language } from '../types'
 const dict: Record<Language, Record<string, any>> = {
   zh_CN: {
     navbar: {
-      title: '星塔旅人指令生成器',
-      clear: '清除状态',
+      title: 'Nebula Tools',
       github: 'GitHub',
       command: {
         character: '角色',
@@ -279,7 +278,6 @@ const dict: Record<Language, Record<string, any>> = {
   en_US: {
     navbar: {
       title: 'Nebula Tools',
-      clear: 'Clear State',
       github: 'GitHub',
       command: {
         character: 'Character',
