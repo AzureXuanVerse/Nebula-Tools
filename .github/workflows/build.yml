@@ -3,12 +3,15 @@ name: tauri-build
 on:
   push:
     branches: ['**']
+    tags: ['**']
   pull_request:
     branches: ['**']
   workflow_dispatch:
 
 jobs:
   tauri:
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -36,3 +39,12 @@ jobs:
           path: |
             src-tauri/target/release/*.exe
           if-no-files-found: error
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            src-tauri/target/release/*.exe
+          fail_on_unmatched_files: true
+          draft: false
+          prerelease: false
