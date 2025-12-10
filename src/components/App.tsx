@@ -125,6 +125,12 @@ export function App() {
       localStorage.clear();
       sessionStorage.removeItem('autoTestDone');
     } catch {}
+    try {
+      if (typeof window !== 'undefined' && window.location) {
+        window.location.reload();
+        return;
+      }
+    } catch {}
     handleTestConnection();
   };
 

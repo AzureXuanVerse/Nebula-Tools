@@ -26,9 +26,9 @@ export function NumberInput(props: NumberInputProps) {
       e.currentTarget.value = String(value);
     }
 
-    // 调用原始的onInput处理器
+    // 调用原始的 onInput 处理器
     if (local.onInput) {
-      local.onInput(e);
+      (local.onInput as unknown as (ev: any) => void)(e as any);
     }
   };
 

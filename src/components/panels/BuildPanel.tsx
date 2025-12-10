@@ -1,9 +1,10 @@
 import { createSignal, createEffect, onMount, For, Show } from 'solid-js';
 import { Card } from '../ui/Card';
+import { Button } from '../ui/Button';
 import { MultiSelect } from '../ui/MultiSelect';
 import { NumberInput } from '../ui/NumberInput';
 import type { Character, Disc, Language } from '../../types';
-import { getElementIcon, getElementColor } from '../../utils/dataLoader';
+import { getElementIcon } from '../../utils/dataLoader';
 import { t } from '../../i18n';
 
 interface Potential {
@@ -130,72 +131,11 @@ export function BuildPanel(props: BuildPanelProps) {
     return characterConfigs().find(c => c.charId === charId);
   };
 
-  // 切换角色的秘纹选择
-  const toggleCharDisc = (charId: number, discId: number) => {
-    const configs = characterConfigs();
-    const allDiscIds = configs.flatMap(c => c.discIds);
-
-  setCharacterConfigs(configs.map(c => {
-      if (c.charId === charId) {
-        if (c.discIds.includes(discId)) {
-          return { ...c, discIds: c.discIds.filter(d => d !== discId) };
-        } else if (allDiscIds.length < 6) {
-          return { ...c, discIds: [...c.discIds, discId] };
-        }
-      }
-      return c;
-  }));
-  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
-  };
-
-  // 获取角色的潜能列表
+// 获取角色的潜能列表
   const getCharacterPotentials = (charId: number) => {
     return potentials().filter(p => p.charId === charId);
   };
 
-  // 添加角色潜能
-  const addCharacterPotential = (charId: number) => {
-    const newPotential: PotentialConfig = {
-      id: `${charId}-${Date.now()}`,
-      charId,
-      potentialId: 0,
-      level: 1
-    };
-
-    setCharacterConfigs(
-      characterConfigs().map(c =>
-        c.charId === charId
-          ? { ...c, potentials: [...c.potentials, newPotential] }
-          : c
-      )
-    );
-  };
-
-  // 删除角色潜能
-  const removeCharacterPotential = (charId: number, potentialId: string) => {
-  setCharacterConfigs(
-    characterConfigs().map(c =>
-      c.charId === charId
-        ? { ...c, potentials: c.potentials.filter(p => p.id !== potentialId) }
-        : c
-    )
-  );
-  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
-  };
-
-  // 更新角色潜能
-  const updateCharacterPotential = (charId: number, potentialId: string, newPotentialId: number) => {
-  setCharacterConfigs(
-    characterConfigs().map(c =>
-      c.charId === charId
-        ? { ...c, potentials: c.potentials.map(p => p.id === potentialId ? { ...p, potentialId: newPotentialId } : p) }
-        : c
-    )
-  );
-  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
-  };
-
-  // 更新角色潜能等级
   const updateCharacterPotentialLevel = (charId: number, potentialId: string, level: number) => {
     setCharacterConfigs(prev => {
       const next = prev.slice();
@@ -209,31 +149,6 @@ export function BuildPanel(props: BuildPanelProps) {
     });
   };
 
-  // 添加角色音符
-  const addCharacterMelody = (charId: number) => {
-  setCharacterConfigs(
-    characterConfigs().map(c =>
-      c.charId === charId
-        ? { ...c, melodies: [...c.melodies, { melodyId: 0, level: 1 }] }
-        : c
-    )
-  );
-  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
-  };
-
-  // 删除角色音符
-  const removeCharacterMelody = (charId: number, index: number) => {
-  setCharacterConfigs(
-    characterConfigs().map(c =>
-      c.charId === charId
-        ? { ...c, melodies: c.melodies.filter((_, i) => i !== index) }
-        : c
-    )
-  );
-  try { localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies })))) } catch {}
-  };
-
-  // 更新角色音符
   const updateCharacterMelody = (charId: number, index: number, melodyId: number, level: number) => {
     setCharacterConfigs(prev => {
       const next = prev.slice();
@@ -344,9 +259,84 @@ export function BuildPanel(props: BuildPanelProps) {
         <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
           {/* 角色选择与配置 */}
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: var(--spacing-sm);">
-              {t(props.language, 'build.selectLabel')}
-            </label>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--spacing-sm);">
+              <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+                {t(props.language, 'build.selectLabel')}
+              </label>
+              <Button
+                variant="accent"
+                onClick={() => {
+                  const listChars = characters();
+                  const listDiscs = discs();
+                  if (listChars.length < 3 || listDiscs.length < 3) return;
+                  const pre = selectedCharacters();
+                  const remain = listChars.filter(c => !pre.includes(c.id)).map(c => c.id).sort(() => Math.random() - 0.5);
+                  const charIds = [...pre.slice(0, 3), ...remain].slice(0, 3);
+                  const maxDiscs = Math.min(listDiscs.length, 6);
+                  const totalDiscs = Math.max(3, maxDiscs);
+                  const discIds = [...listDiscs.map(d => d.id)].sort(() => Math.random() - 0.5).slice(0, totalDiscs);
+                  const cfgs = charIds.map(cid => ({ charId: cid, potentials: [] as PotentialConfig[], discIds: [] as number[], melodies: [] as { melodyId:number; level:number }[] }));
+                  discIds.forEach((did, idx) => { cfgs[idx % cfgs.length].discIds.push(did); });
+                  cfgs.forEach(c => {
+                    const pool = getCharacterPotentials(c.charId);
+                    const pickCount = Math.min(pool.length, Math.floor(Math.random() * 4) + 3); // 3-6
+                    const picked = [...pool].sort(() => Math.random() - 0.5).slice(0, pickCount);
+                    c.potentials = picked.map(p => ({ id: `${c.charId}-${p.id}`, charId: c.charId, potentialId: p.id, level: Math.floor(Math.random() * 5) + 6 })); // 6-10
+                  });
+                  let availableMelodies = [...melodies().map(m => m.id)].sort(() => Math.random() - 0.5);
+                  for (const c of cfgs) {
+                    const mCount = Math.min(availableMelodies.length, Math.floor(Math.random() * 3) + 1); // 1-3
+                    for (let i = 0; i < mCount; i++) {
+                      const mid = availableMelodies.shift();
+                      if (mid === undefined) break;
+                      c.melodies.push({ melodyId: mid, level: Math.floor(Math.random() * 60) + 40 }); // 40-99
+                    }
+                  }
+                  setSelectedCharacters(charIds);
+                  setCharacterConfigs(cfgs);
+                  try {
+                    localStorage.setItem('build.selected', JSON.stringify(charIds));
+                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))))
+                  } catch {}
+                }}
+                disabled={characters().length < 3 || discs().length < 3}
+              >
+                 {t(props.language, 'build.randomButton')}
+              </Button>
+              <Button
+                variant="primary"
+                onClick={() => {
+                  const listChars = characters();
+                  const listDiscs = discs();
+                  if (listChars.length < 3 || listDiscs.length < 3) return;
+                  const pre = selectedCharacters();
+                  const remain = listChars.filter(c => !pre.includes(c.id)).map(c => c.id).sort(() => Math.random() - 0.5);
+                  const charIds = [...pre.slice(0, 3), ...remain].slice(0, 3);
+                  const totalDiscs = Math.min(listDiscs.length, 6);
+                  const discIds = [...listDiscs.map(d => d.id)].slice(0, totalDiscs);
+                  const cfgs = charIds.map(cid => ({ charId: cid, potentials: [] as PotentialConfig[], discIds: [] as number[], melodies: [] as { melodyId:number; level:number }[] }));
+                  discIds.forEach((did, idx) => { cfgs[idx % cfgs.length].discIds.push(did); });
+                  cfgs.forEach(c => {
+                    const pool = getCharacterPotentials(c.charId);
+                    c.potentials = pool.map(p => ({ id: `${c.charId}-${p.id}`, charId: c.charId, potentialId: p.id, level: 99 }));
+                  });
+                  let melodyIds = melodies().map(m => m.id).filter(id => id > 0);
+                  for (let i = 0; i < melodyIds.length; i++) {
+                    const mid = melodyIds[i];
+                    cfgs[i % cfgs.length].melodies.push({ melodyId: mid, level: 99 });
+                  }
+                  setSelectedCharacters(charIds);
+                  setCharacterConfigs(cfgs);
+                  try {
+                    localStorage.setItem('build.selected', JSON.stringify(charIds));
+                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))))
+                  } catch {}
+                }}
+                disabled={characters().length < 3 || discs().length < 3}
+              >
+                {t(props.language, 'build.allInOneButton')}
+              </Button>
+            </div>
             <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: var(--spacing-md);">
               <style>{`
                 @media (min-width: 768px) {

@@ -13,7 +13,7 @@ interface DiscPanelProps {
 }
 
 export function DiscPanel(props: DiscPanelProps) {
-  const [mode, setMode] = createSignal<'select' | 'all'>('select');
+  const [mode, setMode] = createSignal<'select' | 'all' | 'giveall'>('select');
   const [selectedDiscs, setSelectedDiscs] = createSignal<number[]>([]);
   const [elementFilter, setElementFilter] = createSignal<Element | 'ALL'>('ALL');
   const [level, setLevel] = createSignal<number>(90);
@@ -55,8 +55,18 @@ export function DiscPanel(props: DiscPanelProps) {
 
   // 实时生成命令
   createEffect(() => {
+    const m = mode();
+    if (m === 'giveall') {
+      const parts: string[] = ['giveall', 'discs'];
+      if (level()) parts.push(`lv${level()}`);
+      if (crescendo()) parts.push(`c${crescendo()}`);
+      props.onCommandChange(parts.join(' '));
+      try { localStorage.setItem('disc.mode', JSON.stringify(m)); } catch {}
+      return;
+    }
+
     const parts: string[] = ['disc'];
-    if (mode() === 'all') {
+    if (m === 'all') {
       parts.push('all');
     } else {
       if (selectedDiscs().length === 0) {
@@ -71,19 +81,28 @@ export function DiscPanel(props: DiscPanelProps) {
     if (crescendo()) parts.push(`c${crescendo()}`);
 
     props.onCommandChange(parts.join(' '));
-    try { localStorage.setItem('disc.mode', JSON.stringify(mode())); } catch {}
+    try { localStorage.setItem('disc.mode', JSON.stringify(m)); } catch {}
   });
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
       <Card title={t(props.language, 'common.modeTitle')}>
+        <Show when={mode() === 'giveall'}>
+          <div style="margin-bottom: var(--spacing-sm); padding: 10px 12px; background: linear-gradient(135deg, rgba(0, 188, 212, 0.08), rgba(0, 188, 212, 0.02)); border: 1px solid var(--border-primary); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 12px; display: flex; align-items: center; gap: 8px;">
+            <span style="display:inline-flex; align-items:center; gap:6px;">
+              <span style="padding:2px 8px; border-radius:9999px; background: var(--primary); color: white; font-weight:600;">{t(props.language, 'giveall.typeOptions.discs')}</span>
+              <span>{t(props.language, 'giveall.hints.discs')}</span>
+            </span>
+          </div>
+        </Show>
         <Segmented
           options={[
             { value: 'select', label: t(props.language, 'common.mode.select') },
             { value: 'all', label: t(props.language, 'common.mode.all') },
+            { value: 'giveall', label: t(props.language, 'giveall.typeOptions.discs') },
           ]}
           value={mode()}
-          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all')}
+          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all' | 'giveall')}
           persistKey="disc.mode"
         />
       </Card>

@@ -3,7 +3,6 @@ import { Card } from '../ui/Card';
 import { Input } from '../ui/Input';
 import { NumberInput } from '../ui/NumberInput';
 import { Button } from '../ui/Button';
-import { SearchableSelect } from '../ui/SearchableSelect';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Language, Item } from '../../types';
 import { t } from '../../i18n';
@@ -23,8 +22,7 @@ export function MailPanel(props: MailPanelProps) {
   const [subject, setSubject] = createSignal<string>('');
   const [body, setBody] = createSignal<string>('');
   const [attachments, setAttachments] = createSignal<Attachment[]>([]);
-  const [newItemId, setNewItemId] = createSignal<string>('');
-  const [newQuantity, setNewQuantity] = createSignal<string>('');
+    const [newQuantity, setNewQuantity] = createSignal<string>('');
   const [globalQuantityEnabled, setGlobalQuantityEnabled] = createSignal<boolean>(false);
 
   // 加载物品数据
@@ -52,28 +50,7 @@ export function MailPanel(props: MailPanelProps) {
   });
 
   // 选项列表
-  const itemOptions = () => [
-    { value: '', label: t(props.language, 'give.selectPlaceholder') },
-    ...items().map((item) => ({
-      value: String(item.id),
-      label: `${item.names?.[props.language] || item.names?.en_US || 'Unknown'} - ID: ${item.id}`,
-    })),
-  ];
-
-  const addAttachment = () => {
-    const id = newItemId().trim();
-    if (!id) return;
-
-    const qStr = newQuantity().trim();
-    const useGlobal = globalQuantityEnabled() && qStr !== '' && Number.isFinite(Number(qStr));
-    const next = [...attachments(), { itemId: id, quantity: useGlobal ? Number(qStr) : 1 }];
-    setAttachments(next);
-    try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}
-    setNewItemId('');
-    setNewQuantity('1');
-  };
-
-  const removeAttachment = (index: number) => {
+    const removeAttachment = (index: number) => {
     const next = attachments().filter((_, i) => i !== index);
     setAttachments(next);
     try { localStorage.setItem('mail.attachments', JSON.stringify(next)); } catch {}

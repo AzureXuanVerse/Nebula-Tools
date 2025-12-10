@@ -43,15 +43,7 @@ export function MultiSelect(props: MultiSelectProps) {
       }
     }
   };
-
-  const getSelectedLabels = () => {
-    return props.options
-      .filter((opt) => props.selected.includes(opt.value))
-      .map((opt) => opt.label)
-      .join(', ');
-  };
-
-  // 过滤选项
+// 过滤选项
   const filteredOptions = () => {
     const search = searchText().toLowerCase().trim();
     if (!search) return props.options;

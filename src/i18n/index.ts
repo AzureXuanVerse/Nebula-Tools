@@ -123,6 +123,10 @@ const dict: Record<Language, Record<string, any>> = {
         discs: '所有秘纹',
         materials: '所有材料'
       },
+      hints: {
+        characters: '发放所有角色并设置属性',
+        discs: '发放所有秘纹并设置属性'
+      },
       char: {
         title: '角色属性',
         attr: {
@@ -143,8 +147,10 @@ const dict: Record<Language, Record<string, any>> = {
     ,
     build: {
       tipTitle: '提示',
-      tipText: '选择3个角色，每个角色配置潜能、秘纹（总共3-6个）和音符（可选）',
+      tipText: '已选中的卡片在点击“随机”或“一键满配”时将被优先使用；不足部分随机补齐。需满足：3个角色、秘纹总数3-6、音符可选。',
       selectLabel: '选择3个角色并配置',
+      randomButton: '随机',
+      allInOneButton: '一键满配',
       potentialTitle: '潜能',
       potentialLevelPlaceholder: 'Lv',
       discTitle: '秘纹（总共需3-6个）',
@@ -397,6 +403,10 @@ const dict: Record<Language, Record<string, any>> = {
         discs: 'All Discs',
         materials: 'All Materials'
       },
+      hints: {
+        characters: 'Give all characters and set attributes',
+        discs: 'Give all discs and set attributes'
+      },
       char: {
         title: 'Character Attributes',
         attr: {
@@ -417,8 +427,10 @@ const dict: Record<Language, Record<string, any>> = {
     ,
     build: {
       tipTitle: 'Notice',
-      tipText: 'Pick 3 characters, configure Potentials, Discs (total 3-6) and optional Melodies.',
+      tipText: 'If characters are preselected, “Random” or “All In One” keeps them and fills the rest randomly. Requirements: 3 characters, 3–6 total discs, melodies optional.',
       selectLabel: 'Select 3 characters and configure',
+      randomButton: 'Random',
+      allInOneButton: 'All In One Max',
       potentialTitle: 'Potentials',
       potentialLevelPlaceholder: 'Lv',
       discTitle: 'Discs (total 3-6)',

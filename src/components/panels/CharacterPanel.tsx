@@ -5,7 +5,6 @@ import { NumberInput } from '../ui/NumberInput';
 import { MultiSelect } from '../ui/MultiSelect';
 import type { Character, Language, Element } from '../../types';
 import { t } from '../../i18n';
-import { getElementIcon } from '../../utils/dataLoader';
 
 interface CharacterPanelProps {
   characters: Character[];
@@ -14,7 +13,7 @@ interface CharacterPanelProps {
 }
 
 export function CharacterPanel(props: CharacterPanelProps) {
-  const [mode, setMode] = createSignal<'select' | 'all'>('select');
+  const [mode, setMode] = createSignal<'select' | 'all' | 'giveall'>('select');
   const [selectedCharacters, setSelectedCharacters] = createSignal<number[]>([]);
   const [elementFilter, setElementFilter] = createSignal<Element | 'ALL'>('ALL');
   const [level, setLevel] = createSignal<number>(90);
@@ -57,8 +56,19 @@ export function CharacterPanel(props: CharacterPanelProps) {
 
   // 实时生成命令
   createEffect(() => {
+    const m = mode();
+    if (m === 'giveall') {
+      const parts: string[] = ['giveall', 'characters'];
+      if (level()) parts.push(`lv${level()}`);
+      if (skill()) parts.push(`s${skill()}`);
+      if (talent()) parts.push(`t${talent()}`);
+      props.onCommandChange(parts.join(' '));
+      try { localStorage.setItem('character.mode', JSON.stringify(m)); } catch {}
+      return;
+    }
+
     const parts: string[] = ['character'];
-    if (mode() === 'all') {
+    if (m === 'all') {
       parts.push('all');
     } else {
       if (selectedCharacters().length === 0) {
@@ -75,19 +85,28 @@ export function CharacterPanel(props: CharacterPanelProps) {
     if (favor()) parts.push(`f${favor()}`);
 
     props.onCommandChange(parts.join(' '));
-    try { localStorage.setItem('character.mode', JSON.stringify(mode())); } catch {}
+    try { localStorage.setItem('character.mode', JSON.stringify(m)); } catch {}
   });
 
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
       <Card title={t(props.language, 'common.modeTitle')}>
+        <Show when={mode() === 'giveall'}>
+          <div style="margin-bottom: var(--spacing-sm); padding: 10px 12px; background: linear-gradient(135deg, rgba(0, 188, 212, 0.08), rgba(0, 188, 212, 0.02)); border: 1px solid var(--border-primary); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 12px; display: flex; align-items: center; gap: 8px;">
+            <span style="display:inline-flex; align-items:center; gap:6px;">
+              <span style="padding:2px 8px; border-radius:9999px; background: var(--primary); color: white; font-weight:600;">{t(props.language, 'giveall.typeOptions.characters')}</span>
+              <span>{t(props.language, 'giveall.hints.characters')}</span>
+            </span>
+          </div>
+        </Show>
         <Segmented
           options={[
             { value: 'select', label: t(props.language, 'common.mode.select') },
             { value: 'all', label: t(props.language, 'common.mode.all') },
+            { value: 'giveall', label: t(props.language, 'giveall.typeOptions.characters') },
           ]}
           value={mode()}
-          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all')}
+          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'all' | 'giveall')}
           persistKey="character.mode"
         />
       </Card>

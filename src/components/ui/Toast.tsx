@@ -1,4 +1,4 @@
-import { Show, For } from 'solid-js';
+import { For } from 'solid-js';
 import type { ToastMessage, Language } from '../../types';
 import { t } from '../../i18n';
 

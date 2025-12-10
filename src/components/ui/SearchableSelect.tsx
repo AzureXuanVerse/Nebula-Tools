@@ -16,6 +16,7 @@ interface SearchableSelectProps extends JSX.SelectHTMLAttributes<HTMLSelectEleme
   hideCheckmark?: boolean;
   persistKey?: string;
   language?: Language;
+  placeholder?: string;
 }
 
 export function SearchableSelect(props: SearchableSelectProps) {
@@ -51,7 +52,7 @@ export function SearchableSelect(props: SearchableSelectProps) {
     // 触发 onChange 事件
     if (props.onChange) {
       const synthetic = { target: { value: String(value) }, currentTarget: { value: String(value) } } as any;
-      props.onChange(synthetic);
+      (props.onChange as (ev: any) => void)(synthetic);
     }
     if (persistKey) {
       try {
@@ -74,7 +75,7 @@ export function SearchableSelect(props: SearchableSelectProps) {
         setSelectedValue(parsed);
         if (props.onChange) {
           const synthetic = { target: { value: String(parsed) }, currentTarget: { value: String(parsed) } } as any;
-          props.onChange(synthetic);
+          (props.onChange as (ev: any) => void)(synthetic);
         }
       }
     } catch {}
