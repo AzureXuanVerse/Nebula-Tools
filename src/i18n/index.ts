@@ -108,7 +108,13 @@ const dict: Record<Language, Record<string, any>> = {
         Char: '角色',
         Energy: '能量',
         CharacterSkin: '皮肤',
-        MonthlyCard: '月卡'
+        MonthlyCard: '月卡',
+        RogueItem: '肉鸽物品',
+        WorldRankExp: '世界等级经验',
+        Title: '称号',
+        Honor: '荣誉',
+        HeadItem: '头像',
+        Disc: '秘纹'
       }
       ,
       batchMaterialsTitle: '批量材料',
@@ -388,7 +394,13 @@ const dict: Record<Language, Record<string, any>> = {
         Char: 'Characters',
         Energy: 'Energy',
         CharacterSkin: 'Skins',
-        MonthlyCard: 'Monthly Card'
+        MonthlyCard: 'Monthly Card',
+        RogueItem: 'Rogue Items',
+        WorldRankExp: 'World Rank EXP',
+        Title: 'Title',
+        Honor: 'Honor',
+        HeadItem: 'Head Item',
+        Disc: 'Disc'
       }
       ,
       batchMaterialsTitle: 'Batch Materials',

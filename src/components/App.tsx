@@ -94,12 +94,16 @@ export function App() {
       const navType = navEntry?.type as string | undefined;
       const isNavigate = navType === 'navigate' || navType === undefined;
       const done = (() => { try { return sessionStorage.getItem('autoTestDone') === 'true'; } catch { return false; } })();
+      const force = (() => { try { return sessionStorage.getItem('forceRetest') === 'true'; } catch { return false; } })();
 
       const urlOk = serverUrl().trim().length > 0;
       const tokenOk = token().trim().length > 0;
       const uidOk = connectionMode() === 'player' || (connectionMode() === 'admin' && targetUid().trim().length > 0);
 
-      if (isNavigate && !done && urlOk && tokenOk && uidOk) {
+      if (force && urlOk && tokenOk && uidOk) {
+        await handleTestConnection();
+        try { sessionStorage.removeItem('forceRetest'); sessionStorage.setItem('autoTestDone', 'true'); } catch {}
+      } else if (isNavigate && !done && urlOk && tokenOk && uidOk) {
         await handleTestConnection();
         try { sessionStorage.setItem('autoTestDone', 'true'); } catch {}
       }
@@ -122,8 +126,20 @@ export function App() {
 
   const clearState = () => {
     try {
+      const keep = ['ui.currentCommand', 'ui.language', 'conn.config', 'conn.mode', 'conn.token', 'conn.uid'];
+      const saved: Record<string, string> = {};
+      for (const k of keep) {
+        try {
+          const v = localStorage.getItem(k);
+          if (v !== null) saved[k] = v;
+        } catch {}
+      }
       localStorage.clear();
+      for (const k of Object.keys(saved)) {
+        try { localStorage.setItem(k, saved[k]); } catch {}
+      }
       sessionStorage.removeItem('autoTestDone');
+      sessionStorage.setItem('forceRetest', 'true');
     } catch {}
     try {
       if (typeof window !== 'undefined' && window.location) {

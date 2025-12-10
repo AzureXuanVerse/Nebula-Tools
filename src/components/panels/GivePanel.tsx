@@ -26,6 +26,12 @@ export function GivePanel(props: GivePanelProps) {
     { value: 'Energy', icon: '⚡', color: 'bg-green-100 text-green-600 border-green-300' },
     { value: 'CharacterSkin', icon: '🎨', color: 'bg-pink-100 text-pink-600 border-pink-300' },
     { value: 'MonthlyCard', icon: '🎫', color: 'bg-orange-100 text-orange-600 border-orange-300' },
+    { value: 'RogueItem', icon: '🎲', color: 'bg-indigo-100 text-indigo-600 border-indigo-300' },
+    { value: 'WorldRankExp', icon: '🏆', color: 'bg-teal-100 text-teal-600 border-teal-300' },
+    { value: 'Title', icon: '🏷️', color: 'bg-cyan-100 text-cyan-600 border-cyan-300' },
+    { value: 'Honor', icon: '🏅', color: 'bg-amber-100 text-amber-600 border-amber-300' },
+    { value: 'HeadItem', icon: '🧢', color: 'bg-lime-100 text-lime-600 border-lime-300' },
+    { value: 'Disc', icon: '💿', color: 'bg-sky-100 text-sky-600 border-sky-300' },
   ];
 
   // 加载物品数据

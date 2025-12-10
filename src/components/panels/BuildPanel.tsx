@@ -41,6 +41,7 @@ export function BuildPanel(props: BuildPanelProps) {
   const [potentials, setPotentials] = createSignal<Potential[]>([]);
   const [melodies, setMelodies] = createSignal<Melody[]>([]);
   const [selectedCharacters, setSelectedCharacters] = createSignal<number[]>([]);
+  const [lockedCharacters, setLockedCharacters] = createSignal<number[]>([]);
 
   // 每个角色的完整配置
   interface CharacterFullConfig {
@@ -83,6 +84,11 @@ export function BuildPanel(props: BuildPanelProps) {
             setCharacterConfigs(arr.map(cid => ({ charId: cid, potentials: [], discIds: [], melodies: [] })));
           }
         }
+        const savedLocked = localStorage.getItem('build.locked');
+        if (savedLocked) {
+          const arr = JSON.parse(savedLocked) as number[];
+          if (Array.isArray(arr)) setLockedCharacters(arr);
+        }
         const savedCfg = localStorage.getItem('build.configs');
         if (savedCfg) {
           const cfgs = JSON.parse(savedCfg) as Array<{ charId:number; potentials:{potentialId:number;level:number}[]; discIds:number[]; melodies:{melodyId:number;level:number}[] }>;
@@ -104,6 +110,7 @@ export function BuildPanel(props: BuildPanelProps) {
   // 切换角色选择
   const toggleCharacter = (id: number) => {
     const current = selectedCharacters();
+    const locked = lockedCharacters();
     const configs = characterConfigs();
 
     if (current.includes(id)) {
@@ -112,6 +119,9 @@ export function BuildPanel(props: BuildPanelProps) {
       setSelectedCharacters(next);
       try { localStorage.setItem('build.selected', JSON.stringify(next)); } catch {}
       setCharacterConfigs(configs.filter(c => c.charId !== id));
+      const nextLocked = locked.filter(cid => cid !== id);
+      setLockedCharacters(nextLocked);
+      try { localStorage.setItem('build.locked', JSON.stringify(nextLocked)); } catch {}
     } else if (current.length < 3) {
       // 选择：添加角色和初始配置
       const nextSel = [...current, id];
@@ -123,6 +133,9 @@ export function BuildPanel(props: BuildPanelProps) {
         discIds: [],
         melodies: []
       }]);
+      const nextLocked = locked.includes(id) ? locked : [...locked, id];
+      setLockedCharacters(nextLocked);
+      try { localStorage.setItem('build.locked', JSON.stringify(nextLocked)); } catch {}
     }
   };
 
@@ -269,7 +282,7 @@ export function BuildPanel(props: BuildPanelProps) {
                   const listChars = characters();
                   const listDiscs = discs();
                   if (listChars.length < 3 || listDiscs.length < 3) return;
-                  const pre = selectedCharacters();
+                  const pre = lockedCharacters();
                   const remain = listChars.filter(c => !pre.includes(c.id)).map(c => c.id).sort(() => Math.random() - 0.5);
                   const charIds = [...pre.slice(0, 3), ...remain].slice(0, 3);
                   const maxDiscs = Math.min(listDiscs.length, 6);
@@ -309,7 +322,7 @@ export function BuildPanel(props: BuildPanelProps) {
                   const listChars = characters();
                   const listDiscs = discs();
                   if (listChars.length < 3 || listDiscs.length < 3) return;
-                  const pre = selectedCharacters();
+                  const pre = lockedCharacters();
                   const remain = listChars.filter(c => !pre.includes(c.id)).map(c => c.id).sort(() => Math.random() - 0.5);
                   const charIds = [...pre.slice(0, 3), ...remain].slice(0, 3);
                   const totalDiscs = Math.min(listDiscs.length, 6);
