@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -29,23 +29,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libgtk-3-dev webkit2gtk-4.1 libayatana-appindicator3-dev librsvg2-dev patchelf
       - run: npm ci
-      - run: npm run build
-      - run: cargo build --release --manifest-path src-tauri/Cargo.toml
-      - if: matrix.os == 'windows-latest'
-        uses: actions/upload-artifact@v4
+      - run: npm run tauri:build
+      - uses: actions/upload-artifact@v4
         with:
-          name: tauri-windows-app
-          path: src-tauri/target/release/*.exe
-          if-no-files-found: error
-      - if: matrix.os == 'macos-latest'
-        uses: actions/upload-artifact@v4
-        with:
-          name: tauri-macos-bin
-          path: src-tauri/target/release/NB-Tools
-          if-no-files-found: error
-      - if: matrix.os == 'ubuntu-latest'
-        uses: actions/upload-artifact@v4
-        with:
-          name: tauri-linux-app
-          path: src-tauri/target/release/NB-Tools
+          name: tauri-${{ matrix.os }}-exe
+          path: |
+            src-tauri/target/release/*.exe
           if-no-files-found: error
