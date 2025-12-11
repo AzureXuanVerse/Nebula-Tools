@@ -114,7 +114,7 @@ export async function testConnection(
       const raw = await tryTauriInvoke('remote_proxy', {
         serverUrl: config.serverUrl,
         token: config.token,
-        command: 'help',
+        command: 'status',
       });
       const data = parseApiResponse(raw);
       return data.Code === 200;
@@ -122,7 +122,7 @@ export async function testConnection(
     const response = await fetch('/api/remote', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Lang': (() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })() },
-      body: JSON.stringify({ serverUrl: config.serverUrl, token: config.token, command: 'help' }),
+      body: JSON.stringify({ serverUrl: config.serverUrl, token: config.token, command: 'status' }),
     });
     const data = await response.json();
     return data.Code === 200;

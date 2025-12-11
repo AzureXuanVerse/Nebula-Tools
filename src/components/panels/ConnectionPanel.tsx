@@ -24,16 +24,16 @@ interface ConnectionPanelProps {
 export function ConnectionPanel(props: ConnectionPanelProps) {
   const canSave = () => {
     if (!props.serverUrl.trim() || !props.token.trim()) return false;
-    if (props.connectionMode === 'admin' && !props.targetUid.trim()) return false;
-    return true;
+    return !(props.connectionMode === 'admin' && !props.targetUid.trim());
+
   };
   const [consoleInput, setConsoleInput] = createSignal('');
   const [consoleLogs, setConsoleLogs] = createSignal<{ time: string; cmd: string; code: number; msg: string }[]>([]);
   const canExecConsole = () => {
     if (!props.serverUrl.trim() || !props.token.trim()) return false;
     if (!consoleInput().trim()) return false;
-    if (props.connectionMode === 'admin' && !props.targetUid.trim()) return false;
-    return true;
+    return !(props.connectionMode === 'admin' && !props.targetUid.trim());
+
   };
   const runConsole = async () => {
     if (!canExecConsole()) return;
@@ -76,7 +76,7 @@ export function ConnectionPanel(props: ConnectionPanelProps) {
             placeholder={props.connectionMode === 'admin' ? t(props.language, 'connection.tokenAdminPlaceholder') : t(props.language, 'connection.tokenPlayerPlaceholder')}
             value={props.token}
             onInput={(e) => props.onTokenChange(e.currentTarget.value)}
-            persistKey="conn.token"
+            persistKey={props.connectionMode === 'admin' ? 'conn.token' : undefined}
           />
           
           <Show when={props.connectionMode === 'admin'}>

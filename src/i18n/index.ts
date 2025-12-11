@@ -15,6 +15,7 @@ const dict: Record<Language, Record<string, any>> = {
         build: '记录',
         mail: '邮件',
         clean: '清除',
+        ban: '封禁',
         connection: '连接'
       },
       status: {
@@ -68,6 +69,32 @@ const dict: Record<Language, Record<string, any>> = {
         LIGHT: '光',
         DARK: '暗'
       }
+    }
+    ,
+    ban: {
+      title: '封禁管理',
+      modeLabel: '操作',
+      mode: { ban: '封禁', unban: '解禁' },
+      scopeLabel: '封禁范围',
+      scope: { all: '同时封禁UID与IP', ip: '仅IP', uid: '仅UID' },
+      scopeAllBan: '同时封禁UID与IP',
+      scopeAllUnban: '同时解禁UID与IP',
+      endTimeLabel: '结束时间',
+      endTimePlaceholder: '选择结束时间（本地）',
+      endFields: { year: '年', month: '月', day: '日', hour: '时', minute: '分', second: '秒' },
+      invalidEnd: '请选择一个晚于当前时间的有效时间',
+      uidLabel: '玩家 UID',
+      uidPlaceholder: '如：10001（管理员模式可用）',
+      ipLabel: 'IP 地址',
+      ipPlaceholder: '如：192.168.1.2',
+      reasonLabel: '原因',
+      reasonPlaceholder: '可选，填写封禁原因',
+      previewTitle: '结束时间预览',
+      previewLocal: '本地时区',
+      previewUTC: 'UTC',
+      previewEpochMs: '时间戳 (毫秒)',
+      previewMore: '显示UTC/时间戳',
+      previewLess: '收起UTC/时间戳'
     }
     ,
     disc: {
@@ -233,7 +260,7 @@ const dict: Record<Language, Record<string, any>> = {
       tokenAdminPlaceholder: '输入管理员密钥',
       tokenPlayerLabel: 'Token (玩家令牌)',
       tokenPlayerPlaceholder: '输入玩家令牌（8位随机码）',
-      uidLabel: '目标玩家 UID（必填）（由于服务端没验证UID，所以请输入正确）',
+      uidLabel: '目标玩家 UID（必填）',
       uidPlaceholder: '如: 10001',
       saveButton: '保存',
       saveHintFill: '请填写服务器地址与Token',
@@ -301,6 +328,7 @@ const dict: Record<Language, Record<string, any>> = {
         build: 'Build',
         mail: 'Mail',
         clean: 'Clean',
+        ban: 'Ban',
         connection: 'Connection'
       },
       status: {
@@ -354,6 +382,32 @@ const dict: Record<Language, Record<string, any>> = {
         LIGHT: 'Light',
         DARK: 'Dark'
       }
+    }
+    ,
+    ban: {
+      title: 'Ban Management',
+      modeLabel: 'Action',
+      mode: { ban: 'Ban', unban: 'Unban' },
+      scopeLabel: 'Scope',
+      scope: { all: 'UID + IP', ip: 'IP only', uid: 'UID only' },
+      scopeAllBan: 'UID + IP (ban)',
+      scopeAllUnban: 'UID + IP (unban)',
+      endTimeLabel: 'End Time',
+      endTimePlaceholder: 'Select end time (local)',
+      endFields: { year: 'Year', month: 'Month', day: 'Day', hour: 'Hour', minute: 'Minute', second: 'Second' },
+      invalidEnd: 'Please select a valid time in the future',
+      uidLabel: 'Player UID',
+      uidPlaceholder: 'e.g., 10001 (admin mode)',
+      ipLabel: 'IP Address',
+      ipPlaceholder: 'e.g., 192.168.1.2',
+      reasonLabel: 'Reason',
+      reasonPlaceholder: 'Optional, enter ban reason',
+      previewTitle: 'End Time Preview',
+      previewLocal: 'Local Time',
+      previewUTC: 'UTC',
+      previewEpochMs: 'Epoch (ms)',
+      previewMore: 'Show UTC/Epoch',
+      previewLess: 'Hide UTC/Epoch'
     }
     ,
     disc: {

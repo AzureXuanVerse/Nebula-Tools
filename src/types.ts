@@ -43,6 +43,7 @@ export type CommandType =
   | 'mail' 
   | 'clean'
   | 'battlepass'
+  | 'ban'
   | 'connection';
 
 // 角色命令参数
@@ -109,6 +110,16 @@ export interface CleanParams {
 export interface BattlePassParams {
   mode?: 'free' | 'premium';
   level?: number;
+}
+
+// 封禁命令参数
+export interface BanParams {
+  mode: 'ban' | 'unban';
+  scope: 'all' | 'ip' | 'uid';
+  timestamp?: number;
+  reason?: string;
+  uid?: string;
+  ip?: string;
 }
 
 // 连接状态

@@ -8,6 +8,21 @@ interface InputProps extends JSX.InputHTMLAttributes<HTMLInputElement> {
 export function Input(props: InputProps) {
   const [local, others] = splitProps(props, ['label', 'class', 'onInput', 'value', 'persistKey']);
 
+  try {
+    if (local.persistKey) {
+      const v = localStorage.getItem(local.persistKey);
+      if (v) {
+        const parsed = JSON.parse(v);
+        if (typeof parsed === 'string' && parsed !== (local.value as any)) {
+          if (local.onInput) {
+            const synthetic = { currentTarget: { value: parsed }, target: { value: parsed } } as any;
+            (local.onInput as any)(synthetic);
+          }
+        }
+      }
+    }
+  } catch {}
+
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
       {local.label && (

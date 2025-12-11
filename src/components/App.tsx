@@ -1,8 +1,6 @@
 import { createSignal, Show, Match, Switch, onMount, createEffect } from 'solid-js';
 import { Navbar } from './Navbar';
-import { Card } from './ui/Card';
 import { Button } from './ui/Button';
-import { Input } from './ui/Input';
 import { Toast } from './ui/Toast';
 import { CharacterPanel } from './panels/CharacterPanel';
 import { DiscPanel } from './panels/DiscPanel';
@@ -13,6 +11,7 @@ import { BuildPanel } from './panels/BuildPanel';
 import { MailPanel } from './panels/MailPanel';
 import { CleanPanel } from './panels/CleanPanel';
 import { ConnectionPanel } from './panels/ConnectionPanel';
+import { BanPanel } from './panels/BanPanel';
 import {
   loadCharacters,
   loadDiscs,
@@ -30,7 +29,7 @@ import type {
 import { t } from '../i18n';
 
 export function App() {
-  const allowedCommands = ['character','disc','give','level','battlepass','build','mail','clean','connection'] as CommandType[];
+  const allowedCommands = ['character','disc','give','level','battlepass','build','mail','clean','ban','connection'] as CommandType[];
   const initialCmd = (() => {
     try {
       const savedCmd = localStorage.getItem('ui.currentCommand');
@@ -43,7 +42,19 @@ export function App() {
   })();
   const [currentCommand, setCurrentCommand] = createSignal<CommandType>(initialCmd);
   const [language, setLanguage] = createSignal<Language>('zh_CN');
-  const [connectionStatus, setConnectionStatus] = createSignal<ConnectionStatus>('disconnected');
+  const initialConnStatus = (() => {
+    try {
+      const v = localStorage.getItem('conn.status');
+      if (v) {
+        const parsed = JSON.parse(v);
+        if (parsed === 'connected' || parsed === 'connecting' || parsed === 'disconnected') {
+          return parsed as ConnectionStatus;
+        }
+      }
+    } catch {}
+    return 'disconnected' as ConnectionStatus;
+  })();
+  const [connectionStatus, setConnectionStatus] = createSignal<ConnectionStatus>(initialConnStatus);
   const [generatedCommand, setGeneratedCommand] = createSignal<string>('');
   const [serverUrl, setServerUrl] = createSignal<string>('http://127.0.0.1:5210');
   const [token, setToken] = createSignal<string>('');
@@ -67,6 +78,14 @@ export function App() {
   // 通知
   const [toasts, setToasts] = createSignal<ToastMessage[]>([]);
   let toastTimer: number | undefined;
+  createEffect(() => {
+    try { localStorage.setItem('conn.status', JSON.stringify(connectionStatus())); } catch {}
+  });
+
+  const msgIndicatesError = (msg?: string) => {
+    const m = (msg || '').trim();
+    return /^error\b/i.test(m);
+  };
 
   // 加载数据
   onMount(async () => {
@@ -79,6 +98,34 @@ export function App() {
         if (cfg.targetUid) setTargetUid(cfg.targetUid);
         if (cfg.connectionMode) setConnectionMode(cfg.connectionMode);
       }
+      try {
+        const m = localStorage.getItem('conn.mode');
+        if (m) {
+          const parsed = JSON.parse(m);
+          if (parsed === 'admin' || parsed === 'player') setConnectionMode(parsed);
+        }
+      } catch {}
+      try {
+        const tk = localStorage.getItem('conn.token');
+        if (tk) {
+          const parsed = JSON.parse(tk);
+          if (typeof parsed === 'string' && connectionMode() === 'admin') setToken(parsed);
+        }
+      } catch {}
+      try {
+        const uid = localStorage.getItem('conn.uid');
+        if (uid) {
+          const parsed = JSON.parse(uid);
+          if (typeof parsed === 'string') setTargetUid(parsed);
+        }
+      } catch {}
+      try {
+        const st = localStorage.getItem('conn.status');
+        if (st) {
+          const parsed = JSON.parse(st);
+          if (parsed === 'connected' || parsed === 'connecting' || parsed === 'disconnected') setConnectionStatus(parsed);
+        }
+      } catch {}
     } catch {}
 
     const [chars, discsData] = await Promise.all([
@@ -99,11 +146,12 @@ export function App() {
       const urlOk = serverUrl().trim().length > 0;
       const tokenOk = token().trim().length > 0;
       const uidOk = connectionMode() === 'player' || (connectionMode() === 'admin' && targetUid().trim().length > 0);
+      const alreadyConnected = (() => { try { return JSON.parse(localStorage.getItem('conn.status') || '""') === 'connected'; } catch { return false; } })();
 
-      if (force && urlOk && tokenOk && uidOk) {
+      if (!alreadyConnected && force && urlOk && tokenOk && uidOk) {
         await handleTestConnection();
         try { sessionStorage.removeItem('forceRetest'); sessionStorage.setItem('autoTestDone', 'true'); } catch {}
-      } else if (isNavigate && !done && urlOk && tokenOk && uidOk) {
+      } else if (!alreadyConnected && isNavigate && !done && urlOk && tokenOk && uidOk) {
         await handleTestConnection();
         try { sessionStorage.setItem('autoTestDone', 'true'); } catch {}
       }
@@ -126,7 +174,7 @@ export function App() {
 
   const clearState = () => {
     try {
-      const keep = ['ui.currentCommand', 'ui.language', 'conn.config', 'conn.mode', 'conn.token', 'conn.uid'];
+      const keep = ['ui.currentCommand', 'ui.language', 'conn.config', 'conn.mode', 'conn.token', 'conn.uid', 'conn.status'];
       const saved: Record<string, string> = {};
       for (const k of keep) {
         try {
@@ -138,8 +186,6 @@ export function App() {
       for (const k of Object.keys(saved)) {
         try { localStorage.setItem(k, saved[k]); } catch {}
       }
-      sessionStorage.removeItem('autoTestDone');
-      sessionStorage.setItem('forceRetest', 'true');
     } catch {}
     try {
       if (typeof window !== 'undefined' && window.location) {
@@ -168,7 +214,9 @@ export function App() {
       }
       const base = generatedCommand().trim();
       const withSlash = base ? (base.startsWith('/') ? base : `/${base}`) : '';
-      const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
+      const lower = withSlash.toLowerCase();
+      const needsSuffix = !(lower.startsWith('/ban ') || lower.startsWith('/unban '));
+      const suffix = needsSuffix && targetUid().trim() ? ` @${targetUid().trim()}` : '';
       await navigator.clipboard.writeText(`${withSlash}${suffix}`);
       addToast('success', t(language(), 'app.toastCopied'));
     } catch (error) {
@@ -198,7 +246,9 @@ export function App() {
 
     // 如果指定了UID，在命令后添加 @UID
     let finalCommand = generatedCommand();
-    if (targetUid().trim()) {
+    const lower = finalCommand.trim().toLowerCase();
+    const needsSuffix = !(lower.startsWith('ban ') || lower.startsWith('unban '));
+    if (needsSuffix && targetUid().trim()) {
       finalCommand += ` @${targetUid().trim()}`;
     }
 
@@ -209,7 +259,7 @@ export function App() {
 
     const response = await executeCommand(config, finalCommand);
 
-    if (response.Code === 200) {
+    if (response.Code === 200 && !msgIndicatesError(response.Msg)) {
       setConnectionStatus('connected');
       addToast('success', response.Msg && response.Msg.trim() ? `${t(language(), 'app.execSuccess')}${response.Msg}` : t(language(), 'app.execSuccessNoMsg'));
     } else {
@@ -233,9 +283,13 @@ export function App() {
       token: token(),
     };
     
-    const response = await executeCommand(config, 'help');
+    let final = 'status';
+    if (targetUid().trim()) {
+      final += ` @${targetUid().trim()}`;
+    }
+    const response = await executeCommand(config, final);
 
-    if (response.Code === 200) {
+    if (response.Code === 200 && !msgIndicatesError(response.Msg)) {
       setConnectionStatus('connected');
       addToast('success', t(language(), 'app.connectionSuccess'));
     } else {
@@ -282,7 +336,9 @@ export function App() {
                   const base = generatedCommand().trim();
                   if (!base) return t(language(), 'app.copyPlaceholder');
                   const withSlash = base.startsWith('/') ? base : `/${base}`;
-                  const suffix = targetUid().trim() ? ` @${targetUid().trim()}` : '';
+                  const lower = withSlash.toLowerCase();
+                  const needsSuffix = !(lower.startsWith('/ban ') || lower.startsWith('/unban '));
+                  const suffix = needsSuffix && targetUid().trim() ? ` @${targetUid().trim()}` : '';
                   return `${withSlash}${suffix}`;
                 })()}
               </div>
@@ -326,6 +382,9 @@ export function App() {
           </Match>
           <Match when={currentCommand() === 'clean'}>
             <CleanPanel language={language()} onCommandChange={setGeneratedCommand} />
+          </Match>
+          <Match when={currentCommand() === 'ban'}>
+            <BanPanel language={language()} onCommandChange={setGeneratedCommand} connectionMode={connectionMode()} targetUid={targetUid()} />
           </Match>
           <Match when={currentCommand() === 'connection'}>
             <ConnectionPanel

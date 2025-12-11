@@ -33,6 +33,7 @@ export function Navbar(props: NavbarProps) {
     { type: 'build' as CommandType, icon: '' },
     { type: 'mail' as CommandType, icon: '' },
     { type: 'clean' as CommandType, icon: '' },
+    { type: 'ban' as CommandType, icon: '' },
     { type: 'connection' as CommandType, icon: '' },
   ];
 

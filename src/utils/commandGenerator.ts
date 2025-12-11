@@ -8,6 +8,7 @@ import type {
   MailParams,
   CleanParams,
   BattlePassParams,
+  BanParams,
 } from '../types';
 
 /**
@@ -190,5 +191,34 @@ export function generateCleanCommand(params: CleanParams): string {
     parts.push(type === 'resources' ? 'resources' : 'items');
   }
 
+  return parts.join(' ');
+}
+
+/**
+ * 生成封禁/解禁命令
+ */
+export function generateBanCommand(params: BanParams): string {
+  const { mode, scope, timestamp, reason, uid, ip } = params;
+  const banScope = (scope === 'all' || scope === 'ip' || scope === 'uid') ? scope : 'uid';
+  if (mode === 'unban') {
+    const parts: string[] = ['unban', banScope];
+    if (banScope === 'uid' || banScope === 'all') {
+      if (uid && String(uid).trim()) parts.push(String(uid).trim());
+    }
+    if (banScope === 'ip') {
+      if (ip && String(ip).trim()) parts.push(String(ip).trim());
+    }
+    return parts.join(' ');
+  }
+  const parts: string[] = ['ban', banScope];
+  if (banScope === 'uid' || banScope === 'all') {
+    if (uid && String(uid).trim()) parts.push(String(uid).trim());
+  }
+  if (banScope === 'ip') {
+    if (ip && String(ip).trim()) parts.push(String(ip).trim());
+  }
+  const ts = Number(timestamp || 0);
+  if (ts > 0) parts.push(String(ts));
+  if (reason && String(reason).trim()) parts.push(String(reason).trim());
   return parts.join(' ');
 }
