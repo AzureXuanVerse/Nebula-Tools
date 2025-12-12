@@ -28,7 +28,7 @@ import type {
 } from '../types';
 import { t } from '../i18n';
 
-export function App() {
+function App() {
   const allowedCommands = ['character','disc','give','level','battlepass','build','mail','clean','ban','connection'] as CommandType[];
   const initialCmd = (() => {
     try {
@@ -197,7 +197,7 @@ export function App() {
   };
 
   // 移除通知
-  const removeToast = (id: string) => {
+  const removeToast = () => {
     if (toastTimer) {
       clearTimeout(toastTimer);
       toastTimer = undefined;
@@ -409,3 +409,5 @@ export function App() {
     </div>
   );
 }
+
+export default App

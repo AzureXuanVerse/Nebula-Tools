@@ -17,6 +17,7 @@
     "@tauri-apps/api": "^2.9.1",
     "astro": "^5.16.4",
     "solid-js": "^1.9.10",
+    "solid-icons": "^1.0.10",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {

@@ -96,38 +96,13 @@ export async function executeCommand(
     return await response.json();
   } catch (error) {
     console.error('Failed to execute command:', error);
+    const lang = (() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })();
+    const detail = (typeof error === 'string')
+      ? error
+      : (error instanceof Error ? error.message : String(error ?? ''));
     return {
       Code: 500,
-      Msg: t((() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })(), 'remote.proxyFailedPrefix') + (error instanceof Error ? error.message : t((() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })(), 'remote.unknownError')),
+      Msg: t(lang, 'remote.proxyFailedPrefix') + (detail && detail.trim() ? detail : t(lang, 'remote.unknownError')),
     };
-  }
-}
-
-/**
- * 测试连接
- */
-export async function testConnection(
-  config: ConnectionConfig
-): Promise<boolean> {
-  try {
-    if (isTauriRuntime()) {
-      const raw = await tryTauriInvoke('remote_proxy', {
-        serverUrl: config.serverUrl,
-        token: config.token,
-        command: 'status',
-      });
-      const data = parseApiResponse(raw);
-      return data.Code === 200;
-    }
-    const response = await fetch('/api/remote', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Lang': (() => { try { const v = localStorage.getItem('ui.language'); if (v) return JSON.parse(v) as Language; } catch {} return 'zh_CN' as Language; })() },
-      body: JSON.stringify({ serverUrl: config.serverUrl, token: config.token, command: 'status' }),
-    });
-    const data = await response.json();
-    return data.Code === 200;
-  } catch (error) {
-    console.error('Connection test failed:', error);
-    return false;
   }
 }

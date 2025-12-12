@@ -282,6 +282,21 @@ const dict: Record<Language, Record<string, any>> = {
         step5: '点击"测试连接"按钮验证配置是否正确。',
         step6: '连接成功后，你可以在其他页面生成命令并直接执行。'
       }
+      ,
+      statusCardTitle: '服务器状态',
+      refreshButton: '刷新',
+      updatedAtPrefix: '更新于: ',
+      labels: {
+        git: 'Git',
+        game: '游戏版本',
+        http: 'HTTP',
+        uptime: '运行时长',
+        cpu: 'CPU',
+        load: '负载',
+        disk: '磁盘',
+        memory: '内存',
+        players: '在线玩家'
+      }
     }
     ,
     multiselect: {
@@ -593,6 +608,21 @@ const dict: Record<Language, Record<string, any>> = {
         step4Post: 'command).',
         step5: 'Click "Test Connection" to validate settings.',
         step6: 'Once connected, you can generate and run commands on other pages.'
+      }
+      ,
+      statusCardTitle: 'Server Status',
+      refreshButton: 'Refresh',
+      updatedAtPrefix: 'Updated: ',
+      labels: {
+        git: 'Git',
+        game: 'Game',
+        http: 'HTTP',
+        uptime: 'Uptime',
+        cpu: 'CPU',
+        load: 'Load',
+        disk: 'Disk',
+        memory: 'Memory',
+        players: 'Players'
       }
     }
     ,

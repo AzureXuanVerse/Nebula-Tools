@@ -7,6 +7,11 @@ export default defineConfig({
   integrations: [solidJs()],
   output: 'static',  //标记
   vite: {
-    plugins: [tailwind()]
+    plugins: [tailwind()],
+    resolve: {
+      alias: {
+        'solid-icons/lib/index.jsx': 'solid-icons/lib/index.js'
+      }
+    }
   }
 });

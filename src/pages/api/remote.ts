@@ -48,30 +48,30 @@ export const POST: APIRoute = async ({ request }) => {
     const raw = await response.text();
 
     const parseApi = (s: string): any => {
-      let t = s;
-      t = t.trim();
+      let text = s;
+      text = text.trim();
       try {
-        const direct = JSON.parse(t);
+        const direct = JSON.parse(text);
         if (typeof direct === 'string') {
           return parseApi(direct);
         }
         return direct;
       } catch {}
-      if (t.startsWith('"') && t.endsWith('"')) {
+      if (text.startsWith('"') && text.endsWith('"')) {
         try {
-          const unquoted = t.slice(1, -1).replace(/\\"/g, '"');
+          const unquoted = text.slice(1, -1).replace(/\\"/g, '"');
           return JSON.parse(unquoted);
         } catch {}
       }
-      const start = t.indexOf('{');
-      const end = t.lastIndexOf('}');
+      const start = text.indexOf('{');
+      const end = text.lastIndexOf('}');
       if (start !== -1 && end !== -1 && end > start) {
         try {
-          return JSON.parse(t.slice(start, end + 1));
+          return JSON.parse(text.slice(start, end + 1));
         } catch {}
       }
-      const codeMatch = t.match(/"Code"\s*:\s*(\d+)/);
-      const msgMatch = t.match(/"Msg"\s*:\s*"([\s\S]*?)"/);
+      const codeMatch = text.match(/"Code"\s*:\s*(\d+)/);
+      const msgMatch = text.match(/"Msg"\s*:\s*"([\s\S]*?)"/);
       if (codeMatch || msgMatch) {
         return { Code: codeMatch ? Number(codeMatch[1]) : (response.ok ? 200 : 500), Msg: msgMatch ? msgMatch[1] : '' };
       }
@@ -90,9 +90,12 @@ export const POST: APIRoute = async ({ request }) => {
   } catch (error) {
     console.error('Proxy error:', error);
     const lang: Language = resolveLang(request);
+    const detail = (typeof error === 'string')
+      ? error
+      : (error instanceof Error ? error.message : String(error ?? ''));
     return new Response(JSON.stringify({
       Code: 500,
-      Msg: t(lang, 'remote.proxyFailedPrefix') + (error instanceof Error ? error.message : t(lang, 'remote.unknownError'))
+      Msg: t(lang, 'remote.proxyFailedPrefix') + (detail && detail.trim() ? detail : t(lang, 'remote.unknownError'))
     }), {
       status: 200,
       headers: {
