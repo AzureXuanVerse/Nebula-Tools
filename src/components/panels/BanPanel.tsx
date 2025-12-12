@@ -1,4 +1,4 @@
-import { createSignal, createEffect, Show, createMemo } from 'solid-js';
+import { createSignal, createEffect, Show, createMemo, onMount, onCleanup } from 'solid-js';
 import { Card } from '../ui/Card';
 import { Segmented } from '../ui/Segmented';
 import { NumberInput } from '../ui/NumberInput';
@@ -28,6 +28,18 @@ export function BanPanel(props: BanPanelProps) {
   const [uidInput, setUidInput] = createSignal<string>('');
   const [ipInput, setIpInput] = createSignal<string>('');
   const [showDetail, setShowDetail] = createSignal<boolean>(false);
+  const [nowMs, setNowMs] = createSignal<number>(Date.now());
+
+  let timer: number | undefined;
+  onMount(() => {
+    timer = setInterval(() => setNowMs(Date.now()), 1000) as unknown as number;
+  });
+  onCleanup(() => {
+    if (timer) {
+      clearInterval(timer as unknown as number);
+      timer = undefined;
+    }
+  });
 
   const dayMax = createMemo(() => {
     const y = year();
@@ -155,19 +167,19 @@ export function BanPanel(props: BanPanelProps) {
               persistKey="ban.reason"
             />
 
-            <Show when={timestampMs() > 0}>
-              <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
-                <div style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">{t(props.language, 'ban.previewTitle')}</div>
-                <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.previewLocal')}: {new Date(timestampMs()).toLocaleString()}</div>
-                <Show when={showDetail()}>
-                  <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.previewUTC')}: {new Date(timestampMs()).toUTCString()}</div>
-                  <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.previewEpochMs')}: {timestampMs()}</div>
-                </Show>
-                <div style="font-size: 12px; color: var(--text-secondary); cursor: pointer; text-decoration: underline; width: fit-content;" onClick={() => setShowDetail(!showDetail())}>
-                  {showDetail() ? t(props.language, 'ban.previewLess') : t(props.language, 'ban.previewMore')}
-                </div>
-              </div>
+          
+          
+          <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+            <div style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">{t(props.language, 'ban.currentTitle')}</div>
+            <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.currentLocal')}: {new Date(nowMs()).toLocaleString()}</div>
+            <Show when={showDetail()}>
+              <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.currentUTC')}: {new Date(nowMs()).toUTCString()}</div>
+              <div style="font-size: 12px; color: var(--text-secondary);">{t(props.language, 'ban.currentEpochMs')}: {nowMs()}</div>
             </Show>
+            <div style="font-size: 12px; color: var(--text-secondary); cursor: pointer; text-decoration: underline; width: fit-content;" onClick={() => setShowDetail(!showDetail())}>
+              {showDetail() ? t(props.language, 'ban.previewLess') : t(props.language, 'ban.previewMore')}
+            </div>
+          </div>
           </Show>
         </div>
       </Card>

@@ -43,15 +43,6 @@ function App() {
   const [currentCommand, setCurrentCommand] = createSignal<CommandType>(initialCmd);
   const [language, setLanguage] = createSignal<Language>('zh_CN');
   const initialConnStatus = (() => {
-    try {
-      const v = localStorage.getItem('conn.status');
-      if (v) {
-        const parsed = JSON.parse(v);
-        if (parsed === 'connected' || parsed === 'connecting' || parsed === 'disconnected') {
-          return parsed as ConnectionStatus;
-        }
-      }
-    } catch {}
     return 'disconnected' as ConnectionStatus;
   })();
   const [connectionStatus, setConnectionStatus] = createSignal<ConnectionStatus>(initialConnStatus);
@@ -78,8 +69,11 @@ function App() {
   // 通知
   const [toasts, setToasts] = createSignal<ToastMessage[]>([]);
   let toastTimer: number | undefined;
+  let statusInitDone = false;
   createEffect(() => {
-    try { localStorage.setItem('conn.status', JSON.stringify(connectionStatus())); } catch {}
+    const s = connectionStatus();
+    if (!statusInitDone) { statusInitDone = true; return; }
+    try { localStorage.setItem('conn.status', JSON.stringify(s)); } catch {}
   });
 
   const msgIndicatesError = (msg?: string) => {
@@ -126,6 +120,7 @@ function App() {
           if (parsed === 'connected' || parsed === 'connecting' || parsed === 'disconnected') setConnectionStatus(parsed);
         }
       } catch {}
+      
     } catch {}
 
     const [chars, discsData] = await Promise.all([
@@ -140,20 +135,11 @@ function App() {
       const navEntry = (performance.getEntriesByType('navigation')[0] as any) || undefined;
       const navType = navEntry?.type as string | undefined;
       const isNavigate = navType === 'navigate' || navType === undefined;
-      const done = (() => { try { return sessionStorage.getItem('autoTestDone') === 'true'; } catch { return false; } })();
-      const force = (() => { try { return sessionStorage.getItem('forceRetest') === 'true'; } catch { return false; } })();
-
       const urlOk = serverUrl().trim().length > 0;
       const tokenOk = token().trim().length > 0;
       const uidOk = connectionMode() === 'player' || (connectionMode() === 'admin' && targetUid().trim().length > 0);
-      const alreadyConnected = (() => { try { return JSON.parse(localStorage.getItem('conn.status') || '""') === 'connected'; } catch { return false; } })();
-
-      if (!alreadyConnected && force && urlOk && tokenOk && uidOk) {
+      if (isNavigate && urlOk && tokenOk && uidOk) {
         await handleTestConnection();
-        try { sessionStorage.removeItem('forceRetest'); sessionStorage.setItem('autoTestDone', 'true'); } catch {}
-      } else if (!alreadyConnected && isNavigate && !done && urlOk && tokenOk && uidOk) {
-        await handleTestConnection();
-        try { sessionStorage.setItem('autoTestDone', 'true'); } catch {}
       }
     } catch {}
   });
@@ -193,7 +179,6 @@ function App() {
         return;
       }
     } catch {}
-    handleTestConnection();
   };
 
   // 移除通知

@@ -89,12 +89,12 @@ const dict: Record<Language, Record<string, any>> = {
       ipPlaceholder: '如：192.168.1.2',
       reasonLabel: '原因',
       reasonPlaceholder: '可选，填写封禁原因',
-      previewTitle: '结束时间预览',
-      previewLocal: '本地时区',
-      previewUTC: 'UTC',
-      previewEpochMs: '时间戳 (毫秒)',
       previewMore: '显示UTC/时间戳',
-      previewLess: '收起UTC/时间戳'
+      previewLess: '收起UTC/时间戳',
+      currentTitle: '当前时间',
+      currentLocal: '本地时区',
+      currentUTC: 'UTC',
+      currentEpochMs: '时间戳 (毫秒)'
     }
     ,
     disc: {
@@ -417,12 +417,12 @@ const dict: Record<Language, Record<string, any>> = {
       ipPlaceholder: 'e.g., 192.168.1.2',
       reasonLabel: 'Reason',
       reasonPlaceholder: 'Optional, enter ban reason',
-      previewTitle: 'End Time Preview',
-      previewLocal: 'Local Time',
-      previewUTC: 'UTC',
-      previewEpochMs: 'Epoch (ms)',
       previewMore: 'Show UTC/Epoch',
-      previewLess: 'Hide UTC/Epoch'
+      previewLess: 'Hide UTC/Epoch',
+      currentTitle: 'Current Time',
+      currentLocal: 'Local Time',
+      currentUTC: 'UTC',
+      currentEpochMs: 'Epoch (ms)'
     }
     ,
     disc: {
