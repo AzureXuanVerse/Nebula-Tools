@@ -245,11 +245,11 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Tyrant Points",
+        "en_US": "Daily Tyrant Points",
         "ja_JP": "王権ポイント",
-        "ko_KR": "로열 포인트",
-        "zh_CN": "权能点数",
-        "zh_TW": "權能點數"
+        "ko_KR": "일일 로열 포인트",
+        "zh_CN": "每日权能点数",
+        "zh_TW": "每日權能點數"
       }
     },
     {
@@ -257,11 +257,23 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Vigor Reserve",
-        "ja_JP": "やる気ストック",
-        "ko_KR": "활력 저장",
-        "zh_CN": "干劲储藏",
-        "zh_TW": "活力儲藏"
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미6006",
+        "zh_CN": "【废弃】干劲储藏",
+        "zh_TW": "!NONEED!"
+      }
+    },
+    {
+      "id": 63,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Weekly Tyrant Points",
+        "ja_JP": "週間王権ポイント",
+        "ko_KR": "주간 로열 포인트",
+        "zh_CN": "每周权能点数",
+        "zh_TW": "每週權能點數"
       }
     },
     {
@@ -589,6 +601,18 @@
       }
     },
     {
+      "id": 158,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Snowish Laru",
+        "ja_JP": "ラール（聖夜）",
+        "ko_KR": "라루(이브)",
+        "zh_CN": "菈露（圣夜）",
+        "zh_TW": "聖夜菈露"
+      }
+    },
+    {
       "id": 401,
       "type": "MonthlyCard",
       "stype": 30,
@@ -617,11 +641,11 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Neon Ticket",
-        "ja_JP": "深緋旅券",
-        "ko_KR": "네온 티켓",
-        "zh_CN": "霓虹礼券",
-        "zh_TW": "霓虹禮券"
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미6004",
+        "zh_CN": "【废弃】霓虹礼券",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -649,15 +673,27 @@
       }
     },
     {
+      "id": 510,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Snowish Limited Ticket",
+        "ja_JP": "シーズン限定旅券",
+        "ko_KR": "이브 한정 티켓",
+        "zh_CN": "雪愿限定招募礼券",
+        "zh_TW": "雪願限定招募禮券"
+      }
+    },
+    {
       "id": 511,
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Neon 10x Draw Ticket",
-        "ja_JP": "10連深緋旅券",
-        "ko_KR": "네온 티켓 10장",
-        "zh_CN": "霓虹十连礼券",
-        "zh_TW": "霓虹十連禮券"
+        "en_US": "Snowish Exclusive 10x Draw Ticket",
+        "ja_JP": "10連シーズン限定旅券",
+        "ko_KR": "이브 한정 티켓(10회)",
+        "zh_CN": "雪愿限定十连招募礼券",
+        "zh_TW": "雪願限定十連招募禮券"
       }
     },
     {
@@ -665,11 +701,11 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Prismatic Disc",
-        "ja_JP": "粋青レコード",
-        "ko_KR": "레인보우 디스크",
-        "zh_CN": "虹彩闪碟",
-        "zh_TW": "虹彩閃碟"
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미6005",
+        "zh_CN": "【废弃】虹彩闪碟",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -702,10 +738,10 @@
       "stype": 2,
       "names": {
         "en_US": "Radiant Soul Key",
-        "ja_JP": "心相の欠片(虹)",
-        "ko_KR": "찬란한 심상 결정",
-        "zh_CN": "璀璨心钥",
-        "zh_TW": "璀璨心鑰"
+        "ja_JP": "*****",
+        "ko_KR": "더미6000",
+        "zh_CN": "【废弃】璀璨心钥",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -714,10 +750,10 @@
       "stype": 2,
       "names": {
         "en_US": "Charming Soul Key",
-        "ja_JP": "心相の欠片(金)",
-        "ko_KR": "화려한 심상 결정",
-        "zh_CN": "靓丽心钥",
-        "zh_TW": "美麗心鑰"
+        "ja_JP": "*****",
+        "ko_KR": "더미6001",
+        "zh_CN": "【废弃】靓丽心钥",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -1045,6 +1081,18 @@
       }
     },
     {
+      "id": 1580,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Snowish Laru\u0027s Soul Key",
+        "ja_JP": "ラール（聖夜）の心相の欠片",
+        "ko_KR": "라루(이브) 심상 결정",
+        "zh_CN": "菈露（圣夜）的心钥",
+        "zh_TW": "聖夜菈露的心鑰"
+      }
+    },
+    {
       "id": 10301,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1150,6 +1198,18 @@
         "ko_KR": "아야메-각성",
         "zh_CN": "鸢尾-觉醒形象",
         "zh_TW": "鳶尾-覺醒形象"
+      }
+    },
+    {
+      "id": 11103,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "The 1/365th of You",
+        "ja_JP": "1/365の君と",
+        "ko_KR": "1/365의 그대와",
+        "zh_CN": "1/365的你",
+        "zh_TW": "1/365的你"
       }
     },
     {
@@ -1390,6 +1450,18 @@
         "ko_KR": "프리지아-각성",
         "zh_CN": "苍兰-觉醒形象",
         "zh_TW": "蒼蘭-覺醒形象"
+      }
+    },
+    {
+      "id": 12503,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "The Gift of Falling Snow",
+        "ja_JP": "雪降る夜の贈り物",
+        "ko_KR": "눈 내리는 밤의 선물",
+        "zh_CN": "落雪的赠礼",
+        "zh_TW": "落雪的贈禮"
       }
     },
     {
@@ -1738,6 +1810,30 @@
         "ko_KR": "나즈나-각성",
         "zh_CN": "小禾-觉醒形象",
         "zh_TW": "小禾-覺醒形象"
+      }
+    },
+    {
+      "id": 15801,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Snowish Laru: Default",
+        "ja_JP": "ラール（聖夜）・デフォルト",
+        "ko_KR": "라루(이브)-기본",
+        "zh_CN": "菈露（圣夜）-基础形象",
+        "zh_TW": "聖夜菈露-基礎形象"
+      }
+    },
+    {
+      "id": 15802,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Snowish Laru: Awakened",
+        "ja_JP": "ラール（聖夜）・覚醒",
+        "ko_KR": "라루(이브)-각성",
+        "zh_CN": "菈露（圣夜）-觉醒形象",
+        "zh_TW": "聖夜菈露-覺醒形象"
       }
     },
     {
@@ -2177,11 +2273,11 @@
       "type": "Item",
       "stype": 24,
       "names": {
-        "en_US": "CEO\u0027s Crown",
-        "ja_JP": "大総裁の証",
-        "ko_KR": "최고자의 월계관",
-        "zh_CN": "大总裁的桂冠",
-        "zh_TW": "大總裁的桂冠"
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미6002",
+        "zh_CN": "【废弃】大总裁的桂冠",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -2189,11 +2285,11 @@
       "type": "Item",
       "stype": 24,
       "names": {
-        "en_US": "Trekker\u0027s Crown",
-        "ja_JP": "冒険家の証",
-        "ko_KR": "모험가의 월계관",
-        "zh_CN": "冒险家的桂冠",
-        "zh_TW": "冒險家的桂冠"
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미6003",
+        "zh_CN": "【废弃】冒险家的桂冠",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -2893,6 +2989,66 @@
       }
     },
     {
+      "id": 71008,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Athletic",
+        "ja_JP": "称号：体育会系",
+        "ko_KR": "접두 칭호: 스포츠맨",
+        "zh_CN": "前缀头衔:运动系",
+        "zh_TW": "前綴頭銜：運動系"
+      }
+    },
+    {
+      "id": 71009,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Artsy",
+        "ja_JP": "称号：文系",
+        "ko_KR": "접두 칭호: 예술적인",
+        "zh_CN": "前缀头衔:文艺",
+        "zh_TW": "前綴頭銜：文藝"
+      }
+    },
+    {
+      "id": 71010,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Erudite",
+        "ja_JP": "称号：博学",
+        "ko_KR": "접두 칭호: 박학다식한",
+        "zh_CN": "前缀头衔:博学",
+        "zh_TW": "前綴頭銜：博學"
+      }
+    },
+    {
+      "id": 71011,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Charmer",
+        "ja_JP": "称号：おしゃれな",
+        "ko_KR": "접두 칭호: 풍류가",
+        "zh_CN": "前缀头衔:风流",
+        "zh_TW": "前綴頭銜：風流"
+      }
+    },
+    {
+      "id": 71012,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Passionate",
+        "ja_JP": "称号：情熱的な",
+        "ko_KR": "접두 칭호: 열혈",
+        "zh_CN": "前缀头衔:热情",
+        "zh_TW": "前綴頭銜：熱情"
+      }
+    },
+    {
       "id": 72001,
       "type": "Title",
       "stype": 2,
@@ -2977,6 +3133,66 @@
       }
     },
     {
+      "id": 72008,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Foodie",
+        "ja_JP": "称号：美食家",
+        "ko_KR": "접미 칭호: 미식가",
+        "zh_CN": "后缀头衔:美食家",
+        "zh_TW": "後綴頭銜：美食家"
+      }
+    },
+    {
+      "id": 72009,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Author",
+        "ja_JP": "称号：作家",
+        "ko_KR": "접미 칭호: 작가",
+        "zh_CN": "后缀头衔:作家",
+        "zh_TW": "後綴頭銜：作家"
+      }
+    },
+    {
+      "id": 72010,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Appraiser",
+        "ja_JP": "称号：評論家",
+        "ko_KR": "접미 칭호: 감정가",
+        "zh_CN": "后缀头衔:鉴赏家",
+        "zh_TW": "後綴頭銜：鑑賞家"
+      }
+    },
+    {
+      "id": 72011,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Instrumentalist",
+        "ja_JP": "称号：ミュージシャン",
+        "ko_KR": "접미 칭호: 악사",
+        "zh_CN": "后缀头衔:乐手",
+        "zh_TW": "後綴頭銜：樂手"
+      }
+    },
+    {
+      "id": 72012,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Ninja",
+        "ja_JP": "称号：忍者",
+        "ko_KR": "접미 칭호: 닌자",
+        "zh_CN": "后缀头衔:忍者",
+        "zh_TW": "後綴頭銜：忍者"
+      }
+    },
+    {
       "id": 73101,
       "type": "Item",
       "stype": 2,
@@ -3010,6 +3226,30 @@
         "ko_KR": "영양 가득 주먹밥",
         "zh_CN": "营养饭团",
         "zh_TW": "營養飯糰"
+      }
+    },
+    {
+      "id": 73104,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Snowish Gingerbread Cookie",
+        "ja_JP": "ジンジャーマン",
+        "ko_KR": "진저브레드",
+        "zh_CN": "雪愿姜饼人",
+        "zh_TW": "雪願薑餅人"
+      }
+    },
+    {
+      "id": 73105,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Expense Receipt",
+        "ja_JP": "*****",
+        "ko_KR": "지출 증빙",
+        "zh_CN": "报销凭证",
+        "zh_TW": "報帳憑證"
       }
     },
     {
@@ -6433,6 +6673,30 @@
       }
     },
     {
+      "id": 101009,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Royal Grant Bonus Item",
+        "ja_JP": "ミラクルコース特典",
+        "ko_KR": "럭셔리 지원금 보너스 아이템",
+        "zh_CN": "大亨尊享补贴附赠物品",
+        "zh_TW": "大亨尊享補貼附贈物品"
+      }
+    },
+    {
+      "id": 101010,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Upgrade Grant Differential Item",
+        "ja_JP": "グレードアップ特典",
+        "ko_KR": "지원금 차액 아이템 업그레이드",
+        "zh_CN": "升级补贴差额物品",
+        "zh_TW": "升級補貼差額物品"
+      }
+    },
+    {
       "id": 111001,
       "type": "Honor",
       "stype": 43,
@@ -6490,6 +6754,30 @@
         "ko_KR": "귀빈 영접",
         "zh_CN": "行会贵客",
         "zh_TW": "行會貴客"
+      }
+    },
+    {
+      "id": 111006,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Top Performer",
+        "ja_JP": "MVP従業員",
+        "ko_KR": "최우수 사원",
+        "zh_CN": "优秀员工",
+        "zh_TW": "優秀員工"
+      }
+    },
+    {
+      "id": 111007,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Light Catcher",
+        "ja_JP": "夜を彩る銀の星",
+        "ko_KR": "빛을 거머쥔 자",
+        "zh_CN": "拾光者",
+        "zh_TW": "拾光者"
       }
     },
     {
@@ -6865,6 +7153,18 @@
       }
     },
     {
+      "id": 112158,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Holy Night Spirit",
+        "ja_JP": "プレゼントはあたし",
+        "ko_KR": "이브의 정령",
+        "zh_CN": "圣夜的精灵",
+        "zh_TW": "聖夜的精靈"
+      }
+    },
+    {
       "id": 114001,
       "type": "Honor",
       "stype": 43,
@@ -6949,6 +7249,18 @@
       }
     },
     {
+      "id": 115005,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 5 Survival Champ",
+        "ja_JP": "シーズン5 一流サバイバー",
+        "ko_KR": "시즌5 생존 마스터",
+        "zh_CN": "第5赛季 求生大师",
+        "zh_TW": "第5賽季 求生大師"
+      }
+    },
+    {
       "id": 116001,
       "type": "Honor",
       "stype": 43,
@@ -6985,6 +7297,18 @@
       }
     },
     {
+      "id": 116004,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Radiant Messenger, Holy Night Spirit",
+        "ja_JP": "煌めく使者と聖夜の精霊",
+        "ko_KR": "반짝이는 사자와 이브의 정령",
+        "zh_CN": "闪耀的使者与圣夜的精灵",
+        "zh_TW": "閃耀的使者與聖夜的精靈"
+      }
+    },
+    {
       "id": 117001,
       "type": "Honor",
       "stype": 43,
@@ -7018,6 +7342,42 @@
         "ko_KR": "시즌1 종언의 결전·정예",
         "zh_CN": "第1赛季 决战终焉·精英",
         "zh_TW": "第1賽季 決戰終焉·菁英"
+      }
+    },
+    {
+      "id": 117011,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 2 Endgame Ace",
+        "ja_JP": "シーズン2 キングオブ大討伐",
+        "ko_KR": "시즌2 종언의 결전·패왕",
+        "zh_CN": "第2赛季 决战终焉·王牌",
+        "zh_TW": "第2賽季 決戰終焉·王牌"
+      }
+    },
+    {
+      "id": 117012,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 2 Endgame Master",
+        "ja_JP": "シーズン2 ロードオブ大討伐",
+        "ko_KR": "시즌2 종언의 결전·달인",
+        "zh_CN": "第2赛季 决战终焉·宗师",
+        "zh_TW": "第2賽季 決戰終焉·宗師"
+      }
+    },
+    {
+      "id": 117013,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 2 Endgame Elite",
+        "ja_JP": "シーズン2ナイトオブ大討伐",
+        "ko_KR": "시즌2 종언의 결전·정예",
+        "zh_CN": "第2赛季 决战终焉·精英",
+        "zh_TW": "第2賽季 決戰終焉·菁英"
       }
     },
     {
@@ -7093,6 +7453,78 @@
       }
     },
     {
+      "id": 118021,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 3 Hunting Ace",
+        "ja_JP": "*****",
+        "ko_KR": "시즌3 사냥 전문가·패왕",
+        "zh_CN": "第3赛季 狩猎专家·王牌",
+        "zh_TW": "第3賽季 狩獵專家·王牌"
+      }
+    },
+    {
+      "id": 118022,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 3 Hunting Master",
+        "ja_JP": "*****",
+        "ko_KR": "시즌3 사냥 전문가·달인",
+        "zh_CN": "第3赛季 狩猎专家·宗师",
+        "zh_TW": "第3賽季 狩獵專家·宗師"
+      }
+    },
+    {
+      "id": 118023,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 3 Hunting Elite",
+        "ja_JP": "*****",
+        "ko_KR": "시즌3 사냥 전문가·정예",
+        "zh_CN": "第3赛季 狩猎专家·精英",
+        "zh_TW": "第3賽季 狩獵專家·菁英"
+      }
+    },
+    {
+      "id": 118031,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Hunting Ace",
+        "ja_JP": "*****",
+        "ko_KR": "시즌4 사냥 전문가·패왕",
+        "zh_CN": "第4赛季 狩猎专家·王牌",
+        "zh_TW": "第4賽季 狩獵專家·王牌"
+      }
+    },
+    {
+      "id": 118032,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Hunting Master",
+        "ja_JP": "*****",
+        "ko_KR": "시즌4 사냥 전문가·달인",
+        "zh_CN": "第4赛季 狩猎专家·宗师",
+        "zh_TW": "第4賽季 狩獵專家·宗師"
+      }
+    },
+    {
+      "id": 118033,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Hunting Elite",
+        "ja_JP": "*****",
+        "ko_KR": "시즌4 사냥 전문가·정예",
+        "zh_CN": "第4赛季 狩猎专家·精英",
+        "zh_TW": "第3賽季 狩獵專家·菁英"
+      }
+    },
+    {
       "id": 120001,
       "type": "Item",
       "stype": 2,
@@ -7114,6 +7546,18 @@
         "ko_KR": "숲의 보물삽",
         "zh_CN": "森林寻宝铲",
         "zh_TW": "森林尋寶鏟"
+      }
+    },
+    {
+      "id": 120003,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "[더미] 시즌3 보물삽",
+        "zh_CN": "【不要翻译】第3期寻宝铲",
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -7145,11 +7589,23 @@
       "type": "HeadItem",
       "stype": 45,
       "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미5",
-        "zh_CN": "【不要翻译】第3期基金头像",
-        "zh_TW": "!NONEED!"
+        "en_US": "Times of Fragility",
+        "ja_JP": "ビクブルハート",
+        "ko_KR": "일시적 취약",
+        "zh_CN": "时有脆弱",
+        "zh_TW": "時有脆弱"
+      }
+    },
+    {
+      "id": 198025,
+      "type": "Item",
+      "stype": 48,
+      "names": {
+        "en_US": "Ventus Team Record",
+        "ja_JP": "風属性の記録",
+        "ko_KR": "바람 속성 팀 기록",
+        "zh_CN": "风系小队纪录",
+        "zh_TW": "風系小隊紀錄"
       }
     },
     {
@@ -7205,7 +7661,7 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Minova Appearance:\nTipsy Daydream",
+        "en_US": "Minova Appearance (2D):\nTipsy Daydream",
         "ja_JP": "アナザーイメージ：\nアイマイハクチューム",
         "ko_KR": "미네르바 전용 스킨\n나른한 백일몽",
         "zh_CN": "密涅瓦专属形象:\n微醺白日梦",
@@ -7253,7 +7709,7 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Tilia Appearance:\nThis Is My Justice!",
+        "en_US": "Tilia Appearance (2D):\nThis Is My Justice!",
         "ja_JP": "アナザーイメージ：\nイッツ・マイ・ジャスティス！",
         "ko_KR": "틸리아 전용 스킨:\n이것이 나의 정의!",
         "zh_CN": "缇莉娅专属形象:\n此即吾之正义！",
@@ -7270,6 +7726,30 @@
         "ko_KR": "이번 시즌 한정 프로필\n예리한 눈빛",
         "zh_CN": "本期限定头像:\n锐利的目光",
         "zh_TW": "本期限定大頭貼：\n銳利的目光"
+      }
+    },
+    {
+      "id": 199010,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Iris\u0027s Appearance (2D):\nThe 1/365th of You",
+        "ja_JP": "アナザーイメージ：\n1/365の君と",
+        "ko_KR": "아야메 전용 스킨:\n1/365의 그대와",
+        "zh_CN": "鸢尾专属形象:\n1/365的你",
+        "zh_TW": "鳶尾專屬形象：\n1/365的你"
+      }
+    },
+    {
+      "id": 199011,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Limited-Time Avatar:\nTimes of Fragility",
+        "ja_JP": "今期限定アイコン：\nビクブルハート",
+        "ko_KR": "이번 시즌 한정 프로필\n일시적 취약",
+        "zh_CN": "本期限定头像:\n时有脆弱",
+        "zh_TW": "本期限定頭像:\n時有脆弱"
       }
     },
     {
@@ -7806,7 +8286,7 @@
       "stype": 8,
       "names": {
         "en_US": "Meowing Cat God",
-        "ja_JP": "在し日の記憶",
+        "ja_JP": "在りし日の記憶",
         "ko_KR": "고양이 신 레퀴엠",
         "zh_CN": "猫神降歌",
         "zh_TW": "貓神降歌"
@@ -8182,6 +8662,30 @@
         "ko_KR": "용기의 주먹",
         "zh_CN": "勇气之拳",
         "zh_TW": "勇氣之拳"
+      }
+    },
+    {
+      "id": 214041,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "A Gift for the Journey",
+        "ja_JP": "ジングルラール",
+        "ko_KR": "여정의 선물",
+        "zh_CN": "启程的礼物",
+        "zh_TW": "啟程的禮物"
+      }
+    },
+    {
+      "id": 214048,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Snowy Night Surprise",
+        "ja_JP": "メリーサプライズ",
+        "ko_KR": "메리 서프라이즈",
+        "zh_CN": "雪夜惊喜",
+        "zh_TW": "雪夜驚喜"
       }
     },
     {
@@ -8682,7 +9186,7 @@
       "stype": 40,
       "names": {
         "en_US": "Meowing Cat God Melody",
-        "ja_JP": "在し日の記憶の調べ",
+        "ja_JP": "在りし日の記憶の調べ",
         "ko_KR": "고양이 신 레퀴엠 멜로디",
         "zh_CN": "猫神降歌曲调",
         "zh_TW": "貓神降歌曲調"
@@ -9058,6 +9562,30 @@
         "ko_KR": "용기의 주먹 멜로디",
         "zh_CN": "勇气之拳曲调",
         "zh_TW": "勇氣之拳曲調"
+      }
+    },
+    {
+      "id": 224041,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "A Gift for the Journey Melody",
+        "ja_JP": "ジングルラールの調べ",
+        "ko_KR": "여정의 선물 멜로디",
+        "zh_CN": "启程的礼物曲调",
+        "zh_TW": "啟程的禮物曲調"
+      }
+    },
+    {
+      "id": 224048,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Snowy Night Surprise Melody",
+        "ja_JP": "メリーサプライズの調べ",
+        "ko_KR": "메리 서프라이즈 멜로디",
+        "zh_CN": "雪夜惊喜曲调",
+        "zh_TW": "雪夜驚喜曲調"
       }
     },
     {
@@ -11637,7 +12165,7 @@
         "ja_JP": "雷鳴呼応",
         "ko_KR": "방전 테스트",
         "zh_CN": "放电测试",
-        "zh_TW": "放电测试"
+        "zh_TW": "放電測試"
       }
     },
     {
@@ -18526,6 +19054,354 @@
         "ko_KR": "터보 카트",
         "zh_CN": "飚速手推车",
         "zh_TW": "飆速手推車"
+      }
+    },
+    {
+      "id": 515801,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Solemn Look",
+        "ja_JP": "ドールマスター",
+        "ko_KR": "위엄 있는 자태",
+        "zh_CN": "严整仪容",
+        "zh_TW": "嚴整儀容"
+      }
+    },
+    {
+      "id": 515802,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Here Comes the Queen",
+        "ja_JP": "女王のお出まし",
+        "ko_KR": "여왕 강림",
+        "zh_CN": "女王驾到",
+        "zh_TW": "女王駕到"
+      }
+    },
+    {
+      "id": 515803,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Whipping Gale",
+        "ja_JP": "鞭の贈り物",
+        "ko_KR": "질풍의 채찍질",
+        "zh_CN": "疾风鞭挞",
+        "zh_TW": "疾風鞭撻"
+      }
+    },
+    {
+      "id": 515804,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Crossing Welts",
+        "ja_JP": "ギフトマーク",
+        "ko_KR": "교차 채찍",
+        "zh_CN": "鞭痕交织",
+        "zh_TW": "鞭痕交織"
+      }
+    },
+    {
+      "id": 515805,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Burning Whip",
+        "ja_JP": "パーリィドール",
+        "ko_KR": "불꽃 채찍",
+        "zh_CN": "火鞭烈焰",
+        "zh_TW": "火鞭烈焰"
+      }
+    },
+    {
+      "id": 515806,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Starchain Blade",
+        "ja_JP": "将軍の秘策",
+        "ko_KR": "유성 찌르기",
+        "zh_CN": "连星刺刀",
+        "zh_TW": "連星刺刀"
+      }
+    },
+    {
+      "id": 515807,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Fiery Rainbow",
+        "ja_JP": "クリスマスエール",
+        "ko_KR": "사기 충전",
+        "zh_CN": "士气如虹",
+        "zh_TW": "士氣如虹"
+      }
+    },
+    {
+      "id": 515808,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "All-Out Whiplash",
+        "ja_JP": "ごほうびウィップ",
+        "ko_KR": "집중 타격",
+        "zh_CN": "集鞭一击",
+        "zh_TW": "集鞭一擊"
+      }
+    },
+    {
+      "id": 515809,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Wild Whip Waltz",
+        "ja_JP": "バーニングウィップ",
+        "ko_KR": "화염 채찍무",
+        "zh_CN": "火鞭漫舞",
+        "zh_TW": "火鞭漫舞"
+      }
+    },
+    {
+      "id": 515810,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Non-Stop Victory",
+        "ja_JP": "きらめきクリスマス",
+        "ko_KR": "연이은 승전보",
+        "zh_CN": "捷报频传",
+        "zh_TW": "捷報頻傳"
+      }
+    },
+    {
+      "id": 515811,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Cannon Ensemble",
+        "ja_JP": "ソリの行進曲",
+        "ko_KR": "예포 앙상블",
+        "zh_CN": "礼炮合奏",
+        "zh_TW": "禮砲合奏"
+      }
+    },
+    {
+      "id": 515812,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Jazz of Rage",
+        "ja_JP": "おもちゃの本気",
+        "ko_KR": "작위의 분노",
+        "zh_CN": "爵士怒火",
+        "zh_TW": "爵士怒火"
+      }
+    },
+    {
+      "id": 515813,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Elegant Moves",
+        "ja_JP": "クリスマスのワルツ",
+        "ko_KR": "우아한 몸놀림",
+        "zh_CN": "优雅腾挪",
+        "zh_TW": "優雅騰挪"
+      }
+    },
+    {
+      "id": 515821,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Fire Downpour",
+        "ja_JP": "追い打ちプレゼント",
+        "ko_KR": "화염 폭우",
+        "zh_CN": "火雨倾盆",
+        "zh_TW": "火雨傾盆"
+      }
+    },
+    {
+      "id": 515822,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Special Ammo",
+        "ja_JP": "サプライズプレゼント",
+        "ko_KR": "특별 화약",
+        "zh_CN": "特别装药",
+        "zh_TW": "特別裝藥"
+      }
+    },
+    {
+      "id": 515823,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Promotion Time",
+        "ja_JP": "合体進化",
+        "ko_KR": "승급의 순간",
+        "zh_CN": "升变时刻",
+        "zh_TW": "升變時刻"
+      }
+    },
+    {
+      "id": 515824,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Investiture Ceremony",
+        "ja_JP": "切り札ドール",
+        "ko_KR": "훈장 수여식",
+        "zh_CN": "授勋仪式",
+        "zh_TW": "授勛儀式"
+      }
+    },
+    {
+      "id": 515825,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Two-Gun Salute",
+        "ja_JP": "ダブルプレゼント",
+        "ko_KR": "더블 예포",
+        "zh_CN": "礼炮双响",
+        "zh_TW": "禮砲雙響"
+      }
+    },
+    {
+      "id": 515826,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Uplifting Shot",
+        "ja_JP": "ギフトチャンス",
+        "ko_KR": "사기충전 포화",
+        "zh_CN": "振奋炮击",
+        "zh_TW": "振奮砲擊"
+      }
+    },
+    {
+      "id": 515827,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "First Taste of Sweetness",
+        "ja_JP": "プレゼントファイア",
+        "ko_KR": "첫 달콤함",
+        "zh_CN": "初尝甜蜜",
+        "zh_TW": "初嘗甜蜜"
+      }
+    },
+    {
+      "id": 515828,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Heart\u0027s Benediction",
+        "ja_JP": "追撃ドール",
+        "ko_KR": "하트의 기원",
+        "zh_CN": "红心祝祷",
+        "zh_TW": "紅心祝禱"
+      }
+    },
+    {
+      "id": 515829,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Heart\u0027s Edict",
+        "ja_JP": "姫への忠義",
+        "ko_KR": "하트의 사면",
+        "zh_CN": "红心赦令",
+        "zh_TW": "紅心赦令"
+      }
+    },
+    {
+      "id": 515830,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Heart\u0027s Trumpet",
+        "ja_JP": "くるみ割りチャンス",
+        "ko_KR": "하트의 나팔",
+        "zh_CN": "红心号角",
+        "zh_TW": "紅心號角"
+      }
+    },
+    {
+      "id": 515831,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Celebration Resumed",
+        "ja_JP": "クリスマスの奇跡",
+        "ko_KR": "축제의 재개",
+        "zh_CN": "庆典再启",
+        "zh_TW": "慶典再啟"
+      }
+    },
+    {
+      "id": 515832,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Ammo Rain",
+        "ja_JP": "キャンディラッシュ",
+        "ko_KR": "화약 난무",
+        "zh_CN": "火药纷飞",
+        "zh_TW": "火藥紛飛"
+      }
+    },
+    {
+      "id": 515833,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Fairy Tale Rule",
+        "ja_JP": "キャンドルパーティー",
+        "ko_KR": "동화의 법칙",
+        "zh_CN": "童话法则",
+        "zh_TW": "童話法則"
+      }
+    },
+    {
+      "id": 515841,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Silver Bullet",
+        "ja_JP": "お仕置きキャンディ",
+        "ko_KR": "성은탄",
+        "zh_CN": "驱邪银弹",
+        "zh_TW": "驅邪銀彈"
+      }
+    },
+    {
+      "id": 515842,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Untouched King",
+        "ja_JP": "クリスマスの守護者",
+        "ko_KR": "굳건한 왕",
+        "zh_CN": "王棋未动",
+        "zh_TW": "王棋未動"
+      }
+    },
+    {
+      "id": 515843,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Toy Army",
+        "ja_JP": "おもちゃの軍団",
+        "ko_KR": "장난감 군단",
+        "zh_CN": "玩具军团",
+        "zh_TW": "玩具軍團"
       }
     }
   ]

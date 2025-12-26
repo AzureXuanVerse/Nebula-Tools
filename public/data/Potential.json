@@ -2296,7 +2296,7 @@
         "ja_JP": "雷鳴呼応",
         "ko_KR": "방전 테스트",
         "zh_CN": "放电测试",
-        "zh_TW": "放电测试"
+        "zh_TW": "放電測試"
       }
     },
     {
@@ -8611,6 +8611,325 @@
         "ko_KR": "터보 카트",
         "zh_CN": "飚速手推车",
         "zh_TW": "飆速手推車"
+      }
+    },
+    {
+      "id": 515801,
+      "charId": 158,
+      "names": {
+        "en_US": "Solemn Look",
+        "ja_JP": "ドールマスター",
+        "ko_KR": "위엄 있는 자태",
+        "zh_CN": "严整仪容",
+        "zh_TW": "嚴整儀容"
+      }
+    },
+    {
+      "id": 515802,
+      "charId": 158,
+      "names": {
+        "en_US": "Here Comes the Queen",
+        "ja_JP": "女王のお出まし",
+        "ko_KR": "여왕 강림",
+        "zh_CN": "女王驾到",
+        "zh_TW": "女王駕到"
+      }
+    },
+    {
+      "id": 515803,
+      "charId": 158,
+      "names": {
+        "en_US": "Whipping Gale",
+        "ja_JP": "鞭の贈り物",
+        "ko_KR": "질풍의 채찍질",
+        "zh_CN": "疾风鞭挞",
+        "zh_TW": "疾風鞭撻"
+      }
+    },
+    {
+      "id": 515804,
+      "charId": 158,
+      "names": {
+        "en_US": "Crossing Welts",
+        "ja_JP": "ギフトマーク",
+        "ko_KR": "교차 채찍",
+        "zh_CN": "鞭痕交织",
+        "zh_TW": "鞭痕交織"
+      }
+    },
+    {
+      "id": 515805,
+      "charId": 158,
+      "names": {
+        "en_US": "Burning Whip",
+        "ja_JP": "パーリィドール",
+        "ko_KR": "불꽃 채찍",
+        "zh_CN": "火鞭烈焰",
+        "zh_TW": "火鞭烈焰"
+      }
+    },
+    {
+      "id": 515806,
+      "charId": 158,
+      "names": {
+        "en_US": "Starchain Blade",
+        "ja_JP": "将軍の秘策",
+        "ko_KR": "유성 찌르기",
+        "zh_CN": "连星刺刀",
+        "zh_TW": "連星刺刀"
+      }
+    },
+    {
+      "id": 515807,
+      "charId": 158,
+      "names": {
+        "en_US": "Fiery Rainbow",
+        "ja_JP": "クリスマスエール",
+        "ko_KR": "사기 충전",
+        "zh_CN": "士气如虹",
+        "zh_TW": "士氣如虹"
+      }
+    },
+    {
+      "id": 515808,
+      "charId": 158,
+      "names": {
+        "en_US": "All-Out Whiplash",
+        "ja_JP": "ごほうびウィップ",
+        "ko_KR": "집중 타격",
+        "zh_CN": "集鞭一击",
+        "zh_TW": "集鞭一擊"
+      }
+    },
+    {
+      "id": 515809,
+      "charId": 158,
+      "names": {
+        "en_US": "Wild Whip Waltz",
+        "ja_JP": "バーニングウィップ",
+        "ko_KR": "화염 채찍무",
+        "zh_CN": "火鞭漫舞",
+        "zh_TW": "火鞭漫舞"
+      }
+    },
+    {
+      "id": 515810,
+      "charId": 158,
+      "names": {
+        "en_US": "Non-Stop Victory",
+        "ja_JP": "きらめきクリスマス",
+        "ko_KR": "연이은 승전보",
+        "zh_CN": "捷报频传",
+        "zh_TW": "捷報頻傳"
+      }
+    },
+    {
+      "id": 515811,
+      "charId": 158,
+      "names": {
+        "en_US": "Cannon Ensemble",
+        "ja_JP": "ソリの行進曲",
+        "ko_KR": "예포 앙상블",
+        "zh_CN": "礼炮合奏",
+        "zh_TW": "禮砲合奏"
+      }
+    },
+    {
+      "id": 515812,
+      "charId": 158,
+      "names": {
+        "en_US": "Jazz of Rage",
+        "ja_JP": "おもちゃの本気",
+        "ko_KR": "작위의 분노",
+        "zh_CN": "爵士怒火",
+        "zh_TW": "爵士怒火"
+      }
+    },
+    {
+      "id": 515813,
+      "charId": 158,
+      "names": {
+        "en_US": "Elegant Moves",
+        "ja_JP": "クリスマスのワルツ",
+        "ko_KR": "우아한 몸놀림",
+        "zh_CN": "优雅腾挪",
+        "zh_TW": "優雅騰挪"
+      }
+    },
+    {
+      "id": 515821,
+      "charId": 158,
+      "names": {
+        "en_US": "Fire Downpour",
+        "ja_JP": "追い打ちプレゼント",
+        "ko_KR": "화염 폭우",
+        "zh_CN": "火雨倾盆",
+        "zh_TW": "火雨傾盆"
+      }
+    },
+    {
+      "id": 515822,
+      "charId": 158,
+      "names": {
+        "en_US": "Special Ammo",
+        "ja_JP": "サプライズプレゼント",
+        "ko_KR": "특별 화약",
+        "zh_CN": "特别装药",
+        "zh_TW": "特別裝藥"
+      }
+    },
+    {
+      "id": 515823,
+      "charId": 158,
+      "names": {
+        "en_US": "Promotion Time",
+        "ja_JP": "合体進化",
+        "ko_KR": "승급의 순간",
+        "zh_CN": "升变时刻",
+        "zh_TW": "升變時刻"
+      }
+    },
+    {
+      "id": 515824,
+      "charId": 158,
+      "names": {
+        "en_US": "Investiture Ceremony",
+        "ja_JP": "切り札ドール",
+        "ko_KR": "훈장 수여식",
+        "zh_CN": "授勋仪式",
+        "zh_TW": "授勛儀式"
+      }
+    },
+    {
+      "id": 515825,
+      "charId": 158,
+      "names": {
+        "en_US": "Two-Gun Salute",
+        "ja_JP": "ダブルプレゼント",
+        "ko_KR": "더블 예포",
+        "zh_CN": "礼炮双响",
+        "zh_TW": "禮砲雙響"
+      }
+    },
+    {
+      "id": 515826,
+      "charId": 158,
+      "names": {
+        "en_US": "Uplifting Shot",
+        "ja_JP": "ギフトチャンス",
+        "ko_KR": "사기충전 포화",
+        "zh_CN": "振奋炮击",
+        "zh_TW": "振奮砲擊"
+      }
+    },
+    {
+      "id": 515827,
+      "charId": 158,
+      "names": {
+        "en_US": "First Taste of Sweetness",
+        "ja_JP": "プレゼントファイア",
+        "ko_KR": "첫 달콤함",
+        "zh_CN": "初尝甜蜜",
+        "zh_TW": "初嘗甜蜜"
+      }
+    },
+    {
+      "id": 515828,
+      "charId": 158,
+      "names": {
+        "en_US": "Heart\u0027s Benediction",
+        "ja_JP": "追撃ドール",
+        "ko_KR": "하트의 기원",
+        "zh_CN": "红心祝祷",
+        "zh_TW": "紅心祝禱"
+      }
+    },
+    {
+      "id": 515829,
+      "charId": 158,
+      "names": {
+        "en_US": "Heart\u0027s Edict",
+        "ja_JP": "姫への忠義",
+        "ko_KR": "하트의 사면",
+        "zh_CN": "红心赦令",
+        "zh_TW": "紅心赦令"
+      }
+    },
+    {
+      "id": 515830,
+      "charId": 158,
+      "names": {
+        "en_US": "Heart\u0027s Trumpet",
+        "ja_JP": "くるみ割りチャンス",
+        "ko_KR": "하트의 나팔",
+        "zh_CN": "红心号角",
+        "zh_TW": "紅心號角"
+      }
+    },
+    {
+      "id": 515831,
+      "charId": 158,
+      "names": {
+        "en_US": "Celebration Resumed",
+        "ja_JP": "クリスマスの奇跡",
+        "ko_KR": "축제의 재개",
+        "zh_CN": "庆典再启",
+        "zh_TW": "慶典再啟"
+      }
+    },
+    {
+      "id": 515832,
+      "charId": 158,
+      "names": {
+        "en_US": "Ammo Rain",
+        "ja_JP": "キャンディラッシュ",
+        "ko_KR": "화약 난무",
+        "zh_CN": "火药纷飞",
+        "zh_TW": "火藥紛飛"
+      }
+    },
+    {
+      "id": 515833,
+      "charId": 158,
+      "names": {
+        "en_US": "Fairy Tale Rule",
+        "ja_JP": "キャンドルパーティー",
+        "ko_KR": "동화의 법칙",
+        "zh_CN": "童话法则",
+        "zh_TW": "童話法則"
+      }
+    },
+    {
+      "id": 515841,
+      "charId": 158,
+      "names": {
+        "en_US": "Silver Bullet",
+        "ja_JP": "お仕置きキャンディ",
+        "ko_KR": "성은탄",
+        "zh_CN": "驱邪银弹",
+        "zh_TW": "驅邪銀彈"
+      }
+    },
+    {
+      "id": 515842,
+      "charId": 158,
+      "names": {
+        "en_US": "Untouched King",
+        "ja_JP": "クリスマスの守護者",
+        "ko_KR": "굳건한 왕",
+        "zh_CN": "王棋未动",
+        "zh_TW": "王棋未動"
+      }
+    },
+    {
+      "id": 515843,
+      "charId": 158,
+      "names": {
+        "en_US": "Toy Army",
+        "ja_JP": "おもちゃの軍団",
+        "ko_KR": "장난감 군단",
+        "zh_CN": "玩具军团",
+        "zh_TW": "玩具軍團"
       }
     }
   ]

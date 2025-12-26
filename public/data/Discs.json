@@ -456,7 +456,7 @@
       "element": "FIRE",
       "names": {
         "en_US": "Meowing Cat God",
-        "ja_JP": "在し日の記憶",
+        "ja_JP": "在りし日の記憶",
         "ko_KR": "고양이 신 레퀴엠",
         "zh_CN": "猫神降歌",
         "zh_TW": "貓神降歌"
@@ -801,6 +801,28 @@
         "ko_KR": "용기의 주먹",
         "zh_CN": "勇气之拳",
         "zh_TW": "勇氣之拳"
+      }
+    },
+    {
+      "id": 214041,
+      "element": "FIRE",
+      "names": {
+        "en_US": "A Gift for the Journey",
+        "ja_JP": "ジングルラール",
+        "ko_KR": "여정의 선물",
+        "zh_CN": "启程的礼物",
+        "zh_TW": "啟程的禮物"
+      }
+    },
+    {
+      "id": 214048,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Snowy Night Surprise",
+        "ja_JP": "メリーサプライズ",
+        "ko_KR": "메리 서프라이즈",
+        "zh_CN": "雪夜惊喜",
+        "zh_TW": "雪夜驚喜"
       }
     }
   ]

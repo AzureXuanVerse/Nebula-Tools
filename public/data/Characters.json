@@ -296,6 +296,17 @@
         "zh_CN": "小禾",
         "zh_TW": "小禾"
       }
+    },
+    {
+      "id": 158,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Snowish Laru",
+        "ja_JP": "ラール（聖夜）",
+        "ko_KR": "라루(이브)",
+        "zh_CN": "菈露（圣夜）",
+        "zh_TW": "聖夜菈露"
+      }
     }
   ]
 }
