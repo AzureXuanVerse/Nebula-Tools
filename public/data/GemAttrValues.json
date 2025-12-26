@@ -1,0 +1,4657 @@
+{
+  "values": [
+    {
+      "id": 101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 401,
+      "rarity": 4,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 402,
+      "rarity": 3,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 403,
+      "rarity": 2,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 404,
+      "rarity": 1,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 501,
+      "rarity": 4,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 502,
+      "rarity": 3,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 503,
+      "rarity": 2,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 504,
+      "rarity": 1,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 601,
+      "rarity": 4,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 602,
+      "rarity": 3,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 603,
+      "rarity": 2,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 604,
+      "rarity": 1,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 1001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 1002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 1003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 1004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 1101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 1102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 1103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 1104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 1201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 1202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 1203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 1204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 1301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 1302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 1303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 1304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 1401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 1402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 1403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 1404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 1501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 1502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 1503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 1504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 1601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 1602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 1603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 1604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 1701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 1702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 1703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 1704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 1801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 1802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 1803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 1804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 1901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 1902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 1903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 1904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 2001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 2002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 2003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 2004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 2101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 2102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 2103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 2104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 2201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 2202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 2203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 2204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 2301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 2302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 2303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 2304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 2401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 2402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 2403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 2404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 2501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 2502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 2503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 2504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 2601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 2602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 2603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 2604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 2701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 2702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 2703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 2704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 2801,
+      "rarity": 4,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 2802,
+      "rarity": 3,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 2803,
+      "rarity": 2,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 2804,
+      "rarity": 1,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 2901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 2902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 2903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 2904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 3001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 3002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 3003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 3004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 3101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 3102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 3103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 3104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 3201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 3202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 3203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 3204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 3301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 3302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 3303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 3304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 3401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 3402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 3403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 3404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 3501,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 3502,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 3503,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 3601,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 3602,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 3603,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 3701,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 3702,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 3703,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 3801,
+      "rarity": 2,
+      "names": {
+        "en_US": "Accuracy",
+        "ja_JP": "命中率",
+        "ko_KR": "명중률",
+        "zh_CN": "命中率",
+        "zh_TW": "命中率"
+      }
+    },
+    {
+      "id": 3802,
+      "rarity": 1,
+      "names": {
+        "en_US": "Accuracy",
+        "ja_JP": "命中率",
+        "ko_KR": "명중률",
+        "zh_CN": "命中率",
+        "zh_TW": "命中率"
+      }
+    },
+    {
+      "id": 3803,
+      "rarity": 1,
+      "names": {
+        "en_US": "Accuracy",
+        "ja_JP": "命中率",
+        "ko_KR": "명중률",
+        "zh_CN": "命中率",
+        "zh_TW": "命中率"
+      }
+    },
+    {
+      "id": 3901,
+      "rarity": 2,
+      "names": {
+        "en_US": "Evasion",
+        "ja_JP": "回避率",
+        "ko_KR": "회피율",
+        "zh_CN": "回避率",
+        "zh_TW": "迴避率"
+      }
+    },
+    {
+      "id": 3902,
+      "rarity": 1,
+      "names": {
+        "en_US": "Evasion",
+        "ja_JP": "回避率",
+        "ko_KR": "회피율",
+        "zh_CN": "回避率",
+        "zh_TW": "迴避率"
+      }
+    },
+    {
+      "id": 3903,
+      "rarity": 1,
+      "names": {
+        "en_US": "Evasion",
+        "ja_JP": "回避率",
+        "ko_KR": "회피율",
+        "zh_CN": "回避率",
+        "zh_TW": "迴避率"
+      }
+    },
+    {
+      "id": 4001,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 4002,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 4003,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 4101,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit RES",
+        "ja_JP": "会心耐性",
+        "ko_KR": "치명타 저항",
+        "zh_CN": "暴击抵抗",
+        "zh_TW": "暴擊抵抗力"
+      }
+    },
+    {
+      "id": 4102,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit RES",
+        "ja_JP": "会心耐性",
+        "ko_KR": "치명타 저항",
+        "zh_CN": "暴击抵抗",
+        "zh_TW": "暴擊抵抗力"
+      }
+    },
+    {
+      "id": 4103,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit RES",
+        "ja_JP": "会心耐性",
+        "ko_KR": "치명타 저항",
+        "zh_CN": "暴击抵抗",
+        "zh_TW": "暴擊抵抗力"
+      }
+    },
+    {
+      "id": 4201,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 4202,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 4203,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 4301,
+      "rarity": 2,
+      "names": {
+        "en_US": "DEF PEN",
+        "ja_JP": "防御貫通",
+        "ko_KR": "방어 관통",
+        "zh_CN": "防御穿透",
+        "zh_TW": "防禦穿透力"
+      }
+    },
+    {
+      "id": 4302,
+      "rarity": 1,
+      "names": {
+        "en_US": "DEF PEN",
+        "ja_JP": "防御貫通",
+        "ko_KR": "방어 관통",
+        "zh_CN": "防御穿透",
+        "zh_TW": "防禦穿透力"
+      }
+    },
+    {
+      "id": 4303,
+      "rarity": 1,
+      "names": {
+        "en_US": "DEF PEN",
+        "ja_JP": "防御貫通",
+        "ko_KR": "방어 관통",
+        "zh_CN": "防御穿透",
+        "zh_TW": "防禦穿透力"
+      }
+    },
+    {
+      "id": 4401,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore DEF",
+        "ja_JP": "防御無視",
+        "ko_KR": "방어 무시",
+        "zh_CN": "无视防御",
+        "zh_TW": "無視防禦"
+      }
+    },
+    {
+      "id": 4402,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore DEF",
+        "ja_JP": "防御無視",
+        "ko_KR": "방어 무시",
+        "zh_CN": "无视防御",
+        "zh_TW": "無視防禦"
+      }
+    },
+    {
+      "id": 4403,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore DEF",
+        "ja_JP": "防御無視",
+        "ko_KR": "방어 무시",
+        "zh_CN": "无视防御",
+        "zh_TW": "無視防禦"
+      }
+    },
+    {
+      "id": 4501,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua RES",
+        "ja_JP": "水属性耐性",
+        "ko_KR": "물 속성 저항",
+        "zh_CN": "水系抗性",
+        "zh_TW": "水系抗性"
+      }
+    },
+    {
+      "id": 4502,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua RES",
+        "ja_JP": "水属性耐性",
+        "ko_KR": "물 속성 저항",
+        "zh_CN": "水系抗性",
+        "zh_TW": "水系抗性"
+      }
+    },
+    {
+      "id": 4503,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua RES",
+        "ja_JP": "水属性耐性",
+        "ko_KR": "물 속성 저항",
+        "zh_CN": "水系抗性",
+        "zh_TW": "水系抗性"
+      }
+    },
+    {
+      "id": 4601,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis RES",
+        "ja_JP": "火属性耐性",
+        "ko_KR": "불 속성 저항",
+        "zh_CN": "火系抗性",
+        "zh_TW": "火系抗性"
+      }
+    },
+    {
+      "id": 4602,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis RES",
+        "ja_JP": "火属性耐性",
+        "ko_KR": "불 속성 저항",
+        "zh_CN": "火系抗性",
+        "zh_TW": "火系抗性"
+      }
+    },
+    {
+      "id": 4603,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis RES",
+        "ja_JP": "火属性耐性",
+        "ko_KR": "불 속성 저항",
+        "zh_CN": "火系抗性",
+        "zh_TW": "火系抗性"
+      }
+    },
+    {
+      "id": 4701,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra RES",
+        "ja_JP": "地属性耐性",
+        "ko_KR": "땅 속성 저항",
+        "zh_CN": "地系抗性",
+        "zh_TW": "地系抗性"
+      }
+    },
+    {
+      "id": 4702,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra RES",
+        "ja_JP": "地属性耐性",
+        "ko_KR": "땅 속성 저항",
+        "zh_CN": "地系抗性",
+        "zh_TW": "地系抗性"
+      }
+    },
+    {
+      "id": 4703,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra RES",
+        "ja_JP": "地属性耐性",
+        "ko_KR": "땅 속성 저항",
+        "zh_CN": "地系抗性",
+        "zh_TW": "地系抗性"
+      }
+    },
+    {
+      "id": 4801,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 4802,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 4803,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 4901,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 4902,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 4903,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 5001,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 5002,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 5003,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 5101,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 5102,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 5103,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 5201,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore Aqua RES",
+        "ja_JP": "水属性耐性無視",
+        "ko_KR": "물 속성 저항 무시",
+        "zh_CN": "无视水系抗性",
+        "zh_TW": "無視水系抗性"
+      }
+    },
+    {
+      "id": 5202,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Aqua RES",
+        "ja_JP": "水属性耐性無視",
+        "ko_KR": "물 속성 저항 무시",
+        "zh_CN": "无视水系抗性",
+        "zh_TW": "無視水系抗性"
+      }
+    },
+    {
+      "id": 5203,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Aqua RES",
+        "ja_JP": "水属性耐性無視",
+        "ko_KR": "물 속성 저항 무시",
+        "zh_CN": "无视水系抗性",
+        "zh_TW": "無視水系抗性"
+      }
+    },
+    {
+      "id": 5301,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore Ignis RES",
+        "ja_JP": "火属性耐性無視",
+        "ko_KR": "불 속성 저항 무시",
+        "zh_CN": "无视火系抗性",
+        "zh_TW": "無視火系抗性"
+      }
+    },
+    {
+      "id": 5302,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Ignis RES",
+        "ja_JP": "火属性耐性無視",
+        "ko_KR": "불 속성 저항 무시",
+        "zh_CN": "无视火系抗性",
+        "zh_TW": "無視火系抗性"
+      }
+    },
+    {
+      "id": 5303,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Ignis RES",
+        "ja_JP": "火属性耐性無視",
+        "ko_KR": "불 속성 저항 무시",
+        "zh_CN": "无视火系抗性",
+        "zh_TW": "無視火系抗性"
+      }
+    },
+    {
+      "id": 5401,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore Terra RES",
+        "ja_JP": "地属性耐性無視",
+        "ko_KR": "땅 속성 저항 무시",
+        "zh_CN": "无视地系抗性",
+        "zh_TW": "無視地系抗性"
+      }
+    },
+    {
+      "id": 5402,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Terra RES",
+        "ja_JP": "地属性耐性無視",
+        "ko_KR": "땅 속성 저항 무시",
+        "zh_CN": "无视地系抗性",
+        "zh_TW": "無視地系抗性"
+      }
+    },
+    {
+      "id": 5403,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Terra RES",
+        "ja_JP": "地属性耐性無視",
+        "ko_KR": "땅 속성 저항 무시",
+        "zh_CN": "无视地系抗性",
+        "zh_TW": "無視地系抗性"
+      }
+    },
+    {
+      "id": 5501,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore Ventus RES",
+        "ja_JP": "風属性耐性無視",
+        "ko_KR": "바람 속성 저항 무시",
+        "zh_CN": "无视风系抗性",
+        "zh_TW": "無視風系抗性"
+      }
+    },
+    {
+      "id": 5502,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Ventus RES",
+        "ja_JP": "風属性耐性無視",
+        "ko_KR": "바람 속성 저항 무시",
+        "zh_CN": "无视风系抗性",
+        "zh_TW": "無視風系抗性"
+      }
+    },
+    {
+      "id": 5503,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Ventus RES",
+        "ja_JP": "風属性耐性無視",
+        "ko_KR": "바람 속성 저항 무시",
+        "zh_CN": "无视风系抗性",
+        "zh_TW": "無視風系抗性"
+      }
+    },
+    {
+      "id": 5601,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignore Lux RES",
+        "ja_JP": "光属性耐性無視",
+        "ko_KR": "빛 속성 저항 무시",
+        "zh_CN": "无视光系抗性",
+        "zh_TW": "無視光系抗性"
+      }
+    },
+    {
+      "id": 5602,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Lux RES",
+        "ja_JP": "光属性耐性無視",
+        "ko_KR": "빛 속성 저항 무시",
+        "zh_CN": "无视光系抗性",
+        "zh_TW": "無視光系抗性"
+      }
+    },
+    {
+      "id": 5603,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignore Lux RES",
+        "ja_JP": "光属性耐性無視",
+        "ko_KR": "빛 속성 저항 무시",
+        "zh_CN": "无视光系抗性",
+        "zh_TW": "無視光系抗性"
+      }
+    },
+    {
+      "id": 5701,
+      "rarity": 2,
+      "names": {
+        "en_US": "Weight",
+        "ja_JP": "重量",
+        "ko_KR": "무게",
+        "zh_CN": "重量",
+        "zh_TW": "重量"
+      }
+    },
+    {
+      "id": 5702,
+      "rarity": 1,
+      "names": {
+        "en_US": "Weight",
+        "ja_JP": "重量",
+        "ko_KR": "무게",
+        "zh_CN": "重量",
+        "zh_TW": "重量"
+      }
+    },
+    {
+      "id": 5703,
+      "rarity": 1,
+      "names": {
+        "en_US": "Weight",
+        "ja_JP": "重量",
+        "ko_KR": "무게",
+        "zh_CN": "重量",
+        "zh_TW": "重量"
+      }
+    },
+    {
+      "id": 5801,
+      "rarity": 2,
+      "names": {
+        "en_US": "Resilience",
+        "ja_JP": "ブレイク値",
+        "ko_KR": "방해 내성",
+        "zh_CN": "韧性值",
+        "zh_TW": "韌性值"
+      }
+    },
+    {
+      "id": 5802,
+      "rarity": 1,
+      "names": {
+        "en_US": "Resilience",
+        "ja_JP": "ブレイク値",
+        "ko_KR": "방해 내성",
+        "zh_CN": "韧性值",
+        "zh_TW": "韌性值"
+      }
+    },
+    {
+      "id": 5803,
+      "rarity": 1,
+      "names": {
+        "en_US": "Resilience",
+        "ja_JP": "ブレイク値",
+        "ko_KR": "방해 내성",
+        "zh_CN": "韧性值",
+        "zh_TW": "韌性值"
+      }
+    },
+    {
+      "id": 5901,
+      "rarity": 2,
+      "names": {
+        "en_US": "Resilience Break Efficiency",
+        "ja_JP": "ブレイク値貫通効率",
+        "ko_KR": "방해 내성 무시 효율",
+        "zh_CN": "破韧效率",
+        "zh_TW": "破韌效率"
+      }
+    },
+    {
+      "id": 5902,
+      "rarity": 1,
+      "names": {
+        "en_US": "Resilience Break Efficiency",
+        "ja_JP": "ブレイク値貫通効率",
+        "ko_KR": "방해 내성 무시 효율",
+        "zh_CN": "破韧效率",
+        "zh_TW": "破韌效率"
+      }
+    },
+    {
+      "id": 5903,
+      "rarity": 1,
+      "names": {
+        "en_US": "Resilience Break Efficiency",
+        "ja_JP": "ブレイク値貫通効率",
+        "ko_KR": "방해 내성 무시 효율",
+        "zh_CN": "破韧效率",
+        "zh_TW": "破韌效率"
+      }
+    },
+    {
+      "id": 6001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 6002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 6003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 6004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 6101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 6102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 6103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 6104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 6201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 6202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 6203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 6204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 6301,
+      "rarity": 4,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 6302,
+      "rarity": 3,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 6303,
+      "rarity": 2,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 6304,
+      "rarity": 1,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 6401,
+      "rarity": 4,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 6402,
+      "rarity": 3,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 6403,
+      "rarity": 2,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 6404,
+      "rarity": 1,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 6501,
+      "rarity": 4,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 6502,
+      "rarity": 3,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 6503,
+      "rarity": 2,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 6504,
+      "rarity": 1,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 6601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 6602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 6603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 6604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 6701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 6702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 6703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 6704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit Rate",
+        "ja_JP": "会心率",
+        "ko_KR": "치명타율",
+        "zh_CN": "暴击率",
+        "zh_TW": "暴擊率"
+      }
+    },
+    {
+      "id": 6801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 6802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 6803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 6804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 6901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 6902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 6903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 6904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 7001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 7002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 7003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 7004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 7101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 7102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 7103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 7104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 7201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 7202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 7203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 7204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 7301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 7302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 7303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 7304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 7401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 7402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 7403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 7404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua PEN",
+        "ja_JP": "水属性耐性貫通",
+        "ko_KR": "물 속성 관통",
+        "zh_CN": "水系穿透",
+        "zh_TW": "水系穿透力"
+      }
+    },
+    {
+      "id": 7501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 7502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 7503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 7504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis PEN",
+        "ja_JP": "火属性耐性貫通",
+        "ko_KR": "불 속성 관통",
+        "zh_CN": "火系穿透",
+        "zh_TW": "火系穿透力"
+      }
+    },
+    {
+      "id": 7601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 7602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 7603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 7604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra PEN",
+        "ja_JP": "地属性耐性貫通",
+        "ko_KR": "땅 속성 관통",
+        "zh_CN": "地系穿透",
+        "zh_TW": "地系穿透力"
+      }
+    },
+    {
+      "id": 7701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 7702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 7703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 7704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus PEN",
+        "ja_JP": "風属性耐性貫通",
+        "ko_KR": "바람 속성 관통",
+        "zh_CN": "风系穿透",
+        "zh_TW": "風系穿透力"
+      }
+    },
+    {
+      "id": 7801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 7802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 7803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 7804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux PEN",
+        "ja_JP": "光属性耐性貫通",
+        "ko_KR": "빛 속성 관통",
+        "zh_CN": "光系穿透",
+        "zh_TW": "光系穿透力"
+      }
+    },
+    {
+      "id": 7901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 7902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 7903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 7904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra PEN",
+        "ja_JP": "闇属性耐性貫通",
+        "ko_KR": "어둠 속성 관통",
+        "zh_CN": "暗系穿透",
+        "zh_TW": "暗系穿透力"
+      }
+    },
+    {
+      "id": 8001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 8002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 8003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 8004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 8101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 8102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 8103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 8104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 8201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 8202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 8203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 8204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 8301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 8302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 8303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 8304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 8401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 8402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 8403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 8404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 8501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 8502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 8503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 8504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 8601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 8602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 8603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 8604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 8701,
+      "rarity": 4,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 8702,
+      "rarity": 3,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 8703,
+      "rarity": 2,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 8704,
+      "rarity": 1,
+      "names": {
+        "en_US": "None",
+        "ja_JP": "なし",
+        "ko_KR": "없음",
+        "zh_CN": "无",
+        "zh_TW": "無"
+      }
+    },
+    {
+      "id": 8801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 8802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 8803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 8804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Auto Attack Crit Rate",
+        "ja_JP": "通常攻撃会心率",
+        "ko_KR": "일반 공격 치명타율",
+        "zh_CN": "普攻暴击率",
+        "zh_TW": "普攻暴擊率"
+      }
+    },
+    {
+      "id": 8901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 8902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 8903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 8904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Skill Crit Rate",
+        "ja_JP": "スキル会心率",
+        "ko_KR": "스킬 치명타율",
+        "zh_CN": "技能暴击率",
+        "zh_TW": "技能暴擊率"
+      }
+    },
+    {
+      "id": 9001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 9002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 9003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 9004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ultimate Crit Rate",
+        "ja_JP": "必殺技会心率",
+        "ko_KR": "필살기 치명타율",
+        "zh_CN": "绝招暴击率",
+        "zh_TW": "絕招暴擊率"
+      }
+    },
+    {
+      "id": 9101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 9102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 9103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 9104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Mark Crit Rate",
+        "ja_JP": "印会心率",
+        "ko_KR": "표식 치명타율",
+        "zh_CN": "印记暴击率",
+        "zh_TW": "印記暴擊率"
+      }
+    },
+    {
+      "id": 9201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 9202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 9203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 9204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Minion Crit Rate",
+        "ja_JP": "従者会心率",
+        "ko_KR": "소환물 치명타율",
+        "zh_CN": "仆从暴击率",
+        "zh_TW": "僕從暴擊率"
+      }
+    },
+    {
+      "id": 9301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 9302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 9303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 9304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Derivative Crit Rate",
+        "ja_JP": "派生物会心率",
+        "ko_KR": "파생물 치명타율",
+        "zh_CN": "衍生物暴击率",
+        "zh_TW": "衍生物暴擊率"
+      }
+    },
+    {
+      "id": 9401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 9402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 9403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 9404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base HP",
+        "ja_JP": "基礎HP",
+        "ko_KR": "기본 HP",
+        "zh_CN": "基础生命",
+        "zh_TW": "基礎生命值"
+      }
+    },
+    {
+      "id": 9501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 9502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 9503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 9504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base ATK",
+        "ja_JP": "基礎攻撃力",
+        "ko_KR": "기본 공격",
+        "zh_CN": "基础攻击",
+        "zh_TW": "基礎攻擊力"
+      }
+    },
+    {
+      "id": 9601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 9602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 9603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 9604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Base DEF",
+        "ja_JP": "基礎防御力",
+        "ko_KR": "기본 방어",
+        "zh_CN": "基础防御",
+        "zh_TW": "基礎防禦"
+      }
+    },
+    {
+      "id": 9701,
+      "rarity": 4,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 9702,
+      "rarity": 3,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 9703,
+      "rarity": 2,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 9704,
+      "rarity": 1,
+      "names": {
+        "en_US": "HP",
+        "ja_JP": "HP",
+        "ko_KR": "HP",
+        "zh_CN": "生命",
+        "zh_TW": "生命值"
+      }
+    },
+    {
+      "id": 9801,
+      "rarity": 4,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 9802,
+      "rarity": 3,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 9803,
+      "rarity": 2,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 9804,
+      "rarity": 1,
+      "names": {
+        "en_US": "ATK",
+        "ja_JP": "攻撃力",
+        "ko_KR": "공격",
+        "zh_CN": "攻击",
+        "zh_TW": "攻擊"
+      }
+    },
+    {
+      "id": 9901,
+      "rarity": 4,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 9902,
+      "rarity": 3,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 9903,
+      "rarity": 2,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 9904,
+      "rarity": 1,
+      "names": {
+        "en_US": "DEF",
+        "ja_JP": "防御力",
+        "ko_KR": "방어",
+        "zh_CN": "防御",
+        "zh_TW": "防禦"
+      }
+    },
+    {
+      "id": 10001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 10002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 10003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 10004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Crit DMG",
+        "ja_JP": "会心ダメージ",
+        "ko_KR": "치명타 피해",
+        "zh_CN": "暴击伤害",
+        "zh_TW": "暴擊傷害"
+      }
+    },
+    {
+      "id": 10101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 10102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 10103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 10104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Aqua DMG",
+        "ja_JP": "水属性ダメージ",
+        "ko_KR": "물 속성 피해",
+        "zh_CN": "水系伤害",
+        "zh_TW": "水系傷害"
+      }
+    },
+    {
+      "id": 10201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 10202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 10203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 10204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ignis DMG",
+        "ja_JP": "火属性ダメージ",
+        "ko_KR": "불 속성 피해",
+        "zh_CN": "火系伤害",
+        "zh_TW": "火系傷害"
+      }
+    },
+    {
+      "id": 10301,
+      "rarity": 4,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 10302,
+      "rarity": 3,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 10303,
+      "rarity": 2,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 10304,
+      "rarity": 1,
+      "names": {
+        "en_US": "Terra DMG",
+        "ja_JP": "地属性ダメージ",
+        "ko_KR": "땅 속성 피해",
+        "zh_CN": "地系伤害",
+        "zh_TW": "地系傷害"
+      }
+    },
+    {
+      "id": 10401,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 10402,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 10403,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 10404,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ventus DMG",
+        "ja_JP": "風属性ダメージ",
+        "ko_KR": "바람 속성 피해",
+        "zh_CN": "风系伤害",
+        "zh_TW": "風系傷害"
+      }
+    },
+    {
+      "id": 10501,
+      "rarity": 4,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 10502,
+      "rarity": 3,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 10503,
+      "rarity": 2,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 10504,
+      "rarity": 1,
+      "names": {
+        "en_US": "Lux DMG",
+        "ja_JP": "光属性ダメージ",
+        "ko_KR": "빛 속성 피해",
+        "zh_CN": "光系伤害",
+        "zh_TW": "光系傷害"
+      }
+    },
+    {
+      "id": 10601,
+      "rarity": 4,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 10602,
+      "rarity": 3,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 10603,
+      "rarity": 2,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 10604,
+      "rarity": 1,
+      "names": {
+        "en_US": "Umbra DMG",
+        "ja_JP": "闇属性ダメージ",
+        "ko_KR": "어둠 속성 피해",
+        "zh_CN": "暗系伤害",
+        "zh_TW": "暗系傷害"
+      }
+    },
+    {
+      "id": 10701,
+      "rarity": 4,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 10702,
+      "rarity": 3,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 10703,
+      "rarity": 2,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 10704,
+      "rarity": 1,
+      "names": {
+        "en_US": "Auto Attack DMG",
+        "ja_JP": "通常攻撃ダメージ",
+        "ko_KR": "일반 공격 피해",
+        "zh_CN": "普攻伤害",
+        "zh_TW": "普攻傷害"
+      }
+    },
+    {
+      "id": 10801,
+      "rarity": 4,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 10802,
+      "rarity": 3,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 10803,
+      "rarity": 2,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 10804,
+      "rarity": 1,
+      "names": {
+        "en_US": "Skill DMG",
+        "ja_JP": "スキルダメージ",
+        "ko_KR": "스킬 피해",
+        "zh_CN": "技能伤害",
+        "zh_TW": "技能傷害"
+      }
+    },
+    {
+      "id": 10901,
+      "rarity": 4,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 10902,
+      "rarity": 3,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 10903,
+      "rarity": 2,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 10904,
+      "rarity": 1,
+      "names": {
+        "en_US": "Ultimate DMG",
+        "ja_JP": "必殺技ダメージ",
+        "ko_KR": "필살기 피해",
+        "zh_CN": "绝招伤害",
+        "zh_TW": "絕招傷害"
+      }
+    },
+    {
+      "id": 11001,
+      "rarity": 4,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 11002,
+      "rarity": 3,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 11003,
+      "rarity": 2,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 11004,
+      "rarity": 1,
+      "names": {
+        "en_US": "Mark DMG",
+        "ja_JP": "印ダメージ",
+        "ko_KR": "표식 피해",
+        "zh_CN": "印记伤害",
+        "zh_TW": "印記傷害"
+      }
+    },
+    {
+      "id": 11101,
+      "rarity": 4,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 11102,
+      "rarity": 3,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 11103,
+      "rarity": 2,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 11104,
+      "rarity": 1,
+      "names": {
+        "en_US": "Minion DMG",
+        "ja_JP": "従者ダメージ",
+        "ko_KR": "소환물 피해",
+        "zh_CN": "仆从伤害",
+        "zh_TW": "僕從傷害"
+      }
+    },
+    {
+      "id": 11201,
+      "rarity": 4,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 11202,
+      "rarity": 3,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 11203,
+      "rarity": 2,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    },
+    {
+      "id": 11204,
+      "rarity": 1,
+      "names": {
+        "en_US": "Derivative DMG",
+        "ja_JP": "派生物ダメージ",
+        "ko_KR": "파생물 피해",
+        "zh_CN": "衍生物伤害",
+        "zh_TW": "衍生物傷害"
+      }
+    }
+  ]
+}

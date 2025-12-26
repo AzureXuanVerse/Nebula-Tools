@@ -175,7 +175,7 @@ const dict: Record<Language, Record<string, any>> = {
           ascension: '阶段 (0-8)',
           crescendo: '星级 (0-5)'
         }
-      }
+    }
     }
     ,
     build: {
@@ -193,14 +193,25 @@ const dict: Record<Language, Record<string, any>> = {
       discSelectedSuffix: '/ 6',
       melodyTitle: '音符',
       melodyPlaceholder: '选择音符（可多选）',
-      melodyLevelPlaceholder: 'Lv'
-      ,
-      melodyOptionPlaceholder: '选择音符...'
-      ,
+      melodyLevelPlaceholder: 'Lv',
+      melodyOptionPlaceholder: '选择音符...',
       summarySelectedPrefix: '已选择:',
       summarySelectedSuffix: ' / 3，',
       summaryDiscTotalPrefix: '秘纹总计:',
-      summaryDiscTotalSuffix: ' / 6'
+      summaryDiscTotalSuffix: ' / 6',
+      modeEmblem: '纹章',
+      autobuildToggleLabel: '自动构建',
+      autobuildLevelLabel: '等级',
+      autobuildLevelPlaceholder: '等级（可选）',
+      autobuildScoreLabel: '分数',
+      autobuildScorePlaceholder: '分数（可选）',
+      emblemCharacterLabel: '角色',
+      emblemCharacterPlaceholder: '选择角色',
+      emblemSlotLabel: '槽位',
+      emblemSlotPlaceholder: '选择槽位 (1-3)',
+      emblemAttrLabel: '属性 (选择 4 条)',
+      emblemAttrOverlayText: '属性',
+      emblemAttrPlaceholder: '选择 4 个属性 ID'
     }
     ,
     mail: {
@@ -503,7 +514,7 @@ const dict: Record<Language, Record<string, any>> = {
           ascension: 'Ascension (0-8)',
           crescendo: 'Stars (0-5)'
         }
-      }
+    }
     }
     ,
     build: {
@@ -521,13 +532,25 @@ const dict: Record<Language, Record<string, any>> = {
       discSelectedSuffix: ' / 6',
       melodyTitle: 'Melodies',
       melodyPlaceholder: 'Select melodies (multi-select)',
-      melodyLevelPlaceholder: 'Lv'
-      ,
+      melodyLevelPlaceholder: 'Lv',
       melodyOptionPlaceholder: 'Select a melody...',
       summarySelectedPrefix: 'Selected:',
       summarySelectedSuffix: ' / 3, ',
       summaryDiscTotalPrefix: 'Discs total:',
-      summaryDiscTotalSuffix: ' / 6'
+      summaryDiscTotalSuffix: ' / 6',
+      modeEmblem: 'Emblem',
+      autobuildToggleLabel: 'Auto Build',
+      autobuildLevelLabel: 'Level',
+      autobuildLevelPlaceholder: 'Level (optional)',
+      autobuildScoreLabel: 'Score',
+      autobuildScorePlaceholder: 'Score (optional)',
+      emblemCharacterLabel: 'Character',
+      emblemCharacterPlaceholder: 'Select character',
+      emblemSlotLabel: 'Slot',
+      emblemSlotPlaceholder: 'Select slot (1-3)',
+      emblemAttrLabel: 'Attributes (choose 4)',
+      emblemAttrOverlayText: 'Attr',
+      emblemAttrPlaceholder: 'Select 4 attribute IDs'
     }
     ,
     mail: {

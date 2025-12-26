@@ -3,6 +3,8 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { MultiSelect } from '../ui/MultiSelect';
 import { NumberInput } from '../ui/NumberInput';
+import { Segmented } from '../ui/Segmented';
+import { SearchableSelect } from '../ui/SearchableSelect';
 import type { Character, Disc, Language } from '../../types';
 import { getElementIcon } from '../../utils/dataLoader';
 import { t } from '../../i18n';
@@ -30,6 +32,12 @@ interface MelodyConfig {
   level: number;
 }
 
+interface EmblemAttr {
+  id: number;
+  rarity: number;
+  names: Record<Language, string>;
+}
+
 interface BuildPanelProps {
   language: Language;
   onCommandChange: (command: string) => void;
@@ -40,8 +48,26 @@ export function BuildPanel(props: BuildPanelProps) {
   const [discs, setDiscs] = createSignal<Disc[]>([]);
   const [potentials, setPotentials] = createSignal<Potential[]>([]);
   const [melodies, setMelodies] = createSignal<Melody[]>([]);
+  const [emblemAttrs, setEmblemAttrs] = createSignal<EmblemAttr[]>([]);
   const [selectedCharacters, setSelectedCharacters] = createSignal<number[]>([]);
   const [lockedCharacters, setLockedCharacters] = createSignal<number[]>([]);
+  const [mode, setMode] = createSignal<'build' | 'emblem'>('build');
+  const [emblemCharId, setEmblemCharId] = createSignal<number | undefined>(undefined);
+  const [emblemSlotId, setEmblemSlotId] = createSignal<number | undefined>(undefined);
+  const [emblemAttrIds, setEmblemAttrIds] = createSignal<number[]>([]);
+  const [emblemRarityFilter, setEmblemRarityFilter] = createSignal<number>((() => {
+    try {
+      const saved = localStorage.getItem('build.emblem.rarity');
+      if (saved) {
+        const v = Number(saved);
+        if (Number.isFinite(v) && v >= 1 && v <= 4) return v;
+      }
+    } catch {}
+    return 4;
+  })());
+  const [autoBuildLevel, setAutoBuildLevel] = createSignal<number | undefined>(undefined);
+  const [autoBuildS, setAutoBuildS] = createSignal<number | undefined>(undefined);
+  const [autoBuildEnabled, setAutoBuildEnabled] = createSignal<boolean>(false);
 
   // 每个角色的完整配置
   interface CharacterFullConfig {
@@ -54,11 +80,12 @@ export function BuildPanel(props: BuildPanelProps) {
 
   onMount(async () => {
     try {
-      const [charRes, discRes, potRes, itemRes] = await Promise.all([
+      const [charRes, discRes, potRes, itemRes, emblemAttrRes] = await Promise.all([
         fetch('/data/Characters.json'),
         fetch('/data/Discs.json'),
         fetch('/data/Potential.json'),
         fetch('/data/Items.json'),
+        fetch('/data/GemAttrValues.json'),
       ]);
       const charData = await charRes.json();
       const discData = await discRes.json();
@@ -69,11 +96,15 @@ export function BuildPanel(props: BuildPanelProps) {
       setDiscs(discData.discs || []);
       setPotentials(potData.potentials || []);
 
-      // 筛选音符 - stype为19的物品
+        // 筛选音符 - stype为19的物品
       const melodyItems = (itemData.items || []).filter(
         (item: any) => item.stype === 19
       );
       setMelodies(melodyItems);
+
+      const emblemAttrData = await emblemAttrRes.json();
+      const rawEmblemAttrs = emblemAttrData && Array.isArray(emblemAttrData.values) ? emblemAttrData.values : [];
+      setEmblemAttrs(rawEmblemAttrs as EmblemAttr[]);
 
       try {
         const savedChars = localStorage.getItem('build.selected');
@@ -100,6 +131,27 @@ export function BuildPanel(props: BuildPanelProps) {
               melodies: (c.melodies || []).map(m => ({ melodyId: m.melodyId, level: m.level }))
             })));
           }
+        }
+        const savedAutobuildEnabled = localStorage.getItem('build.autobuild.enabled');
+        if (savedAutobuildEnabled === '1') {
+          setAutoBuildEnabled(true);
+        } else if (savedAutobuildEnabled === '0') {
+          setAutoBuildEnabled(false);
+        }
+        const savedAutobuildLevel = localStorage.getItem('build.autobuild.level');
+        if (savedAutobuildLevel) {
+          const v = Number(savedAutobuildLevel);
+          if (Number.isFinite(v) && v > 0) setAutoBuildLevel(v);
+        }
+        const savedAutobuildScore = localStorage.getItem('build.autobuild.score');
+        if (savedAutobuildScore) {
+          const v = Number(savedAutobuildScore);
+          if (Number.isFinite(v) && v > 0) setAutoBuildS(v);
+        }
+        const savedEmblemRarity = localStorage.getItem('build.emblem.rarity');
+        if (savedEmblemRarity) {
+          const v = Number(savedEmblemRarity);
+          if (Number.isFinite(v) && v >= 1 && v <= 4) setEmblemRarityFilter(v);
         }
       } catch {}
     } catch (error) {
@@ -179,7 +231,7 @@ export function BuildPanel(props: BuildPanelProps) {
   };
 
   // 获取可用音符选项
-  const getAvailableMelodyOptions = (charId: number, currentMelodyId?: number) => {
+  const getAvailableMelodyOptions = (_charId: number, currentMelodyId?: number) => {
     const allUsedMelodyIds = characterConfigs()
       .flatMap(c => c.melodies.map(m => m.melodyId))
       .filter(id => id !== currentMelodyId);
@@ -195,7 +247,7 @@ export function BuildPanel(props: BuildPanelProps) {
     ];
   };
 
-  // 获取可用秘纹选项（全局去重，当前角色已选除外）
+    // 获取可用秘纹选项（全局去重，当前角色已选除外）
   const getAvailableDiscOptions = (charId: number) => {
     const current = getCharConfig(charId)?.discIds || [];
     const allUsedDiscIds = characterConfigs()
@@ -207,40 +259,124 @@ export function BuildPanel(props: BuildPanelProps) {
       .map(disc => ({ value: disc.id, label: `${disc.names[props.language]} (${disc.id})` }));
   };
 
+  const getFilteredEmblemAttrOptions = () => {
+    const filter = emblemRarityFilter();
+    const selected = emblemAttrIds();
+    return emblemAttrs()
+      .filter(attr => attr.rarity === filter || selected.includes(attr.id))
+      .map(attr => ({
+        value: attr.id,
+        label: `${attr.names[props.language] || attr.names.en_US || String(attr.id)} [${attr.rarity}] - ID: ${attr.id}`,
+      }));
+  };
+
   // 实时生成命令
   createEffect(() => {
+    if (mode() === 'emblem') {
+      const cid = emblemCharId();
+      const slotId = emblemSlotId();
+      const attrs = emblemAttrIds();
+
+      if (!cid || !slotId || slotId < 1 || slotId > 3 || !attrs || attrs.length !== 4) {
+        props.onCommandChange('');
+        return;
+      }
+
+      const parts: string[] = [
+        'emblem',
+        String(cid),
+        String(slotId),
+        String(attrs[0]),
+        String(attrs[1]),
+        String(attrs[2]),
+        String(attrs[3])
+      ];
+      props.onCommandChange(parts.join(' '));
+      return;
+    }
+
     const configs = characterConfigs();
     const charIds = Array.from(new Set(configs.map(c => c.charId)));
     const allDiscIds = Array.from(new Set(configs.flatMap(c => c.discIds)));
     const allPotentials = configs.flatMap(c => c.potentials);
     const allMelodies = configs.flatMap(c => c.melodies);
 
-    // 仅在满足要求时展示命令预览
+      // 仅在满足要求时展示命令预览
+    if (autoBuildEnabled()) {
+      const lv = autoBuildLevel();
+      const s = autoBuildS();
+      const hasLv = !!lv && lv > 0;
+      const hasS = !!s && s > 0;
+
+      if (!hasLv && !hasS) {
+        props.onCommandChange('');
+        return;
+      }
+
+      const parts: string[] = ['autobuild'];
+
+      if (hasLv) {
+        const v = Math.min(40, lv as number);
+        parts.push(`lv${v}`);
+      }
+
+      if (hasS) {
+        parts.push(`s${s}`);
+      }
+
+      if (charIds.length > 0) {
+        parts.push(...charIds.map(String));
+      }
+
+      if (allDiscIds.length > 0) {
+        parts.push(...allDiscIds.map(String));
+      }
+
+      allPotentials.forEach(p => {
+        if (p.potentialId > 0) {
+          parts.push(`${p.potentialId}:${p.level}`);
+        }
+      });
+
+      allMelodies.forEach(m => {
+        if (m.melodyId > 0) {
+          parts.push(`${m.melodyId}:${m.level}`);
+        }
+      });
+
+      props.onCommandChange(parts.join(' '));
+      try {
+        localStorage.setItem('build.selected', JSON.stringify(Array.from(new Set(characterConfigs().map(c=>c.charId)))));
+        localStorage.setItem('build.configs', JSON.stringify(characterConfigs().map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))));
+      } catch {}
+      return;
+    }
+
     if (charIds.length !== 3 || allDiscIds.length < 3 || allDiscIds.length > 6) {
       props.onCommandChange('');
       return;
     }
 
     const parts: string[] = ['build'];
-    
-    // 角色
+
+      // 角色
     if (charIds.length > 0) {
       parts.push(...charIds.map(String));
     }
-    
-    // 秘纹
+
+      // 秘纹
     if (allDiscIds.length > 0) {
       parts.push(...allDiscIds.map(String));
     }
-    
-    // 添加潜能
+
+      // 添加潜能
     allPotentials.forEach(p => {
       if (p.potentialId > 0) {
         parts.push(`${p.potentialId}:${p.level}`);
       }
     });
-    
-    // 添加音符
+
+      // 添加音符
     allMelodies.forEach(m => {
       if (m.melodyId > 0) {
         parts.push(`${m.melodyId}:${m.level}`);
@@ -257,28 +393,123 @@ export function BuildPanel(props: BuildPanelProps) {
   return (
     <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
       <Card>
-        <div style="background: rgba(41, 182, 246, 0.1); border: 1px solid rgba(41, 182, 246, 0.3); border-radius: var(--radius-md); padding: var(--spacing-md); margin-bottom: var(--spacing-md);">
-          <div style="display: flex; align-items: start; gap: 12px;">
-            <span style="font-size: 24px;">ℹ️</span>
-            <div>
-              <div style="font-weight: 600; color: #1976D2;">{t(props.language, 'build.tipTitle')}</div>
-              <div style="font-size: 14px; color: #1565C0; margin-top: 4px;">
-                {t(props.language, 'build.tipText')}
-              </div>
+        <div style="background: radial-gradient(circle at 0 0, rgba(129, 212, 250, 0.35), rgba(41, 182, 246, 0.06)); border: 1px solid rgba(41, 182, 246, 0.35); border-radius: var(--radius-md); padding: 10px 12px; margin-bottom: var(--spacing-md);">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="width: 20px; height: 20px; border-radius: 9999px; background: linear-gradient(145deg, #29B6F6, #00ACC1); box-shadow: 0 0 0 2px rgba(129, 212, 250, 0.4); display: flex; align-items: center; justify-content: center; color: #E3F2FD; font-size: 12px; font-weight: 600;">
+              i
+            </div>
+            <div style="font-size: 12px; line-height: 1.6; color: #1565C0;">
+              {t(props.language, 'build.tipText')}
             </div>
           </div>
         </div>
 
-        <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
           {/* 角色选择与配置 */}
+        <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
           <div>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--spacing-sm);">
-              <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary);">
-                {t(props.language, 'build.selectLabel')}
-              </label>
-              <Button
-                variant="accent"
-                onClick={() => {
+            <div style="margin-bottom: var(--spacing-sm); font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+              {t(props.language, 'common.modeTitle')}
+            </div>
+            <Segmented
+              options={[
+                { value: 'build', label: t(props.language, 'navbar.command.build') },
+                { value: 'emblem', label: t(props.language, 'build.modeEmblem') }
+              ]}
+              value={mode()}
+              onChange={(e) => {
+                const next = e.currentTarget.value as 'build' | 'emblem';
+                setMode(next);
+              }}
+              persistKey="build.mode"
+            />
+          </div>
+
+          <Show when={mode() === 'build'}>
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--spacing-xs);">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const next = !autoBuildEnabled();
+                    setAutoBuildEnabled(next);
+                    try { localStorage.setItem('build.autobuild.enabled', next ? '1' : '0'); } catch {}
+                  }}
+                  style="display: flex; align-items: center; gap: 8px; padding: 4px 8px; border-radius: 9999px; border: 1px solid transparent; background: transparent; cursor: pointer;"
+                >
+                  <div
+                    role="switch"
+                    aria-checked={autoBuildEnabled() ? 'true' : 'false'}
+                    style={`
+                      width: 42px;
+                      height: 24px;
+                      border-radius: 9999px;
+                      padding: 3px;
+                      box-sizing: border-box;
+                      transition: all 0.22s ease-out;
+                      display: inline-flex;
+                      align-items: center;
+                      ${autoBuildEnabled()
+                        ? 'background: linear-gradient(90deg, rgba(0,188,212,0.25), rgba(0,188,212,0.7)); box-shadow: 0 0 6px rgba(0,188,212,0.5); justify-content: flex-end; border: 1px solid rgba(0,188,212,0.8);'
+                        : 'background: var(--bg-secondary); justify-content: flex-start; border: 1px solid var(--border-secondary);'}
+                    `}
+                  >
+                    <div
+                      style={`
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 9999px;
+                        background: #ffffff;
+                        box-shadow: ${autoBuildEnabled() ? '0 2px 6px rgba(0,0,0,0.35)' : '0 1px 3px rgba(0,0,0,0.25)'};
+                        transform: ${autoBuildEnabled() ? 'scale(1.05)' : 'scale(1)'};
+                        transition: transform 0.22s ease-out, box-shadow 0.22s ease-out;
+                      `}
+                    />
+                  </div>
+                  <span style="font-size: 12px; color: var(--text-secondary);">
+                    {t(props.language, 'build.autobuildToggleLabel')}
+                  </span>
+                </button>
+              </div>
+              <Show when={autoBuildEnabled()}>
+                <div style="margin-bottom: var(--spacing-sm); display: flex; flex-wrap: wrap; gap: var(--spacing-md);">
+                  <div style="flex: 1; min-width: 160px;">
+                    <NumberInput
+                      label={t(props.language, 'build.autobuildLevelLabel')}
+                      min={1}
+                      max={40}
+                      value={autoBuildLevel() ?? ''}
+                      placeholder={t(props.language, 'build.autobuildLevelPlaceholder')}
+                      onInput={(e) => {
+                        const v = Number((e as any).currentTarget.value);
+                        const valid = Number.isFinite(v) && v > 0;
+                        setAutoBuildLevel(valid ? v : undefined);
+                        try { localStorage.setItem('build.autobuild.level', valid ? String(v) : ''); } catch {}
+                      }}
+                    />
+                  </div>
+                  <div style="flex: 1; min-width: 160px;">
+                    <NumberInput
+                      label={t(props.language, 'build.autobuildScoreLabel')}
+                      min={1}
+                      value={autoBuildS() ?? ''}
+                      placeholder={t(props.language, 'build.autobuildScorePlaceholder')}
+                      onInput={(e) => {
+                        const v = Number((e as any).currentTarget.value);
+                        const valid = Number.isFinite(v) && v > 0;
+                        setAutoBuildS(valid ? v : undefined);
+                        try { localStorage.setItem('build.autobuild.score', valid ? String(v) : ''); } catch {}
+                      }}
+                    />
+                  </div>
+                </div>
+              </Show>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--spacing-sm);">
+                <label style="display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+                  {t(props.language, 'build.selectLabel')}
+                </label>
+                <Button
+                  variant="accent"
+                  onClick={() => {
                   const listChars = characters();
                   const listDiscs = discs();
                   if (listChars.length < 3 || listDiscs.length < 3) return;
@@ -309,7 +540,7 @@ export function BuildPanel(props: BuildPanelProps) {
                   setCharacterConfigs(cfgs);
                   try {
                     localStorage.setItem('build.selected', JSON.stringify(charIds));
-                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))))
+                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))));
                   } catch {}
                 }}
                 disabled={characters().length < 3 || discs().length < 3}
@@ -342,7 +573,7 @@ export function BuildPanel(props: BuildPanelProps) {
                   setCharacterConfigs(cfgs);
                   try {
                     localStorage.setItem('build.selected', JSON.stringify(charIds));
-                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))))
+                    localStorage.setItem('build.configs', JSON.stringify(cfgs.map(c => ({ charId:c.charId, potentials:c.potentials.map(p=>({potentialId:p.potentialId,level:p.level})), discIds:c.discIds, melodies:c.melodies }))));
                   } catch {}
                 }}
                 disabled={characters().length < 3 || discs().length < 3}
@@ -399,18 +630,18 @@ export function BuildPanel(props: BuildPanelProps) {
                                 language={props.language}
                                 selected={(getCharConfig(character.id)?.potentials || []).map(p => p.potentialId)}
                                 onChange={(newSelected) => {
-                                  const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0)
+                                  const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0);
                                   setCharacterConfigs(
                                     characterConfigs().map(c => {
-                                      if (c.charId !== character.id) return c
-                                      const prev = c.potentials
+                                      if (c.charId !== character.id) return c;
+                                      const prev = c.potentials;
                                       const next: PotentialConfig[] = numeric.map(pid => {
-                                        const exist = prev.find(p => p.potentialId === pid)
-                                        return exist ? exist : { id: `${character.id}-${pid}`, charId: character.id, potentialId: pid, level: 1 }
-                                      })
-                                      return { ...c, potentials: next }
+                                        const exist = prev.find(p => p.potentialId === pid);
+                                        return exist ? exist : { id: `${character.id}-${pid}`, charId: character.id, potentialId: pid, level: 1 };
+                                      });
+                                      return { ...c, potentials: next };
                                     })
-                                  )
+                                  );
                                 }}
                                 options={getCharacterPotentials(character.id).map(p => ({ value: p.id, label: `${p.names[props.language]} (${p.id})` }))}
                                 placeholder={t(props.language, 'character.placeholder')}
@@ -451,7 +682,6 @@ export function BuildPanel(props: BuildPanelProps) {
                                     .filter(c => c.charId !== character.id)
                                     .flatMap(c => c.discIds);
 
-                                  // 确保转换为number数组
                                   const numericIds = newIds.map(id => Number(id));
                                   const totalDiscs = allOtherDiscIds.length + numericIds.length;
 
@@ -482,21 +712,20 @@ export function BuildPanel(props: BuildPanelProps) {
                                   language={props.language}
                                   selected={(getCharConfig(character.id)?.melodies || []).map(m => m.melodyId)}
                                   onChange={(newSelected) => {
-                                    const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0)
-                                    // 过滤掉全局重复
-                                    const globalUsed = characterConfigs().flatMap(c => c.melodies.map(m => m.melodyId))
-                                    const filtered = numeric.filter(id => !globalUsed.includes(id) || (getCharConfig(character.id)?.melodies || []).some(m => m.melodyId === id))
+                                    const numeric = (newSelected || []).map(v => Number(v)).filter(v => v > 0);
+                                    const globalUsed = characterConfigs().flatMap(c => c.melodies.map(m => m.melodyId));
+                                    const filtered = numeric.filter(id => !globalUsed.includes(id) || (getCharConfig(character.id)?.melodies || []).some(m => m.melodyId === id));
                                     setCharacterConfigs(
                                       characterConfigs().map(c => {
-                                        if (c.charId !== character.id) return c
-                                        const prev = c.melodies
+                                        if (c.charId !== character.id) return c;
+                                        const prev = c.melodies;
                                         const next: MelodyConfig[] = filtered.map(mid => {
-                                          const exist = prev.find(m => m.melodyId === mid)
-                                          return exist ? exist : { melodyId: mid, level: 1 }
-                                        })
-                                        return { ...c, melodies: next }
+                                          const exist = prev.find(m => m.melodyId === mid);
+                                          return exist ? exist : { melodyId: mid, level: 1 };
+                                        });
+                                        return { ...c, melodies: next };
                                       })
-                                    )
+                                    );
                                   }}
                                   options={getAvailableMelodyOptions(character.id).map(o => ({ value: o.value, label: o.label }))}
                                   placeholder={t(props.language, 'build.melodyPlaceholder')}
@@ -533,7 +762,149 @@ export function BuildPanel(props: BuildPanelProps) {
               {t(props.language, 'build.summarySelectedPrefix')} <span style="font-weight: 600; color: var(--primary);">{selectedCharacters().length}</span>{t(props.language, 'build.summarySelectedSuffix')}
               {t(props.language, 'build.summaryDiscTotalPrefix')} <span style="font-weight: 600; color: var(--primary);">{characterConfigs().flatMap(c => c.discIds).length}</span>{t(props.language, 'build.summaryDiscTotalSuffix')}
             </div>
-          </div>
+            </div>
+          </Show>
+
+          <Show when={mode() === 'emblem'}>
+            <div style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <label style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+                  {t(props.language, 'build.emblemCharacterLabel')}
+                </label>
+                <SearchableSelect
+                  options={characters().map((c) => ({
+                    value: c.id,
+                    label: `${c.names[props.language]} - ID: ${c.id}`,
+                  }))}
+                  value={emblemCharId() ?? ''}
+                  language={props.language}
+                  placeholder={t(props.language, 'build.emblemCharacterPlaceholder')}
+                  persistKey="emblem.charId"
+                  onChange={(e) => {
+                    const v = Number((e as any).currentTarget.value);
+                    setEmblemCharId(Number.isFinite(v) && v > 0 ? v : undefined);
+                  }}
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <label style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+                  {t(props.language, 'build.emblemSlotLabel')}
+                </label>
+                <SearchableSelect
+                  options={[
+                    { value: 1, label: '1' },
+                    { value: 2, label: '2' },
+                    { value: 3, label: '3' },
+                  ]}
+                  value={emblemSlotId() ?? ''}
+                  language={props.language}
+                  placeholder={t(props.language, 'build.emblemSlotPlaceholder')}
+                  persistKey="emblem.slotId"
+                  onChange={(e) => {
+                    const v = Number((e as any).currentTarget.value);
+                    setEmblemSlotId(Number.isFinite(v) && v > 0 ? v : undefined);
+                  }}
+                />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <label style="font-size: 12px; font-weight: 500; color: var(--text-secondary);">
+                  {t(props.language, 'build.emblemAttrLabel')}
+                </label>
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                  <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                    <button
+                      type="button"
+                      style={`display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-size: 12px; border: 1px solid; cursor: pointer; transition: all 0.2s; ${
+                        emblemRarityFilter() === 4
+                          ? 'border-color: var(--primary); background: rgba(0, 188, 212, 0.12);'
+                          : 'border-color: var(--border-secondary); background: transparent;'
+                      }`}
+                      onClick={() => {
+                        setEmblemRarityFilter(4);
+                        try { localStorage.setItem('build.emblem.rarity', '4'); } catch {}
+                      }}
+                    >
+                      <div style="position: relative; display: inline-block;">
+                        <img src="/4.png" alt="4" style="height: 20px; width: auto; display: block;" />
+                        <span style="position: absolute; left: 14px; top: 2px; font-size: 10px; color: #ffffff; text-shadow: 0 0 4px rgba(0,0,0,0.6);">
+                          {t(props.language, 'build.emblemAttrOverlayText')}
+                        </span>
+                      </div>
+                    </button>
+                    <button
+                      type="button"
+                      style={`display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-size: 12px; border: 1px solid; cursor: pointer; transition: all 0.2s; ${
+                        emblemRarityFilter() === 3
+                          ? 'border-color: var(--primary); background: rgba(0, 188, 212, 0.12);'
+                          : 'border-color: var(--border-secondary); background: transparent;'
+                      }`}
+                      onClick={() => {
+                        setEmblemRarityFilter(3);
+                        try { localStorage.setItem('build.emblem.rarity', '3'); } catch {}
+                      }}
+                    >
+                      <div style="position: relative; display: inline-block;">
+                        <img src="/3.png" alt="3" style="height: 20px; width: auto; display: block;" />
+                        <span style="position: absolute; left: 14px; top: 2px; font-size: 10px; color: #ffffff; text-shadow: 0 0 4px rgba(0,0,0,0.6);">
+                          {t(props.language, 'build.emblemAttrOverlayText')}
+                        </span>
+                      </div>
+                    </button>
+                    <button
+                      type="button"
+                      style={`display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-size: 12px; border: 1px solid; cursor: pointer; transition: all 0.2s; ${
+                        emblemRarityFilter() === 2
+                          ? 'border-color: var(--primary); background: rgba(0, 188, 212, 0.12);'
+                          : 'border-color: var(--border-secondary); background: transparent;'
+                      }`}
+                      onClick={() => {
+                        setEmblemRarityFilter(2);
+                        try { localStorage.setItem('build.emblem.rarity', '2'); } catch {}
+                      }}
+                    >
+                      <div style="position: relative; display: inline-block;">
+                        <img src="/2.png" alt="2" style="height: 20px; width: auto; display: block;" />
+                        <span style="position: absolute; left: 14px; top: 2px; font-size: 10px; color: #ffffff; text-shadow: 0 0 4px rgba(0,0,0,0.6);">
+                          {t(props.language, 'build.emblemAttrOverlayText')}
+                        </span>
+                      </div>
+                    </button>
+                    <button
+                      type="button"
+                      style={`display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-size: 12px; border: 1px solid; cursor: pointer; transition: all 0.2s; ${
+                        emblemRarityFilter() === 1
+                          ? 'border-color: var(--primary); background: rgba(0, 188, 212, 0.12);'
+                          : 'border-color: var(--border-secondary); background: transparent;'
+                      }`}
+                      onClick={() => {
+                        setEmblemRarityFilter(1);
+                        try { localStorage.setItem('build.emblem.rarity', '1'); } catch {}
+                      }}
+                    >
+                      <div style="position: relative; display: inline-block;">
+                        <img src="/1.png" alt="1" style="height: 20px; width: auto; display: block;" />
+                        <span style="position: absolute; left: 14px; top: 2px; font-size: 10px; color: #ffffff; text-shadow: 0 0 4px rgba(0,0,0,0.6);">
+                          {t(props.language, 'build.emblemAttrOverlayText')}
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <MultiSelect
+                    language={props.language}
+                    options={getFilteredEmblemAttrOptions()}
+                    selected={emblemAttrIds()}
+                    onChange={(selected) => {
+                      const numeric = (selected || []).map((v) => Number(v)).filter((v) => v > 0);
+                      const limited = numeric.slice(0, 4);
+                      setEmblemAttrIds(limited);
+                    }}
+                    persistKey="emblem.attrs"
+                    placeholder={t(props.language, 'build.emblemAttrPlaceholder')}
+                  />
+                </div>
+              </div>
+            </div>
+          </Show>
         </div>
       </Card>
     </div>
