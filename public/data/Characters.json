@@ -34,6 +34,17 @@
       }
     },
     {
+      "id": 110,
+      "element": "DARK",
+      "names": {
+        "en_US": "Firenze",
+        "ja_JP": "フィレン",
+        "ko_KR": "피렌",
+        "zh_CN": "翡冷翠",
+        "zh_TW": "翡冷翠"
+      }
+    },
+    {
       "id": 111,
       "element": "AQUA",
       "names": {

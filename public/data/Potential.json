@@ -958,6 +958,325 @@
       }
     },
     {
+      "id": 511001,
+      "charId": 110,
+      "names": {
+        "en_US": "Step Kicking",
+        "ja_JP": "タップステップ",
+        "ko_KR": "탭 스텝",
+        "zh_CN": "踢踏步",
+        "zh_TW": "踢踏步"
+      }
+    },
+    {
+      "id": 511002,
+      "charId": 110,
+      "names": {
+        "en_US": "Nimble Step",
+        "ja_JP": "しなやかステップ",
+        "ko_KR": "민첩 스텝",
+        "zh_CN": "灵动步",
+        "zh_TW": "靈動步"
+      }
+    },
+    {
+      "id": 511003,
+      "charId": 110,
+      "names": {
+        "en_US": "Phantom Waltz",
+        "ja_JP": "幻舞のステップ",
+        "ko_KR": "환영의 스텝",
+        "zh_CN": "幻舞步",
+        "zh_TW": "幻舞步"
+      }
+    },
+    {
+      "id": 511004,
+      "charId": 110,
+      "names": {
+        "en_US": "Shadow Step",
+        "ja_JP": "重ね影のステップ",
+        "ko_KR": "그림자 스텝",
+        "zh_CN": "叠影步",
+        "zh_TW": "疊影步"
+      }
+    },
+    {
+      "id": 511005,
+      "charId": 110,
+      "names": {
+        "en_US": "High Risk",
+        "ja_JP": "冴えわたる采配",
+        "ko_KR": "고위험 리스크",
+        "zh_CN": "高危风险",
+        "zh_TW": "高度風險"
+      }
+    },
+    {
+      "id": 511006,
+      "charId": 110,
+      "names": {
+        "en_US": "Dark Pirouette",
+        "ja_JP": "闇の円舞",
+        "ko_KR": "어둠의 스핀",
+        "zh_CN": "暗径旋舞",
+        "zh_TW": "暗徑旋舞"
+      }
+    },
+    {
+      "id": 511007,
+      "charId": 110,
+      "names": {
+        "en_US": "Flash Break",
+        "ja_JP": "影の断ち切り",
+        "ko_KR": "섬광의 그림자",
+        "zh_CN": "瞬影断迷",
+        "zh_TW": "瞬影斷迷"
+      }
+    },
+    {
+      "id": 511008,
+      "charId": 110,
+      "names": {
+        "en_US": "Gloomy Veil",
+        "ja_JP": "憂いの声",
+        "ko_KR": "절망의 어둠",
+        "zh_CN": "愁云惨雾",
+        "zh_TW": "愁雲慘霧"
+      }
+    },
+    {
+      "id": 511009,
+      "charId": 110,
+      "names": {
+        "en_US": "Extended Shift",
+        "ja_JP": "残業タイム",
+        "ko_KR": "지연 근무",
+        "zh_CN": "延时在岗",
+        "zh_TW": "延時駐場"
+      }
+    },
+    {
+      "id": 511010,
+      "charId": 110,
+      "names": {
+        "en_US": "Accurate Coincidence",
+        "ja_JP": "奇妙な偶然",
+        "ko_KR": "완벽한 우연",
+        "zh_CN": "精准巧合",
+        "zh_TW": "精準巧合"
+      }
+    },
+    {
+      "id": 511011,
+      "charId": 110,
+      "names": {
+        "en_US": "Hunting Command",
+        "ja_JP": "追跡指令",
+        "ko_KR": "추격 명령",
+        "zh_CN": "追猎指令",
+        "zh_TW": "追獵指令"
+      }
+    },
+    {
+      "id": 511012,
+      "charId": 110,
+      "names": {
+        "en_US": "Clone Trick",
+        "ja_JP": "分身の妙技",
+        "ko_KR": "분신 작전",
+        "zh_CN": "分身有术",
+        "zh_TW": "分身有術"
+      }
+    },
+    {
+      "id": 511013,
+      "charId": 110,
+      "names": {
+        "en_US": "Announcement Time",
+        "ja_JP": "アナウンスタイム",
+        "ko_KR": "통보의 순간",
+        "zh_CN": "通告时刻",
+        "zh_TW": "通告時刻"
+      }
+    },
+    {
+      "id": 511021,
+      "charId": 110,
+      "names": {
+        "en_US": "Shadow Nail",
+        "ja_JP": "暗黒の鋲",
+        "ko_KR": "그림자·암흑 가시",
+        "zh_CN": "影暗钉",
+        "zh_TW": "影暗釘"
+      }
+    },
+    {
+      "id": 511022,
+      "charId": 110,
+      "names": {
+        "en_US": "Shadow Flicker",
+        "ja_JP": "影燃ゆる灯",
+        "ko_KR": "그림자·촛불",
+        "zh_CN": "影燃烛",
+        "zh_TW": "影燃燭"
+      }
+    },
+    {
+      "id": 511023,
+      "charId": 110,
+      "names": {
+        "en_US": "Twin Shadow",
+        "ja_JP": "ダブルシャドウ",
+        "ko_KR": "그림자·분신",
+        "zh_CN": "影双身",
+        "zh_TW": "影雙身"
+      }
+    },
+    {
+      "id": 511024,
+      "charId": 110,
+      "names": {
+        "en_US": "Shadownight Descendant",
+        "ja_JP": "影夜の末裔",
+        "ko_KR": "그림자·밤의 후예",
+        "zh_CN": "影夜裔",
+        "zh_TW": "影夜裔"
+      }
+    },
+    {
+      "id": 511025,
+      "charId": 110,
+      "names": {
+        "en_US": "Drinking Party",
+        "ja_JP": "先見の明",
+        "ko_KR": "축배의 리필",
+        "zh_CN": "续杯畅饮",
+        "zh_TW": "續杯暢飲"
+      }
+    },
+    {
+      "id": 511026,
+      "charId": 110,
+      "names": {
+        "en_US": "Typical Case",
+        "ja_JP": "典型的事例",
+        "ko_KR": "대표 케이스",
+        "zh_CN": "典型案例",
+        "zh_TW": "典型案例"
+      }
+    },
+    {
+      "id": 511027,
+      "charId": 110,
+      "names": {
+        "en_US": "Joyous Whip",
+        "ja_JP": "愉悦の仕置き",
+        "ko_KR": "기쁨의 채찍질",
+        "zh_CN": "欢愉鞭挞",
+        "zh_TW": "歡愉鞭撻"
+      }
+    },
+    {
+      "id": 511028,
+      "charId": 110,
+      "names": {
+        "en_US": "Step Sync",
+        "ja_JP": "歩調を合わせて",
+        "ko_KR": "페이스 동기화",
+        "zh_CN": "紧随步调",
+        "zh_TW": "緊隨步調"
+      }
+    },
+    {
+      "id": 511029,
+      "charId": 110,
+      "names": {
+        "en_US": "Dark Resurgence",
+        "ja_JP": "暗滅のうねり",
+        "ko_KR": "암흑의 재림",
+        "zh_CN": "暗灭回潮",
+        "zh_TW": "暗滅回潮"
+      }
+    },
+    {
+      "id": 511030,
+      "charId": 110,
+      "names": {
+        "en_US": "Flexible Operation",
+        "ja_JP": "臨機応変",
+        "ko_KR": "유연한 대응",
+        "zh_CN": "灵活行事",
+        "zh_TW": "靈活行事"
+      }
+    },
+    {
+      "id": 511031,
+      "charId": 110,
+      "names": {
+        "en_US": "Shadow Waltz",
+        "ja_JP": "影の舞踏会",
+        "ko_KR": "그림자 무도회",
+        "zh_CN": "影之舞会",
+        "zh_TW": "影之舞會"
+      }
+    },
+    {
+      "id": 511032,
+      "charId": 110,
+      "names": {
+        "en_US": "Prime Stance",
+        "ja_JP": "全盛の姿",
+        "ko_KR": "완벽한 춤사위",
+        "zh_CN": "全盛姿态",
+        "zh_TW": "全盛姿態"
+      }
+    },
+    {
+      "id": 511033,
+      "charId": 110,
+      "names": {
+        "en_US": "Special Care",
+        "ja_JP": "特別な配慮",
+        "ko_KR": "세심한 배려",
+        "zh_CN": "特别关怀",
+        "zh_TW": "特別關懷"
+      }
+    },
+    {
+      "id": 511041,
+      "charId": 110,
+      "names": {
+        "en_US": "Instant Liquidation",
+        "ja_JP": "即時決済",
+        "ko_KR": "즉시 청산",
+        "zh_CN": "即刻平仓",
+        "zh_TW": "立即平倉"
+      }
+    },
+    {
+      "id": 511042,
+      "charId": 110,
+      "names": {
+        "en_US": "Instant Peak",
+        "ja_JP": "ダブルトップ",
+        "ko_KR": "순간의 고점",
+        "zh_CN": "瞬时高位",
+        "zh_TW": "瞬時高位"
+      }
+    },
+    {
+      "id": 511043,
+      "charId": 110,
+      "names": {
+        "en_US": "Place Your Bets",
+        "ja_JP": "ショーダウン",
+        "ko_KR": "결정된 선택",
+        "zh_CN": "买定离手",
+        "zh_TW": "買定離手"
+      }
+    },
+    {
       "id": 511101,
       "charId": 111,
       "names": {

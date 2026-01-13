@@ -474,6 +474,17 @@
       }
     },
     {
+      "id": 214004,
+      "element": "DARK",
+      "names": {
+        "en_US": "Wisteria Dream",
+        "ja_JP": "ミルク色の夢",
+        "ko_KR": "요정들의 꿈",
+        "zh_CN": "仙踪良梦",
+        "zh_TW": "仙蹤良夢"
+      }
+    },
+    {
       "id": 214005,
       "element": "AQUA",
       "names": {
@@ -812,6 +823,17 @@
         "ko_KR": "여정의 선물",
         "zh_CN": "启程的礼物",
         "zh_TW": "啟程的禮物"
+      }
+    },
+    {
+      "id": 214043,
+      "element": "DARK",
+      "names": {
+        "en_US": "The Bud of Change",
+        "ja_JP": "革命の萌芽",
+        "ko_KR": "혁신의 씨앗",
+        "zh_CN": "革新的萌芽",
+        "zh_TW": "革新的萌芽"
       }
     },
     {

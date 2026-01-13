@@ -313,6 +313,18 @@
       }
     },
     {
+      "id": 110,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Firenze",
+        "ja_JP": "フィレン",
+        "ko_KR": "피렌",
+        "zh_CN": "翡冷翠",
+        "zh_TW": "翡冷翠"
+      }
+    },
+    {
       "id": 111,
       "type": "Char",
       "stype": 3,
@@ -793,6 +805,18 @@
       }
     },
     {
+      "id": 1100,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Firenze\u0027s Soul Key",
+        "ja_JP": "フィレンの心相の欠片",
+        "ko_KR": "피렌 심상 결정",
+        "zh_CN": "翡冷翠的心钥",
+        "zh_TW": "翡冷翠的心鑰"
+      }
+    },
+    {
       "id": 1110,
       "type": "Item",
       "stype": 6,
@@ -1117,6 +1141,18 @@
       }
     },
     {
+      "id": 10303,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Playful Innocence",
+        "ja_JP": "いたずらっこのお留守番",
+        "ko_KR": "어흥냥이",
+        "zh_CN": "玩心无邪",
+        "zh_TW": "玩心無邪"
+      }
+    },
+    {
       "id": 10701,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1174,6 +1210,30 @@
         "ko_KR": "카시미라-각성",
         "zh_CN": "卡西米拉-觉醒形象",
         "zh_TW": "卡西米拉-覺醒形象"
+      }
+    },
+    {
+      "id": 11001,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Firenze: Default",
+        "ja_JP": "フィレン・デフォルト",
+        "ko_KR": "피렌-기본",
+        "zh_CN": "翡冷翠-基础形象",
+        "zh_TW": "翡冷翠-基礎形象"
+      }
+    },
+    {
+      "id": 11002,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Firenze: Awakened",
+        "ja_JP": "フィレン・覚醒",
+        "ko_KR": "피렌-각성",
+        "zh_CN": "翡冷翠-觉醒形象",
+        "zh_TW": "翡冷翠-覺醒形象"
       }
     },
     {
@@ -1594,6 +1654,18 @@
         "ko_KR": "후유카-각성",
         "zh_CN": "冬香-觉醒形象",
         "zh_TW": "冬香-覺醒形象"
+      }
+    },
+    {
+      "id": 13403,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Probation Period Cleared!",
+        "ja_JP": "新人社員奮闘中！",
+        "ko_KR": "정직원으로 향하는 길!",
+        "zh_CN": "平安度过试用期！",
+        "zh_TW": "平安度過試用期！"
       }
     },
     {
@@ -3049,6 +3121,18 @@
       }
     },
     {
+      "id": 71013,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Greenhouse",
+        "ja_JP": "称号：温室の",
+        "ko_KR": "접두 칭호: 온실",
+        "zh_CN": "前缀头衔:温室",
+        "zh_TW": "前綴頭銜：溫室"
+      }
+    },
+    {
       "id": 72001,
       "type": "Title",
       "stype": 2,
@@ -3193,6 +3277,18 @@
       }
     },
     {
+      "id": 72013,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Protector",
+        "ja_JP": "称号：守護者",
+        "ko_KR": "접미 칭호: 수호자",
+        "zh_CN": "后缀头衔:守护者",
+        "zh_TW": "後綴頭銜：守護者"
+      }
+    },
+    {
       "id": 73101,
       "type": "Item",
       "stype": 2,
@@ -3246,8 +3342,8 @@
       "stype": 2,
       "names": {
         "en_US": "Expense Receipt",
-        "ja_JP": "*****",
-        "ko_KR": "지출 증빙",
+        "ja_JP": "領収書",
+        "ko_KR": "지출 증명",
         "zh_CN": "报销凭证",
         "zh_TW": "報帳憑證"
       }
@@ -6697,6 +6793,30 @@
       }
     },
     {
+      "id": 101011,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Royal Grant Bonus Item",
+        "ja_JP": "ミラクルコース特典",
+        "ko_KR": "럭셔리 지원금 보너스 아이템",
+        "zh_CN": "大亨尊享补贴附赠物品",
+        "zh_TW": "大亨尊享補貼附贈物品"
+      }
+    },
+    {
+      "id": 101012,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Upgrade Grant Differential Item",
+        "ja_JP": "グレードアップ特典",
+        "ko_KR": "지원금 차액 아이템 업그레이드",
+        "zh_CN": "升级补贴差额物品",
+        "zh_TW": "升級補貼差額物品"
+      }
+    },
+    {
       "id": 111001,
       "type": "Honor",
       "stype": 43,
@@ -6838,6 +6958,18 @@
         "ko_KR": "Item.112109.1",
         "zh_CN": "Item.112109.1",
         "zh_TW": "Item.112109.1"
+      }
+    },
+    {
+      "id": 112110,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Charming CEO",
+        "ja_JP": "共同経営者",
+        "ko_KR": "매력적인 보스",
+        "zh_CN": "魅力总裁",
+        "zh_TW": "魅力總裁"
       }
     },
     {
@@ -7309,6 +7441,18 @@
       }
     },
     {
+      "id": 116005,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Miracle of a Flicker",
+        "ja_JP": "黎明告げる凱旋歌",
+        "ko_KR": "여명의 기적",
+        "zh_CN": "微火的奇迹",
+        "zh_TW": "微火的奇跡"
+      }
+    },
+    {
       "id": 117001,
       "type": "Honor",
       "stype": 43,
@@ -7458,7 +7602,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 3 Hunting Ace",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン3 キングオブハンター",
         "ko_KR": "시즌3 사냥 전문가·패왕",
         "zh_CN": "第3赛季 狩猎专家·王牌",
         "zh_TW": "第3賽季 狩獵專家·王牌"
@@ -7470,7 +7614,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 3 Hunting Master",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン3 ロードオブハンター",
         "ko_KR": "시즌3 사냥 전문가·달인",
         "zh_CN": "第3赛季 狩猎专家·宗师",
         "zh_TW": "第3賽季 狩獵專家·宗師"
@@ -7482,7 +7626,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 3 Hunting Elite",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン3 ナイトオブハンター",
         "ko_KR": "시즌3 사냥 전문가·정예",
         "zh_CN": "第3赛季 狩猎专家·精英",
         "zh_TW": "第3賽季 狩獵專家·菁英"
@@ -7494,7 +7638,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 4 Hunting Ace",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン4 キングオブハンター",
         "ko_KR": "시즌4 사냥 전문가·패왕",
         "zh_CN": "第4赛季 狩猎专家·王牌",
         "zh_TW": "第4賽季 狩獵專家·王牌"
@@ -7506,7 +7650,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 4 Hunting Master",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン4 ロードオブハンター",
         "ko_KR": "시즌4 사냥 전문가·달인",
         "zh_CN": "第4赛季 狩猎专家·宗师",
         "zh_TW": "第4賽季 狩獵專家·宗師"
@@ -7518,7 +7662,7 @@
       "stype": 43,
       "names": {
         "en_US": "Season 4 Hunting Elite",
-        "ja_JP": "*****",
+        "ja_JP": "シーズン4 ナイトオブハンター",
         "ko_KR": "시즌4 사냥 전문가·정예",
         "zh_CN": "第4赛季 狩猎专家·精英",
         "zh_TW": "第3賽季 狩獵專家·菁英"
@@ -7553,11 +7697,11 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "[더미] 시즌3 보물삽",
-        "zh_CN": "【不要翻译】第3期寻宝铲",
-        "zh_TW": "!NONEED!"
+        "en_US": "Greenhouse Treasure Shovel",
+        "ja_JP": "ラッキーシャベル",
+        "ko_KR": "온실 보물삽",
+        "zh_CN": "花房寻宝铲",
+        "zh_TW": "花房尋寶鏟"
       }
     },
     {
@@ -7591,9 +7735,21 @@
       "names": {
         "en_US": "Times of Fragility",
         "ja_JP": "ビクブルハート",
-        "ko_KR": "일시적 취약",
+        "ko_KR": "연약한 순간",
         "zh_CN": "时有脆弱",
         "zh_TW": "時有脆弱"
+      }
+    },
+    {
+      "id": 130004,
+      "type": "HeadItem",
+      "stype": 45,
+      "names": {
+        "en_US": "Festival Feast",
+        "ja_JP": "福を呼ぶごちそう",
+        "ko_KR": "진수성찬",
+        "zh_CN": "节日美餐",
+        "zh_TW": "節日美餐"
       }
     },
     {
@@ -7747,9 +7903,33 @@
       "names": {
         "en_US": "Limited-Time Avatar:\nTimes of Fragility",
         "ja_JP": "今期限定アイコン：\nビクブルハート",
-        "ko_KR": "이번 시즌 한정 프로필\n일시적 취약",
+        "ko_KR": "이번 시즌 한정 프로필\n연약한 순간",
         "zh_CN": "本期限定头像:\n时有脆弱",
         "zh_TW": "本期限定頭像:\n時有脆弱"
+      }
+    },
+    {
+      "id": 199012,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Amber\u0027s exclusive appearance:\nPlayful Innocence",
+        "ja_JP": "アナザーイメージ：\nいたずらっこのお留守番",
+        "ko_KR": "코하쿠 전용 스킨:\n어흥냥이",
+        "zh_CN": "琥珀专属形象:\n玩心无邪",
+        "zh_TW": "琥珀專屬形象：\n玩心無邪"
+      }
+    },
+    {
+      "id": 199013,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Limited-Time Avatar:\nFestival Feast",
+        "ja_JP": "今期限定アイコン：\n祭日のごちそう",
+        "ko_KR": "이번 시즌 한정 프로필\n진수성찬",
+        "zh_CN": "本期限定头像:\n节日美餐",
+        "zh_TW": "本期限定頭像:\n佳節饗宴"
       }
     },
     {
@@ -8305,6 +8485,18 @@
       }
     },
     {
+      "id": 214004,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Wisteria Dream",
+        "ja_JP": "ミルク色の夢",
+        "ko_KR": "요정들의 꿈",
+        "zh_CN": "仙踪良梦",
+        "zh_TW": "仙蹤良夢"
+      }
+    },
+    {
       "id": 214005,
       "type": "Disc",
       "stype": 8,
@@ -8674,6 +8866,18 @@
         "ko_KR": "여정의 선물",
         "zh_CN": "启程的礼物",
         "zh_TW": "啟程的禮物"
+      }
+    },
+    {
+      "id": 214043,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "The Bud of Change",
+        "ja_JP": "革命の萌芽",
+        "ko_KR": "혁신의 씨앗",
+        "zh_CN": "革新的萌芽",
+        "zh_TW": "革新的萌芽"
       }
     },
     {
@@ -9205,6 +9409,18 @@
       }
     },
     {
+      "id": 224004,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Wisteria Dream Melody",
+        "ja_JP": "ミルク色の夢の調べ",
+        "ko_KR": "요정들의 꿈 멜로디",
+        "zh_CN": "仙踪良梦曲调",
+        "zh_TW": "仙蹤良夢曲調"
+      }
+    },
+    {
       "id": 224005,
       "type": "Item",
       "stype": 40,
@@ -9574,6 +9790,18 @@
         "ko_KR": "여정의 선물 멜로디",
         "zh_CN": "启程的礼物曲调",
         "zh_TW": "啟程的禮物曲調"
+      }
+    },
+    {
+      "id": 224043,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "The Bud of Change Melody",
+        "ja_JP": "革命の萌芽の調べ",
+        "ko_KR": "혁신의 씨앗 멜로디",
+        "zh_CN": "革新的萌芽曲调",
+        "zh_TW": "革新的萌芽曲調"
       }
     },
     {
@@ -10702,6 +10930,354 @@
         "ko_KR": "화염의 일격",
         "zh_CN": "灼焰之横扫",
         "zh_TW": "灼焰之橫掃"
+      }
+    },
+    {
+      "id": 511001,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Step Kicking",
+        "ja_JP": "タップステップ",
+        "ko_KR": "탭 스텝",
+        "zh_CN": "踢踏步",
+        "zh_TW": "踢踏步"
+      }
+    },
+    {
+      "id": 511002,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Nimble Step",
+        "ja_JP": "しなやかステップ",
+        "ko_KR": "민첩 스텝",
+        "zh_CN": "灵动步",
+        "zh_TW": "靈動步"
+      }
+    },
+    {
+      "id": 511003,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Phantom Waltz",
+        "ja_JP": "幻舞のステップ",
+        "ko_KR": "환영의 스텝",
+        "zh_CN": "幻舞步",
+        "zh_TW": "幻舞步"
+      }
+    },
+    {
+      "id": 511004,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Shadow Step",
+        "ja_JP": "重ね影のステップ",
+        "ko_KR": "그림자 스텝",
+        "zh_CN": "叠影步",
+        "zh_TW": "疊影步"
+      }
+    },
+    {
+      "id": 511005,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "High Risk",
+        "ja_JP": "冴えわたる采配",
+        "ko_KR": "고위험 리스크",
+        "zh_CN": "高危风险",
+        "zh_TW": "高度風險"
+      }
+    },
+    {
+      "id": 511006,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Dark Pirouette",
+        "ja_JP": "闇の円舞",
+        "ko_KR": "어둠의 스핀",
+        "zh_CN": "暗径旋舞",
+        "zh_TW": "暗徑旋舞"
+      }
+    },
+    {
+      "id": 511007,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flash Break",
+        "ja_JP": "影の断ち切り",
+        "ko_KR": "섬광의 그림자",
+        "zh_CN": "瞬影断迷",
+        "zh_TW": "瞬影斷迷"
+      }
+    },
+    {
+      "id": 511008,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Gloomy Veil",
+        "ja_JP": "憂いの声",
+        "ko_KR": "절망의 어둠",
+        "zh_CN": "愁云惨雾",
+        "zh_TW": "愁雲慘霧"
+      }
+    },
+    {
+      "id": 511009,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Extended Shift",
+        "ja_JP": "残業タイム",
+        "ko_KR": "지연 근무",
+        "zh_CN": "延时在岗",
+        "zh_TW": "延時駐場"
+      }
+    },
+    {
+      "id": 511010,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Accurate Coincidence",
+        "ja_JP": "奇妙な偶然",
+        "ko_KR": "완벽한 우연",
+        "zh_CN": "精准巧合",
+        "zh_TW": "精準巧合"
+      }
+    },
+    {
+      "id": 511011,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Hunting Command",
+        "ja_JP": "追跡指令",
+        "ko_KR": "추격 명령",
+        "zh_CN": "追猎指令",
+        "zh_TW": "追獵指令"
+      }
+    },
+    {
+      "id": 511012,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Clone Trick",
+        "ja_JP": "分身の妙技",
+        "ko_KR": "분신 작전",
+        "zh_CN": "分身有术",
+        "zh_TW": "分身有術"
+      }
+    },
+    {
+      "id": 511013,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Announcement Time",
+        "ja_JP": "アナウンスタイム",
+        "ko_KR": "통보의 순간",
+        "zh_CN": "通告时刻",
+        "zh_TW": "通告時刻"
+      }
+    },
+    {
+      "id": 511021,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Shadow Nail",
+        "ja_JP": "暗黒の鋲",
+        "ko_KR": "그림자·암흑 가시",
+        "zh_CN": "影暗钉",
+        "zh_TW": "影暗釘"
+      }
+    },
+    {
+      "id": 511022,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Shadow Flicker",
+        "ja_JP": "影燃ゆる灯",
+        "ko_KR": "그림자·촛불",
+        "zh_CN": "影燃烛",
+        "zh_TW": "影燃燭"
+      }
+    },
+    {
+      "id": 511023,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Twin Shadow",
+        "ja_JP": "ダブルシャドウ",
+        "ko_KR": "그림자·분신",
+        "zh_CN": "影双身",
+        "zh_TW": "影雙身"
+      }
+    },
+    {
+      "id": 511024,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Shadownight Descendant",
+        "ja_JP": "影夜の末裔",
+        "ko_KR": "그림자·밤의 후예",
+        "zh_CN": "影夜裔",
+        "zh_TW": "影夜裔"
+      }
+    },
+    {
+      "id": 511025,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Drinking Party",
+        "ja_JP": "先見の明",
+        "ko_KR": "축배의 리필",
+        "zh_CN": "续杯畅饮",
+        "zh_TW": "續杯暢飲"
+      }
+    },
+    {
+      "id": 511026,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Typical Case",
+        "ja_JP": "典型的事例",
+        "ko_KR": "대표 케이스",
+        "zh_CN": "典型案例",
+        "zh_TW": "典型案例"
+      }
+    },
+    {
+      "id": 511027,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Joyous Whip",
+        "ja_JP": "愉悦の仕置き",
+        "ko_KR": "기쁨의 채찍질",
+        "zh_CN": "欢愉鞭挞",
+        "zh_TW": "歡愉鞭撻"
+      }
+    },
+    {
+      "id": 511028,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Step Sync",
+        "ja_JP": "歩調を合わせて",
+        "ko_KR": "페이스 동기화",
+        "zh_CN": "紧随步调",
+        "zh_TW": "緊隨步調"
+      }
+    },
+    {
+      "id": 511029,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Dark Resurgence",
+        "ja_JP": "暗滅のうねり",
+        "ko_KR": "암흑의 재림",
+        "zh_CN": "暗灭回潮",
+        "zh_TW": "暗滅回潮"
+      }
+    },
+    {
+      "id": 511030,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flexible Operation",
+        "ja_JP": "臨機応変",
+        "ko_KR": "유연한 대응",
+        "zh_CN": "灵活行事",
+        "zh_TW": "靈活行事"
+      }
+    },
+    {
+      "id": 511031,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Shadow Waltz",
+        "ja_JP": "影の舞踏会",
+        "ko_KR": "그림자 무도회",
+        "zh_CN": "影之舞会",
+        "zh_TW": "影之舞會"
+      }
+    },
+    {
+      "id": 511032,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Prime Stance",
+        "ja_JP": "全盛の姿",
+        "ko_KR": "완벽한 춤사위",
+        "zh_CN": "全盛姿态",
+        "zh_TW": "全盛姿態"
+      }
+    },
+    {
+      "id": 511033,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Special Care",
+        "ja_JP": "特別な配慮",
+        "ko_KR": "세심한 배려",
+        "zh_CN": "特别关怀",
+        "zh_TW": "特別關懷"
+      }
+    },
+    {
+      "id": 511041,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Instant Liquidation",
+        "ja_JP": "即時決済",
+        "ko_KR": "즉시 청산",
+        "zh_CN": "即刻平仓",
+        "zh_TW": "立即平倉"
+      }
+    },
+    {
+      "id": 511042,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Instant Peak",
+        "ja_JP": "ダブルトップ",
+        "ko_KR": "순간의 고점",
+        "zh_CN": "瞬时高位",
+        "zh_TW": "瞬時高位"
+      }
+    },
+    {
+      "id": 511043,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Place Your Bets",
+        "ja_JP": "ショーダウン",
+        "ko_KR": "결정된 선택",
+        "zh_CN": "买定离手",
+        "zh_TW": "買定離手"
       }
     },
     {
