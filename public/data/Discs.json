@@ -826,6 +826,17 @@
       }
     },
     {
+      "id": 214042,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Wine Warm, Lamps Alight",
+        "ja_JP": "友と囲む新春の灯火",
+        "ko_KR": "술 익는 밤의 등불",
+        "zh_CN": "酒暖灯明时",
+        "zh_TW": "酒暖燈明時"
+      }
+    },
+    {
       "id": 214043,
       "element": "DARK",
       "names": {
@@ -834,6 +845,17 @@
         "ko_KR": "혁신의 씨앗",
         "zh_CN": "革新的萌芽",
         "zh_TW": "革新的萌芽"
+      }
+    },
+    {
+      "id": 214044,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Veiled Dawn of Spring",
+        "ja_JP": "帳の内の秘め事",
+        "ko_KR": "봄빛 드리운 새 아침",
+        "zh_CN": "罗帷春染岁朝新",
+        "zh_TW": "羅帷春染歲朝新"
       }
     },
     {

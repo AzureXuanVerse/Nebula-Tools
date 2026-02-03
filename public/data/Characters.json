@@ -318,6 +318,17 @@
         "zh_CN": "菈露（圣夜）",
         "zh_TW": "聖夜菈露"
       }
+    },
+    {
+      "id": 159,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Springseek Coronis",
+        "ja_JP": "クルニス（華服）",
+        "ko_KR": "크루니스(새해)",
+        "zh_CN": "科洛妮丝（新春）",
+        "zh_TW": "緋春柯洛妮絲"
+      }
     }
   ]
 }
