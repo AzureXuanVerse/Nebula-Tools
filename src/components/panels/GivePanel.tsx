@@ -16,7 +16,7 @@ export function GivePanel(props: GivePanelProps) {
   const [itemId, setItemId] = createSignal<string>('');
   const [quantity, setQuantity] = createSignal<number>(1);
   const [typeFilter, setTypeFilter] = createSignal<string>('ALL');
-  const [mode, setMode] = createSignal<'select' | 'materials'>('select');
+  const [mode, setMode] = createSignal<'select' | 'materials' | 'skins'>('select');
 
   const itemTypes = [
     { value: 'ALL', icon: '⚡', color: 'bg-gray-100 text-gray-600 border-gray-300' },
@@ -81,6 +81,11 @@ export function GivePanel(props: GivePanelProps) {
       try { localStorage.setItem('give.mode', JSON.stringify(m)); } catch {}
       return;
     }
+    if (m === 'skins') {
+      props.onCommandChange('giveall skins');
+      try { localStorage.setItem('give.mode', JSON.stringify(m)); } catch {}
+      return;
+    }
 
     const id = itemId().trim();
     if (!id || id === '') {
@@ -99,9 +104,10 @@ export function GivePanel(props: GivePanelProps) {
           options={[
             { value: 'select', label: t(props.language, 'common.mode.select') },
             { value: 'materials', label: t(props.language, 'giveall.typeOptions.materials') },
+            { value: 'skins', label: t(props.language, 'giveall.typeOptions.skins') },
           ]}
           value={mode()}
-          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'materials')}
+          onChange={(e) => setMode(e.currentTarget.value as 'select' | 'materials' | 'skins')}
           persistKey="give.mode"
         />
       </Card>

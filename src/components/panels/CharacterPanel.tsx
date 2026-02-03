@@ -62,6 +62,7 @@ export function CharacterPanel(props: CharacterPanelProps) {
       if (level()) parts.push(`lv${level()}`);
       if (skill()) parts.push(`s${skill()}`);
       if (talent()) parts.push(`t${talent()}`);
+      if (favor()) parts.push(`f${favor()}`);
       props.onCommandChange(parts.join(' '));
       try { localStorage.setItem('character.mode', JSON.stringify(m)); } catch {}
       return;

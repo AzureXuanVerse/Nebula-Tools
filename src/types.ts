@@ -72,11 +72,13 @@ export interface GiveParams {
 
 // 批量命令参数
 export interface GiveAllParams {
-  type: 'characters' | 'discs' | 'materials';
+  type: 'characters' | 'discs' | 'materials' | 'skins';
   level?: number;
+  ascension?: number;
   talent?: number;
   skill?: number;
   crescendo?: number;
+  favor?: number;
 }
 
 // 等级命令参数

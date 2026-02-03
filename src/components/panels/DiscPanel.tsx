@@ -59,6 +59,7 @@ export function DiscPanel(props: DiscPanelProps) {
     if (m === 'giveall') {
       const parts: string[] = ['giveall', 'discs'];
       if (level()) parts.push(`lv${level()}`);
+      if (ascension()) parts.push(`a${ascension()}`);
       if (crescendo()) parts.push(`c${crescendo()}`);
       props.onCommandChange(parts.join(' '));
       try { localStorage.setItem('disc.mode', JSON.stringify(m)); } catch {}

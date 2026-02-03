@@ -84,19 +84,24 @@ export function generateGiveCommand(params: GiveParams): string {
  * 生成批量命令
  */
 export function generateGiveAllCommand(params: GiveAllParams): string {
-  const { type, level, talent, skill, crescendo } = params;
+  const { type, level, talent, skill, crescendo, ascension, favor } = params;
   if (type === 'characters') {
     const parts: string[] = ['character', 'all'];
     if (level) parts.push(`lv${level}`);
     if (skill) parts.push(`s${skill}`);
     if (talent) parts.push(`t${talent}`);
+    if (favor) parts.push(`f${favor}`);
     return parts.join(' ');
   }
   if (type === 'discs') {
     const parts: string[] = ['disc', 'all'];
     if (level) parts.push(`lv${level}`);
+    if (ascension) parts.push(`a${ascension}`);
     if (crescendo) parts.push(`c${crescendo}`);
     return parts.join(' ');
+  }
+  if (type === 'skins') {
+    return 'giveall skins';
   }
   return 'give materials';
 }
