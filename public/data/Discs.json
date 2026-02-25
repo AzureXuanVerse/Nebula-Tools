@@ -595,6 +595,17 @@
       }
     },
     {
+      "id": 214016,
+      "element": "WIND",
+      "names": {
+        "en_US": "Chronicles of Spring",
+        "ja_JP": "桜花爛漫",
+        "ko_KR": "봄날의 기록",
+        "zh_CN": "春日纪事",
+        "zh_TW": "春日紀事"
+      }
+    },
+    {
       "id": 214017,
       "element": "FIRE",
       "names": {
@@ -856,6 +867,17 @@
         "ko_KR": "봄빛 드리운 새 아침",
         "zh_CN": "罗帷春染岁朝新",
         "zh_TW": "羅帷春染歲朝新"
+      }
+    },
+    {
+      "id": 214046,
+      "element": "WIND",
+      "names": {
+        "en_US": "Dawn After Winter",
+        "ja_JP": "雪解け告げる黎明",
+        "ko_KR": "겨울밤 끝의 여명",
+        "zh_CN": "冬夜后的黎明",
+        "zh_TW": "冬夜後的黎明"
       }
     },
     {

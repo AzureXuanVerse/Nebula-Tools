@@ -243,6 +243,17 @@
       }
     },
     {
+      "id": 143,
+      "element": "WIND",
+      "names": {
+        "en_US": "Wraith",
+        "ja_JP": "レイス",
+        "ko_KR": "레이스",
+        "zh_CN": "风影",
+        "zh_TW": "風影"
+      }
+    },
+    {
       "id": 144,
       "element": "AQUA",
       "names": {

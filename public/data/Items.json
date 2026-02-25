@@ -541,6 +541,18 @@
       }
     },
     {
+      "id": 143,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Wraith",
+        "ja_JP": "レイス",
+        "ko_KR": "레이스",
+        "zh_CN": "风影",
+        "zh_TW": "風影"
+      }
+    },
+    {
       "id": 144,
       "type": "Char",
       "stype": 3,
@@ -1042,6 +1054,18 @@
         "ko_KR": "코제트 심상 결정",
         "zh_CN": "珂赛特的心钥",
         "zh_TW": "珂賽特的心鑰"
+      }
+    },
+    {
+      "id": 1430,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Wraith\u0027s Soul Key",
+        "ja_JP": "レイスの心相の欠片",
+        "ko_KR": "레이스 심상 결정",
+        "zh_CN": "风影的心钥",
+        "zh_TW": "風影的心鑰"
       }
     },
     {
@@ -2549,11 +2573,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.14301.1",
-        "ja_JP": "Item.14301.1",
-        "ko_KR": "Item.14301.1",
-        "zh_CN": "Item.14301.1",
-        "zh_TW": "Item.14301.1"
+        "en_US": "Wraith: Default",
+        "ja_JP": "レイス・デフォルト",
+        "ko_KR": "레이스-기본",
+        "zh_CN": "风影-基础形象",
+        "zh_TW": "風影-基礎形象"
       }
     },
     {
@@ -2561,11 +2585,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.14302.1",
-        "ja_JP": "Item.14302.1",
-        "ko_KR": "Item.14302.1",
-        "zh_CN": "Item.14302.1",
-        "zh_TW": "Item.14302.1"
+        "en_US": "Wraith: Awakened",
+        "ja_JP": "レイス・覚醒",
+        "ko_KR": "레이스-각성",
+        "zh_CN": "风影-觉醒形象",
+        "zh_TW": "風影-覺醒形象"
       }
     },
     {
@@ -2717,11 +2741,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.14703.1",
-        "ja_JP": "Item.14703.1",
-        "ko_KR": "Item.14703.1",
-        "zh_CN": "Item.14703.1",
-        "zh_TW": "Item.14703.1"
+        "en_US": "Mellow Bass Echo",
+        "ja_JP": "ゆめかわベーシスト",
+        "ko_KR": "큐티 베이시스트",
+        "zh_CN": "梦萌贝斯音",
+        "zh_TW": "甜夢貝斯音"
       }
     },
     {
@@ -2765,11 +2789,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.14903.1",
-        "ja_JP": "Item.14903.1",
-        "ko_KR": "Item.14903.1",
-        "zh_CN": "Item.14903.1",
-        "zh_TW": "Item.14903.1"
+        "en_US": "Promise Beyond the Thaw",
+        "ja_JP": "エターナル・ローズ",
+        "ko_KR": "눈이 녹고, 너에게",
+        "zh_CN": "相约融雪后",
+        "zh_TW": "相約融雪後"
       }
     },
     {
@@ -4474,6 +4498,18 @@
         "ko_KR": "달콤한 탕후루",
         "zh_CN": "美味糖葫芦",
         "zh_TW": "美味糖葫蘆"
+      }
+    },
+    {
+      "id": 73107,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Canned Ration",
+        "ja_JP": "非常用缶詰",
+        "ko_KR": "비상용 통조림",
+        "zh_CN": "应急罐头",
+        "zh_TW": "防災罐頭"
       }
     },
     {
@@ -7957,6 +7993,30 @@
       }
     },
     {
+      "id": 101013,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Royal Grant Bonus Item",
+        "ja_JP": "ミラクルコース特典",
+        "ko_KR": "럭셔리 지원금 보너스 아이템",
+        "zh_CN": "大亨尊享补贴附赠物品",
+        "zh_TW": "大亨尊享補貼附贈物品"
+      }
+    },
+    {
+      "id": 101014,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Upgrade Grant Differential Item",
+        "ja_JP": "グレードアップ特典",
+        "ko_KR": "지원금 차액 아이템 업그레이드",
+        "zh_CN": "升级补贴差额物品",
+        "zh_TW": "升級補貼差額物品"
+      }
+    },
+    {
       "id": 111001,
       "type": "Honor",
       "stype": 43,
@@ -8329,6 +8389,18 @@
       }
     },
     {
+      "id": 112143,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Silent Drift",
+        "ja_JP": "雪原の叡智",
+        "ko_KR": "눈보라가 머문 곳",
+        "zh_CN": "风雪静停处",
+        "zh_TW": "風雪靜停處"
+      }
+    },
+    {
       "id": 112144,
       "type": "Honor",
       "stype": 43,
@@ -8614,6 +8686,18 @@
         "ko_KR": "불꽃 속의 봄날",
         "zh_CN": "烟火绮丽寻春意",
         "zh_TW": "煙火綺麗尋春意"
+      }
+    },
+    {
+      "id": 116007,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Winter Requiem and the Trigger of Dawn",
+        "ja_JP": "武器を握るは誰がために",
+        "ko_KR": "겨울밤의 진혼곡 새벽의 방아쇠",
+        "zh_CN": "冬夜镇魂曲与破晓扳机",
+        "zh_TW": "冬夜鎮魂曲與破曉扳機"
       }
     },
     {
@@ -9029,11 +9113,11 @@
       "type": "HeadItem",
       "stype": 45,
       "names": {
-        "en_US": "Item.130005.1",
-        "ja_JP": "Item.130005.1",
-        "ko_KR": "Item.130005.1",
-        "zh_CN": "Item.130005.1",
-        "zh_TW": "Item.130005.1"
+        "en_US": "School Days",
+        "ja_JP": "碧き想い出",
+        "ko_KR": "청춘의 나날",
+        "zh_CN": "青葱岁月",
+        "zh_TW": "青蔥歲月"
       }
     },
     {
@@ -9214,6 +9298,30 @@
         "ko_KR": "이번 시즌 한정 프로필\n진수성찬",
         "zh_CN": "本期限定头像:\n节日美餐",
         "zh_TW": "本期限定頭像:\n佳節饗宴"
+      }
+    },
+    {
+      "id": 199014,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Caramel\u0027s exclusive appearance:\nMellow Bass Echo",
+        "ja_JP": "アナザーイメージ：\nゆめかわベーシスト",
+        "ko_KR": "캐러멜 전용 스킨\n큐티 베이시스트",
+        "zh_CN": "焦糖专属形象:\n梦萌贝斯音",
+        "zh_TW": "焦糖專屬形象：\n甜夢貝斯音"
+      }
+    },
+    {
+      "id": 199015,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Limited-Time Avatar:\nSchool Days",
+        "ja_JP": "今期限定アイコン：\n碧き想い出",
+        "ko_KR": "이번 시즌 한정 프로필\n청춘의 나날",
+        "zh_CN": "本期限定头像:\n青葱岁月",
+        "zh_TW": "本期限定大頭貼：\n青蔥歲月"
       }
     },
     {
@@ -9901,6 +10009,18 @@
       }
     },
     {
+      "id": 214016,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Chronicles of Spring",
+        "ja_JP": "桜花爛漫",
+        "ko_KR": "봄날의 기록",
+        "zh_CN": "春日纪事",
+        "zh_TW": "春日紀事"
+      }
+    },
+    {
       "id": 214017,
       "type": "Disc",
       "stype": 8,
@@ -10186,6 +10306,18 @@
         "ko_KR": "봄빛 드리운 새 아침",
         "zh_CN": "罗帷春染岁朝新",
         "zh_TW": "羅帷春染歲朝新"
+      }
+    },
+    {
+      "id": 214046,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Dawn After Winter",
+        "ja_JP": "雪解け告げる黎明",
+        "ko_KR": "겨울밤 끝의 여명",
+        "zh_CN": "冬夜后的黎明",
+        "zh_TW": "冬夜後的黎明"
       }
     },
     {
@@ -10849,6 +10981,18 @@
       }
     },
     {
+      "id": 224016,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Chronicles of Spring Melody",
+        "ja_JP": "桜花爛漫の調べ",
+        "ko_KR": "봄날의 기록 멜로디",
+        "zh_CN": "春日纪事曲调",
+        "zh_TW": "春日紀事曲調"
+      }
+    },
+    {
       "id": 224017,
       "type": "Item",
       "stype": 40,
@@ -11134,6 +11278,18 @@
         "ko_KR": "봄빛 드리운 새 아침 멜로디",
         "zh_CN": "罗帷春染岁朝新曲调",
         "zh_TW": "羅帷春染歲朝新曲調"
+      }
+    },
+    {
+      "id": 224046,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "The Break of Frost Melody",
+        "ja_JP": "雪解け告げる黎明",
+        "ko_KR": "겨울밤 끝의 여명 멜로디",
+        "zh_CN": "冬夜后的黎明曲调",
+        "zh_TW": "冬夜後的黎明曲調"
       }
     },
     {
@@ -18181,702 +18337,6 @@
       }
     },
     {
-      "id": 513601,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条1",
-        "zh_TW": "xx信条1"
-      }
-    },
-    {
-      "id": 513602,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条2",
-        "zh_TW": "xx信条2"
-      }
-    },
-    {
-      "id": 513603,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条3",
-        "zh_TW": "xx信条3"
-      }
-    },
-    {
-      "id": 513604,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条4",
-        "zh_TW": "xx信条4"
-      }
-    },
-    {
-      "id": 513605,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条5",
-        "zh_TW": "xx信条5"
-      }
-    },
-    {
-      "id": 513606,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条6",
-        "zh_TW": "xx信条6"
-      }
-    },
-    {
-      "id": 513607,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条7",
-        "zh_TW": "xx信条7"
-      }
-    },
-    {
-      "id": 513608,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条8",
-        "zh_TW": "xx信条8"
-      }
-    },
-    {
-      "id": 513609,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条9",
-        "zh_TW": "xx信条9"
-      }
-    },
-    {
-      "id": 513610,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条10",
-        "zh_TW": "xx信条10"
-      }
-    },
-    {
-      "id": 513611,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条11",
-        "zh_TW": "xx信条11"
-      }
-    },
-    {
-      "id": 513612,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条12",
-        "zh_TW": "xx信条12"
-      }
-    },
-    {
-      "id": 513613,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条13",
-        "zh_TW": "xx信条13"
-      }
-    },
-    {
-      "id": 513621,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条21",
-        "zh_TW": "xx信条21"
-      }
-    },
-    {
-      "id": 513622,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条22",
-        "zh_TW": "xx信条22"
-      }
-    },
-    {
-      "id": 513623,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条23",
-        "zh_TW": "xx信条23"
-      }
-    },
-    {
-      "id": 513624,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条24",
-        "zh_TW": "xx信条24"
-      }
-    },
-    {
-      "id": 513625,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条25",
-        "zh_TW": "xx信条25"
-      }
-    },
-    {
-      "id": 513626,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条26",
-        "zh_TW": "xx信条26"
-      }
-    },
-    {
-      "id": 513627,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条27",
-        "zh_TW": "xx信条27"
-      }
-    },
-    {
-      "id": 513628,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条28",
-        "zh_TW": "xx信条28"
-      }
-    },
-    {
-      "id": 513629,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条29",
-        "zh_TW": "xx信条29"
-      }
-    },
-    {
-      "id": 513630,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条30",
-        "zh_TW": "xx信条30"
-      }
-    },
-    {
-      "id": 513631,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条31",
-        "zh_TW": "xx信条31"
-      }
-    },
-    {
-      "id": 513632,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条32",
-        "zh_TW": "xx信条32"
-      }
-    },
-    {
-      "id": 513633,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条33",
-        "zh_TW": "xx信条33"
-      }
-    },
-    {
-      "id": 513641,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条41",
-        "zh_TW": "xx信条41"
-      }
-    },
-    {
-      "id": 513642,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条42",
-        "zh_TW": "xx信条42"
-      }
-    },
-    {
-      "id": 513643,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "xx 태그1",
-        "zh_CN": "xx信条43",
-        "zh_TW": "xx信条43"
-      }
-    },
-    {
-      "id": 514001,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514002,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514003,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514004,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514005,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514006,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514007,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514008,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514009,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514010,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514011,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514012,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514013,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514021,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514022,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514023,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514024,
-      "type": "RogueItem",
-      "stype": 42,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514025,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514026,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514027,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514028,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514029,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514030,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514031,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514032,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514033,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514041,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514042,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
-      "id": 514043,
-      "type": "RogueItem",
-      "stype": 41,
-      "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미344",
-        "zh_CN": "临时数据",
-        "zh_TW": "!NONEED!"
-      }
-    },
-    {
       "id": 514101,
       "type": "RogueItem",
       "stype": 42,
@@ -19570,6 +19030,354 @@
         "ko_KR": "어두운 잔상",
         "zh_CN": "黯淡残痕",
         "zh_TW": "黯淡殘痕"
+      }
+    },
+    {
+      "id": 514301,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Last Gasp of Gale",
+        "ja_JP": "ダストストーム",
+        "ko_KR": "절멸의 숨결",
+        "zh_CN": "风尘绝息",
+        "zh_TW": "風塵絕息"
+      }
+    },
+    {
+      "id": 514302,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Twin Shadows",
+        "ja_JP": "ダブルハント",
+        "ko_KR": "이중 그림자 사냥",
+        "zh_CN": "双影同狩",
+        "zh_TW": "雙影同狩"
+      }
+    },
+    {
+      "id": 514303,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Storm-Piercing Surge",
+        "ja_JP": "ウィンドピアース",
+        "ko_KR": "격동의 돌풍",
+        "zh_CN": "穿风激荡",
+        "zh_TW": "穿風激蕩"
+      }
+    },
+    {
+      "id": 514304,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Wind-Splitting Bullet",
+        "ja_JP": "バーストショット",
+        "ko_KR": "풍열탄환",
+        "zh_CN": "裂风弹丸",
+        "zh_TW": "裂風彈丸"
+      }
+    },
+    {
+      "id": 514305,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Zero Hour",
+        "ja_JP": "黄昏の時",
+        "ko_KR": "결전의 순간",
+        "zh_CN": "决战时刻",
+        "zh_TW": "決戰時刻"
+      }
+    },
+    {
+      "id": 514306,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Blade\u0027s Waltz",
+        "ja_JP": "ブレードダンス",
+        "ko_KR": "칼날의 춤사위",
+        "zh_CN": "与刃共舞",
+        "zh_TW": "與刃共舞"
+      }
+    },
+    {
+      "id": 514307,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Rapid Draw",
+        "ja_JP": "クイックドロー",
+        "ko_KR": "섬광 발도",
+        "zh_CN": "疾速拔刀",
+        "zh_TW": "疾速拔刀"
+      }
+    },
+    {
+      "id": 514308,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Overheat Shot",
+        "ja_JP": "オーバーヒート",
+        "ko_KR": "과열 사격",
+        "zh_CN": "过热射击",
+        "zh_TW": "過熱射擊"
+      }
+    },
+    {
+      "id": 514309,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Scorching Gale",
+        "ja_JP": "レイジングゲイル",
+        "ko_KR": "뜨거운 바람",
+        "zh_CN": "灼热利风",
+        "zh_TW": "灼熱利風"
+      }
+    },
+    {
+      "id": 514310,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Tracewind Blink",
+        "ja_JP": "ウィンドラッシュ",
+        "ko_KR": "바람의 섬광",
+        "zh_CN": "溯风闪烁",
+        "zh_TW": "溯風閃爍"
+      }
+    },
+    {
+      "id": 514311,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Unseen Predator",
+        "ja_JP": "無影の狩人",
+        "ko_KR": "무영 사냥꾼",
+        "zh_CN": "无影猎手",
+        "zh_TW": "無影獵手"
+      }
+    },
+    {
+      "id": 514312,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Dauntless Poise",
+        "ja_JP": "ワイルドハント",
+        "ko_KR": "드높은 기개",
+        "zh_CN": "昂扬风采",
+        "zh_TW": "昂揚風采"
+      }
+    },
+    {
+      "id": 514313,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Tempest Stance",
+        "ja_JP": "テンペスト",
+        "ko_KR": "강풍의 자태",
+        "zh_CN": "罡风姿态",
+        "zh_TW": "罡風姿態"
+      }
+    },
+    {
+      "id": 514321,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Underbarrel Launcher",
+        "ja_JP": "チェイスストーム",
+        "ko_KR": "하부 부착 발사기",
+        "zh_CN": "下挂式发射器",
+        "zh_TW": "下掛式發射器"
+      }
+    },
+    {
+      "id": 514322,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Suppressive Wind-Splitting Round",
+        "ja_JP": "ホワールウィンド",
+        "ko_KR": "진압형 풍열탄",
+        "zh_CN": "镇压型风裂弹",
+        "zh_TW": "鎮壓型風裂彈"
+      }
+    },
+    {
+      "id": 514323,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Rotary Saw",
+        "ja_JP": "スピンカッター",
+        "ko_KR": "회전식 절삭기",
+        "zh_CN": "转轮式切割器",
+        "zh_TW": "轉輪式切割器"
+      }
+    },
+    {
+      "id": 514324,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Enhanced Rapid-Fire Round",
+        "ja_JP": "マルチショット",
+        "ko_KR": "강화형 연사탄",
+        "zh_CN": "强化型连发弹",
+        "zh_TW": "強化型連發彈"
+      }
+    },
+    {
+      "id": 514325,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Ominous Vibe",
+        "ja_JP": "危険な気配",
+        "ko_KR": "위험의 기운",
+        "zh_CN": "危险气息",
+        "zh_TW": "危險氣息"
+      }
+    },
+    {
+      "id": 514326,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Hunter\u0027s Instinct",
+        "ja_JP": "狩人の本能",
+        "ko_KR": "사냥꾼의 본능",
+        "zh_CN": "猎手本能",
+        "zh_TW": "獵手本能"
+      }
+    },
+    {
+      "id": 514327,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Frost-Proof Constitution",
+        "ja_JP": "耐寒体質",
+        "ko_KR": "한기 저항 체질",
+        "zh_CN": "抗寒体质",
+        "zh_TW": "抗寒體質"
+      }
+    },
+    {
+      "id": 514328,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Warrior\u0027s Quality",
+        "ja_JP": "戦士の資質",
+        "ko_KR": "전사의 자격",
+        "zh_CN": "战士之资",
+        "zh_TW": "戰士之資"
+      }
+    },
+    {
+      "id": 514329,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Will of Vengeance",
+        "ja_JP": "復讐の意志",
+        "ko_KR": "복수 의지",
+        "zh_CN": "复仇意志",
+        "zh_TW": "復仇意志"
+      }
+    },
+    {
+      "id": 514330,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Dawn\u0027s Embrace",
+        "ja_JP": "黎明間近",
+        "ko_KR": "희망의 여명",
+        "zh_CN": "黎明将近",
+        "zh_TW": "黎明將近"
+      }
+    },
+    {
+      "id": 514331,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Expatriate",
+        "ja_JP": "離郷者",
+        "ko_KR": "방랑자",
+        "zh_CN": "离乡者",
+        "zh_TW": "離鄉者"
+      }
+    },
+    {
+      "id": 514332,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Avenger",
+        "ja_JP": "復讐者",
+        "ko_KR": "복수자",
+        "zh_CN": "复仇者",
+        "zh_TW": "復仇者"
+      }
+    },
+    {
+      "id": 514333,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Flame Hunter",
+        "ja_JP": "狩猟団",
+        "ko_KR": "불사냥꾼",
+        "zh_CN": "猎火者",
+        "zh_TW": "獵火者"
+      }
+    },
+    {
+      "id": 514341,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Daybreaker",
+        "ja_JP": "ブレイクゲイル",
+        "ko_KR": "새벽을 여는 칼날",
+        "zh_CN": "凌风破晓",
+        "zh_TW": "凌風破曉"
+      }
+    },
+    {
+      "id": 514342,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Raging Battle Will",
+        "ja_JP": "アップドラフト",
+        "ko_KR": "격노의 바람",
+        "zh_CN": "怒风战意",
+        "zh_TW": "怒風戰意"
+      }
+    },
+    {
+      "id": 514343,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Tempest Siphon",
+        "ja_JP": "ストームエリア",
+        "ko_KR": "폭풍의 흡수",
+        "zh_CN": "暴风虹吸",
+        "zh_TW": "暴風虹吸"
       }
     },
     {
