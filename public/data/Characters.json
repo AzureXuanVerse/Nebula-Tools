@@ -177,6 +177,17 @@
       }
     },
     {
+      "id": 130,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Donna",
+        "ja_JP": "トーナ",
+        "ko_KR": "토나",
+        "zh_CN": "多娜",
+        "zh_TW": "多娜"
+      }
+    },
+    {
       "id": 132,
       "element": "LIGHT",
       "names": {

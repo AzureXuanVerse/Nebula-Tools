@@ -518,6 +518,17 @@
       }
     },
     {
+      "id": 214008,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Soaring Blue",
+        "ja_JP": "青空を越えて",
+        "ko_KR": "푸른 하늘 너머로",
+        "zh_CN": "飞越青空",
+        "zh_TW": "飛越青空"
+      }
+    },
+    {
       "id": 214009,
       "element": "WIND",
       "names": {
@@ -870,6 +881,17 @@
       }
     },
     {
+      "id": 214045,
+      "element": "DARK",
+      "names": {
+        "en_US": "Item.214045.1",
+        "ja_JP": "Item.214045.1",
+        "ko_KR": "Item.214045.1",
+        "zh_CN": "Item.214045.1",
+        "zh_TW": "Item.214045.1"
+      }
+    },
+    {
       "id": 214046,
       "element": "WIND",
       "names": {
@@ -881,6 +903,17 @@
       }
     },
     {
+      "id": 214047,
+      "element": "AQUA",
+      "names": {
+        "en_US": "Delivered by the Breeze",
+        "ja_JP": "風に舞う想い",
+        "ko_KR": "편지는 바람을 타고",
+        "zh_CN": "信笺乘风而去",
+        "zh_TW": "信箋乘風而去"
+      }
+    },
+    {
       "id": 214048,
       "element": "FIRE",
       "names": {
@@ -889,6 +922,28 @@
         "ko_KR": "메리 서프라이즈",
         "zh_CN": "雪夜惊喜",
         "zh_TW": "雪夜驚喜"
+      }
+    },
+    {
+      "id": 214049,
+      "element": "NONE",
+      "names": {
+        "en_US": "Item.214049.1",
+        "ja_JP": "Item.214049.1",
+        "ko_KR": "Item.214049.1",
+        "zh_CN": "Item.214049.1",
+        "zh_TW": "Item.214049.1"
+      }
+    },
+    {
+      "id": 214050,
+      "element": "DARK",
+      "names": {
+        "en_US": "Item.214050.1",
+        "ja_JP": "Item.214050.1",
+        "ko_KR": "Item.214050.1",
+        "zh_CN": "Item.214050.1",
+        "zh_TW": "Item.214050.1"
       }
     }
   ]

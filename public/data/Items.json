@@ -259,7 +259,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미6006",
+        "ko_KR": "더미45",
         "zh_CN": "【废弃】干劲储藏",
         "zh_TW": "!NONEED!"
       }
@@ -466,6 +466,18 @@
         "ko_KR": "테레사",
         "zh_CN": "特丽莎",
         "zh_TW": "特麗莎"
+      }
+    },
+    {
+      "id": 130,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Donna",
+        "ja_JP": "トーナ",
+        "ko_KR": "토나",
+        "zh_CN": "多娜",
+        "zh_TW": "多娜"
       }
     },
     {
@@ -679,7 +691,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미6004",
+        "ko_KR": "더미43",
         "zh_CN": "【废弃】霓虹礼券",
         "zh_TW": "!NONEED!"
       }
@@ -739,7 +751,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미6005",
+        "ko_KR": "더미44",
         "zh_CN": "【废弃】虹彩闪碟",
         "zh_TW": "!NONEED!"
       }
@@ -775,7 +787,7 @@
       "names": {
         "en_US": "Radiant Soul Key",
         "ja_JP": "*****",
-        "ko_KR": "더미6000",
+        "ko_KR": "더미28",
         "zh_CN": "【废弃】璀璨心钥",
         "zh_TW": "!NONEED!"
       }
@@ -787,7 +799,7 @@
       "names": {
         "en_US": "Charming Soul Key",
         "ja_JP": "*****",
-        "ko_KR": "더미6001",
+        "ko_KR": "더미29",
         "zh_CN": "【废弃】靓丽心钥",
         "zh_TW": "!NONEED!"
       }
@@ -982,6 +994,18 @@
         "ko_KR": "테레사 심상 결정",
         "zh_CN": "特丽莎的心钥",
         "zh_TW": "特麗莎的心鑰"
+      }
+    },
+    {
+      "id": 1300,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Donna\u0027s Soul Key",
+        "ja_JP": "トーナの心相の欠片",
+        "ko_KR": "토나 심상 결정",
+        "zh_CN": "多娜的心钥",
+        "zh_TW": "多娜的心鑰"
       }
     },
     {
@@ -1201,30 +1225,6 @@
       }
     },
     {
-      "id": 10304,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10304.1",
-        "ja_JP": "Item.10304.1",
-        "ko_KR": "Item.10304.1",
-        "zh_CN": "Item.10304.1",
-        "zh_TW": "Item.10304.1"
-      }
-    },
-    {
-      "id": 10601,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10601.1",
-        "ja_JP": "Item.10601.1",
-        "ko_KR": "Item.10601.1",
-        "zh_CN": "Item.10601.1",
-        "zh_TW": "Item.10601.1"
-      }
-    },
-    {
       "id": 10701,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1261,18 +1261,6 @@
       }
     },
     {
-      "id": 10704,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10704.1",
-        "ja_JP": "Item.10704.1",
-        "ko_KR": "Item.10704.1",
-        "zh_CN": "Item.10704.1",
-        "zh_TW": "Item.10704.1"
-      }
-    },
-    {
       "id": 10801,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1297,78 +1285,6 @@
       }
     },
     {
-      "id": 10803,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10803.1",
-        "ja_JP": "Item.10803.1",
-        "ko_KR": "Item.10803.1",
-        "zh_CN": "Item.10803.1",
-        "zh_TW": "Item.10803.1"
-      }
-    },
-    {
-      "id": 10804,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10804.1",
-        "ja_JP": "Item.10804.1",
-        "ko_KR": "Item.10804.1",
-        "zh_CN": "Item.10804.1",
-        "zh_TW": "Item.10804.1"
-      }
-    },
-    {
-      "id": 10901,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10901.1",
-        "ja_JP": "Item.10901.1",
-        "ko_KR": "Item.10901.1",
-        "zh_CN": "Item.10901.1",
-        "zh_TW": "Item.10901.1"
-      }
-    },
-    {
-      "id": 10902,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10902.1",
-        "ja_JP": "Item.10902.1",
-        "ko_KR": "Item.10902.1",
-        "zh_CN": "Item.10902.1",
-        "zh_TW": "Item.10902.1"
-      }
-    },
-    {
-      "id": 10903,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10903.1",
-        "ja_JP": "Item.10903.1",
-        "ko_KR": "Item.10903.1",
-        "zh_CN": "Item.10903.1",
-        "zh_TW": "Item.10903.1"
-      }
-    },
-    {
-      "id": 10904,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.10904.1",
-        "ja_JP": "Item.10904.1",
-        "ko_KR": "Item.10904.1",
-        "zh_CN": "Item.10904.1",
-        "zh_TW": "Item.10904.1"
-      }
-    },
-    {
       "id": 11001,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1390,30 +1306,6 @@
         "ko_KR": "피렌-각성",
         "zh_CN": "翡冷翠-觉醒形象",
         "zh_TW": "翡冷翠-覺醒形象"
-      }
-    },
-    {
-      "id": 11003,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11003.1",
-        "ja_JP": "Item.11003.1",
-        "ko_KR": "Item.11003.1",
-        "zh_CN": "Item.11003.1",
-        "zh_TW": "Item.11003.1"
-      }
-    },
-    {
-      "id": 11004,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11004.1",
-        "ja_JP": "Item.11004.1",
-        "ko_KR": "Item.11004.1",
-        "zh_CN": "Item.11004.1",
-        "zh_TW": "Item.11004.1"
       }
     },
     {
@@ -1453,18 +1345,6 @@
       }
     },
     {
-      "id": 11104,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11104.1",
-        "ja_JP": "Item.11104.1",
-        "ko_KR": "Item.11104.1",
-        "zh_CN": "Item.11104.1",
-        "zh_TW": "Item.11104.1"
-      }
-    },
-    {
       "id": 11201,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1501,18 +1381,6 @@
       }
     },
     {
-      "id": 11204,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11204.1",
-        "ja_JP": "Item.11204.1",
-        "ko_KR": "Item.11204.1",
-        "zh_CN": "Item.11204.1",
-        "zh_TW": "Item.11204.1"
-      }
-    },
-    {
       "id": 11301,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1534,126 +1402,6 @@
         "ko_KR": "시먀오-각성",
         "zh_CN": "师渺-觉醒形象",
         "zh_TW": "師渺-覺醒形象"
-      }
-    },
-    {
-      "id": 11303,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11303.1",
-        "ja_JP": "Item.11303.1",
-        "ko_KR": "Item.11303.1",
-        "zh_CN": "Item.11303.1",
-        "zh_TW": "Item.11303.1"
-      }
-    },
-    {
-      "id": 11304,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11304.1",
-        "ja_JP": "Item.11304.1",
-        "ko_KR": "Item.11304.1",
-        "zh_CN": "Item.11304.1",
-        "zh_TW": "Item.11304.1"
-      }
-    },
-    {
-      "id": 11401,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11401.1",
-        "ja_JP": "Item.11401.1",
-        "ko_KR": "Item.11401.1",
-        "zh_CN": "Item.11401.1",
-        "zh_TW": "Item.11401.1"
-      }
-    },
-    {
-      "id": 11402,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11402.1",
-        "ja_JP": "Item.11402.1",
-        "ko_KR": "Item.11402.1",
-        "zh_CN": "Item.11402.1",
-        "zh_TW": "Item.11402.1"
-      }
-    },
-    {
-      "id": 11403,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11403.1",
-        "ja_JP": "Item.11403.1",
-        "ko_KR": "Item.11403.1",
-        "zh_CN": "Item.11403.1",
-        "zh_TW": "Item.11403.1"
-      }
-    },
-    {
-      "id": 11404,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11404.1",
-        "ja_JP": "Item.11404.1",
-        "ko_KR": "Item.11404.1",
-        "zh_CN": "Item.11404.1",
-        "zh_TW": "Item.11404.1"
-      }
-    },
-    {
-      "id": 11501,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11501.1",
-        "ja_JP": "Item.11501.1",
-        "ko_KR": "Item.11501.1",
-        "zh_CN": "Item.11501.1",
-        "zh_TW": "Item.11501.1"
-      }
-    },
-    {
-      "id": 11502,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11502.1",
-        "ja_JP": "Item.11502.1",
-        "ko_KR": "Item.11502.1",
-        "zh_CN": "Item.11502.1",
-        "zh_TW": "Item.11502.1"
-      }
-    },
-    {
-      "id": 11503,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11503.1",
-        "ja_JP": "Item.11503.1",
-        "ko_KR": "Item.11503.1",
-        "zh_CN": "Item.11503.1",
-        "zh_TW": "Item.11503.1"
-      }
-    },
-    {
-      "id": 11504,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11504.1",
-        "ja_JP": "Item.11504.1",
-        "ko_KR": "Item.11504.1",
-        "zh_CN": "Item.11504.1",
-        "zh_TW": "Item.11504.1"
       }
     },
     {
@@ -1681,30 +1429,6 @@
       }
     },
     {
-      "id": 11603,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11603.1",
-        "ja_JP": "Item.11603.1",
-        "ko_KR": "Item.11603.1",
-        "zh_CN": "Item.11603.1",
-        "zh_TW": "Item.11603.1"
-      }
-    },
-    {
-      "id": 11604,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11604.1",
-        "ja_JP": "Item.11604.1",
-        "ko_KR": "Item.11604.1",
-        "zh_CN": "Item.11604.1",
-        "zh_TW": "Item.11604.1"
-      }
-    },
-    {
       "id": 11701,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1729,30 +1453,6 @@
       }
     },
     {
-      "id": 11703,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11703.1",
-        "ja_JP": "Item.11703.1",
-        "ko_KR": "Item.11703.1",
-        "zh_CN": "Item.11703.1",
-        "zh_TW": "Item.11703.1"
-      }
-    },
-    {
-      "id": 11704,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11704.1",
-        "ja_JP": "Item.11704.1",
-        "ko_KR": "Item.11704.1",
-        "zh_CN": "Item.11704.1",
-        "zh_TW": "Item.11704.1"
-      }
-    },
-    {
       "id": 11801,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1774,30 +1474,6 @@
         "ko_KR": "크루니스-각성",
         "zh_CN": "科洛妮丝-觉醒形象",
         "zh_TW": "柯洛妮絲-覺醒形象"
-      }
-    },
-    {
-      "id": 11803,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11803.1",
-        "ja_JP": "Item.11803.1",
-        "ko_KR": "Item.11803.1",
-        "zh_CN": "Item.11803.1",
-        "zh_TW": "Item.11803.1"
-      }
-    },
-    {
-      "id": 11804,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11804.1",
-        "ja_JP": "Item.11804.1",
-        "ko_KR": "Item.11804.1",
-        "zh_CN": "Item.11804.1",
-        "zh_TW": "Item.11804.1"
       }
     },
     {
@@ -1837,18 +1513,6 @@
       }
     },
     {
-      "id": 11904,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.11904.1",
-        "ja_JP": "Item.11904.1",
-        "ko_KR": "Item.11904.1",
-        "zh_CN": "Item.11904.1",
-        "zh_TW": "Item.11904.1"
-      }
-    },
-    {
       "id": 12001,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1873,30 +1537,6 @@
       }
     },
     {
-      "id": 12003,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12003.1",
-        "ja_JP": "Item.12003.1",
-        "ko_KR": "Item.12003.1",
-        "zh_CN": "Item.12003.1",
-        "zh_TW": "Item.12003.1"
-      }
-    },
-    {
-      "id": 12004,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12004.1",
-        "ja_JP": "Item.12004.1",
-        "ko_KR": "Item.12004.1",
-        "zh_CN": "Item.12004.1",
-        "zh_TW": "Item.12004.1"
-      }
-    },
-    {
       "id": 12301,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1918,30 +1558,6 @@
         "ko_KR": "안즈-각성",
         "zh_CN": "杏子-觉醒形象",
         "zh_TW": "杏子-覺醒形象"
-      }
-    },
-    {
-      "id": 12303,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12303.1",
-        "ja_JP": "Item.12303.1",
-        "ko_KR": "Item.12303.1",
-        "zh_CN": "Item.12303.1",
-        "zh_TW": "Item.12303.1"
-      }
-    },
-    {
-      "id": 12304,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12304.1",
-        "ja_JP": "Item.12304.1",
-        "ko_KR": "Item.12304.1",
-        "zh_CN": "Item.12304.1",
-        "zh_TW": "Item.12304.1"
       }
     },
     {
@@ -1981,18 +1597,6 @@
       }
     },
     {
-      "id": 12504,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12504.1",
-        "ja_JP": "Item.12504.1",
-        "ko_KR": "Item.12504.1",
-        "zh_CN": "Item.12504.1",
-        "zh_TW": "Item.12504.1"
-      }
-    },
-    {
       "id": 12601,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2014,30 +1618,6 @@
         "ko_KR": "플로라-각성",
         "zh_CN": "紫槿-觉醒形象",
         "zh_TW": "紫槿-覺醒形象"
-      }
-    },
-    {
-      "id": 12603,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12603.1",
-        "ja_JP": "Item.12603.1",
-        "ko_KR": "Item.12603.1",
-        "zh_CN": "Item.12603.1",
-        "zh_TW": "Item.12603.1"
-      }
-    },
-    {
-      "id": 12604,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12604.1",
-        "ja_JP": "Item.12604.1",
-        "ko_KR": "Item.12604.1",
-        "zh_CN": "Item.12604.1",
-        "zh_TW": "Item.12604.1"
       }
     },
     {
@@ -2065,87 +1645,15 @@
       }
     },
     {
-      "id": 12703,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12703.1",
-        "ja_JP": "Item.12703.1",
-        "ko_KR": "Item.12703.1",
-        "zh_CN": "Item.12703.1",
-        "zh_TW": "Item.12703.1"
-      }
-    },
-    {
-      "id": 12704,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12704.1",
-        "ja_JP": "Item.12704.1",
-        "ko_KR": "Item.12704.1",
-        "zh_CN": "Item.12704.1",
-        "zh_TW": "Item.12704.1"
-      }
-    },
-    {
-      "id": 12901,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12901.1",
-        "ja_JP": "Item.12901.1",
-        "ko_KR": "Item.12901.1",
-        "zh_CN": "Item.12901.1",
-        "zh_TW": "Item.12901.1"
-      }
-    },
-    {
-      "id": 12902,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12902.1",
-        "ja_JP": "Item.12902.1",
-        "ko_KR": "Item.12902.1",
-        "zh_CN": "Item.12902.1",
-        "zh_TW": "Item.12902.1"
-      }
-    },
-    {
-      "id": 12903,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12903.1",
-        "ja_JP": "Item.12903.1",
-        "ko_KR": "Item.12903.1",
-        "zh_CN": "Item.12903.1",
-        "zh_TW": "Item.12903.1"
-      }
-    },
-    {
-      "id": 12904,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.12904.1",
-        "ja_JP": "Item.12904.1",
-        "ko_KR": "Item.12904.1",
-        "zh_CN": "Item.12904.1",
-        "zh_TW": "Item.12904.1"
-      }
-    },
-    {
       "id": 13001,
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.13001.1",
-        "ja_JP": "Item.13001.1",
-        "ko_KR": "Item.13001.1",
-        "zh_CN": "Item.13001.1",
-        "zh_TW": "Item.13001.1"
+        "en_US": "Donna: Default",
+        "ja_JP": "トーナ・デフォルト",
+        "ko_KR": "토나-기본",
+        "zh_CN": "多娜-基础形象",
+        "zh_TW": "多娜-基礎形象"
       }
     },
     {
@@ -2153,35 +1661,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.13002.1",
-        "ja_JP": "Item.13002.1",
-        "ko_KR": "Item.13002.1",
-        "zh_CN": "Item.13002.1",
-        "zh_TW": "Item.13002.1"
-      }
-    },
-    {
-      "id": 13003,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13003.1",
-        "ja_JP": "Item.13003.1",
-        "ko_KR": "Item.13003.1",
-        "zh_CN": "Item.13003.1",
-        "zh_TW": "Item.13003.1"
-      }
-    },
-    {
-      "id": 13004,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13004.1",
-        "ja_JP": "Item.13004.1",
-        "ko_KR": "Item.13004.1",
-        "zh_CN": "Item.13004.1",
-        "zh_TW": "Item.13004.1"
+        "en_US": "Donna: Awakened",
+        "ja_JP": "トーナ・覚醒",
+        "ko_KR": "토나-각성",
+        "zh_CN": "多娜-觉醒形象",
+        "zh_TW": "多娜-覺醒形象"
       }
     },
     {
@@ -2221,18 +1705,6 @@
       }
     },
     {
-      "id": 13204,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13204.1",
-        "ja_JP": "Item.13204.1",
-        "ko_KR": "Item.13204.1",
-        "zh_CN": "Item.13204.1",
-        "zh_TW": "Item.13204.1"
-      }
-    },
-    {
       "id": 13301,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2261,23 +1733,11 @@
       "type": "CharacterSkin",
       "stype": 46,
       "names": {
-        "en_US": "Item.13303.1",
-        "ja_JP": "Item.13303.1",
-        "ko_KR": "Item.13303.1",
-        "zh_CN": "Item.13303.1",
-        "zh_TW": "Item.13303.1"
-      }
-    },
-    {
-      "id": 13304,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13304.1",
-        "ja_JP": "Item.13304.1",
-        "ko_KR": "Item.13304.1",
-        "zh_CN": "Item.13304.1",
-        "zh_TW": "Item.13304.1"
+        "en_US": "A Dip of Fresh Summer",
+        "ja_JP": "水もしたたる初夏美人",
+        "ko_KR": "이슬 맺힌 첫 여름",
+        "zh_CN": "清露微滴的初夏",
+        "zh_TW": "清露微滴的初夏"
       }
     },
     {
@@ -2317,18 +1777,6 @@
       }
     },
     {
-      "id": 13404,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13404.1",
-        "ja_JP": "Item.13404.1",
-        "ko_KR": "Item.13404.1",
-        "zh_CN": "Item.13404.1",
-        "zh_TW": "Item.13404.1"
-      }
-    },
-    {
       "id": 13501,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2365,114 +1813,6 @@
       }
     },
     {
-      "id": 13504,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13504.1",
-        "ja_JP": "Item.13504.1",
-        "ko_KR": "Item.13504.1",
-        "zh_CN": "Item.13504.1",
-        "zh_TW": "Item.13504.1"
-      }
-    },
-    {
-      "id": 13601,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13601.1",
-        "ja_JP": "Item.13601.1",
-        "ko_KR": "Item.13601.1",
-        "zh_CN": "Item.13601.1",
-        "zh_TW": "Item.13601.1"
-      }
-    },
-    {
-      "id": 13602,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13602.1",
-        "ja_JP": "Item.13602.1",
-        "ko_KR": "Item.13602.1",
-        "zh_CN": "Item.13602.1",
-        "zh_TW": "Item.13602.1"
-      }
-    },
-    {
-      "id": 13603,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13603.1",
-        "ja_JP": "Item.13603.1",
-        "ko_KR": "Item.13603.1",
-        "zh_CN": "Item.13603.1",
-        "zh_TW": "Item.13603.1"
-      }
-    },
-    {
-      "id": 13604,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.13604.1",
-        "ja_JP": "Item.13604.1",
-        "ko_KR": "Item.13604.1",
-        "zh_CN": "Item.13604.1",
-        "zh_TW": "Item.13604.1"
-      }
-    },
-    {
-      "id": 14001,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14001.1",
-        "ja_JP": "Item.14001.1",
-        "ko_KR": "Item.14001.1",
-        "zh_CN": "Item.14001.1",
-        "zh_TW": "Item.14001.1"
-      }
-    },
-    {
-      "id": 14002,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14002.1",
-        "ja_JP": "Item.14002.1",
-        "ko_KR": "Item.14002.1",
-        "zh_CN": "Item.14002.1",
-        "zh_TW": "Item.14002.1"
-      }
-    },
-    {
-      "id": 14003,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14003.1",
-        "ja_JP": "Item.14003.1",
-        "ko_KR": "Item.14003.1",
-        "zh_CN": "Item.14003.1",
-        "zh_TW": "Item.14003.1"
-      }
-    },
-    {
-      "id": 14004,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14004.1",
-        "ja_JP": "Item.14004.1",
-        "ko_KR": "Item.14004.1",
-        "zh_CN": "Item.14004.1",
-        "zh_TW": "Item.14004.1"
-      }
-    },
-    {
       "id": 14101,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2494,30 +1834,6 @@
         "ko_KR": "치시아-각성",
         "zh_CN": "赤霞-觉醒形象",
         "zh_TW": "赤霞-覺醒形象"
-      }
-    },
-    {
-      "id": 14103,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14103.1",
-        "ja_JP": "Item.14103.1",
-        "ko_KR": "Item.14103.1",
-        "zh_CN": "Item.14103.1",
-        "zh_TW": "Item.14103.1"
-      }
-    },
-    {
-      "id": 14104,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14104.1",
-        "ja_JP": "Item.14104.1",
-        "ko_KR": "Item.14104.1",
-        "zh_CN": "Item.14104.1",
-        "zh_TW": "Item.14104.1"
       }
     },
     {
@@ -2545,30 +1861,6 @@
       }
     },
     {
-      "id": 14203,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14203.1",
-        "ja_JP": "Item.14203.1",
-        "ko_KR": "Item.14203.1",
-        "zh_CN": "Item.14203.1",
-        "zh_TW": "Item.14203.1"
-      }
-    },
-    {
-      "id": 14204,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14204.1",
-        "ja_JP": "Item.14204.1",
-        "ko_KR": "Item.14204.1",
-        "zh_CN": "Item.14204.1",
-        "zh_TW": "Item.14204.1"
-      }
-    },
-    {
       "id": 14301,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2593,30 +1885,6 @@
       }
     },
     {
-      "id": 14303,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14303.1",
-        "ja_JP": "Item.14303.1",
-        "ko_KR": "Item.14303.1",
-        "zh_CN": "Item.14303.1",
-        "zh_TW": "Item.14303.1"
-      }
-    },
-    {
-      "id": 14304,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14304.1",
-        "ja_JP": "Item.14304.1",
-        "ko_KR": "Item.14304.1",
-        "zh_CN": "Item.14304.1",
-        "zh_TW": "Item.14304.1"
-      }
-    },
-    {
       "id": 14401,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2638,78 +1906,6 @@
         "ko_KR": "치토세-각성",
         "zh_CN": "千都世-觉醒形象",
         "zh_TW": "千都世-覺醒形象"
-      }
-    },
-    {
-      "id": 14403,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14403.1",
-        "ja_JP": "Item.14403.1",
-        "ko_KR": "Item.14403.1",
-        "zh_CN": "Item.14403.1",
-        "zh_TW": "Item.14403.1"
-      }
-    },
-    {
-      "id": 14404,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14404.1",
-        "ja_JP": "Item.14404.1",
-        "ko_KR": "Item.14404.1",
-        "zh_CN": "Item.14404.1",
-        "zh_TW": "Item.14404.1"
-      }
-    },
-    {
-      "id": 14501,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14501.1",
-        "ja_JP": "Item.14501.1",
-        "ko_KR": "Item.14501.1",
-        "zh_CN": "Item.14501.1",
-        "zh_TW": "Item.14501.1"
-      }
-    },
-    {
-      "id": 14502,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14502.1",
-        "ja_JP": "Item.14502.1",
-        "ko_KR": "Item.14502.1",
-        "zh_CN": "Item.14502.1",
-        "zh_TW": "Item.14502.1"
-      }
-    },
-    {
-      "id": 14503,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14503.1",
-        "ja_JP": "Item.14503.1",
-        "ko_KR": "Item.14503.1",
-        "zh_CN": "Item.14503.1",
-        "zh_TW": "Item.14503.1"
-      }
-    },
-    {
-      "id": 14504,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14504.1",
-        "ja_JP": "Item.14504.1",
-        "ko_KR": "Item.14504.1",
-        "zh_CN": "Item.14504.1",
-        "zh_TW": "Item.14504.1"
       }
     },
     {
@@ -2749,18 +1945,6 @@
       }
     },
     {
-      "id": 14704,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14704.1",
-        "ja_JP": "Item.14704.1",
-        "ko_KR": "Item.14704.1",
-        "zh_CN": "Item.14704.1",
-        "zh_TW": "Item.14704.1"
-      }
-    },
-    {
       "id": 14901,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2797,18 +1981,6 @@
       }
     },
     {
-      "id": 14904,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.14904.1",
-        "ja_JP": "Item.14904.1",
-        "ko_KR": "Item.14904.1",
-        "zh_CN": "Item.14904.1",
-        "zh_TW": "Item.14904.1"
-      }
-    },
-    {
       "id": 15001,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2830,30 +2002,6 @@
         "ko_KR": "라루-각성",
         "zh_CN": "菈露-觉醒形象",
         "zh_TW": "菈露-覺醒形象"
-      }
-    },
-    {
-      "id": 15003,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15003.1",
-        "ja_JP": "Item.15003.1",
-        "ko_KR": "Item.15003.1",
-        "zh_CN": "Item.15003.1",
-        "zh_TW": "Item.15003.1"
-      }
-    },
-    {
-      "id": 15004,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15004.1",
-        "ja_JP": "Item.15004.1",
-        "ko_KR": "Item.15004.1",
-        "zh_CN": "Item.15004.1",
-        "zh_TW": "Item.15004.1"
       }
     },
     {
@@ -2881,30 +2029,6 @@
       }
     },
     {
-      "id": 15503,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15503.1",
-        "ja_JP": "Item.15503.1",
-        "ko_KR": "Item.15503.1",
-        "zh_CN": "Item.15503.1",
-        "zh_TW": "Item.15503.1"
-      }
-    },
-    {
-      "id": 15504,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15504.1",
-        "ja_JP": "Item.15504.1",
-        "ko_KR": "Item.15504.1",
-        "zh_CN": "Item.15504.1",
-        "zh_TW": "Item.15504.1"
-      }
-    },
-    {
       "id": 15601,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2926,30 +2050,6 @@
         "ko_KR": "나즈나-각성",
         "zh_CN": "小禾-觉醒形象",
         "zh_TW": "小禾-覺醒形象"
-      }
-    },
-    {
-      "id": 15603,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15603.1",
-        "ja_JP": "Item.15603.1",
-        "ko_KR": "Item.15603.1",
-        "zh_CN": "Item.15603.1",
-        "zh_TW": "Item.15603.1"
-      }
-    },
-    {
-      "id": 15604,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15604.1",
-        "ja_JP": "Item.15604.1",
-        "ko_KR": "Item.15604.1",
-        "zh_CN": "Item.15604.1",
-        "zh_TW": "Item.15604.1"
       }
     },
     {
@@ -2977,30 +2077,6 @@
       }
     },
     {
-      "id": 15803,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15803.1",
-        "ja_JP": "Item.15803.1",
-        "ko_KR": "Item.15803.1",
-        "zh_CN": "Item.15803.1",
-        "zh_TW": "Item.15803.1"
-      }
-    },
-    {
-      "id": 15804,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15804.1",
-        "ja_JP": "Item.15804.1",
-        "ko_KR": "Item.15804.1",
-        "zh_CN": "Item.15804.1",
-        "zh_TW": "Item.15804.1"
-      }
-    },
-    {
       "id": 15901,
       "type": "CharacterSkin",
       "stype": 46,
@@ -3022,30 +2098,6 @@
         "ko_KR": "크루니스(새해)-각성",
         "zh_CN": "科洛妮丝（新春）-觉醒形象",
         "zh_TW": "緋春柯洛妮絲-覺醒形象"
-      }
-    },
-    {
-      "id": 15903,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15903.1",
-        "ja_JP": "Item.15903.1",
-        "ko_KR": "Item.15903.1",
-        "zh_CN": "Item.15903.1",
-        "zh_TW": "Item.15903.1"
-      }
-    },
-    {
-      "id": 15904,
-      "type": "CharacterSkin",
-      "stype": 46,
-      "names": {
-        "en_US": "Item.15904.1",
-        "ja_JP": "Item.15904.1",
-        "ko_KR": "Item.15904.1",
-        "zh_CN": "Item.15904.1",
-        "zh_TW": "Item.15904.1"
       }
     },
     {
@@ -3487,7 +2539,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미6002",
+        "ko_KR": "더미38",
         "zh_CN": "【废弃】大总裁的桂冠",
         "zh_TW": "!NONEED!"
       }
@@ -3499,7 +2551,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미6003",
+        "ko_KR": "더미39",
         "zh_CN": "【废弃】冒险家的桂冠",
         "zh_TW": "!NONEED!"
       }
@@ -4057,6 +3109,18 @@
       }
     },
     {
+      "id": 35010,
+      "type": "Item",
+      "stype": 35,
+      "names": {
+        "en_US": "!NONEED!",
+        "ja_JP": "*****",
+        "ko_KR": "더미40",
+        "zh_CN": "【不要翻译】星章抛光剂",
+        "zh_TW": "!NONEED!"
+      }
+    },
+    {
       "id": 50000,
       "type": "Item",
       "stype": 2,
@@ -4510,6 +3574,18 @@
         "ko_KR": "비상용 통조림",
         "zh_CN": "应急罐头",
         "zh_TW": "防災罐頭"
+      }
+    },
+    {
+      "id": 73108,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Azure Feather",
+        "ja_JP": "狂風ノ羽根",
+        "ko_KR": "푸른 깃털",
+        "zh_CN": "青枭片羽",
+        "zh_TW": "青梟片羽"
       }
     },
     {
@@ -5059,7 +4135,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5071,7 +4147,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5083,7 +4159,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5095,7 +4171,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5107,7 +4183,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5119,7 +4195,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5131,7 +4207,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5143,7 +4219,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5155,7 +4231,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5167,7 +4243,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5179,7 +4255,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5191,7 +4267,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5203,7 +4279,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5215,7 +4291,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5227,7 +4303,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5239,7 +4315,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5251,7 +4327,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5263,7 +4339,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5275,7 +4351,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5287,7 +4363,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5299,7 +4375,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5311,7 +4387,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5323,7 +4399,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5335,7 +4411,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5347,7 +4423,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5359,7 +4435,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5371,7 +4447,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5383,7 +4459,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5395,7 +4471,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5407,7 +4483,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5419,7 +4495,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5431,7 +4507,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5443,7 +4519,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5455,7 +4531,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5467,7 +4543,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5479,7 +4555,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5491,7 +4567,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5503,7 +4579,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5515,7 +4591,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5527,7 +4603,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5539,7 +4615,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5551,7 +4627,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5563,7 +4639,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5575,7 +4651,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5587,7 +4663,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5599,7 +4675,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5611,7 +4687,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5623,7 +4699,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5635,7 +4711,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5647,7 +4723,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5659,7 +4735,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5671,7 +4747,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5683,7 +4759,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5695,7 +4771,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5707,7 +4783,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5719,7 +4795,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5731,7 +4807,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5743,7 +4819,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5755,7 +4831,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5767,7 +4843,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5779,7 +4855,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5791,7 +4867,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5803,7 +4879,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5815,7 +4891,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5827,7 +4903,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5839,7 +4915,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5851,7 +4927,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5863,7 +4939,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5875,7 +4951,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5887,7 +4963,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5899,7 +4975,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5911,7 +4987,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5923,7 +4999,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5935,7 +5011,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5947,7 +5023,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5959,7 +5035,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5971,7 +5047,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5983,7 +5059,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -5995,7 +5071,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6007,7 +5083,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6019,7 +5095,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6031,7 +5107,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6043,7 +5119,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6055,7 +5131,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6067,7 +5143,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6079,7 +5155,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6091,7 +5167,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6103,7 +5179,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6115,7 +5191,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6127,7 +5203,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6139,7 +5215,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6151,7 +5227,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6163,7 +5239,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6175,7 +5251,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6187,7 +5263,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6199,7 +5275,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6211,7 +5287,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6223,7 +5299,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6235,7 +5311,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6247,7 +5323,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6259,7 +5335,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6271,7 +5347,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6283,7 +5359,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6295,7 +5371,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6307,7 +5383,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6319,7 +5395,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6331,7 +5407,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6343,7 +5419,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6355,7 +5431,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6367,7 +5443,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6379,7 +5455,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6391,7 +5467,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6403,7 +5479,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6415,7 +5491,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6427,7 +5503,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6439,7 +5515,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6451,7 +5527,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6463,7 +5539,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6475,7 +5551,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6487,7 +5563,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6499,7 +5575,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6511,7 +5587,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6523,7 +5599,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6535,7 +5611,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6547,7 +5623,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6559,7 +5635,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6571,7 +5647,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6583,7 +5659,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6595,7 +5671,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6607,7 +5683,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6619,7 +5695,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6631,7 +5707,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6643,7 +5719,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6655,7 +5731,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6667,7 +5743,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6679,7 +5755,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6691,7 +5767,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6703,7 +5779,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6715,7 +5791,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6727,7 +5803,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6739,7 +5815,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6751,7 +5827,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6763,7 +5839,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6775,7 +5851,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6787,7 +5863,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6799,7 +5875,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6811,7 +5887,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6823,7 +5899,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6835,7 +5911,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6847,7 +5923,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6859,7 +5935,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6871,7 +5947,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6883,7 +5959,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6895,7 +5971,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6907,7 +5983,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6919,7 +5995,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6931,7 +6007,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6943,7 +6019,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6955,7 +6031,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6967,7 +6043,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6979,7 +6055,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -6991,7 +6067,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7003,7 +6079,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7015,7 +6091,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7027,7 +6103,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7039,7 +6115,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7051,7 +6127,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7063,7 +6139,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7075,7 +6151,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7087,7 +6163,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7099,7 +6175,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7111,7 +6187,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7123,7 +6199,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7135,7 +6211,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7147,7 +6223,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7159,7 +6235,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7171,7 +6247,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7183,7 +6259,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7195,7 +6271,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7207,7 +6283,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7219,7 +6295,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7231,7 +6307,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7243,7 +6319,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7255,7 +6331,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7267,7 +6343,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7279,7 +6355,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7291,7 +6367,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7303,7 +6379,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7315,7 +6391,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7327,7 +6403,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7339,7 +6415,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7351,7 +6427,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7363,7 +6439,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7375,7 +6451,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7387,7 +6463,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7399,7 +6475,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7411,7 +6487,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7423,7 +6499,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7435,7 +6511,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7447,7 +6523,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7459,7 +6535,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7471,7 +6547,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7483,7 +6559,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7495,7 +6571,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7507,7 +6583,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7519,7 +6595,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7531,7 +6607,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7543,7 +6619,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7555,7 +6631,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7567,7 +6643,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7579,7 +6655,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7591,7 +6667,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7603,7 +6679,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7615,7 +6691,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7627,7 +6703,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7639,7 +6715,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7651,7 +6727,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7663,7 +6739,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7675,7 +6751,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7687,7 +6763,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7699,7 +6775,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7711,7 +6787,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7723,7 +6799,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7735,7 +6811,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7747,7 +6823,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7759,7 +6835,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7771,7 +6847,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7783,7 +6859,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7795,7 +6871,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7807,7 +6883,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7819,7 +6895,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7831,7 +6907,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7843,7 +6919,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7855,7 +6931,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미13",
+        "ko_KR": "더미46",
         "zh_CN": "【不要翻译】命运卡占位",
         "zh_TW": "!NONEED!"
       }
@@ -7867,7 +6943,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "【No Need】",
-        "ko_KR": "더미247",
+        "ko_KR": "더미280",
         "zh_CN": "【不要翻译】回血",
         "zh_TW": "!NONEED!"
       }
@@ -8006,6 +7082,30 @@
     },
     {
       "id": 101014,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Upgrade Grant Differential Item",
+        "ja_JP": "グレードアップ特典",
+        "ko_KR": "지원금 차액 아이템 업그레이드",
+        "zh_CN": "升级补贴差额物品",
+        "zh_TW": "升級補貼差額物品"
+      }
+    },
+    {
+      "id": 101015,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Royal Grant Bonus Item",
+        "ja_JP": "ミラクルコース特典",
+        "ko_KR": "럭셔리 지원금 보너스 아이템",
+        "zh_CN": "大亨尊享补贴附赠物品",
+        "zh_TW": "大亨尊享補貼附贈物品"
+      }
+    },
+    {
+      "id": 101016,
       "type": "Item",
       "stype": 2,
       "names": {
@@ -8165,11 +7265,11 @@
       "type": "Honor",
       "stype": 43,
       "names": {
-        "en_US": "Charming CEO",
+        "en_US": "Founding Partner",
         "ja_JP": "共同経営者",
-        "ko_KR": "매력적인 보스",
-        "zh_CN": "魅力总裁",
-        "zh_TW": "魅力總裁"
+        "ko_KR": "공동 창업자",
+        "zh_CN": "创业合伙人",
+        "zh_TW": "創業合夥人"
       }
     },
     {
@@ -8317,6 +7417,30 @@
       }
     },
     {
+      "id": 112129,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112129.1",
+        "ja_JP": "Item.112129.1",
+        "ko_KR": "Item.112129.1",
+        "zh_CN": "Item.112129.1",
+        "zh_TW": "Item.112129.1"
+      }
+    },
+    {
+      "id": 112130,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "High-Energy Hype",
+        "ja_JP": "想いつなぐ配達人",
+        "ko_KR": "인간 비타민",
+        "zh_CN": "高能量战士",
+        "zh_TW": "高能量戰士"
+      }
+    },
+    {
       "id": 112132,
       "type": "Honor",
       "stype": 43,
@@ -8362,6 +7486,18 @@
         "ko_KR": "마녀의 소식통",
         "zh_CN": "魔女包打听",
         "zh_TW": "魔女包打聽"
+      }
+    },
+    {
+      "id": 112136,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112136.1",
+        "ja_JP": "Item.112136.1",
+        "ko_KR": "Item.112136.1",
+        "zh_CN": "Item.112136.1",
+        "zh_TW": "Item.112136.1"
       }
     },
     {
@@ -8617,6 +7753,114 @@
       }
     },
     {
+      "id": 115008,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 8 Survival Champ",
+        "ja_JP": "シーズン8 一流サバイバー",
+        "ko_KR": "시즌8 생존 마스터",
+        "zh_CN": "第8赛季 求生大师",
+        "zh_TW": "第8賽季 求生大師"
+      }
+    },
+    {
+      "id": 115009,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 9 Survival Champ",
+        "ja_JP": "シーズン9 一流サバイバー",
+        "ko_KR": "시즌9 생존 마스터",
+        "zh_CN": "第9赛季 求生大师",
+        "zh_TW": "第9賽季 求生大師"
+      }
+    },
+    {
+      "id": 115010,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 10 Survival Champ",
+        "ja_JP": "シーズン10 一流サバイバー",
+        "ko_KR": "시즌10 생존 마스터",
+        "zh_CN": "第10赛季 求生大师",
+        "zh_TW": "第10賽季 求生大師"
+      }
+    },
+    {
+      "id": 115011,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 11 Survival Champ",
+        "ja_JP": "シーズン11 一流サバイバー",
+        "ko_KR": "시즌11 생존 마스터",
+        "zh_CN": "第11赛季 求生大师",
+        "zh_TW": "第11賽季 求生大師"
+      }
+    },
+    {
+      "id": 115012,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 12 Survival Champ",
+        "ja_JP": "シーズン12 一流サバイバー",
+        "ko_KR": "시즌12 생존 마스터",
+        "zh_CN": "第12赛季 求生大师",
+        "zh_TW": "第12賽季 求生大師"
+      }
+    },
+    {
+      "id": 115013,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 13 Survival Champ",
+        "ja_JP": "シーズン13 一流サバイバー",
+        "ko_KR": "시즌13 생존 마스터",
+        "zh_CN": "第13赛季 求生大师",
+        "zh_TW": "第13賽季 求生大師"
+      }
+    },
+    {
+      "id": 115014,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 14 Survival Champ",
+        "ja_JP": "シーズン14 一流サバイバー",
+        "ko_KR": "시즌14 생존 마스터",
+        "zh_CN": "第14赛季 求生大师",
+        "zh_TW": "第14賽季 求生大師"
+      }
+    },
+    {
+      "id": 115015,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 15 Survival Champ",
+        "ja_JP": "シーズン15 一流サバイバー",
+        "ko_KR": "시즌15 생존 마스터",
+        "zh_CN": "第15赛季 求生大师",
+        "zh_TW": "第15賽季 求生大師"
+      }
+    },
+    {
+      "id": 115016,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 16 Survival Champ",
+        "ja_JP": "シーズン16 一流サバイバー",
+        "ko_KR": "시즌16 생존 마스터",
+        "zh_CN": "第16赛季 求生大师",
+        "zh_TW": "第16賽季 求生大師"
+      }
+    },
+    {
       "id": 116001,
       "type": "Honor",
       "stype": 43,
@@ -8698,6 +7942,18 @@
         "ko_KR": "겨울밤의 진혼곡 새벽의 방아쇠",
         "zh_CN": "冬夜镇魂曲与破晓扳机",
         "zh_TW": "冬夜鎮魂曲與破曉扳機"
+      }
+    },
+    {
+      "id": 116008,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "To My Dearest You",
+        "ja_JP": "拝啓、たいせつなあなたへ",
+        "ko_KR": "To. 소중한 당신",
+        "zh_CN": "敬启，致珍重的你",
+        "zh_TW": "敬啟，致珍重的你"
       }
     },
     {
@@ -9061,6 +8317,18 @@
       }
     },
     {
+      "id": 120004,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Courier Treasure Shovel",
+        "ja_JP": "ラッキーシャベル",
+        "ko_KR": "배달원의 보물삽",
+        "zh_CN": "信使寻宝铲",
+        "zh_TW": "信使尋寶鏟"
+      }
+    },
+    {
       "id": 130001,
       "type": "HeadItem",
       "stype": 45,
@@ -9118,6 +8386,18 @@
         "ko_KR": "청춘의 나날",
         "zh_CN": "青葱岁月",
         "zh_TW": "青蔥歲月"
+      }
+    },
+    {
+      "id": 130006,
+      "type": "HeadItem",
+      "stype": 45,
+      "names": {
+        "en_US": "Berry Unsettled",
+        "ja_JP": "こっそりコソコソ",
+        "ko_KR": "엄청난 불안감",
+        "zh_CN": "灰常不安",
+        "zh_TW": "灰常不安"
       }
     },
     {
@@ -9322,6 +8602,30 @@
         "ko_KR": "이번 시즌 한정 프로필\n청춘의 나날",
         "zh_CN": "本期限定头像:\n青葱岁月",
         "zh_TW": "本期限定大頭貼：\n青蔥歲月"
+      }
+    },
+    {
+      "id": 199016,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Item.199016.1",
+        "ja_JP": "Item.199016.1",
+        "ko_KR": "Item.199016.1",
+        "zh_CN": "Item.199016.1",
+        "zh_TW": "Item.199016.1"
+      }
+    },
+    {
+      "id": 199017,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Item.199017.1",
+        "ja_JP": "Item.199017.1",
+        "ko_KR": "Item.199017.1",
+        "zh_CN": "Item.199017.1",
+        "zh_TW": "Item.199017.1"
       }
     },
     {
@@ -9925,6 +9229,18 @@
       }
     },
     {
+      "id": 214008,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Soaring Blue",
+        "ja_JP": "青空を越えて",
+        "ko_KR": "푸른 하늘 너머로",
+        "zh_CN": "飞越青空",
+        "zh_TW": "飛越青空"
+      }
+    },
+    {
       "id": 214009,
       "type": "Disc",
       "stype": 8,
@@ -10309,6 +9625,18 @@
       }
     },
     {
+      "id": 214045,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214045.1",
+        "ja_JP": "Item.214045.1",
+        "ko_KR": "Item.214045.1",
+        "zh_CN": "Item.214045.1",
+        "zh_TW": "Item.214045.1"
+      }
+    },
+    {
       "id": 214046,
       "type": "Disc",
       "stype": 8,
@@ -10321,6 +9649,18 @@
       }
     },
     {
+      "id": 214047,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Delivered by the Breeze",
+        "ja_JP": "風に舞う想い",
+        "ko_KR": "편지는 바람을 타고",
+        "zh_CN": "信笺乘风而去",
+        "zh_TW": "信箋乘風而去"
+      }
+    },
+    {
       "id": 214048,
       "type": "Disc",
       "stype": 8,
@@ -10330,6 +9670,30 @@
         "ko_KR": "메리 서프라이즈",
         "zh_CN": "雪夜惊喜",
         "zh_TW": "雪夜驚喜"
+      }
+    },
+    {
+      "id": 214049,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214049.1",
+        "ja_JP": "Item.214049.1",
+        "ko_KR": "Item.214049.1",
+        "zh_CN": "Item.214049.1",
+        "zh_TW": "Item.214049.1"
+      }
+    },
+    {
+      "id": 214050,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214050.1",
+        "ja_JP": "Item.214050.1",
+        "ko_KR": "Item.214050.1",
+        "zh_CN": "Item.214050.1",
+        "zh_TW": "Item.214050.1"
       }
     },
     {
@@ -10897,6 +10261,18 @@
       }
     },
     {
+      "id": 224008,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Soaring Blue Melody",
+        "ja_JP": "青空を越えての調べ",
+        "ko_KR": "푸른 하늘 너머로 멜로디",
+        "zh_CN": "飞越青空曲调",
+        "zh_TW": "飛越青空曲調"
+      }
+    },
+    {
       "id": 224009,
       "type": "Item",
       "stype": 40,
@@ -11281,6 +10657,18 @@
       }
     },
     {
+      "id": 224045,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224045.1",
+        "ja_JP": "Item.224045.1",
+        "ko_KR": "Item.224045.1",
+        "zh_CN": "Item.224045.1",
+        "zh_TW": "Item.224045.1"
+      }
+    },
+    {
       "id": 224046,
       "type": "Item",
       "stype": 40,
@@ -11290,6 +10678,18 @@
         "ko_KR": "겨울밤 끝의 여명 멜로디",
         "zh_CN": "冬夜后的黎明曲调",
         "zh_TW": "冬夜後的黎明曲調"
+      }
+    },
+    {
+      "id": 224047,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Delivered by the Breeze Melody",
+        "ja_JP": "風に舞う想い",
+        "ko_KR": "편지는 바람을 타고 멜로디",
+        "zh_CN": "信笺乘风而去曲调",
+        "zh_TW": "信箋乘風而去曲調"
       }
     },
     {
@@ -11305,13 +10705,37 @@
       }
     },
     {
+      "id": 224049,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224049.1",
+        "ja_JP": "Item.224049.1",
+        "ko_KR": "Item.224049.1",
+        "zh_CN": "Item.224049.1",
+        "zh_TW": "Item.224049.1"
+      }
+    },
+    {
+      "id": 224050,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224050.1",
+        "ja_JP": "Item.224050.1",
+        "ko_KR": "Item.224050.1",
+        "zh_CN": "Item.224050.1",
+        "zh_TW": "Item.224050.1"
+      }
+    },
+    {
       "id": 300001,
       "type": "Item",
       "stype": 2,
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미7",
+        "ko_KR": "더미32",
         "zh_CN": "【不要翻译】养成大礼包",
         "zh_TW": "!NONEED!"
       }
@@ -11323,7 +10747,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미8",
+        "ko_KR": "더미33",
         "zh_CN": "【不要翻译】礼装大礼包",
         "zh_TW": "!NONEED!"
       }
@@ -11335,7 +10759,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미9",
+        "ko_KR": "더미34",
         "zh_CN": "【不要翻译】cbt角色星盘大礼包",
         "zh_TW": "!NONEED!"
       }
@@ -11347,7 +10771,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미10",
+        "ko_KR": "더미35",
         "zh_CN": "【不要翻译】道具大礼包",
         "zh_TW": "!NONEED!"
       }
@@ -11359,7 +10783,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미11",
+        "ko_KR": "더미36",
         "zh_CN": "【不要翻译】所有礼物各一件",
         "zh_TW": "!NONEED!"
       }
@@ -11371,7 +10795,7 @@
       "names": {
         "en_US": "!NONEED!",
         "ja_JP": "*****",
-        "ko_KR": "더미12",
+        "ko_KR": "더미37",
         "zh_CN": "【不要翻译】解锁所有称号",
         "zh_TW": "!NONEED!"
       }
@@ -16945,6 +16369,354 @@
       }
     },
     {
+      "id": 513001,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Condensation Orbs",
+        "ja_JP": "石穿つ雨垂れ",
+        "ko_KR": "물방울의 결속",
+        "zh_CN": "凝水成珠",
+        "zh_TW": "凝水成珠"
+      }
+    },
+    {
+      "id": 513002,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Azure Night",
+        "ja_JP": "速達サービス",
+        "ko_KR": "푸른 빛의 밤",
+        "zh_CN": "绽蓝之夜",
+        "zh_TW": "綻藍之夜"
+      }
+    },
+    {
+      "id": 513003,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Precision Marketing",
+        "ja_JP": "狙い撃ちセールス",
+        "ko_KR": "타깃 마케팅",
+        "zh_CN": "精准营销",
+        "zh_TW": "精準行銷"
+      }
+    },
+    {
+      "id": 513004,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Bubble Finale",
+        "ja_JP": "呼び込み効果",
+        "ko_KR": "방울의 끝",
+        "zh_CN": "泡泡落幕",
+        "zh_TW": "泡泡落幕"
+      }
+    },
+    {
+      "id": 513005,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Tidal Echo",
+        "ja_JP": "配達アドレナリン",
+        "ko_KR": "파도의 메아리",
+        "zh_CN": "潮音回响",
+        "zh_TW": "潮音迴響"
+      }
+    },
+    {
+      "id": 513006,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Piercing Arrow Rain",
+        "ja_JP": "戦う配達員",
+        "ko_KR": "화살 폭우",
+        "zh_CN": "箭云落雨",
+        "zh_TW": "箭雲祈雨"
+      }
+    },
+    {
+      "id": 513007,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Rime Shatterer",
+        "ja_JP": "シゴデキトーナ",
+        "ko_KR": "서리를 가르는 화살",
+        "zh_CN": "一箭碎霜",
+        "zh_TW": "一箭碎霜"
+      }
+    },
+    {
+      "id": 513008,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Surging Tide",
+        "ja_JP": "キャンペーン拡大",
+        "ko_KR": "몰아치는 파도",
+        "zh_CN": "潮涌奔流",
+        "zh_TW": "潮湧奔流"
+      }
+    },
+    {
+      "id": 513009,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Cloud Piercer",
+        "ja_JP": "パペット補修",
+        "ko_KR": "바람을 가르는 일격",
+        "zh_CN": "破风穿云",
+        "zh_TW": "破風穿雲"
+      }
+    },
+    {
+      "id": 513010,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Hazy Curtain",
+        "ja_JP": "トーナちゃんガード",
+        "ko_KR": "흐린 비안개",
+        "zh_CN": "雨幕朦胧",
+        "zh_TW": "雨幕朦朧"
+      }
+    },
+    {
+      "id": 513011,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Lingering Noise",
+        "ja_JP": "代表の覚悟",
+        "ko_KR": "떠들썩한 잔음",
+        "zh_CN": "喧闹余音",
+        "zh_TW": "喧鬧餘音"
+      }
+    },
+    {
+      "id": 513012,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Serene Sea Trance",
+        "ja_JP": "集中タイム",
+        "ko_KR": "고요한 바다",
+        "zh_CN": "静海凝神",
+        "zh_TW": "靜海凝神"
+      }
+    },
+    {
+      "id": 513013,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Tidal Mark Resonance",
+        "ja_JP": "水流のシナジー",
+        "ko_KR": "파도 각인의 공명",
+        "zh_CN": "潮印共振",
+        "zh_TW": "潮印共振"
+      }
+    },
+    {
+      "id": 513021,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Unleashed Arrow",
+        "ja_JP": "オマケの一矢",
+        "ko_KR": "시위를 떠난 화살",
+        "zh_CN": "离弦之箭",
+        "zh_TW": "離弦之箭"
+      }
+    },
+    {
+      "id": 513022,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Arrowfall Reckoning",
+        "ja_JP": "お届けターゲット",
+        "ko_KR": "남겨진 화살의 매듭",
+        "zh_CN": "残矢清算",
+        "zh_TW": "殘矢清算"
+      }
+    },
+    {
+      "id": 513023,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Wave-Chasing String",
+        "ja_JP": "パワフルシュート",
+        "ko_KR": "파도를 쫓는 활시위",
+        "zh_CN": "逐浪连弦",
+        "zh_TW": "逐浪連弦"
+      }
+    },
+    {
+      "id": 513024,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Stray Arrow",
+        "ja_JP": "追撃サービス",
+        "ko_KR": "추방의 화살",
+        "zh_CN": "流矢放逐",
+        "zh_TW": "流矢放逐"
+      }
+    },
+    {
+      "id": 513025,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Arrow Pursuit",
+        "ja_JP": "追い打ち配達",
+        "ko_KR": "화살의 추격",
+        "zh_CN": "箭矢追击",
+        "zh_TW": "箭矢追擊"
+      }
+    },
+    {
+      "id": 513026,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Frostbitten Arrow",
+        "ja_JP": "活路の一矢",
+        "ko_KR": "서리 맺힌 화살",
+        "zh_CN": "凝霜箭寒",
+        "zh_TW": "凝霜箭寒"
+      }
+    },
+    {
+      "id": 513027,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Dead Shot",
+        "ja_JP": "手紙の守護者",
+        "ko_KR": "백발백중",
+        "zh_CN": "百步穿杨",
+        "zh_TW": "百步穿楊"
+      }
+    },
+    {
+      "id": 513028,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Coast Crusher",
+        "ja_JP": "ビッグウェーブ",
+        "ko_KR": "마지막 파도",
+        "zh_CN": "尾浪扑岸",
+        "zh_TW": "尾浪撲岸"
+      }
+    },
+    {
+      "id": 513029,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Aquatic Assault",
+        "ja_JP": "配達ノルマ",
+        "ko_KR": "거세지는 물길",
+        "zh_CN": "水行攻涨",
+        "zh_TW": "水行攻漲"
+      }
+    },
+    {
+      "id": 513030,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Chilling Onslaught",
+        "ja_JP": "初回サービス",
+        "ko_KR": "차가운 파동의 전조",
+        "zh_CN": "寒潮起势",
+        "zh_TW": "寒潮起勢"
+      }
+    },
+    {
+      "id": 513031,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Messenger Arrow",
+        "ja_JP": "支援デリバリー",
+        "ko_KR": "전언의 화살",
+        "zh_CN": "飞矢传信",
+        "zh_TW": "飛矢傳信"
+      }
+    },
+    {
+      "id": 513032,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Wave Resonance",
+        "ja_JP": "トーミナの祝福",
+        "ko_KR": "파동의 울림",
+        "zh_CN": "水波共鸣",
+        "zh_TW": "水波共鳴"
+      }
+    },
+    {
+      "id": 513033,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Water Ripple",
+        "ja_JP": "リーダーのカリスマ",
+        "ko_KR": "잔잔한 물결",
+        "zh_CN": "波纹涟漪",
+        "zh_TW": "波紋漣漪"
+      }
+    },
+    {
+      "id": 513041,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Rushing Tide",
+        "ja_JP": "幸運の弓",
+        "ko_KR": "굽이치는 파도",
+        "zh_CN": "潮汐翻涌",
+        "zh_TW": "潮汐翻湧"
+      }
+    },
+    {
+      "id": 513042,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Corrosive Torrent",
+        "ja_JP": "トーミナの愛",
+        "ko_KR": "물줄기의 침식",
+        "zh_CN": "覆流侵蚀",
+        "zh_TW": "覆流侵蝕"
+      }
+    },
+    {
+      "id": 513043,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Freezing Stasis",
+        "ja_JP": "アイシートーミナ",
+        "ko_KR": "서리 맺힘",
+        "zh_CN": "霜凝滞冻",
+        "zh_TW": "霜凝滯凍"
+      }
+    },
+    {
       "id": 513201,
       "type": "RogueItem",
       "stype": 42,
@@ -20801,7 +20573,7 @@
       "type": "RogueItem",
       "stype": 42,
       "names": {
-        "en_US": "Phantom Step Rediance",
+        "en_US": "Phantom Step Radiance",
         "ja_JP": "光の雪兎",
         "ko_KR": "환상의 발걸음",
         "zh_CN": "幻步临光",

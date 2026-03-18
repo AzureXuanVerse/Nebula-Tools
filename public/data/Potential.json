@@ -5105,6 +5105,325 @@
       }
     },
     {
+      "id": 513001,
+      "charId": 130,
+      "names": {
+        "en_US": "Condensation Orbs",
+        "ja_JP": "石穿つ雨垂れ",
+        "ko_KR": "물방울의 결속",
+        "zh_CN": "凝水成珠",
+        "zh_TW": "凝水成珠"
+      }
+    },
+    {
+      "id": 513002,
+      "charId": 130,
+      "names": {
+        "en_US": "Azure Night",
+        "ja_JP": "速達サービス",
+        "ko_KR": "푸른 빛의 밤",
+        "zh_CN": "绽蓝之夜",
+        "zh_TW": "綻藍之夜"
+      }
+    },
+    {
+      "id": 513003,
+      "charId": 130,
+      "names": {
+        "en_US": "Precision Marketing",
+        "ja_JP": "狙い撃ちセールス",
+        "ko_KR": "타깃 마케팅",
+        "zh_CN": "精准营销",
+        "zh_TW": "精準行銷"
+      }
+    },
+    {
+      "id": 513004,
+      "charId": 130,
+      "names": {
+        "en_US": "Bubble Finale",
+        "ja_JP": "呼び込み効果",
+        "ko_KR": "방울의 끝",
+        "zh_CN": "泡泡落幕",
+        "zh_TW": "泡泡落幕"
+      }
+    },
+    {
+      "id": 513005,
+      "charId": 130,
+      "names": {
+        "en_US": "Tidal Echo",
+        "ja_JP": "配達アドレナリン",
+        "ko_KR": "파도의 메아리",
+        "zh_CN": "潮音回响",
+        "zh_TW": "潮音迴響"
+      }
+    },
+    {
+      "id": 513006,
+      "charId": 130,
+      "names": {
+        "en_US": "Piercing Arrow Rain",
+        "ja_JP": "戦う配達員",
+        "ko_KR": "화살 폭우",
+        "zh_CN": "箭云落雨",
+        "zh_TW": "箭雲祈雨"
+      }
+    },
+    {
+      "id": 513007,
+      "charId": 130,
+      "names": {
+        "en_US": "Rime Shatterer",
+        "ja_JP": "シゴデキトーナ",
+        "ko_KR": "서리를 가르는 화살",
+        "zh_CN": "一箭碎霜",
+        "zh_TW": "一箭碎霜"
+      }
+    },
+    {
+      "id": 513008,
+      "charId": 130,
+      "names": {
+        "en_US": "Surging Tide",
+        "ja_JP": "キャンペーン拡大",
+        "ko_KR": "몰아치는 파도",
+        "zh_CN": "潮涌奔流",
+        "zh_TW": "潮湧奔流"
+      }
+    },
+    {
+      "id": 513009,
+      "charId": 130,
+      "names": {
+        "en_US": "Cloud Piercer",
+        "ja_JP": "パペット補修",
+        "ko_KR": "바람을 가르는 일격",
+        "zh_CN": "破风穿云",
+        "zh_TW": "破風穿雲"
+      }
+    },
+    {
+      "id": 513010,
+      "charId": 130,
+      "names": {
+        "en_US": "Hazy Curtain",
+        "ja_JP": "トーナちゃんガード",
+        "ko_KR": "흐린 비안개",
+        "zh_CN": "雨幕朦胧",
+        "zh_TW": "雨幕朦朧"
+      }
+    },
+    {
+      "id": 513011,
+      "charId": 130,
+      "names": {
+        "en_US": "Lingering Noise",
+        "ja_JP": "代表の覚悟",
+        "ko_KR": "떠들썩한 잔음",
+        "zh_CN": "喧闹余音",
+        "zh_TW": "喧鬧餘音"
+      }
+    },
+    {
+      "id": 513012,
+      "charId": 130,
+      "names": {
+        "en_US": "Serene Sea Trance",
+        "ja_JP": "集中タイム",
+        "ko_KR": "고요한 바다",
+        "zh_CN": "静海凝神",
+        "zh_TW": "靜海凝神"
+      }
+    },
+    {
+      "id": 513013,
+      "charId": 130,
+      "names": {
+        "en_US": "Tidal Mark Resonance",
+        "ja_JP": "水流のシナジー",
+        "ko_KR": "파도 각인의 공명",
+        "zh_CN": "潮印共振",
+        "zh_TW": "潮印共振"
+      }
+    },
+    {
+      "id": 513021,
+      "charId": 130,
+      "names": {
+        "en_US": "Unleashed Arrow",
+        "ja_JP": "オマケの一矢",
+        "ko_KR": "시위를 떠난 화살",
+        "zh_CN": "离弦之箭",
+        "zh_TW": "離弦之箭"
+      }
+    },
+    {
+      "id": 513022,
+      "charId": 130,
+      "names": {
+        "en_US": "Arrowfall Reckoning",
+        "ja_JP": "お届けターゲット",
+        "ko_KR": "남겨진 화살의 매듭",
+        "zh_CN": "残矢清算",
+        "zh_TW": "殘矢清算"
+      }
+    },
+    {
+      "id": 513023,
+      "charId": 130,
+      "names": {
+        "en_US": "Wave-Chasing String",
+        "ja_JP": "パワフルシュート",
+        "ko_KR": "파도를 쫓는 활시위",
+        "zh_CN": "逐浪连弦",
+        "zh_TW": "逐浪連弦"
+      }
+    },
+    {
+      "id": 513024,
+      "charId": 130,
+      "names": {
+        "en_US": "Stray Arrow",
+        "ja_JP": "追撃サービス",
+        "ko_KR": "추방의 화살",
+        "zh_CN": "流矢放逐",
+        "zh_TW": "流矢放逐"
+      }
+    },
+    {
+      "id": 513025,
+      "charId": 130,
+      "names": {
+        "en_US": "Arrow Pursuit",
+        "ja_JP": "追い打ち配達",
+        "ko_KR": "화살의 추격",
+        "zh_CN": "箭矢追击",
+        "zh_TW": "箭矢追擊"
+      }
+    },
+    {
+      "id": 513026,
+      "charId": 130,
+      "names": {
+        "en_US": "Frostbitten Arrow",
+        "ja_JP": "活路の一矢",
+        "ko_KR": "서리 맺힌 화살",
+        "zh_CN": "凝霜箭寒",
+        "zh_TW": "凝霜箭寒"
+      }
+    },
+    {
+      "id": 513027,
+      "charId": 130,
+      "names": {
+        "en_US": "Dead Shot",
+        "ja_JP": "手紙の守護者",
+        "ko_KR": "백발백중",
+        "zh_CN": "百步穿杨",
+        "zh_TW": "百步穿楊"
+      }
+    },
+    {
+      "id": 513028,
+      "charId": 130,
+      "names": {
+        "en_US": "Coast Crusher",
+        "ja_JP": "ビッグウェーブ",
+        "ko_KR": "마지막 파도",
+        "zh_CN": "尾浪扑岸",
+        "zh_TW": "尾浪撲岸"
+      }
+    },
+    {
+      "id": 513029,
+      "charId": 130,
+      "names": {
+        "en_US": "Aquatic Assault",
+        "ja_JP": "配達ノルマ",
+        "ko_KR": "거세지는 물길",
+        "zh_CN": "水行攻涨",
+        "zh_TW": "水行攻漲"
+      }
+    },
+    {
+      "id": 513030,
+      "charId": 130,
+      "names": {
+        "en_US": "Chilling Onslaught",
+        "ja_JP": "初回サービス",
+        "ko_KR": "차가운 파동의 전조",
+        "zh_CN": "寒潮起势",
+        "zh_TW": "寒潮起勢"
+      }
+    },
+    {
+      "id": 513031,
+      "charId": 130,
+      "names": {
+        "en_US": "Messenger Arrow",
+        "ja_JP": "支援デリバリー",
+        "ko_KR": "전언의 화살",
+        "zh_CN": "飞矢传信",
+        "zh_TW": "飛矢傳信"
+      }
+    },
+    {
+      "id": 513032,
+      "charId": 130,
+      "names": {
+        "en_US": "Wave Resonance",
+        "ja_JP": "トーミナの祝福",
+        "ko_KR": "파동의 울림",
+        "zh_CN": "水波共鸣",
+        "zh_TW": "水波共鳴"
+      }
+    },
+    {
+      "id": 513033,
+      "charId": 130,
+      "names": {
+        "en_US": "Water Ripple",
+        "ja_JP": "リーダーのカリスマ",
+        "ko_KR": "잔잔한 물결",
+        "zh_CN": "波纹涟漪",
+        "zh_TW": "波紋漣漪"
+      }
+    },
+    {
+      "id": 513041,
+      "charId": 130,
+      "names": {
+        "en_US": "Rushing Tide",
+        "ja_JP": "幸運の弓",
+        "ko_KR": "굽이치는 파도",
+        "zh_CN": "潮汐翻涌",
+        "zh_TW": "潮汐翻湧"
+      }
+    },
+    {
+      "id": 513042,
+      "charId": 130,
+      "names": {
+        "en_US": "Corrosive Torrent",
+        "ja_JP": "トーミナの愛",
+        "ko_KR": "물줄기의 침식",
+        "zh_CN": "覆流侵蚀",
+        "zh_TW": "覆流侵蝕"
+      }
+    },
+    {
+      "id": 513043,
+      "charId": 130,
+      "names": {
+        "en_US": "Freezing Stasis",
+        "ja_JP": "アイシートーミナ",
+        "ko_KR": "서리 맺힘",
+        "zh_CN": "霜凝滞冻",
+        "zh_TW": "霜凝滯凍"
+      }
+    },
+    {
       "id": 513201,
       "charId": 132,
       "names": {
@@ -8639,7 +8958,7 @@
       "id": 515501,
       "charId": 155,
       "names": {
-        "en_US": "Phantom Step Rediance",
+        "en_US": "Phantom Step Radiance",
         "ja_JP": "光の雪兎",
         "ko_KR": "환상의 발걸음",
         "zh_CN": "幻步临光",
