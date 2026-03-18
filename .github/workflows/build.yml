@@ -2,6 +2,7 @@ name: tauri-build
 
 on:
   push:
+    tags: ['**']
   pull_request:
     branches: ['**']
   workflow_dispatch:
