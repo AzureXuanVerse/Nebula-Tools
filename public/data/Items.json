@@ -577,6 +577,18 @@
       }
     },
     {
+      "id": 145,
+      "type": "Char",
+      "stype": 3,
+      "names": {
+        "en_US": "Otoha",
+        "ja_JP": "オトハ",
+        "ko_KR": "오토하",
+        "zh_CN": "乙叶",
+        "zh_TW": "乙葉"
+      }
+    },
+    {
       "id": 147,
       "type": "Char",
       "stype": 3,
@@ -742,6 +754,18 @@
         "ko_KR": "이브 한정 티켓(10회)",
         "zh_CN": "雪愿限定十连招募礼券",
         "zh_TW": "雪願限定十連招募禮券"
+      }
+    },
+    {
+      "id": 512,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Night Blossom Limited Ticket",
+        "ja_JP": "メモリアル旅券",
+        "ko_KR": "밤벚꽃 한정 티켓",
+        "zh_CN": "夜樱限定招募礼券",
+        "zh_TW": "夜櫻限定招募禮券"
       }
     },
     {
@@ -1102,6 +1126,18 @@
         "ko_KR": "치토세 심상 결정",
         "zh_CN": "千都世的心钥",
         "zh_TW": "千都世的心鑰"
+      }
+    },
+    {
+      "id": 1450,
+      "type": "Item",
+      "stype": 6,
+      "names": {
+        "en_US": "Otoha\u0027s Soul Key",
+        "ja_JP": "オトハの心相の欠片",
+        "ko_KR": "오토하 심상 결정",
+        "zh_CN": "乙叶的心钥",
+        "zh_TW": "乙葉的心鑰"
       }
     },
     {
@@ -1645,6 +1681,18 @@
       }
     },
     {
+      "id": 12703,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Rookie Hero Reporting In",
+        "ja_JP": "ビギナー勇者",
+        "ko_KR": "오늘부터 신입 용사!",
+        "zh_CN": "新人勇者前来报到",
+        "zh_TW": "新人勇者前來報到"
+      }
+    },
+    {
       "id": 13001,
       "type": "CharacterSkin",
       "stype": 46,
@@ -1909,6 +1957,42 @@
       }
     },
     {
+      "id": 14403,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "When Morning Glories Bloom, Her Eyes Open",
+        "ja_JP": "朝顔ノ乙女",
+        "ko_KR": "피어난 나팔꽃, 깨어난 소녀",
+        "zh_CN": "牵牛花开，少女初醒",
+        "zh_TW": "曉露朝顏，少女初覺"
+      }
+    },
+    {
+      "id": 14501,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Otoha: Default",
+        "ja_JP": "オトハ・デフォルト",
+        "ko_KR": "오토하-기본",
+        "zh_CN": "乙叶-基础形象",
+        "zh_TW": "乙葉-基礎形象"
+      }
+    },
+    {
+      "id": 14502,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Otoha: Awakened",
+        "ja_JP": "オトハ・覚醒",
+        "ko_KR": "오토하-각성",
+        "zh_CN": "乙叶-觉醒形象",
+        "zh_TW": "乙葉-覺醒形象"
+      }
+    },
+    {
       "id": 14701,
       "type": "CharacterSkin",
       "stype": 46,
@@ -2050,6 +2134,18 @@
         "ko_KR": "나즈나-각성",
         "zh_CN": "小禾-觉醒形象",
         "zh_TW": "小禾-覺醒形象"
+      }
+    },
+    {
+      "id": 15603,
+      "type": "CharacterSkin",
+      "stype": 46,
+      "names": {
+        "en_US": "Quirky Tea Party",
+        "ja_JP": "ヘンテコティータイム",
+        "ko_KR": "엉뚱한 요정의 다과회",
+        "zh_CN": "古灵精怪茶话会",
+        "zh_TW": "古靈精怪茶話會"
       }
     },
     {
@@ -3113,11 +3209,11 @@
       "type": "Item",
       "stype": 35,
       "names": {
-        "en_US": "!NONEED!",
-        "ja_JP": "*****",
-        "ko_KR": "더미40",
-        "zh_CN": "【不要翻译】星章抛光剂",
-        "zh_TW": "!NONEED!"
+        "en_US": "Drop of Purity",
+        "ja_JP": "恩恵のしずく",
+        "ko_KR": "성스러운 이슬",
+        "zh_CN": "圣洁之滴",
+        "zh_TW": "聖潔之滴"
       }
     },
     {
@@ -3337,6 +3433,18 @@
       }
     },
     {
+      "id": 71014,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Prefix Title: Precise",
+        "ja_JP": "称号：慎重",
+        "ko_KR": "접두 칭호: 진지한",
+        "zh_CN": "前缀头衔:严谨",
+        "zh_TW": "前綴頭銜：嚴謹"
+      }
+    },
+    {
       "id": 72001,
       "type": "Title",
       "stype": 2,
@@ -3493,6 +3601,18 @@
       }
     },
     {
+      "id": 72014,
+      "type": "Title",
+      "stype": 2,
+      "names": {
+        "en_US": "Suffix Title: Geographer",
+        "ja_JP": "称号：地理学者",
+        "ko_KR": "접미 칭호: 지리학자",
+        "zh_CN": "后缀头衔:地理学家",
+        "zh_TW": "後綴頭銜：地理學家"
+      }
+    },
+    {
       "id": 73101,
       "type": "Item",
       "stype": 2,
@@ -3589,6 +3709,18 @@
       }
     },
     {
+      "id": 73109,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Midnight Letter",
+        "ja_JP": "百合の香の書簡",
+        "ko_KR": "심야 편지",
+        "zh_CN": "午夜来信",
+        "zh_TW": "午夜來信"
+      }
+    },
+    {
       "id": 73201,
       "type": "Item",
       "stype": 2,
@@ -3610,6 +3742,42 @@
         "ko_KR": "유니온 이사회 티켓",
         "zh_CN": "联合理事会代币",
         "zh_TW": "聯合理事會代幣"
+      }
+    },
+    {
+      "id": 74201,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Celebration Time",
+        "ja_JP": "ロケット花火",
+        "ko_KR": "축배의 순간",
+        "zh_CN": "欢庆时刻",
+        "zh_TW": "歡慶時刻"
+      }
+    },
+    {
+      "id": 74202,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "A Bouquet",
+        "ja_JP": "プチブーケ",
+        "ko_KR": "꽃다발",
+        "zh_CN": "一捧鲜花",
+        "zh_TW": "一束鮮花"
+      }
+    },
+    {
+      "id": 74203,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Mega Rocket",
+        "ja_JP": "シャロケット",
+        "ko_KR": "하늘을 가르는 로켓",
+        "zh_CN": "飞天大火箭",
+        "zh_TW": "飛天大火箭"
       }
     },
     {
@@ -7117,6 +7285,30 @@
       }
     },
     {
+      "id": 101017,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Royal Grant Bonus Item",
+        "ja_JP": "ミラクルコース特典",
+        "ko_KR": "럭셔리 지원금 보너스 아이템",
+        "zh_CN": "大亨尊享补贴附赠物品",
+        "zh_TW": "大亨尊享補貼附贈物品"
+      }
+    },
+    {
+      "id": 101018,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Upgrade Grant Differential Item",
+        "ja_JP": "グレードアップ特典",
+        "ko_KR": "지원금 차액 아이템 업그레이드",
+        "zh_CN": "升级补贴差额物品",
+        "zh_TW": "升級補貼差額物品"
+      }
+    },
+    {
       "id": 111001,
       "type": "Honor",
       "stype": 43,
@@ -7198,6 +7390,30 @@
         "ko_KR": "빛을 거머쥔 자",
         "zh_CN": "拾光者",
         "zh_TW": "拾光者"
+      }
+    },
+    {
+      "id": 111008,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Chasing the Phantom",
+        "ja_JP": "銀狐の幻影",
+        "ko_KR": "환영을 쫓아서",
+        "zh_CN": "追逐魅影",
+        "zh_TW": "追逐魅影"
+      }
+    },
+    {
+      "id": 111009,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Wishmaster",
+        "ja_JP": "星ノ塔入札者",
+        "ko_KR": "소원 달인",
+        "zh_CN": "许愿大师",
+        "zh_TW": "許願大師"
       }
     },
     {
@@ -7501,6 +7717,30 @@
       }
     },
     {
+      "id": 112137,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112137.1",
+        "ja_JP": "Item.112137.1",
+        "ko_KR": "Item.112137.1",
+        "zh_CN": "Item.112137.1",
+        "zh_TW": "Item.112137.1"
+      }
+    },
+    {
+      "id": 112139,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112139.1",
+        "ja_JP": "Item.112139.1",
+        "ko_KR": "Item.112139.1",
+        "zh_CN": "Item.112139.1",
+        "zh_TW": "Item.112139.1"
+      }
+    },
+    {
       "id": 112141,
       "type": "Honor",
       "stype": 43,
@@ -7546,6 +7786,18 @@
         "ko_KR": "운명의 사용자",
         "zh_CN": "命定持刀人",
         "zh_TW": "命定持刀人"
+      }
+    },
+    {
+      "id": 112145,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Darkness Dissolving",
+        "ja_JP": "変幻自在の乙女",
+        "ko_KR": "밤의 끝자락",
+        "zh_CN": "长夜将尽",
+        "zh_TW": "長夜將盡"
       }
     },
     {
@@ -7609,6 +7861,18 @@
       }
     },
     {
+      "id": 112157,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112157.1",
+        "ja_JP": "Item.112157.1",
+        "ko_KR": "Item.112157.1",
+        "zh_CN": "Item.112157.1",
+        "zh_TW": "Item.112157.1"
+      }
+    },
+    {
       "id": 112158,
       "type": "Honor",
       "stype": 43,
@@ -7630,6 +7894,18 @@
         "ko_KR": "절묘한 의술",
         "zh_CN": "妙手回春",
         "zh_TW": "妙手回春"
+      }
+    },
+    {
+      "id": 112160,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Item.112160.1",
+        "ja_JP": "Item.112160.1",
+        "ko_KR": "Item.112160.1",
+        "zh_CN": "Item.112160.1",
+        "zh_TW": "Item.112160.1"
       }
     },
     {
@@ -7666,6 +7942,18 @@
         "ko_KR": "별의 여정 선행자",
         "zh_CN": "星途先行者",
         "zh_TW": "星途先行者"
+      }
+    },
+    {
+      "id": 114004,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Starpath Guide",
+        "ja_JP": "*****",
+        "ko_KR": "별의 가이드",
+        "zh_CN": "星途向导",
+        "zh_TW": "星途嚮導"
       }
     },
     {
@@ -7957,6 +8245,18 @@
       }
     },
     {
+      "id": 116009,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Solitary Waltz in Night\u0027s Embrace",
+        "ja_JP": "夜暗に踊る狐独な影",
+        "ko_KR": "어두운 밤 홀로 춤추는 그림자",
+        "zh_CN": "幽夜独舞孤影乱",
+        "zh_TW": "幽夜獨舞孤影亂"
+      }
+    },
+    {
       "id": 117001,
       "type": "Honor",
       "stype": 43,
@@ -8062,6 +8362,42 @@
         "ko_KR": "시즌3 종언의 결전·정예",
         "zh_CN": "第3赛季 决战终焉·精英",
         "zh_TW": "第3賽季 決戰終焉·菁英"
+      }
+    },
+    {
+      "id": 117031,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Endgame Ace",
+        "ja_JP": "シーズン4 キングオブ大討伐",
+        "ko_KR": "시즌4 종언의 결전·패왕",
+        "zh_CN": "第4赛季 决战终焉·王牌",
+        "zh_TW": "第4賽季 決戰終焉·王牌"
+      }
+    },
+    {
+      "id": 117032,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Endgame Master",
+        "ja_JP": "シーズン4 ロードオブ大討伐",
+        "ko_KR": "시즌4 종언의 결전·달인",
+        "zh_CN": "第4赛季 决战终焉·宗师",
+        "zh_TW": "第4賽季 決戰終焉·宗師"
+      }
+    },
+    {
+      "id": 117033,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 4 Endgame Elite",
+        "ja_JP": "シーズン4ナイトオブ大討伐",
+        "ko_KR": "시즌4 종언의 결전·정예",
+        "zh_CN": "第4赛季 决战终焉·精英",
+        "zh_TW": "第4賽季 決戰終焉·菁英"
       }
     },
     {
@@ -8245,6 +8581,42 @@
       }
     },
     {
+      "id": 118051,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 6 Hunting Ace",
+        "ja_JP": "シーズン6 キングオブハンター",
+        "ko_KR": "시즌6 사냥 전문가·패왕",
+        "zh_CN": "第6赛季 狩猎专家·王牌",
+        "zh_TW": "第6賽季 狩獵專家·王牌"
+      }
+    },
+    {
+      "id": 118052,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 6 Hunting Master",
+        "ja_JP": "シーズン6 ロードオブハンター",
+        "ko_KR": "시즌6 사냥 전문가·달인",
+        "zh_CN": "第6赛季 狩猎专家·宗师",
+        "zh_TW": "第6賽季 狩獵專家·宗師"
+      }
+    },
+    {
+      "id": 118053,
+      "type": "Honor",
+      "stype": 43,
+      "names": {
+        "en_US": "Season 6 Hunting Elite",
+        "ja_JP": "シーズン6 ナイトオブハンター",
+        "ko_KR": "시즌6 사냥 전문가·정예",
+        "zh_CN": "第6赛季 狩猎专家·精英",
+        "zh_TW": "第6賽季 狩獵專家·菁英"
+      }
+    },
+    {
       "id": 119011,
       "type": "Honor",
       "stype": 43,
@@ -8278,6 +8650,18 @@
         "ko_KR": "우주 사관생도 S3",
         "zh_CN": "太空军校生 S3",
         "zh_TW": "太空軍校生 S3"
+      }
+    },
+    {
+      "id": 119901,
+      "type": "LevelHonor",
+      "stype": 15,
+      "names": {
+        "en_US": "Lili Bae Club",
+        "ja_JP": "シモベアー",
+        "ko_KR": "엔젤곰 팬클럽",
+        "zh_CN": "莉莉贝尔粉丝团",
+        "zh_TW": "莉莉貝爾粉絲團"
       }
     },
     {
@@ -8395,9 +8779,21 @@
       "names": {
         "en_US": "Berry Unsettled",
         "ja_JP": "こっそりコソコソ",
-        "ko_KR": "엄청난 불안감",
+        "ko_KR": "불안한 마음",
         "zh_CN": "灰常不安",
         "zh_TW": "灰常不安"
+      }
+    },
+    {
+      "id": 130007,
+      "type": "HeadItem",
+      "stype": 45,
+      "names": {
+        "en_US": "A Sharpened Resolve",
+        "ja_JP": "刀の葛藤",
+        "ko_KR": "‘칼’의 결심",
+        "zh_CN": "“刀”的决心",
+        "zh_TW": "「刀」的決心"
       }
     },
     {
@@ -8410,6 +8806,18 @@
         "ko_KR": "바람 속성 팀 기록",
         "zh_CN": "风系小队纪录",
         "zh_TW": "風系小隊紀錄"
+      }
+    },
+    {
+      "id": 198026,
+      "type": "Item",
+      "stype": 48,
+      "names": {
+        "en_US": "Ignis Team Record",
+        "ja_JP": "火属性の記録",
+        "ko_KR": "불 속성 팀 기록",
+        "zh_CN": "火系小队纪录",
+        "zh_TW": "火系小隊紀錄"
       }
     },
     {
@@ -8515,7 +8923,7 @@
       "names": {
         "en_US": "Tilia Appearance (2D):\nThis Is My Justice!",
         "ja_JP": "アナザーイメージ：\nイッツ・マイ・ジャスティス！",
-        "ko_KR": "틸리아 전용 스킨:\n이것이 나의 정의!",
+        "ko_KR": "틸리아 전용 스킨\n이것이 나의 정의!",
         "zh_CN": "缇莉娅专属形象:\n此即吾之正义！",
         "zh_TW": "緹莉婭專屬形象：\n此即吾之正義！"
       }
@@ -8539,7 +8947,7 @@
       "names": {
         "en_US": "Iris\u0027s Appearance (2D):\nThe 1/365th of You",
         "ja_JP": "アナザーイメージ：\n1/365の君と",
-        "ko_KR": "아야메 전용 스킨:\n1/365의 그대와",
+        "ko_KR": "아야메 전용 스킨\n1/365의 그대와",
         "zh_CN": "鸢尾专属形象:\n1/365的你",
         "zh_TW": "鳶尾專屬形象：\n1/365的你"
       }
@@ -8563,7 +8971,7 @@
       "names": {
         "en_US": "Amber\u0027s exclusive appearance:\nPlayful Innocence",
         "ja_JP": "アナザーイメージ：\nいたずらっこのお留守番",
-        "ko_KR": "코하쿠 전용 스킨:\n어흥냥이",
+        "ko_KR": "코하쿠 전용 스킨\n어흥냥이",
         "zh_CN": "琥珀专属形象:\n玩心无邪",
         "zh_TW": "琥珀專屬形象：\n玩心無邪"
       }
@@ -8609,11 +9017,11 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Item.199016.1",
-        "ja_JP": "Item.199016.1",
-        "ko_KR": "Item.199016.1",
-        "zh_CN": "Item.199016.1",
-        "zh_TW": "Item.199016.1"
+        "en_US": "Teresa Appearance (2D):\nRookie Hero Reporting In",
+        "ja_JP": "アナザーイメージ：\nビギナー勇者",
+        "ko_KR": "테레사 전용 스킨\n오늘부터 신입 용사!",
+        "zh_CN": "特丽莎专属形象:\n新人勇者前来报到",
+        "zh_TW": "特麗莎專屬形象：\n新人勇者前來報到"
       }
     },
     {
@@ -8621,11 +9029,23 @@
       "type": "Item",
       "stype": 2,
       "names": {
-        "en_US": "Item.199017.1",
-        "ja_JP": "Item.199017.1",
-        "ko_KR": "Item.199017.1",
-        "zh_CN": "Item.199017.1",
-        "zh_TW": "Item.199017.1"
+        "en_US": "Limited-Time Avatar:\nBerry Unsettled",
+        "ja_JP": "今期限定アイコン：\nこっそりコソコソ",
+        "ko_KR": "이번 시즌 한정 프로필\n불안한 마음",
+        "zh_CN": "本期限定头像:\n灰常不安",
+        "zh_TW": "本期限定大頭貼：\n灰常不安"
+      }
+    },
+    {
+      "id": 199019,
+      "type": "Item",
+      "stype": 2,
+      "names": {
+        "en_US": "Limited-Time Avatar:\n\"A Sharpened Resolve\"",
+        "ja_JP": "今期限定アイコン：\n刀の葛藤",
+        "ko_KR": "이번 시즌 한정 프로필\n‘칼’의 결심",
+        "zh_CN": "本期限定头像:\n“刀”的决心",
+        "zh_TW": "本期限定大頭貼：\n「刀」的決心"
       }
     },
     {
@@ -9629,11 +10049,11 @@
       "type": "Disc",
       "stype": 8,
       "names": {
-        "en_US": "Item.214045.1",
-        "ja_JP": "Item.214045.1",
-        "ko_KR": "Item.214045.1",
-        "zh_CN": "Item.214045.1",
-        "zh_TW": "Item.214045.1"
+        "en_US": "Petals of Blooming Mirage",
+        "ja_JP": "千変万花",
+        "ko_KR": "꽃밭의 환영",
+        "zh_CN": "繁花幻梦",
+        "zh_TW": "繁花幻夢"
       }
     },
     {
@@ -9677,11 +10097,11 @@
       "type": "Disc",
       "stype": 8,
       "names": {
-        "en_US": "Item.214049.1",
-        "ja_JP": "Item.214049.1",
-        "ko_KR": "Item.214049.1",
-        "zh_CN": "Item.214049.1",
-        "zh_TW": "Item.214049.1"
+        "en_US": "Traces of Starlight",
+        "ja_JP": "星光の道標",
+        "ko_KR": "Memory of Stella",
+        "zh_CN": "星光的印记",
+        "zh_TW": "星光的印記"
       }
     },
     {
@@ -9689,11 +10109,119 @@
       "type": "Disc",
       "stype": 8,
       "names": {
-        "en_US": "Item.214050.1",
-        "ja_JP": "Item.214050.1",
-        "ko_KR": "Item.214050.1",
-        "zh_CN": "Item.214050.1",
-        "zh_TW": "Item.214050.1"
+        "en_US": "Phantom of the Banquet",
+        "ja_JP": "夜宴に踊る影",
+        "ko_KR": "연회장의 그림자",
+        "zh_CN": "夜宴谜影",
+        "zh_TW": "夜宴謎影"
+      }
+    },
+    {
+      "id": 214052,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214052.1",
+        "ja_JP": "Item.214052.1",
+        "ko_KR": "Item.214052.1",
+        "zh_CN": "Item.214052.1",
+        "zh_TW": "Item.214052.1"
+      }
+    },
+    {
+      "id": 214053,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214053.1",
+        "ja_JP": "Item.214053.1",
+        "ko_KR": "Item.214053.1",
+        "zh_CN": "Item.214053.1",
+        "zh_TW": "Item.214053.1"
+      }
+    },
+    {
+      "id": 214054,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214054.1",
+        "ja_JP": "Item.214054.1",
+        "ko_KR": "Item.214054.1",
+        "zh_CN": "Item.214054.1",
+        "zh_TW": "Item.214054.1"
+      }
+    },
+    {
+      "id": 214055,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214055.1",
+        "ja_JP": "Item.214055.1",
+        "ko_KR": "Item.214055.1",
+        "zh_CN": "Item.214055.1",
+        "zh_TW": "Item.214055.1"
+      }
+    },
+    {
+      "id": 214056,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214056.1",
+        "ja_JP": "Item.214056.1",
+        "ko_KR": "Item.214056.1",
+        "zh_CN": "Item.214056.1",
+        "zh_TW": "Item.214056.1"
+      }
+    },
+    {
+      "id": 214057,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214057.1",
+        "ja_JP": "Item.214057.1",
+        "ko_KR": "Item.214057.1",
+        "zh_CN": "Item.214057.1",
+        "zh_TW": "Item.214057.1"
+      }
+    },
+    {
+      "id": 214058,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214058.1",
+        "ja_JP": "Item.214058.1",
+        "ko_KR": "Item.214058.1",
+        "zh_CN": "Item.214058.1",
+        "zh_TW": "Item.214058.1"
+      }
+    },
+    {
+      "id": 214059,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214059.1",
+        "ja_JP": "Item.214059.1",
+        "ko_KR": "Item.214059.1",
+        "zh_CN": "Item.214059.1",
+        "zh_TW": "Item.214059.1"
+      }
+    },
+    {
+      "id": 214060,
+      "type": "Disc",
+      "stype": 8,
+      "names": {
+        "en_US": "Item.214060.1",
+        "ja_JP": "Item.214060.1",
+        "ko_KR": "Item.214060.1",
+        "zh_CN": "Item.214060.1",
+        "zh_TW": "Item.214060.1"
       }
     },
     {
@@ -10661,11 +11189,11 @@
       "type": "Item",
       "stype": 40,
       "names": {
-        "en_US": "Item.224045.1",
-        "ja_JP": "Item.224045.1",
-        "ko_KR": "Item.224045.1",
-        "zh_CN": "Item.224045.1",
-        "zh_TW": "Item.224045.1"
+        "en_US": "Petals of Blooming Mirage Melody",
+        "ja_JP": "千変万花の調べ",
+        "ko_KR": "꽃밭의 환영 멜로디",
+        "zh_CN": "繁花幻梦曲调",
+        "zh_TW": "繁花幻夢曲調"
       }
     },
     {
@@ -10709,11 +11237,11 @@
       "type": "Item",
       "stype": 40,
       "names": {
-        "en_US": "Item.224049.1",
-        "ja_JP": "Item.224049.1",
-        "ko_KR": "Item.224049.1",
-        "zh_CN": "Item.224049.1",
-        "zh_TW": "Item.224049.1"
+        "en_US": "Traces of Starlight Melody",
+        "ja_JP": "星光の道標の調べ",
+        "ko_KR": "Memory of Stella 멜로디",
+        "zh_CN": "星光的印记曲调",
+        "zh_TW": "星光的印記曲調"
       }
     },
     {
@@ -10721,11 +11249,119 @@
       "type": "Item",
       "stype": 40,
       "names": {
-        "en_US": "Item.224050.1",
-        "ja_JP": "Item.224050.1",
-        "ko_KR": "Item.224050.1",
-        "zh_CN": "Item.224050.1",
-        "zh_TW": "Item.224050.1"
+        "en_US": "Phantom of the Banquet Melody",
+        "ja_JP": "夜宴に踊る影の調べ",
+        "ko_KR": "연회장의 그림자 멜로디",
+        "zh_CN": "夜宴谜影曲调",
+        "zh_TW": "夜宴謎影曲調"
+      }
+    },
+    {
+      "id": 224052,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224052.1",
+        "ja_JP": "Item.224052.1",
+        "ko_KR": "Item.224052.1",
+        "zh_CN": "Item.224052.1",
+        "zh_TW": "Item.224052.1"
+      }
+    },
+    {
+      "id": 224053,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224053.1",
+        "ja_JP": "Item.224053.1",
+        "ko_KR": "Item.224053.1",
+        "zh_CN": "Item.224053.1",
+        "zh_TW": "Item.224053.1"
+      }
+    },
+    {
+      "id": 224054,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224054.1",
+        "ja_JP": "Item.224054.1",
+        "ko_KR": "Item.224054.1",
+        "zh_CN": "Item.224054.1",
+        "zh_TW": "Item.224054.1"
+      }
+    },
+    {
+      "id": 224055,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224055.1",
+        "ja_JP": "Item.224055.1",
+        "ko_KR": "Item.224055.1",
+        "zh_CN": "Item.224055.1",
+        "zh_TW": "Item.224055.1"
+      }
+    },
+    {
+      "id": 224056,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224056.1",
+        "ja_JP": "Item.224056.1",
+        "ko_KR": "Item.224056.1",
+        "zh_CN": "Item.224056.1",
+        "zh_TW": "Item.224056.1"
+      }
+    },
+    {
+      "id": 224057,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224057.1",
+        "ja_JP": "Item.224057.1",
+        "ko_KR": "Item.224057.1",
+        "zh_CN": "Item.224057.1",
+        "zh_TW": "Item.224057.1"
+      }
+    },
+    {
+      "id": 224058,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224058.1",
+        "ja_JP": "Item.224058.1",
+        "ko_KR": "Item.224058.1",
+        "zh_CN": "Item.224058.1",
+        "zh_TW": "Item.224058.1"
+      }
+    },
+    {
+      "id": 224059,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224059.1",
+        "ja_JP": "Item.224059.1",
+        "ko_KR": "Item.224059.1",
+        "zh_CN": "Item.224059.1",
+        "zh_TW": "Item.224059.1"
+      }
+    },
+    {
+      "id": 224060,
+      "type": "Item",
+      "stype": 40,
+      "names": {
+        "en_US": "Item.224060.1",
+        "ja_JP": "Item.224060.1",
+        "ko_KR": "Item.224060.1",
+        "zh_CN": "Item.224060.1",
+        "zh_TW": "Item.224060.1"
       }
     },
     {
@@ -18109,6 +18745,378 @@
       }
     },
     {
+      "id": 513901,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513901.1",
+        "ja_JP": "Item.513901.1",
+        "ko_KR": "Item.513901.1",
+        "zh_CN": "Item.513901.1",
+        "zh_TW": "Item.513901.1"
+      }
+    },
+    {
+      "id": 513902,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513902.1",
+        "ja_JP": "Item.513902.1",
+        "ko_KR": "Item.513902.1",
+        "zh_CN": "Item.513902.1",
+        "zh_TW": "Item.513902.1"
+      }
+    },
+    {
+      "id": 513903,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513903.1",
+        "ja_JP": "Item.513903.1",
+        "ko_KR": "Item.513903.1",
+        "zh_CN": "Item.513903.1",
+        "zh_TW": "Item.513903.1"
+      }
+    },
+    {
+      "id": 513904,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513904.1",
+        "ja_JP": "Item.513904.1",
+        "ko_KR": "Item.513904.1",
+        "zh_CN": "Item.513904.1",
+        "zh_TW": "Item.513904.1"
+      }
+    },
+    {
+      "id": 513905,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513905.1",
+        "ja_JP": "Item.513905.1",
+        "ko_KR": "Item.513905.1",
+        "zh_CN": "Item.513905.1",
+        "zh_TW": "Item.513905.1"
+      }
+    },
+    {
+      "id": 513906,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513906.1",
+        "ja_JP": "Item.513906.1",
+        "ko_KR": "Item.513906.1",
+        "zh_CN": "Item.513906.1",
+        "zh_TW": "Item.513906.1"
+      }
+    },
+    {
+      "id": 513907,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513907.1",
+        "ja_JP": "Item.513907.1",
+        "ko_KR": "Item.513907.1",
+        "zh_CN": "Item.513907.1",
+        "zh_TW": "Item.513907.1"
+      }
+    },
+    {
+      "id": 513908,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513908.1",
+        "ja_JP": "Item.513908.1",
+        "ko_KR": "Item.513908.1",
+        "zh_CN": "Item.513908.1",
+        "zh_TW": "Item.513908.1"
+      }
+    },
+    {
+      "id": 513909,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513909.1",
+        "ja_JP": "Item.513909.1",
+        "ko_KR": "Item.513909.1",
+        "zh_CN": "Item.513909.1",
+        "zh_TW": "Item.513909.1"
+      }
+    },
+    {
+      "id": 513910,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513910.1",
+        "ja_JP": "Item.513910.1",
+        "ko_KR": "Item.513910.1",
+        "zh_CN": "Item.513910.1",
+        "zh_TW": "Item.513910.1"
+      }
+    },
+    {
+      "id": 513911,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513911.1",
+        "ja_JP": "Item.513911.1",
+        "ko_KR": "Item.513911.1",
+        "zh_CN": "Item.513911.1",
+        "zh_TW": "Item.513911.1"
+      }
+    },
+    {
+      "id": 513912,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513912.1",
+        "ja_JP": "Item.513912.1",
+        "ko_KR": "Item.513912.1",
+        "zh_CN": "Item.513912.1",
+        "zh_TW": "Item.513912.1"
+      }
+    },
+    {
+      "id": 513913,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513913.1",
+        "ja_JP": "Item.513913.1",
+        "ko_KR": "Item.513913.1",
+        "zh_CN": "Item.513913.1",
+        "zh_TW": "Item.513913.1"
+      }
+    },
+    {
+      "id": 513914,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513914.1",
+        "ja_JP": "Item.513914.1",
+        "ko_KR": "Item.513914.1",
+        "zh_CN": "Item.513914.1",
+        "zh_TW": "Item.513914.1"
+      }
+    },
+    {
+      "id": 513915,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513915.1",
+        "ja_JP": "Item.513915.1",
+        "ko_KR": "Item.513915.1",
+        "zh_CN": "Item.513915.1",
+        "zh_TW": "Item.513915.1"
+      }
+    },
+    {
+      "id": 513921,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513921.1",
+        "ja_JP": "Item.513921.1",
+        "ko_KR": "Item.513921.1",
+        "zh_CN": "Item.513921.1",
+        "zh_TW": "Item.513921.1"
+      }
+    },
+    {
+      "id": 513922,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513922.1",
+        "ja_JP": "Item.513922.1",
+        "ko_KR": "Item.513922.1",
+        "zh_CN": "Item.513922.1",
+        "zh_TW": "Item.513922.1"
+      }
+    },
+    {
+      "id": 513923,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513923.1",
+        "ja_JP": "Item.513923.1",
+        "ko_KR": "Item.513923.1",
+        "zh_CN": "Item.513923.1",
+        "zh_TW": "Item.513923.1"
+      }
+    },
+    {
+      "id": 513924,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.513924.1",
+        "ja_JP": "Item.513924.1",
+        "ko_KR": "Item.513924.1",
+        "zh_CN": "Item.513924.1",
+        "zh_TW": "Item.513924.1"
+      }
+    },
+    {
+      "id": 513925,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513925.1",
+        "ja_JP": "Item.513925.1",
+        "ko_KR": "Item.513925.1",
+        "zh_CN": "Item.513925.1",
+        "zh_TW": "Item.513925.1"
+      }
+    },
+    {
+      "id": 513926,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513926.1",
+        "ja_JP": "Item.513926.1",
+        "ko_KR": "Item.513926.1",
+        "zh_CN": "Item.513926.1",
+        "zh_TW": "Item.513926.1"
+      }
+    },
+    {
+      "id": 513927,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513927.1",
+        "ja_JP": "Item.513927.1",
+        "ko_KR": "Item.513927.1",
+        "zh_CN": "Item.513927.1",
+        "zh_TW": "Item.513927.1"
+      }
+    },
+    {
+      "id": 513928,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513928.1",
+        "ja_JP": "Item.513928.1",
+        "ko_KR": "Item.513928.1",
+        "zh_CN": "Item.513928.1",
+        "zh_TW": "Item.513928.1"
+      }
+    },
+    {
+      "id": 513929,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513929.1",
+        "ja_JP": "Item.513929.1",
+        "ko_KR": "Item.513929.1",
+        "zh_CN": "Item.513929.1",
+        "zh_TW": "Item.513929.1"
+      }
+    },
+    {
+      "id": 513930,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513930.1",
+        "ja_JP": "Item.513930.1",
+        "ko_KR": "Item.513930.1",
+        "zh_CN": "Item.513930.1",
+        "zh_TW": "Item.513930.1"
+      }
+    },
+    {
+      "id": 513931,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513931.1",
+        "ja_JP": "Item.513931.1",
+        "ko_KR": "Item.513931.1",
+        "zh_CN": "Item.513931.1",
+        "zh_TW": "Item.513931.1"
+      }
+    },
+    {
+      "id": 513932,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513932.1",
+        "ja_JP": "Item.513932.1",
+        "ko_KR": "Item.513932.1",
+        "zh_CN": "Item.513932.1",
+        "zh_TW": "Item.513932.1"
+      }
+    },
+    {
+      "id": 513933,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513933.1",
+        "ja_JP": "Item.513933.1",
+        "ko_KR": "Item.513933.1",
+        "zh_CN": "Item.513933.1",
+        "zh_TW": "Item.513933.1"
+      }
+    },
+    {
+      "id": 513941,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513941.1",
+        "ja_JP": "Item.513941.1",
+        "ko_KR": "Item.513941.1",
+        "zh_CN": "Item.513941.1",
+        "zh_TW": "Item.513941.1"
+      }
+    },
+    {
+      "id": 513942,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513942.1",
+        "ja_JP": "Item.513942.1",
+        "ko_KR": "Item.513942.1",
+        "zh_CN": "Item.513942.1",
+        "zh_TW": "Item.513942.1"
+      }
+    },
+    {
+      "id": 513943,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.513943.1",
+        "ja_JP": "Item.513943.1",
+        "ko_KR": "Item.513943.1",
+        "zh_CN": "Item.513943.1",
+        "zh_TW": "Item.513943.1"
+      }
+    },
+    {
       "id": 514101,
       "type": "RogueItem",
       "stype": 42,
@@ -19317,7 +20325,7 @@
         "ja_JP": "連龍の剣舞14",
         "ko_KR": "거울 같은 물14",
         "zh_CN": "镜水归潮14",
-        "zh_TW": "!NONEED!"
+        "zh_TW": "!PENDING!"
       }
     },
     {
@@ -19329,7 +20337,7 @@
         "ja_JP": "反攻の型15",
         "ko_KR": "굳센 보호막15",
         "zh_CN": "坚鳞护体15",
-        "zh_TW": "!NONEED!"
+        "zh_TW": "!PENDING!"
       }
     },
     {
@@ -19522,6 +20530,354 @@
         "ko_KR": "얼어붙은 뱀의 뼈",
         "zh_CN": "蛇骨寒涛",
         "zh_TW": "蛇骨寒濤"
+      }
+    },
+    {
+      "id": 514501,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Subtle Tremor",
+        "ja_JP": "徒花",
+        "ko_KR": "미세한 전율",
+        "zh_CN": "隐约震颤",
+        "zh_TW": "隱約震顫"
+      }
+    },
+    {
+      "id": 514502,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Hymn of Gloom",
+        "ja_JP": "陰翳礼讃",
+        "ko_KR": "어둠의 찬사",
+        "zh_CN": "阴翳颂赞",
+        "zh_TW": "陰翳頌讚"
+      }
+    },
+    {
+      "id": 514503,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Solemn Echo",
+        "ja_JP": "幽寂残響",
+        "ko_KR": "고요한 울림",
+        "zh_CN": "幽寂回响",
+        "zh_TW": "幽寂迴響"
+      }
+    },
+    {
+      "id": 514504,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Petal-Shower Grace",
+        "ja_JP": "散華の美",
+        "ko_KR": "흩어짐의 미학",
+        "zh_CN": "散华之美",
+        "zh_TW": "散華之美"
+      }
+    },
+    {
+      "id": 514505,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Umbral Depth",
+        "ja_JP": "仄かな闇",
+        "ko_KR": "어스름한 깊은 곳",
+        "zh_CN": "微暗深处",
+        "zh_TW": "微暗深處"
+      }
+    },
+    {
+      "id": 514506,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Cycle of Four Seasons",
+        "ja_JP": "巡り征く四季",
+        "ko_KR": "시간 순환",
+        "zh_CN": "四时流转",
+        "zh_TW": "四時流轉"
+      }
+    },
+    {
+      "id": 514507,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Shadow Soulknell",
+        "ja_JP": "魂打つ影",
+        "ko_KR": "암영의 방문",
+        "zh_CN": "暗影叩魂",
+        "zh_TW": "暗影叩魂"
+      }
+    },
+    {
+      "id": 514508,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Twilight Gleam",
+        "ja_JP": "薄暗微光",
+        "ko_KR": "옅은 어둠",
+        "zh_CN": "薄暗微茫",
+        "zh_TW": "薄暗微茫"
+      }
+    },
+    {
+      "id": 514509,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Duskfall",
+        "ja_JP": "霧暮れ",
+        "ko_KR": "저녁 안개의 강림",
+        "zh_CN": "暮霭降临",
+        "zh_TW": "暮靄降臨"
+      }
+    },
+    {
+      "id": 514510,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Fading Candle Flame",
+        "ja_JP": "虚ろ火の残影",
+        "ko_KR": "허상의 잔염",
+        "zh_CN": "虚烛残焰",
+        "zh_TW": "虛燭殘焰"
+      }
+    },
+    {
+      "id": 514511,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Bewitching Phantom",
+        "ja_JP": "迷魂潜陰",
+        "ko_KR": "그림자 속의 미혹",
+        "zh_CN": "潜影迷魂",
+        "zh_TW": "潛影迷魂"
+      }
+    },
+    {
+      "id": 514512,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Night Tide Rush",
+        "ja_JP": "夜潮奔りたる",
+        "ko_KR": "밤의 격랑",
+        "zh_CN": "夜潮奔涌",
+        "zh_TW": "夜潮奔湧"
+      }
+    },
+    {
+      "id": 514513,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Shadow Blossom",
+        "ja_JP": "影下に咲く花",
+        "ko_KR": "그림자 아래 핀 꽃",
+        "zh_CN": "影下生花",
+        "zh_TW": "影下生花"
+      }
+    },
+    {
+      "id": 514521,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Lonely Twin Shadows",
+        "ja_JP": "双影",
+        "ko_KR": "침묵의 그림자",
+        "zh_CN": "寂影成双",
+        "zh_TW": "寂影成雙"
+      }
+    },
+    {
+      "id": 514522,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Night-Walker",
+        "ja_JP": "暗夜行路",
+        "ko_KR": "어두운 밤길의 여정",
+        "zh_CN": "暗夜行路",
+        "zh_TW": "暗夜行路"
+      }
+    },
+    {
+      "id": 514523,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Ripple of Shadow",
+        "ja_JP": "暝き浮き波",
+        "ko_KR": "물결 위의 어스름",
+        "zh_CN": "暝色浮波",
+        "zh_TW": "暝色浮波"
+      }
+    },
+    {
+      "id": 514524,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Evening Rain",
+        "ja_JP": "衣濡らす暮雨",
+        "ko_KR": "옷깃을 적시는 저녁비",
+        "zh_CN": "暮雨沾衣",
+        "zh_TW": "暮雨沾衣"
+      }
+    },
+    {
+      "id": 514525,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Solitary Lantern",
+        "ja_JP": "揺るる孤灯",
+        "ko_KR": "흔들리는 외딴 등",
+        "zh_CN": "孤灯摇曳",
+        "zh_TW": "孤燈搖曳"
+      }
+    },
+    {
+      "id": 514526,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Without A Trace",
+        "ja_JP": "無形",
+        "ko_KR": "찰나에 사라진 흔적",
+        "zh_CN": "须臾无踪",
+        "zh_TW": "須臾無蹤"
+      }
+    },
+    {
+      "id": 514527,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Hollow Steps",
+        "ja_JP": "逢魔",
+        "ko_KR": "빈 계단 위",
+        "zh_CN": "空阶之上",
+        "zh_TW": "空階之上"
+      }
+    },
+    {
+      "id": 514528,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Rain-Woven Sorrow",
+        "ja_JP": "愁いの痕",
+        "ko_KR": "빗방울에 엮인 시름",
+        "zh_CN": "雨织愁痕",
+        "zh_TW": "雨織愁痕"
+      }
+    },
+    {
+      "id": 514529,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Bone-Chilling Rain",
+        "ja_JP": "冷雨侵骨",
+        "ko_KR": "시린 빗줄기의 침투",
+        "zh_CN": "寒霖浸骨",
+        "zh_TW": "寒霖浸骨"
+      }
+    },
+    {
+      "id": 514530,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Inevitable End",
+        "ja_JP": "終に至る",
+        "ko_KR": "최후의 끝",
+        "zh_CN": "终期于尽",
+        "zh_TW": "終期於盡"
+      }
+    },
+    {
+      "id": 514531,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Devouring Shadow",
+        "ja_JP": "蝕む暗色",
+        "ko_KR": "어둠의 잠식",
+        "zh_CN": "暗色蚕食",
+        "zh_TW": "暗色蠶食"
+      }
+    },
+    {
+      "id": 514532,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Murmur of Annihilation",
+        "ja_JP": "消滅の唸り",
+        "ko_KR": "소멸의 낮은 울림",
+        "zh_CN": "湮灭低鸣",
+        "zh_TW": "湮滅低鳴"
+      }
+    },
+    {
+      "id": 514533,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Silent Knell",
+        "ja_JP": "鳴らぬ弔いの鐘",
+        "ko_KR": "침묵의 조종 소리",
+        "zh_CN": "丧钟无声",
+        "zh_TW": "喪鐘無聲"
+      }
+    },
+    {
+      "id": 514541,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Blossom-Eroded Abyss",
+        "ja_JP": "深淵に蝕まれる花",
+        "ko_KR": "바스러진 꽃의 심연",
+        "zh_CN": "花蚀深渊",
+        "zh_TW": "花蝕深淵"
+      }
+    },
+    {
+      "id": 514542,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Ultimate Darkness",
+        "ja_JP": "万象は闇へ",
+        "ko_KR": "만물이 향하는 어둠",
+        "zh_CN": "万境归暝",
+        "zh_TW": "萬鏡歸暝"
+      }
+    },
+    {
+      "id": 514543,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Moonlit Edge",
+        "ja_JP": "月下白刃",
+        "ko_KR": "달빛에 빛나는 칼날",
+        "zh_CN": "月下华刃",
+        "zh_TW": "月下華刃"
       }
     },
     {
@@ -21265,6 +22621,354 @@
       }
     },
     {
+      "id": 515701,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515701.1",
+        "ja_JP": "Item.515701.1",
+        "ko_KR": "Item.515701.1",
+        "zh_CN": "Item.515701.1",
+        "zh_TW": "Item.515701.1"
+      }
+    },
+    {
+      "id": 515702,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515702.1",
+        "ja_JP": "Item.515702.1",
+        "ko_KR": "Item.515702.1",
+        "zh_CN": "Item.515702.1",
+        "zh_TW": "Item.515702.1"
+      }
+    },
+    {
+      "id": 515703,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515703.1",
+        "ja_JP": "Item.515703.1",
+        "ko_KR": "Item.515703.1",
+        "zh_CN": "Item.515703.1",
+        "zh_TW": "Item.515703.1"
+      }
+    },
+    {
+      "id": 515704,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515704.1",
+        "ja_JP": "Item.515704.1",
+        "ko_KR": "Item.515704.1",
+        "zh_CN": "Item.515704.1",
+        "zh_TW": "Item.515704.1"
+      }
+    },
+    {
+      "id": 515705,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515705.1",
+        "ja_JP": "Item.515705.1",
+        "ko_KR": "Item.515705.1",
+        "zh_CN": "Item.515705.1",
+        "zh_TW": "Item.515705.1"
+      }
+    },
+    {
+      "id": 515706,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515706.1",
+        "ja_JP": "Item.515706.1",
+        "ko_KR": "Item.515706.1",
+        "zh_CN": "Item.515706.1",
+        "zh_TW": "Item.515706.1"
+      }
+    },
+    {
+      "id": 515707,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515707.1",
+        "ja_JP": "Item.515707.1",
+        "ko_KR": "Item.515707.1",
+        "zh_CN": "Item.515707.1",
+        "zh_TW": "Item.515707.1"
+      }
+    },
+    {
+      "id": 515708,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515708.1",
+        "ja_JP": "Item.515708.1",
+        "ko_KR": "Item.515708.1",
+        "zh_CN": "Item.515708.1",
+        "zh_TW": "Item.515708.1"
+      }
+    },
+    {
+      "id": 515709,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515709.1",
+        "ja_JP": "Item.515709.1",
+        "ko_KR": "Item.515709.1",
+        "zh_CN": "Item.515709.1",
+        "zh_TW": "Item.515709.1"
+      }
+    },
+    {
+      "id": 515710,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515710.1",
+        "ja_JP": "Item.515710.1",
+        "ko_KR": "Item.515710.1",
+        "zh_CN": "Item.515710.1",
+        "zh_TW": "Item.515710.1"
+      }
+    },
+    {
+      "id": 515711,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515711.1",
+        "ja_JP": "Item.515711.1",
+        "ko_KR": "Item.515711.1",
+        "zh_CN": "Item.515711.1",
+        "zh_TW": "Item.515711.1"
+      }
+    },
+    {
+      "id": 515712,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515712.1",
+        "ja_JP": "Item.515712.1",
+        "ko_KR": "Item.515712.1",
+        "zh_CN": "Item.515712.1",
+        "zh_TW": "Item.515712.1"
+      }
+    },
+    {
+      "id": 515713,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515713.1",
+        "ja_JP": "Item.515713.1",
+        "ko_KR": "Item.515713.1",
+        "zh_CN": "Item.515713.1",
+        "zh_TW": "Item.515713.1"
+      }
+    },
+    {
+      "id": 515721,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515721.1",
+        "ja_JP": "Item.515721.1",
+        "ko_KR": "Item.515721.1",
+        "zh_CN": "Item.515721.1",
+        "zh_TW": "Item.515721.1"
+      }
+    },
+    {
+      "id": 515722,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515722.1",
+        "ja_JP": "Item.515722.1",
+        "ko_KR": "Item.515722.1",
+        "zh_CN": "Item.515722.1",
+        "zh_TW": "Item.515722.1"
+      }
+    },
+    {
+      "id": 515723,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515723.1",
+        "ja_JP": "Item.515723.1",
+        "ko_KR": "Item.515723.1",
+        "zh_CN": "Item.515723.1",
+        "zh_TW": "Item.515723.1"
+      }
+    },
+    {
+      "id": 515724,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.515724.1",
+        "ja_JP": "Item.515724.1",
+        "ko_KR": "Item.515724.1",
+        "zh_CN": "Item.515724.1",
+        "zh_TW": "Item.515724.1"
+      }
+    },
+    {
+      "id": 515725,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515725.1",
+        "ja_JP": "Item.515725.1",
+        "ko_KR": "Item.515725.1",
+        "zh_CN": "Item.515725.1",
+        "zh_TW": "Item.515725.1"
+      }
+    },
+    {
+      "id": 515726,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515726.1",
+        "ja_JP": "Item.515726.1",
+        "ko_KR": "Item.515726.1",
+        "zh_CN": "Item.515726.1",
+        "zh_TW": "Item.515726.1"
+      }
+    },
+    {
+      "id": 515727,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515727.1",
+        "ja_JP": "Item.515727.1",
+        "ko_KR": "Item.515727.1",
+        "zh_CN": "Item.515727.1",
+        "zh_TW": "Item.515727.1"
+      }
+    },
+    {
+      "id": 515728,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515728.1",
+        "ja_JP": "Item.515728.1",
+        "ko_KR": "Item.515728.1",
+        "zh_CN": "Item.515728.1",
+        "zh_TW": "Item.515728.1"
+      }
+    },
+    {
+      "id": 515729,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515729.1",
+        "ja_JP": "Item.515729.1",
+        "ko_KR": "Item.515729.1",
+        "zh_CN": "Item.515729.1",
+        "zh_TW": "Item.515729.1"
+      }
+    },
+    {
+      "id": 515730,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515730.1",
+        "ja_JP": "Item.515730.1",
+        "ko_KR": "Item.515730.1",
+        "zh_CN": "Item.515730.1",
+        "zh_TW": "Item.515730.1"
+      }
+    },
+    {
+      "id": 515731,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515731.1",
+        "ja_JP": "Item.515731.1",
+        "ko_KR": "Item.515731.1",
+        "zh_CN": "Item.515731.1",
+        "zh_TW": "Item.515731.1"
+      }
+    },
+    {
+      "id": 515732,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515732.1",
+        "ja_JP": "Item.515732.1",
+        "ko_KR": "Item.515732.1",
+        "zh_CN": "Item.515732.1",
+        "zh_TW": "Item.515732.1"
+      }
+    },
+    {
+      "id": 515733,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515733.1",
+        "ja_JP": "Item.515733.1",
+        "ko_KR": "Item.515733.1",
+        "zh_CN": "Item.515733.1",
+        "zh_TW": "Item.515733.1"
+      }
+    },
+    {
+      "id": 515741,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515741.1",
+        "ja_JP": "Item.515741.1",
+        "ko_KR": "Item.515741.1",
+        "zh_CN": "Item.515741.1",
+        "zh_TW": "Item.515741.1"
+      }
+    },
+    {
+      "id": 515742,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515742.1",
+        "ja_JP": "Item.515742.1",
+        "ko_KR": "Item.515742.1",
+        "zh_CN": "Item.515742.1",
+        "zh_TW": "Item.515742.1"
+      }
+    },
+    {
+      "id": 515743,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.515743.1",
+        "ja_JP": "Item.515743.1",
+        "ko_KR": "Item.515743.1",
+        "zh_CN": "Item.515743.1",
+        "zh_TW": "Item.515743.1"
+      }
+    },
+    {
       "id": 515801,
       "type": "RogueItem",
       "stype": 42,
@@ -21958,6 +23662,378 @@
         "ko_KR": "성화의 횃불",
         "zh_CN": "星火成炬",
         "zh_TW": "星火成炬"
+      }
+    },
+    {
+      "id": 516001,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516001.1",
+        "ja_JP": "Item.516001.1",
+        "ko_KR": "Item.516001.1",
+        "zh_CN": "Item.516001.1",
+        "zh_TW": "Item.516001.1"
+      }
+    },
+    {
+      "id": 516002,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516002.1",
+        "ja_JP": "Item.516002.1",
+        "ko_KR": "Item.516002.1",
+        "zh_CN": "Item.516002.1",
+        "zh_TW": "Item.516002.1"
+      }
+    },
+    {
+      "id": 516003,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516003.1",
+        "ja_JP": "Item.516003.1",
+        "ko_KR": "Item.516003.1",
+        "zh_CN": "Item.516003.1",
+        "zh_TW": "Item.516003.1"
+      }
+    },
+    {
+      "id": 516004,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516004.1",
+        "ja_JP": "Item.516004.1",
+        "ko_KR": "Item.516004.1",
+        "zh_CN": "Item.516004.1",
+        "zh_TW": "Item.516004.1"
+      }
+    },
+    {
+      "id": 516005,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516005.1",
+        "ja_JP": "Item.516005.1",
+        "ko_KR": "Item.516005.1",
+        "zh_CN": "Item.516005.1",
+        "zh_TW": "Item.516005.1"
+      }
+    },
+    {
+      "id": 516006,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516006.1",
+        "ja_JP": "Item.516006.1",
+        "ko_KR": "Item.516006.1",
+        "zh_CN": "Item.516006.1",
+        "zh_TW": "Item.516006.1"
+      }
+    },
+    {
+      "id": 516007,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516007.1",
+        "ja_JP": "Item.516007.1",
+        "ko_KR": "Item.516007.1",
+        "zh_CN": "Item.516007.1",
+        "zh_TW": "Item.516007.1"
+      }
+    },
+    {
+      "id": 516008,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516008.1",
+        "ja_JP": "Item.516008.1",
+        "ko_KR": "Item.516008.1",
+        "zh_CN": "Item.516008.1",
+        "zh_TW": "Item.516008.1"
+      }
+    },
+    {
+      "id": 516009,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516009.1",
+        "ja_JP": "Item.516009.1",
+        "ko_KR": "Item.516009.1",
+        "zh_CN": "Item.516009.1",
+        "zh_TW": "Item.516009.1"
+      }
+    },
+    {
+      "id": 516010,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516010.1",
+        "ja_JP": "Item.516010.1",
+        "ko_KR": "Item.516010.1",
+        "zh_CN": "Item.516010.1",
+        "zh_TW": "Item.516010.1"
+      }
+    },
+    {
+      "id": 516011,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516011.1",
+        "ja_JP": "Item.516011.1",
+        "ko_KR": "Item.516011.1",
+        "zh_CN": "Item.516011.1",
+        "zh_TW": "Item.516011.1"
+      }
+    },
+    {
+      "id": 516012,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516012.1",
+        "ja_JP": "Item.516012.1",
+        "ko_KR": "Item.516012.1",
+        "zh_CN": "Item.516012.1",
+        "zh_TW": "Item.516012.1"
+      }
+    },
+    {
+      "id": 516013,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516013.1",
+        "ja_JP": "Item.516013.1",
+        "ko_KR": "Item.516013.1",
+        "zh_CN": "Item.516013.1",
+        "zh_TW": "Item.516013.1"
+      }
+    },
+    {
+      "id": 516014,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516014.1",
+        "ja_JP": "Item.516014.1",
+        "ko_KR": "Item.516014.1",
+        "zh_CN": "Item.516014.1",
+        "zh_TW": "Item.516014.1"
+      }
+    },
+    {
+      "id": 516015,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516015.1",
+        "ja_JP": "Item.516015.1",
+        "ko_KR": "Item.516015.1",
+        "zh_CN": "Item.516015.1",
+        "zh_TW": "Item.516015.1"
+      }
+    },
+    {
+      "id": 516021,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516021.1",
+        "ja_JP": "Item.516021.1",
+        "ko_KR": "Item.516021.1",
+        "zh_CN": "Item.516021.1",
+        "zh_TW": "Item.516021.1"
+      }
+    },
+    {
+      "id": 516022,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516022.1",
+        "ja_JP": "Item.516022.1",
+        "ko_KR": "Item.516022.1",
+        "zh_CN": "Item.516022.1",
+        "zh_TW": "Item.516022.1"
+      }
+    },
+    {
+      "id": 516023,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516023.1",
+        "ja_JP": "Item.516023.1",
+        "ko_KR": "Item.516023.1",
+        "zh_CN": "Item.516023.1",
+        "zh_TW": "Item.516023.1"
+      }
+    },
+    {
+      "id": 516024,
+      "type": "RogueItem",
+      "stype": 42,
+      "names": {
+        "en_US": "Item.516024.1",
+        "ja_JP": "Item.516024.1",
+        "ko_KR": "Item.516024.1",
+        "zh_CN": "Item.516024.1",
+        "zh_TW": "Item.516024.1"
+      }
+    },
+    {
+      "id": 516025,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516025.1",
+        "ja_JP": "Item.516025.1",
+        "ko_KR": "Item.516025.1",
+        "zh_CN": "Item.516025.1",
+        "zh_TW": "Item.516025.1"
+      }
+    },
+    {
+      "id": 516026,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516026.1",
+        "ja_JP": "Item.516026.1",
+        "ko_KR": "Item.516026.1",
+        "zh_CN": "Item.516026.1",
+        "zh_TW": "Item.516026.1"
+      }
+    },
+    {
+      "id": 516027,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516027.1",
+        "ja_JP": "Item.516027.1",
+        "ko_KR": "Item.516027.1",
+        "zh_CN": "Item.516027.1",
+        "zh_TW": "Item.516027.1"
+      }
+    },
+    {
+      "id": 516028,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516028.1",
+        "ja_JP": "Item.516028.1",
+        "ko_KR": "Item.516028.1",
+        "zh_CN": "Item.516028.1",
+        "zh_TW": "Item.516028.1"
+      }
+    },
+    {
+      "id": 516029,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516029.1",
+        "ja_JP": "Item.516029.1",
+        "ko_KR": "Item.516029.1",
+        "zh_CN": "Item.516029.1",
+        "zh_TW": "Item.516029.1"
+      }
+    },
+    {
+      "id": 516030,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516030.1",
+        "ja_JP": "Item.516030.1",
+        "ko_KR": "Item.516030.1",
+        "zh_CN": "Item.516030.1",
+        "zh_TW": "Item.516030.1"
+      }
+    },
+    {
+      "id": 516031,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516031.1",
+        "ja_JP": "Item.516031.1",
+        "ko_KR": "Item.516031.1",
+        "zh_CN": "Item.516031.1",
+        "zh_TW": "Item.516031.1"
+      }
+    },
+    {
+      "id": 516032,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516032.1",
+        "ja_JP": "Item.516032.1",
+        "ko_KR": "Item.516032.1",
+        "zh_CN": "Item.516032.1",
+        "zh_TW": "Item.516032.1"
+      }
+    },
+    {
+      "id": 516033,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516033.1",
+        "ja_JP": "Item.516033.1",
+        "ko_KR": "Item.516033.1",
+        "zh_CN": "Item.516033.1",
+        "zh_TW": "Item.516033.1"
+      }
+    },
+    {
+      "id": 516041,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516041.1",
+        "ja_JP": "Item.516041.1",
+        "ko_KR": "Item.516041.1",
+        "zh_CN": "Item.516041.1",
+        "zh_TW": "Item.516041.1"
+      }
+    },
+    {
+      "id": 516042,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516042.1",
+        "ja_JP": "Item.516042.1",
+        "ko_KR": "Item.516042.1",
+        "zh_CN": "Item.516042.1",
+        "zh_TW": "Item.516042.1"
+      }
+    },
+    {
+      "id": 516043,
+      "type": "RogueItem",
+      "stype": 41,
+      "names": {
+        "en_US": "Item.516043.1",
+        "ja_JP": "Item.516043.1",
+        "ko_KR": "Item.516043.1",
+        "zh_CN": "Item.516043.1",
+        "zh_TW": "Item.516043.1"
       }
     }
   ]

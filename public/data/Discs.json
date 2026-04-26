@@ -884,11 +884,11 @@
       "id": 214045,
       "element": "DARK",
       "names": {
-        "en_US": "Item.214045.1",
-        "ja_JP": "Item.214045.1",
-        "ko_KR": "Item.214045.1",
-        "zh_CN": "Item.214045.1",
-        "zh_TW": "Item.214045.1"
+        "en_US": "Petals of Blooming Mirage",
+        "ja_JP": "千変万花",
+        "ko_KR": "꽃밭의 환영",
+        "zh_CN": "繁花幻梦",
+        "zh_TW": "繁花幻夢"
       }
     },
     {
@@ -928,22 +928,22 @@
       "id": 214049,
       "element": "NONE",
       "names": {
-        "en_US": "Item.214049.1",
-        "ja_JP": "Item.214049.1",
-        "ko_KR": "Item.214049.1",
-        "zh_CN": "Item.214049.1",
-        "zh_TW": "Item.214049.1"
+        "en_US": "Traces of Starlight",
+        "ja_JP": "星光の道標",
+        "ko_KR": "Memory of Stella",
+        "zh_CN": "星光的印记",
+        "zh_TW": "星光的印記"
       }
     },
     {
       "id": 214050,
       "element": "DARK",
       "names": {
-        "en_US": "Item.214050.1",
-        "ja_JP": "Item.214050.1",
-        "ko_KR": "Item.214050.1",
-        "zh_CN": "Item.214050.1",
-        "zh_TW": "Item.214050.1"
+        "en_US": "Phantom of the Banquet",
+        "ja_JP": "夜宴に踊る影",
+        "ko_KR": "연회장의 그림자",
+        "zh_CN": "夜宴谜影",
+        "zh_TW": "夜宴謎影"
       }
     }
   ]

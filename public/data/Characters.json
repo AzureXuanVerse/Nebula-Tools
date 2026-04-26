@@ -276,6 +276,17 @@
       }
     },
     {
+      "id": 145,
+      "element": "DARK",
+      "names": {
+        "en_US": "Otoha",
+        "ja_JP": "オトハ",
+        "ko_KR": "오토하",
+        "zh_CN": "乙叶",
+        "zh_TW": "乙葉"
+      }
+    },
+    {
       "id": 147,
       "element": "DARK",
       "names": {
