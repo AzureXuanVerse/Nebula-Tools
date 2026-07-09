@@ -78,6 +78,28 @@
       }
     },
     {
+      "id": 114,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Chaton",
+        "ja_JP": "シャトン",
+        "ko_KR": "샤통",
+        "zh_CN": "猫眼",
+        "zh_TW": "貓眼"
+      }
+    },
+    {
+      "id": 115,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Firefly",
+        "ja_JP": "ホタル",
+        "ko_KR": "호타루",
+        "zh_CN": "火垂",
+        "zh_TW": "火垂"
+      }
+    },
+    {
       "id": 116,
       "element": "EARTH",
       "names": {
@@ -229,6 +251,17 @@
         "ko_KR": "미스티",
         "zh_CN": "雾语",
         "zh_TW": "霧語"
+      }
+    },
+    {
+      "id": 140,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Sparkla",
+        "ja_JP": "スパクル",
+        "ko_KR": "스파클",
+        "zh_CN": "斯帕克拉",
+        "zh_TW": "斯帕克拉"
       }
     },
     {

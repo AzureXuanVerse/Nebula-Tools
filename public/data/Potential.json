@@ -2234,6 +2234,644 @@
       }
     },
     {
+      "id": 511401,
+      "charId": 114,
+      "names": {
+        "en_US": "Area Explosion",
+        "ja_JP": "昏き呼び声",
+        "ko_KR": "광역 폭파",
+        "zh_CN": "广域爆破",
+        "zh_TW": "廣域爆破"
+      }
+    },
+    {
+      "id": 511402,
+      "charId": 114,
+      "names": {
+        "en_US": "Overwhelming Throw",
+        "ja_JP": "漆黒の帳",
+        "ko_KR": "포화 투척",
+        "zh_CN": "饱和投掷",
+        "zh_TW": "飽和投擲"
+      }
+    },
+    {
+      "id": 511403,
+      "charId": 114,
+      "names": {
+        "en_US": "Meowth\u0027s Curse",
+        "ja_JP": "ネコ神の呪い",
+        "ko_KR": "야옹신의 저주",
+        "zh_CN": "喵神诅咒",
+        "zh_TW": "喵神詛咒"
+      }
+    },
+    {
+      "id": 511404,
+      "charId": 114,
+      "names": {
+        "en_US": "Reincarnation of Darkness",
+        "ja_JP": "漆黒の輪舞曲",
+        "ko_KR": "암흑의 윤회",
+        "zh_CN": "黑暗轮回",
+        "zh_TW": "黑暗輪迴"
+      }
+    },
+    {
+      "id": 511405,
+      "charId": 114,
+      "names": {
+        "en_US": "Chain Bounce",
+        "ja_JP": "連鎖するカルマ",
+        "ko_KR": "다중 통통탄",
+        "zh_CN": "多重弹跳",
+        "zh_TW": "多重彈跳"
+      }
+    },
+    {
+      "id": 511406,
+      "charId": 114,
+      "names": {
+        "en_US": "Efficient Use",
+        "ja_JP": "収束する業火",
+        "ko_KR": "절약 사용",
+        "zh_CN": "节约使用",
+        "zh_TW": "節約使用"
+      }
+    },
+    {
+      "id": 511407,
+      "charId": 114,
+      "names": {
+        "en_US": "Deadly Verdict",
+        "ja_JP": "闇の胎動",
+        "ko_KR": "치명적 단죄",
+        "zh_CN": "致命裁定",
+        "zh_TW": "致命裁定"
+      }
+    },
+    {
+      "id": 511408,
+      "charId": 114,
+      "names": {
+        "en_US": "Mark of Darkness",
+        "ja_JP": "漆黒の刻印",
+        "ko_KR": "암흑 낙인",
+        "zh_CN": "黑暗烙印",
+        "zh_TW": "黑暗烙印"
+      }
+    },
+    {
+      "id": 511409,
+      "charId": 114,
+      "names": {
+        "en_US": "Lucky Bullet",
+        "ja_JP": "慟哭の聖譚曲",
+        "ko_KR": "행운의 총알",
+        "zh_CN": "幸运子弹",
+        "zh_TW": "幸運子彈"
+      }
+    },
+    {
+      "id": 511410,
+      "charId": 114,
+      "names": {
+        "en_US": "Hunting Mark",
+        "ja_JP": "黄昏の澱",
+        "ko_KR": "사냥의 표식",
+        "zh_CN": "猎杀标记",
+        "zh_TW": "獵殺標記"
+      }
+    },
+    {
+      "id": 511411,
+      "charId": 114,
+      "names": {
+        "en_US": "Mobile Combat",
+        "ja_JP": "雷鳴の如く",
+        "ko_KR": "기동 작전",
+        "zh_CN": "机动作战",
+        "zh_TW": "機動作戰"
+      }
+    },
+    {
+      "id": 511412,
+      "charId": 114,
+      "names": {
+        "en_US": "Dominant Firepower",
+        "ja_JP": "神速の狩人",
+        "ko_KR": "압도적인 화력",
+        "zh_CN": "优势火力",
+        "zh_TW": "優勢火力"
+      }
+    },
+    {
+      "id": 511413,
+      "charId": 114,
+      "names": {
+        "en_US": "Foe Annihilation",
+        "ja_JP": "堕天する翼",
+        "ko_KR": "강적 처단",
+        "zh_CN": "强敌断灭",
+        "zh_TW": "強敵斷滅"
+      }
+    },
+    {
+      "id": 511421,
+      "charId": 114,
+      "names": {
+        "en_US": "Ambush Operation",
+        "ja_JP": "黒き祝福",
+        "ko_KR": "기습 작전",
+        "zh_CN": "奇袭作战",
+        "zh_TW": "奇襲作戰"
+      }
+    },
+    {
+      "id": 511422,
+      "charId": 114,
+      "names": {
+        "en_US": "Strike While the Iron is Hot",
+        "ja_JP": "ベリアルシュート",
+        "ko_KR": "승리 추격",
+        "zh_CN": "胜势追击",
+        "zh_TW": "勝勢追擊"
+      }
+    },
+    {
+      "id": 511423,
+      "charId": 114,
+      "names": {
+        "en_US": "Combat Frenzy",
+        "ja_JP": "忌まわしき翼",
+        "ko_KR": "전장의 갈망",
+        "zh_CN": "恋战情绪",
+        "zh_TW": "戀戰情緒"
+      }
+    },
+    {
+      "id": 511424,
+      "charId": 114,
+      "names": {
+        "en_US": "Core Blast",
+        "ja_JP": "闇より出でし輩",
+        "ko_KR": "중심의 분열",
+        "zh_CN": "中心开花",
+        "zh_TW": "中心開花"
+      }
+    },
+    {
+      "id": 511425,
+      "charId": 114,
+      "names": {
+        "en_US": "Evil Eye Gaze",
+        "ja_JP": "魔眼の射手",
+        "ko_KR": "마안 고정",
+        "zh_CN": "魔眼锁定",
+        "zh_TW": "魔眼鎖定"
+      }
+    },
+    {
+      "id": 511426,
+      "charId": 114,
+      "names": {
+        "en_US": "Excess Amplification",
+        "ja_JP": "オーバーブースト",
+        "ko_KR": "초과 증폭",
+        "zh_CN": "超额增幅",
+        "zh_TW": "超額增幅"
+      }
+    },
+    {
+      "id": 511427,
+      "charId": 114,
+      "names": {
+        "en_US": "Relentless Suppression",
+        "ja_JP": "サプレッション",
+        "ko_KR": "지속적인 제압",
+        "zh_CN": "持续压制",
+        "zh_TW": "持續壓制"
+      }
+    },
+    {
+      "id": 511428,
+      "charId": 114,
+      "names": {
+        "en_US": "One Stone Two Birds",
+        "ja_JP": "ツインショット",
+        "ko_KR": "일석이조",
+        "zh_CN": "一石二鸟",
+        "zh_TW": "一石二鳥"
+      }
+    },
+    {
+      "id": 511429,
+      "charId": 114,
+      "names": {
+        "en_US": "Burnt Rifling",
+        "ja_JP": "フレイムバレル",
+        "ko_KR": "뜨거운 총열",
+        "zh_CN": "灼热膛线",
+        "zh_TW": "灼熱膛線"
+      }
+    },
+    {
+      "id": 511430,
+      "charId": 114,
+      "names": {
+        "en_US": "Minor Fling",
+        "ja_JP": "支配する混沌",
+        "ko_KR": "하찮은 존재",
+        "zh_CN": "不值一提",
+        "zh_TW": "不值一提"
+      }
+    },
+    {
+      "id": 511431,
+      "charId": 114,
+      "names": {
+        "en_US": "Energy Overflow",
+        "ja_JP": "フルチャージ",
+        "ko_KR": "넘치는 에너지",
+        "zh_CN": "能量充盈",
+        "zh_TW": "能量充盈"
+      }
+    },
+    {
+      "id": 511432,
+      "charId": 114,
+      "names": {
+        "en_US": "Swift Assault",
+        "ja_JP": "目覚める邪心",
+        "ko_KR": "빠른 강습",
+        "zh_CN": "快速强袭",
+        "zh_TW": "快速強襲"
+      }
+    },
+    {
+      "id": 511433,
+      "charId": 114,
+      "names": {
+        "en_US": "Burning Passion",
+        "ja_JP": "パッショネイト",
+        "ko_KR": "불 같은 열정",
+        "zh_CN": "热情似火",
+        "zh_TW": "熱情如火"
+      }
+    },
+    {
+      "id": 511441,
+      "charId": 114,
+      "names": {
+        "en_US": "Curse Fall",
+        "ja_JP": "覗き込む闇",
+        "ko_KR": "저주의 강림",
+        "zh_CN": "诅咒降临",
+        "zh_TW": "詛咒降臨"
+      }
+    },
+    {
+      "id": 511442,
+      "charId": 114,
+      "names": {
+        "en_US": "Penetrating Bullet",
+        "ja_JP": "ピアスショット",
+        "ko_KR": "관통 사격",
+        "zh_CN": "贯穿射击",
+        "zh_TW": "貫穿射擊"
+      }
+    },
+    {
+      "id": 511443,
+      "charId": 114,
+      "names": {
+        "en_US": "Doom\u0027s Echo",
+        "ja_JP": "破滅の残響",
+        "ko_KR": "재앙의 잔향",
+        "zh_CN": "灾厄余响",
+        "zh_TW": "災厄餘響"
+      }
+    },
+    {
+      "id": 511501,
+      "charId": 115,
+      "names": {
+        "en_US": "Firefly Glow: Radiance",
+        "ja_JP": "おしくらまんじゅう",
+        "ko_KR": "빛의 유영·은은한 빛",
+        "zh_CN": "萤流·拂照",
+        "zh_TW": "螢流·拂照"
+      }
+    },
+    {
+      "id": 511502,
+      "charId": 115,
+      "names": {
+        "en_US": "Firefly Glow: Luminary",
+        "ja_JP": "ねらいうち",
+        "ko_KR": "빛의 유영·감싸는 빛",
+        "zh_CN": "萤流·拢光",
+        "zh_TW": "螢流·攏光"
+      }
+    },
+    {
+      "id": 511503,
+      "charId": 115,
+      "names": {
+        "en_US": "Firefly Glow: Convergence",
+        "ja_JP": "陣取りあそび",
+        "ko_KR": "빛의 유영·응축된 빛",
+        "zh_CN": "萤流·汇聚",
+        "zh_TW": "螢流·匯聚"
+      }
+    },
+    {
+      "id": 511504,
+      "charId": 115,
+      "names": {
+        "en_US": "Firefly Glow: Scatter Beam",
+        "ja_JP": "じぐざぐレーザー",
+        "ko_KR": "빛의 유영·퍼지는 빛",
+        "zh_CN": "萤流·射散",
+        "zh_TW": "螢流·射散"
+      }
+    },
+    {
+      "id": 511505,
+      "charId": 115,
+      "names": {
+        "en_US": "Tide of Starmarks",
+        "ja_JP": "ごほうびアバランチ",
+        "ko_KR": "성흔의 물결",
+        "zh_CN": "星痕叠潮",
+        "zh_TW": "星痕疊潮"
+      }
+    },
+    {
+      "id": 511506,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiant Rainfall",
+        "ja_JP": "追撃スパーク",
+        "ko_KR": "쏟아지는 빛",
+        "zh_CN": "光雨倾落",
+        "zh_TW": "光雨傾落"
+      }
+    },
+    {
+      "id": 511507,
+      "charId": 115,
+      "names": {
+        "en_US": "Lone Star Gleam",
+        "ja_JP": "いっしょに遊ぼ",
+        "ko_KR": "외딴 별의 광채",
+        "zh_CN": "孤星独耀",
+        "zh_TW": "孤星獨耀"
+      }
+    },
+    {
+      "id": 511508,
+      "charId": 115,
+      "names": {
+        "en_US": "Astral Album",
+        "ja_JP": "バチバチでっぽう",
+        "ko_KR": "빛의 결집",
+        "zh_CN": "星汨影集",
+        "zh_TW": "星汨影集"
+      }
+    },
+    {
+      "id": 511509,
+      "charId": 115,
+      "names": {
+        "en_US": "Luminous Rhythm",
+        "ja_JP": "出力上昇",
+        "ko_KR": "빛의 리듬",
+        "zh_CN": "流光律动",
+        "zh_TW": "流光律動"
+      }
+    },
+    {
+      "id": 511510,
+      "charId": 115,
+      "names": {
+        "en_US": "Flash Resonance",
+        "ja_JP": "共鳴反応",
+        "ko_KR": "섬광의 공명",
+        "zh_CN": "闪光共鸣",
+        "zh_TW": "閃光共鳴"
+      }
+    },
+    {
+      "id": 511511,
+      "charId": 115,
+      "names": {
+        "en_US": "Blazing Radiance",
+        "ja_JP": "うきうきモード",
+        "ko_KR": "작열하는 빛",
+        "zh_CN": "炽烈光明",
+        "zh_TW": "熾烈光明"
+      }
+    },
+    {
+      "id": 511512,
+      "charId": 115,
+      "names": {
+        "en_US": "Absolute Brilliance",
+        "ja_JP": "完ぺきアバランチ",
+        "ko_KR": "절대적인 빛",
+        "zh_CN": "绝对闪耀",
+        "zh_TW": "絕對閃耀"
+      }
+    },
+    {
+      "id": 511513,
+      "charId": 115,
+      "names": {
+        "en_US": "Phantom Blast",
+        "ja_JP": "かげおに",
+        "ko_KR": "잔영의 폭발",
+        "zh_CN": "残影幻爆",
+        "zh_TW": "殘影幻爆"
+      }
+    },
+    {
+      "id": 511521,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiance Blade: Twin Shadow",
+        "ja_JP": "おかわりアバランチ",
+        "ko_KR": "휘검·겹쳐진 그림자",
+        "zh_CN": "辉剑·重影",
+        "zh_TW": "輝劍·重影"
+      }
+    },
+    {
+      "id": 511522,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiance Blade: Firefly",
+        "ja_JP": "きらきらモード",
+        "ko_KR": "휘검·반딧불",
+        "zh_CN": "辉剑·萤火",
+        "zh_TW": "輝劍·螢火"
+      }
+    },
+    {
+      "id": 511523,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiance Blade: Blazing Edge",
+        "ja_JP": "鬼さんこっち",
+        "ko_KR": "휘검·찬란한 칼날",
+        "zh_CN": "辉剑·煌刃",
+        "zh_TW": "輝劍·煌刃"
+      }
+    },
+    {
+      "id": 511524,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiance Blade: Pursuing Slash",
+        "ja_JP": "おしおきモード",
+        "ko_KR": "휘검·참격",
+        "zh_CN": "辉剑·追斩",
+        "zh_TW": "輝劍·追斬"
+      }
+    },
+    {
+      "id": 511525,
+      "charId": 115,
+      "names": {
+        "en_US": "Lightforged Blade",
+        "ja_JP": "友だちの印",
+        "ko_KR": "빛을 모은 칼날",
+        "zh_CN": "积光成刃",
+        "zh_TW": "積光成刃"
+      }
+    },
+    {
+      "id": 511526,
+      "charId": 115,
+      "names": {
+        "en_US": "Stellar Crash",
+        "ja_JP": "追い打ちアバランチ",
+        "ko_KR": "성망의 추락",
+        "zh_CN": "星芒坠落",
+        "zh_TW": "星芒墜落"
+      }
+    },
+    {
+      "id": 511527,
+      "charId": 115,
+      "names": {
+        "en_US": "Blade of Falling Petals",
+        "ja_JP": "おかたづけ",
+        "ko_KR": "검 끝에 피어난 꽃",
+        "zh_CN": "归刃散华",
+        "zh_TW": "歸刃散華"
+      }
+    },
+    {
+      "id": 511528,
+      "charId": 115,
+      "names": {
+        "en_US": "Blade Flash",
+        "ja_JP": "びゅんびゅんモード",
+        "ko_KR": "대검의 잔상",
+        "zh_CN": "重剑迅影",
+        "zh_TW": "重劍迅影"
+      }
+    },
+    {
+      "id": 511529,
+      "charId": 115,
+      "names": {
+        "en_US": "Luminous Onslaught",
+        "ja_JP": "ピカピカチャージ",
+        "ko_KR": "빛을 머금은 칼날",
+        "zh_CN": "光流蓄锋",
+        "zh_TW": "光流蓄鋒"
+      }
+    },
+    {
+      "id": 511530,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiant Ripple",
+        "ja_JP": "かごめかごめ",
+        "ko_KR": "빛의 확산",
+        "zh_CN": "光涟扩散",
+        "zh_TW": "光漣擴散"
+      }
+    },
+    {
+      "id": 511531,
+      "charId": 115,
+      "names": {
+        "en_US": "Sanctuary of Light",
+        "ja_JP": "まもりたい気持ち",
+        "ko_KR": "절대적 빛의 가호",
+        "zh_CN": "绝光庇护",
+        "zh_TW": "絕光庇護"
+      }
+    },
+    {
+      "id": 511532,
+      "charId": 115,
+      "names": {
+        "en_US": "Cosmic Brilliance",
+        "ja_JP": "友だちの輪",
+        "ko_KR": "천지의 광휘",
+        "zh_CN": "天地同辉",
+        "zh_TW": "天地同輝"
+      }
+    },
+    {
+      "id": 511533,
+      "charId": 115,
+      "names": {
+        "en_US": "Domain of Purity",
+        "ja_JP": "遊び仲間",
+        "ko_KR": "순결의 영역",
+        "zh_CN": "纯洁领域",
+        "zh_TW": "純潔領域"
+      }
+    },
+    {
+      "id": 511541,
+      "charId": 115,
+      "names": {
+        "en_US": "Persistent Warmth",
+        "ja_JP": "ほたるび効果",
+        "ko_KR": "잔빛의 따스함",
+        "zh_CN": "余辉留温",
+        "zh_TW": "餘暉留溫"
+      }
+    },
+    {
+      "id": 511542,
+      "charId": 115,
+      "names": {
+        "en_US": "Ultimate Radiance",
+        "ja_JP": "ホタルの本気",
+        "ko_KR": "극한의 찬란한 빛",
+        "zh_CN": "极耀明光",
+        "zh_TW": "極耀明光"
+      }
+    },
+    {
+      "id": 511543,
+      "charId": 115,
+      "names": {
+        "en_US": "Radiance of Shattered Stars",
+        "ja_JP": "はないちもんめ",
+        "ko_KR": "부서진 별의 잔광",
+        "zh_CN": "碎星残芒",
+        "zh_TW": "碎星殘芒"
+      }
+    },
+    {
       "id": 511601,
       "charId": 116,
       "names": {
@@ -6700,344 +7338,322 @@
       }
     },
     {
-      "id": 513901,
-      "charId": 139,
+      "id": 514001,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513901.1",
-        "ja_JP": "Item.513901.1",
-        "ko_KR": "Item.513901.1",
-        "zh_CN": "Item.513901.1",
-        "zh_TW": "Item.513901.1"
+        "en_US": "Bunny-Ear Volley",
+        "ja_JP": "ラビットバースト",
+        "ko_KR": "쫑긋 사격",
+        "zh_CN": "跃耳极射",
+        "zh_TW": "躍耳極射"
       }
     },
     {
-      "id": 513902,
-      "charId": 139,
+      "id": 514002,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513902.1",
-        "ja_JP": "Item.513902.1",
-        "ko_KR": "Item.513902.1",
-        "zh_CN": "Item.513902.1",
-        "zh_TW": "Item.513902.1"
+        "en_US": "Click-Clack Echoes",
+        "ja_JP": "眠れるバラの姫",
+        "ko_KR": "찰칵 연쇄음",
+        "zh_CN": "咔哒叠响",
+        "zh_TW": "喀噠疊響"
       }
     },
     {
-      "id": 513903,
-      "charId": 139,
+      "id": 514003,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513903.1",
-        "ja_JP": "Item.513903.1",
-        "ko_KR": "Item.513903.1",
-        "zh_CN": "Item.513903.1",
-        "zh_TW": "Item.513903.1"
+        "en_US": "Fluffy Rechamber",
+        "ja_JP": "ラビットボマー",
+        "ko_KR": "인형의 묵직한 총성",
+        "zh_CN": "布偶重膛",
+        "zh_TW": "布偶重膛"
       }
     },
     {
-      "id": 513904,
-      "charId": 139,
+      "id": 514004,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513904.1",
-        "ja_JP": "Item.513904.1",
-        "ko_KR": "Item.513904.1",
-        "zh_CN": "Item.513904.1",
-        "zh_TW": "Item.513904.1"
+        "en_US": "Neo Radiance Burst",
+        "ja_JP": "ムーナリロード",
+        "ko_KR": "무나 오버플로우",
+        "zh_CN": "柔光溢射",
+        "zh_TW": "柔光溢射"
       }
     },
     {
-      "id": 513905,
-      "charId": 139,
+      "id": 514005,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513905.1",
-        "ja_JP": "Item.513905.1",
-        "ko_KR": "Item.513905.1",
-        "zh_CN": "Item.513905.1",
-        "zh_TW": "Item.513905.1"
+        "en_US": "Leap Barrage",
+        "ja_JP": "アリシアの大冒険",
+        "ko_KR": "집중 사격",
+        "zh_CN": "聚跃极射",
+        "zh_TW": "聚躍極射"
       }
     },
     {
-      "id": 513906,
-      "charId": 139,
+      "id": 514006,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513906.1",
-        "ja_JP": "Item.513906.1",
-        "ko_KR": "Item.513906.1",
-        "zh_CN": "Item.513906.1",
-        "zh_TW": "Item.513906.1"
+        "en_US": "Hover-Rail Volley",
+        "ja_JP": "空飛ぶ少年",
+        "ko_KR": "부유 궤도 사격",
+        "zh_CN": "浮轨伴射",
+        "zh_TW": "浮軌伴射"
       }
     },
     {
-      "id": 513907,
-      "charId": 139,
+      "id": 514007,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513907.1",
-        "ja_JP": "Item.513907.1",
-        "ko_KR": "Item.513907.1",
-        "zh_CN": "Item.513907.1",
-        "zh_TW": "Item.513907.1"
+        "en_US": "Clockwork Resonance",
+        "ja_JP": "ひらめきの連鎖",
+        "ko_KR": "톱니바퀴의 맞물림",
+        "zh_CN": "齿轮叩契",
+        "zh_TW": "齒輪叩契"
       }
     },
     {
-      "id": 513908,
-      "charId": 139,
+      "id": 514008,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513908.1",
-        "ja_JP": "Item.513908.1",
-        "ko_KR": "Item.513908.1",
-        "zh_CN": "Item.513908.1",
-        "zh_TW": "Item.513908.1"
+        "en_US": "Cyclone Dial",
+        "ja_JP": "天才の切り札",
+        "ko_KR": "다이얼 기류",
+        "zh_CN": "旋钮气浪",
+        "zh_TW": "旋鈕氣浪"
       }
     },
     {
-      "id": 513909,
-      "charId": 139,
+      "id": 514009,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513909.1",
-        "ja_JP": "Item.513909.1",
-        "ko_KR": "Item.513909.1",
-        "zh_CN": "Item.513909.1",
-        "zh_TW": "Item.513909.1"
+        "en_US": "Ticking Aftershock",
+        "ja_JP": "かわいさ爆発",
+        "ko_KR": "째깍 잔향",
+        "zh_CN": "滴答余响",
+        "zh_TW": "滴答餘響"
       }
     },
     {
-      "id": 513910,
-      "charId": 139,
+      "id": 514010,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513910.1",
-        "ja_JP": "Item.513910.1",
-        "ko_KR": "Item.513910.1",
-        "zh_CN": "Item.513910.1",
-        "zh_TW": "Item.513910.1"
+        "en_US": "Static Strike",
+        "ja_JP": "マイペースガード",
+        "ko_KR": "부동의 위엄",
+        "zh_CN": "以静制动",
+        "zh_TW": "以靜制動"
       }
     },
     {
-      "id": 513911,
-      "charId": 139,
+      "id": 514011,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513911.1",
-        "ja_JP": "Item.513911.1",
-        "ko_KR": "Item.513911.1",
-        "zh_CN": "Item.513911.1",
-        "zh_TW": "Item.513911.1"
+        "en_US": "Harmonic Barrage",
+        "ja_JP": "ラボラビの本気",
+        "ko_KR": "집중 폭격의 끝맛",
+        "zh_CN": "集束余韵",
+        "zh_TW": "集束餘韻"
       }
     },
     {
-      "id": 513912,
-      "charId": 139,
+      "id": 514012,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513912.1",
-        "ja_JP": "Item.513912.1",
-        "ko_KR": "Item.513912.1",
-        "zh_CN": "Item.513912.1",
-        "zh_TW": "Item.513912.1"
+        "en_US": "Velvet Prowl",
+        "ja_JP": "ガラスの靴の魔法",
+        "ko_KR": "래빗 스텝",
+        "zh_CN": "绒步循影",
+        "zh_TW": "絨步循影"
       }
     },
     {
-      "id": 513913,
-      "charId": 139,
+      "id": 514013,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513913.1",
-        "ja_JP": "Item.513913.1",
-        "ko_KR": "Item.513913.1",
-        "zh_CN": "Item.513913.1",
-        "zh_TW": "Item.513913.1"
+        "en_US": "Prism Convergence",
+        "ja_JP": "緑の街の魔法使い",
+        "ko_KR": "유리에 모인 빛",
+        "zh_CN": "阔镜聚华",
+        "zh_TW": "闊鏡聚華"
       }
     },
     {
-      "id": 513914,
-      "charId": 139,
+      "id": 514021,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513914.1",
-        "ja_JP": "Item.513914.1",
-        "ko_KR": "Item.513914.1",
-        "zh_CN": "Item.513914.1",
-        "zh_TW": "Item.513914.1"
+        "en_US": "Bunny Backfire",
+        "ja_JP": "ラボラビファイア",
+        "ko_KR": "토끼의 폭발",
+        "zh_CN": "背兔鸣火",
+        "zh_TW": "背兔鳴火"
       }
     },
     {
-      "id": 513915,
-      "charId": 139,
+      "id": 514022,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513915.1",
-        "ja_JP": "Item.513915.1",
-        "ko_KR": "Item.513915.1",
-        "zh_CN": "Item.513915.1",
-        "zh_TW": "Item.513915.1"
+        "en_US": "Rolling Support",
+        "ja_JP": "ラボラビチャージ",
+        "ko_KR": "휠체어의 엄호",
+        "zh_CN": "轮辙援护",
+        "zh_TW": "輪轍援護"
       }
     },
     {
-      "id": 513921,
-      "charId": 139,
+      "id": 514023,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513921.1",
-        "ja_JP": "Item.513921.1",
-        "ko_KR": "Item.513921.1",
-        "zh_CN": "Item.513921.1",
-        "zh_TW": "Item.513921.1"
+        "en_US": "Covering Fire",
+        "ja_JP": "アフターサービス",
+        "ko_KR": "화력 지원",
+        "zh_CN": "火力援护",
+        "zh_TW": "火力援護"
       }
     },
     {
-      "id": 513922,
-      "charId": 139,
+      "id": 514024,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513922.1",
-        "ja_JP": "Item.513922.1",
-        "ko_KR": "Item.513922.1",
-        "zh_CN": "Item.513922.1",
-        "zh_TW": "Item.513922.1"
+        "en_US": "Incendiary Volley",
+        "ja_JP": "創造の力",
+        "ko_KR": "화력 포격",
+        "zh_CN": "火力投射",
+        "zh_TW": "火力投射"
       }
     },
     {
-      "id": 513923,
-      "charId": 139,
+      "id": 514025,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513923.1",
-        "ja_JP": "Item.513923.1",
-        "ko_KR": "Item.513923.1",
-        "zh_CN": "Item.513923.1",
-        "zh_TW": "Item.513923.1"
+        "en_US": "Furball Fusillade",
+        "ja_JP": "サポラビ効果",
+        "ko_KR": "토끼 집속탄",
+        "zh_CN": "兔兔集束",
+        "zh_TW": "兔兔集束"
       }
     },
     {
-      "id": 513924,
-      "charId": 139,
+      "id": 514026,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513924.1",
-        "ja_JP": "Item.513924.1",
-        "ko_KR": "Item.513924.1",
-        "zh_CN": "Item.513924.1",
-        "zh_TW": "Item.513924.1"
+        "en_US": "Bunny Blitz",
+        "ja_JP": "冒険のときめき",
+        "ko_KR": "토끼 협동 폭발",
+        "zh_CN": "协兔爆发",
+        "zh_TW": "協兔爆發"
       }
     },
     {
-      "id": 513925,
-      "charId": 139,
+      "id": 514027,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513925.1",
-        "ja_JP": "Item.513925.1",
-        "ko_KR": "Item.513925.1",
-        "zh_CN": "Item.513925.1",
-        "zh_TW": "Item.513925.1"
+        "en_US": "Gauge Overdrive",
+        "ja_JP": "夢を叶えるランプ",
+        "ko_KR": "계측 한계 초과",
+        "zh_CN": "刻度爆表",
+        "zh_TW": "刻度爆表"
       }
     },
     {
-      "id": 513926,
-      "charId": 139,
+      "id": 514028,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513926.1",
-        "ja_JP": "Item.513926.1",
-        "ko_KR": "Item.513926.1",
-        "zh_CN": "Item.513926.1",
-        "zh_TW": "Item.513926.1"
+        "en_US": "Bunny Munitions Boost",
+        "ja_JP": "弾丸アップデート",
+        "ko_KR": "토끼탄 강화",
+        "zh_CN": "兔兔弹强化",
+        "zh_TW": "兔兔彈強化"
       }
     },
     {
-      "id": 513927,
-      "charId": 139,
+      "id": 514029,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513927.1",
-        "ja_JP": "Item.513927.1",
-        "ko_KR": "Item.513927.1",
-        "zh_CN": "Item.513927.1",
-        "zh_TW": "Item.513927.1"
+        "en_US": "Rabbit\u0027s Watch",
+        "ja_JP": "白ウサギの時計",
+        "ko_KR": "토끼의 시계",
+        "zh_CN": "兔子的钟表",
+        "zh_TW": "兔子的鐘錶"
       }
     },
     {
-      "id": 513928,
-      "charId": 139,
+      "id": 514030,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513928.1",
-        "ja_JP": "Item.513928.1",
-        "ko_KR": "Item.513928.1",
-        "zh_CN": "Item.513928.1",
-        "zh_TW": "Item.513928.1"
+        "en_US": "Pressure Surge",
+        "ja_JP": "圧力上昇中",
+        "ko_KR": "압력 상승",
+        "zh_CN": "膛压渐升",
+        "zh_TW": "膛壓漸升"
       }
     },
     {
-      "id": 513929,
-      "charId": 139,
+      "id": 514031,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513929.1",
-        "ja_JP": "Item.513929.1",
-        "ko_KR": "Item.513929.1",
-        "zh_CN": "Item.513929.1",
-        "zh_TW": "Item.513929.1"
+        "en_US": "Artisan\u0027s Pride",
+        "ja_JP": "発明家のプライド",
+        "ko_KR": "장인의 자부심",
+        "zh_CN": "工匠的自傲",
+        "zh_TW": "工匠的自傲"
       }
     },
     {
-      "id": 513930,
-      "charId": 139,
+      "id": 514032,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513930.1",
-        "ja_JP": "Item.513930.1",
-        "ko_KR": "Item.513930.1",
-        "zh_CN": "Item.513930.1",
-        "zh_TW": "Item.513930.1"
+        "en_US": "Prodigy\u0027s Oath",
+        "ja_JP": "無限のアイデア",
+        "ko_KR": "천재의 이름으로",
+        "zh_CN": "以天才之名",
+        "zh_TW": "以天才之名"
       }
     },
     {
-      "id": 513931,
-      "charId": 139,
+      "id": 514033,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513931.1",
-        "ja_JP": "Item.513931.1",
-        "ko_KR": "Item.513931.1",
-        "zh_CN": "Item.513931.1",
-        "zh_TW": "Item.513931.1"
+        "en_US": "Max Overclock",
+        "ja_JP": "オーバークロック",
+        "ko_KR": "과부하 가동",
+        "zh_CN": "超频运转",
+        "zh_TW": "超頻運轉"
       }
     },
     {
-      "id": 513932,
-      "charId": 139,
+      "id": 514041,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513932.1",
-        "ja_JP": "Item.513932.1",
-        "ko_KR": "Item.513932.1",
-        "zh_CN": "Item.513932.1",
-        "zh_TW": "Item.513932.1"
+        "en_US": "Solution Support",
+        "ja_JP": "ムーナパーティー",
+        "ko_KR": "용액의 도움",
+        "zh_CN": "溶剂支援",
+        "zh_TW": "溶劑支援"
       }
     },
     {
-      "id": 513933,
-      "charId": 139,
+      "id": 514042,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513933.1",
-        "ja_JP": "Item.513933.1",
-        "ko_KR": "Item.513933.1",
-        "zh_CN": "Item.513933.1",
-        "zh_TW": "Item.513933.1"
+        "en_US": "Wonderland Bound",
+        "ja_JP": "メルヘンワールド",
+        "ko_KR": "기묘한 땅",
+        "zh_CN": "奇境跃壤",
+        "zh_TW": "奇境躍壤"
       }
     },
     {
-      "id": 513941,
-      "charId": 139,
+      "id": 514043,
+      "charId": 140,
       "names": {
-        "en_US": "Item.513941.1",
-        "ja_JP": "Item.513941.1",
-        "ko_KR": "Item.513941.1",
-        "zh_CN": "Item.513941.1",
-        "zh_TW": "Item.513941.1"
-      }
-    },
-    {
-      "id": 513942,
-      "charId": 139,
-      "names": {
-        "en_US": "Item.513942.1",
-        "ja_JP": "Item.513942.1",
-        "ko_KR": "Item.513942.1",
-        "zh_CN": "Item.513942.1",
-        "zh_TW": "Item.513942.1"
-      }
-    },
-    {
-      "id": 513943,
-      "charId": 139,
-      "names": {
-        "en_US": "Item.513943.1",
-        "ja_JP": "Item.513943.1",
-        "ko_KR": "Item.513943.1",
-        "zh_CN": "Item.513943.1",
-        "zh_TW": "Item.513943.1"
+        "en_US": "Leap of Finale",
+        "ja_JP": "エバーアフター",
+        "ko_KR": "종결의 낙인",
+        "zh_CN": "跃印终章",
+        "zh_TW": "躍印終章"
       }
     },
     {
@@ -8148,7 +8764,7 @@
         "ja_JP": "連龍の剣舞14",
         "ko_KR": "거울 같은 물14",
         "zh_CN": "镜水归潮14",
-        "zh_TW": "!PENDING!"
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -8159,7 +8775,7 @@
         "ja_JP": "反攻の型15",
         "ko_KR": "굳센 보호막15",
         "zh_CN": "坚鳞护体15",
-        "zh_TW": "!PENDING!"
+        "zh_TW": "!NONEED!"
       }
     },
     {
@@ -10253,325 +10869,6 @@
       }
     },
     {
-      "id": 515701,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515701.1",
-        "ja_JP": "Item.515701.1",
-        "ko_KR": "Item.515701.1",
-        "zh_CN": "Item.515701.1",
-        "zh_TW": "Item.515701.1"
-      }
-    },
-    {
-      "id": 515702,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515702.1",
-        "ja_JP": "Item.515702.1",
-        "ko_KR": "Item.515702.1",
-        "zh_CN": "Item.515702.1",
-        "zh_TW": "Item.515702.1"
-      }
-    },
-    {
-      "id": 515703,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515703.1",
-        "ja_JP": "Item.515703.1",
-        "ko_KR": "Item.515703.1",
-        "zh_CN": "Item.515703.1",
-        "zh_TW": "Item.515703.1"
-      }
-    },
-    {
-      "id": 515704,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515704.1",
-        "ja_JP": "Item.515704.1",
-        "ko_KR": "Item.515704.1",
-        "zh_CN": "Item.515704.1",
-        "zh_TW": "Item.515704.1"
-      }
-    },
-    {
-      "id": 515705,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515705.1",
-        "ja_JP": "Item.515705.1",
-        "ko_KR": "Item.515705.1",
-        "zh_CN": "Item.515705.1",
-        "zh_TW": "Item.515705.1"
-      }
-    },
-    {
-      "id": 515706,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515706.1",
-        "ja_JP": "Item.515706.1",
-        "ko_KR": "Item.515706.1",
-        "zh_CN": "Item.515706.1",
-        "zh_TW": "Item.515706.1"
-      }
-    },
-    {
-      "id": 515707,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515707.1",
-        "ja_JP": "Item.515707.1",
-        "ko_KR": "Item.515707.1",
-        "zh_CN": "Item.515707.1",
-        "zh_TW": "Item.515707.1"
-      }
-    },
-    {
-      "id": 515708,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515708.1",
-        "ja_JP": "Item.515708.1",
-        "ko_KR": "Item.515708.1",
-        "zh_CN": "Item.515708.1",
-        "zh_TW": "Item.515708.1"
-      }
-    },
-    {
-      "id": 515709,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515709.1",
-        "ja_JP": "Item.515709.1",
-        "ko_KR": "Item.515709.1",
-        "zh_CN": "Item.515709.1",
-        "zh_TW": "Item.515709.1"
-      }
-    },
-    {
-      "id": 515710,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515710.1",
-        "ja_JP": "Item.515710.1",
-        "ko_KR": "Item.515710.1",
-        "zh_CN": "Item.515710.1",
-        "zh_TW": "Item.515710.1"
-      }
-    },
-    {
-      "id": 515711,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515711.1",
-        "ja_JP": "Item.515711.1",
-        "ko_KR": "Item.515711.1",
-        "zh_CN": "Item.515711.1",
-        "zh_TW": "Item.515711.1"
-      }
-    },
-    {
-      "id": 515712,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515712.1",
-        "ja_JP": "Item.515712.1",
-        "ko_KR": "Item.515712.1",
-        "zh_CN": "Item.515712.1",
-        "zh_TW": "Item.515712.1"
-      }
-    },
-    {
-      "id": 515713,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515713.1",
-        "ja_JP": "Item.515713.1",
-        "ko_KR": "Item.515713.1",
-        "zh_CN": "Item.515713.1",
-        "zh_TW": "Item.515713.1"
-      }
-    },
-    {
-      "id": 515721,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515721.1",
-        "ja_JP": "Item.515721.1",
-        "ko_KR": "Item.515721.1",
-        "zh_CN": "Item.515721.1",
-        "zh_TW": "Item.515721.1"
-      }
-    },
-    {
-      "id": 515722,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515722.1",
-        "ja_JP": "Item.515722.1",
-        "ko_KR": "Item.515722.1",
-        "zh_CN": "Item.515722.1",
-        "zh_TW": "Item.515722.1"
-      }
-    },
-    {
-      "id": 515723,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515723.1",
-        "ja_JP": "Item.515723.1",
-        "ko_KR": "Item.515723.1",
-        "zh_CN": "Item.515723.1",
-        "zh_TW": "Item.515723.1"
-      }
-    },
-    {
-      "id": 515724,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515724.1",
-        "ja_JP": "Item.515724.1",
-        "ko_KR": "Item.515724.1",
-        "zh_CN": "Item.515724.1",
-        "zh_TW": "Item.515724.1"
-      }
-    },
-    {
-      "id": 515725,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515725.1",
-        "ja_JP": "Item.515725.1",
-        "ko_KR": "Item.515725.1",
-        "zh_CN": "Item.515725.1",
-        "zh_TW": "Item.515725.1"
-      }
-    },
-    {
-      "id": 515726,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515726.1",
-        "ja_JP": "Item.515726.1",
-        "ko_KR": "Item.515726.1",
-        "zh_CN": "Item.515726.1",
-        "zh_TW": "Item.515726.1"
-      }
-    },
-    {
-      "id": 515727,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515727.1",
-        "ja_JP": "Item.515727.1",
-        "ko_KR": "Item.515727.1",
-        "zh_CN": "Item.515727.1",
-        "zh_TW": "Item.515727.1"
-      }
-    },
-    {
-      "id": 515728,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515728.1",
-        "ja_JP": "Item.515728.1",
-        "ko_KR": "Item.515728.1",
-        "zh_CN": "Item.515728.1",
-        "zh_TW": "Item.515728.1"
-      }
-    },
-    {
-      "id": 515729,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515729.1",
-        "ja_JP": "Item.515729.1",
-        "ko_KR": "Item.515729.1",
-        "zh_CN": "Item.515729.1",
-        "zh_TW": "Item.515729.1"
-      }
-    },
-    {
-      "id": 515730,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515730.1",
-        "ja_JP": "Item.515730.1",
-        "ko_KR": "Item.515730.1",
-        "zh_CN": "Item.515730.1",
-        "zh_TW": "Item.515730.1"
-      }
-    },
-    {
-      "id": 515731,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515731.1",
-        "ja_JP": "Item.515731.1",
-        "ko_KR": "Item.515731.1",
-        "zh_CN": "Item.515731.1",
-        "zh_TW": "Item.515731.1"
-      }
-    },
-    {
-      "id": 515732,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515732.1",
-        "ja_JP": "Item.515732.1",
-        "ko_KR": "Item.515732.1",
-        "zh_CN": "Item.515732.1",
-        "zh_TW": "Item.515732.1"
-      }
-    },
-    {
-      "id": 515733,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515733.1",
-        "ja_JP": "Item.515733.1",
-        "ko_KR": "Item.515733.1",
-        "zh_CN": "Item.515733.1",
-        "zh_TW": "Item.515733.1"
-      }
-    },
-    {
-      "id": 515741,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515741.1",
-        "ja_JP": "Item.515741.1",
-        "ko_KR": "Item.515741.1",
-        "zh_CN": "Item.515741.1",
-        "zh_TW": "Item.515741.1"
-      }
-    },
-    {
-      "id": 515742,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515742.1",
-        "ja_JP": "Item.515742.1",
-        "ko_KR": "Item.515742.1",
-        "zh_CN": "Item.515742.1",
-        "zh_TW": "Item.515742.1"
-      }
-    },
-    {
-      "id": 515743,
-      "charId": 157,
-      "names": {
-        "en_US": "Item.515743.1",
-        "ja_JP": "Item.515743.1",
-        "ko_KR": "Item.515743.1",
-        "zh_CN": "Item.515743.1",
-        "zh_TW": "Item.515743.1"
-      }
-    },
-    {
       "id": 515801,
       "charId": 158,
       "names": {
@@ -11207,347 +11504,6 @@
         "ko_KR": "성화의 횃불",
         "zh_CN": "星火成炬",
         "zh_TW": "星火成炬"
-      }
-    },
-    {
-      "id": 516001,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516001.1",
-        "ja_JP": "Item.516001.1",
-        "ko_KR": "Item.516001.1",
-        "zh_CN": "Item.516001.1",
-        "zh_TW": "Item.516001.1"
-      }
-    },
-    {
-      "id": 516002,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516002.1",
-        "ja_JP": "Item.516002.1",
-        "ko_KR": "Item.516002.1",
-        "zh_CN": "Item.516002.1",
-        "zh_TW": "Item.516002.1"
-      }
-    },
-    {
-      "id": 516003,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516003.1",
-        "ja_JP": "Item.516003.1",
-        "ko_KR": "Item.516003.1",
-        "zh_CN": "Item.516003.1",
-        "zh_TW": "Item.516003.1"
-      }
-    },
-    {
-      "id": 516004,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516004.1",
-        "ja_JP": "Item.516004.1",
-        "ko_KR": "Item.516004.1",
-        "zh_CN": "Item.516004.1",
-        "zh_TW": "Item.516004.1"
-      }
-    },
-    {
-      "id": 516005,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516005.1",
-        "ja_JP": "Item.516005.1",
-        "ko_KR": "Item.516005.1",
-        "zh_CN": "Item.516005.1",
-        "zh_TW": "Item.516005.1"
-      }
-    },
-    {
-      "id": 516006,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516006.1",
-        "ja_JP": "Item.516006.1",
-        "ko_KR": "Item.516006.1",
-        "zh_CN": "Item.516006.1",
-        "zh_TW": "Item.516006.1"
-      }
-    },
-    {
-      "id": 516007,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516007.1",
-        "ja_JP": "Item.516007.1",
-        "ko_KR": "Item.516007.1",
-        "zh_CN": "Item.516007.1",
-        "zh_TW": "Item.516007.1"
-      }
-    },
-    {
-      "id": 516008,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516008.1",
-        "ja_JP": "Item.516008.1",
-        "ko_KR": "Item.516008.1",
-        "zh_CN": "Item.516008.1",
-        "zh_TW": "Item.516008.1"
-      }
-    },
-    {
-      "id": 516009,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516009.1",
-        "ja_JP": "Item.516009.1",
-        "ko_KR": "Item.516009.1",
-        "zh_CN": "Item.516009.1",
-        "zh_TW": "Item.516009.1"
-      }
-    },
-    {
-      "id": 516010,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516010.1",
-        "ja_JP": "Item.516010.1",
-        "ko_KR": "Item.516010.1",
-        "zh_CN": "Item.516010.1",
-        "zh_TW": "Item.516010.1"
-      }
-    },
-    {
-      "id": 516011,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516011.1",
-        "ja_JP": "Item.516011.1",
-        "ko_KR": "Item.516011.1",
-        "zh_CN": "Item.516011.1",
-        "zh_TW": "Item.516011.1"
-      }
-    },
-    {
-      "id": 516012,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516012.1",
-        "ja_JP": "Item.516012.1",
-        "ko_KR": "Item.516012.1",
-        "zh_CN": "Item.516012.1",
-        "zh_TW": "Item.516012.1"
-      }
-    },
-    {
-      "id": 516013,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516013.1",
-        "ja_JP": "Item.516013.1",
-        "ko_KR": "Item.516013.1",
-        "zh_CN": "Item.516013.1",
-        "zh_TW": "Item.516013.1"
-      }
-    },
-    {
-      "id": 516014,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516014.1",
-        "ja_JP": "Item.516014.1",
-        "ko_KR": "Item.516014.1",
-        "zh_CN": "Item.516014.1",
-        "zh_TW": "Item.516014.1"
-      }
-    },
-    {
-      "id": 516015,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516015.1",
-        "ja_JP": "Item.516015.1",
-        "ko_KR": "Item.516015.1",
-        "zh_CN": "Item.516015.1",
-        "zh_TW": "Item.516015.1"
-      }
-    },
-    {
-      "id": 516021,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516021.1",
-        "ja_JP": "Item.516021.1",
-        "ko_KR": "Item.516021.1",
-        "zh_CN": "Item.516021.1",
-        "zh_TW": "Item.516021.1"
-      }
-    },
-    {
-      "id": 516022,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516022.1",
-        "ja_JP": "Item.516022.1",
-        "ko_KR": "Item.516022.1",
-        "zh_CN": "Item.516022.1",
-        "zh_TW": "Item.516022.1"
-      }
-    },
-    {
-      "id": 516023,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516023.1",
-        "ja_JP": "Item.516023.1",
-        "ko_KR": "Item.516023.1",
-        "zh_CN": "Item.516023.1",
-        "zh_TW": "Item.516023.1"
-      }
-    },
-    {
-      "id": 516024,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516024.1",
-        "ja_JP": "Item.516024.1",
-        "ko_KR": "Item.516024.1",
-        "zh_CN": "Item.516024.1",
-        "zh_TW": "Item.516024.1"
-      }
-    },
-    {
-      "id": 516025,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516025.1",
-        "ja_JP": "Item.516025.1",
-        "ko_KR": "Item.516025.1",
-        "zh_CN": "Item.516025.1",
-        "zh_TW": "Item.516025.1"
-      }
-    },
-    {
-      "id": 516026,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516026.1",
-        "ja_JP": "Item.516026.1",
-        "ko_KR": "Item.516026.1",
-        "zh_CN": "Item.516026.1",
-        "zh_TW": "Item.516026.1"
-      }
-    },
-    {
-      "id": 516027,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516027.1",
-        "ja_JP": "Item.516027.1",
-        "ko_KR": "Item.516027.1",
-        "zh_CN": "Item.516027.1",
-        "zh_TW": "Item.516027.1"
-      }
-    },
-    {
-      "id": 516028,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516028.1",
-        "ja_JP": "Item.516028.1",
-        "ko_KR": "Item.516028.1",
-        "zh_CN": "Item.516028.1",
-        "zh_TW": "Item.516028.1"
-      }
-    },
-    {
-      "id": 516029,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516029.1",
-        "ja_JP": "Item.516029.1",
-        "ko_KR": "Item.516029.1",
-        "zh_CN": "Item.516029.1",
-        "zh_TW": "Item.516029.1"
-      }
-    },
-    {
-      "id": 516030,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516030.1",
-        "ja_JP": "Item.516030.1",
-        "ko_KR": "Item.516030.1",
-        "zh_CN": "Item.516030.1",
-        "zh_TW": "Item.516030.1"
-      }
-    },
-    {
-      "id": 516031,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516031.1",
-        "ja_JP": "Item.516031.1",
-        "ko_KR": "Item.516031.1",
-        "zh_CN": "Item.516031.1",
-        "zh_TW": "Item.516031.1"
-      }
-    },
-    {
-      "id": 516032,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516032.1",
-        "ja_JP": "Item.516032.1",
-        "ko_KR": "Item.516032.1",
-        "zh_CN": "Item.516032.1",
-        "zh_TW": "Item.516032.1"
-      }
-    },
-    {
-      "id": 516033,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516033.1",
-        "ja_JP": "Item.516033.1",
-        "ko_KR": "Item.516033.1",
-        "zh_CN": "Item.516033.1",
-        "zh_TW": "Item.516033.1"
-      }
-    },
-    {
-      "id": 516041,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516041.1",
-        "ja_JP": "Item.516041.1",
-        "ko_KR": "Item.516041.1",
-        "zh_CN": "Item.516041.1",
-        "zh_TW": "Item.516041.1"
-      }
-    },
-    {
-      "id": 516042,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516042.1",
-        "ja_JP": "Item.516042.1",
-        "ko_KR": "Item.516042.1",
-        "zh_CN": "Item.516042.1",
-        "zh_TW": "Item.516042.1"
-      }
-    },
-    {
-      "id": 516043,
-      "charId": 160,
-      "names": {
-        "en_US": "Item.516043.1",
-        "ja_JP": "Item.516043.1",
-        "ko_KR": "Item.516043.1",
-        "zh_CN": "Item.516043.1",
-        "zh_TW": "Item.516043.1"
       }
     }
   ]

@@ -474,6 +474,17 @@
       }
     },
     {
+      "id": 214003,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Seed Alike",
+        "ja_JP": "似たもの同士",
+        "ko_KR": "날 닮은 너",
+        "zh_CN": "你与我相似",
+        "zh_TW": "你與我相似"
+      }
+    },
+    {
       "id": 214004,
       "element": "DARK",
       "names": {
@@ -738,6 +749,17 @@
       }
     },
     {
+      "id": 214029,
+      "element": "FIRE",
+      "names": {
+        "en_US": "The Cat\u0027s Treasure",
+        "ja_JP": "欲しかったもの",
+        "ko_KR": "고양이의 보물",
+        "zh_CN": "猫之珍藏",
+        "zh_TW": "貓之祕寶"
+      }
+    },
+    {
       "id": 214030,
       "element": "LIGHT",
       "names": {
@@ -944,6 +966,50 @@
         "ko_KR": "연회장의 그림자",
         "zh_CN": "夜宴谜影",
         "zh_TW": "夜宴謎影"
+      }
+    },
+    {
+      "id": 214051,
+      "element": "LIGHT",
+      "names": {
+        "en_US": "Stellar Destination",
+        "ja_JP": "惹かれ合う星",
+        "ko_KR": "별이 향하는 곳",
+        "zh_CN": "星之所向",
+        "zh_TW": "星之所向"
+      }
+    },
+    {
+      "id": 214052,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Touch of Miracle",
+        "ja_JP": "奇跡の創造",
+        "ko_KR": "기적의 손길",
+        "zh_CN": "奇迹一触",
+        "zh_TW": "奇跡一觸"
+      }
+    },
+    {
+      "id": 214053,
+      "element": "FIRE",
+      "names": {
+        "en_US": "Joyful Gathering",
+        "ja_JP": "団らんのひととき",
+        "ko_KR": "환희의 순간",
+        "zh_CN": "欢聚时刻",
+        "zh_TW": "歡聚時刻"
+      }
+    },
+    {
+      "id": 214054,
+      "element": "EARTH",
+      "names": {
+        "en_US": "Little Paradise",
+        "ja_JP": "私と君の楽園",
+        "ko_KR": "마이크로 원더랜드",
+        "zh_CN": "微小的乐园",
+        "zh_TW": "箱庭小樂園"
       }
     }
   ]
